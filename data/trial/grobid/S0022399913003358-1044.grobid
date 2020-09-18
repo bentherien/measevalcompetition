@@ -1,0 +1,107 @@
+[
+   200,
+   {
+      "runtime": 70,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "40",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 120,
+                  "offsetEnd": 121
+               },
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "normalizedQuantity": 0.4,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 118,
+               "offsetEnd": 120
+            },
+            "quantified": {
+               "rawName": "55-74 year olds",
+               "normalizedName": "55-74 year olds",
+               "offsetStart": 47,
+               "offsetEnd": 62
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "time",
+               "rawValue": "55",
+               "rawUnit": {
+                  "name": "year",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 131,
+                  "offsetEnd": 135
+               },
+               "parsedValue": {
+                  "name": "55",
+                  "numeric": 55,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "55"
+                  },
+                  "parsed": "55"
+               },
+               "normalizedQuantity": 1735632360.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 125,
+               "offsetEnd": 127
+            },
+            "quantityMost": {
+               "type": "time",
+               "rawValue": "74",
+               "rawUnit": {
+                  "name": "year",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 131,
+                  "offsetEnd": 135
+               },
+               "parsedValue": {
+                  "name": "74",
+                  "numeric": 74,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "74"
+                  },
+                  "parsed": "74"
+               },
+               "normalizedQuantity": 2335214448.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 128,
+               "offsetEnd": 130
+            },
+            "quantified": {
+               "rawName": "olds",
+               "normalizedName": "old",
+               "offsetStart": 136,
+               "offsetEnd": 140
+            }
+         }
+      ]
+   }
+]

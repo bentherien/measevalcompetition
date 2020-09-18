@@ -1,0 +1,90 @@
+[
+   200,
+   {
+      "runtime": 148,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 963,
+               "offsetEnd": 965
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "energy",
+               "rawValue": "56",
+               "rawUnit": {
+                  "name": "keV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 1403,
+                  "offsetEnd": 1406
+               },
+               "parsedValue": {
+                  "name": "56",
+                  "numeric": 56,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "56"
+                  },
+                  "parsed": "56"
+               },
+               "normalizedQuantity": 8.9721883272e-15,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 1396,
+               "offsetEnd": 1398
+            },
+            "quantityMost": {
+               "type": "energy",
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "keV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 1403,
+                  "offsetEnd": 1406
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 1.602176487e-14,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 1399,
+               "offsetEnd": 1402
+            },
+            "quantified": {
+               "rawName": "The measured differential intensity of",
+               "normalizedName": "intensity",
+               "offsetStart": 1346,
+               "offsetEnd": 1384
+            }
+         }
+      ]
+   }
+]

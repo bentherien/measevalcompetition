@@ -1,0 +1,99 @@
+[
+   200,
+   {
+      "runtime": 22,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "offsetStart": 175,
+               "offsetEnd": 176
+            },
+            "quantified": {
+               "rawName": "\u00b0\u226480",
+               "normalizedName": "\u00b0\u226480",
+               "offsetStart": 180,
+               "offsetEnd": 184
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "angle",
+               "rawValue": "0.02",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 209,
+                  "offsetEnd": 210
+               },
+               "parsedValue": {
+                  "name": "0.02",
+                  "numeric": 0.02,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.02"
+                  },
+                  "parsed": "0.02"
+               },
+               "offsetStart": 205,
+               "offsetEnd": 209
+            },
+            "quantified": {
+               "rawName": "a step size of",
+               "normalizedName": "size",
+               "offsetStart": 190,
+               "offsetEnd": 204
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "50",
+               "rawUnit": {
+                  "name": "min",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 233,
+                  "offsetEnd": 236
+               },
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "normalizedQuantity": 3000,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 230,
+               "offsetEnd": 232
+            },
+            "quantified": {
+               "rawName": "a scan time of",
+               "normalizedName": "time",
+               "offsetStart": 215,
+               "offsetEnd": 229
+            }
+         }
+      ]
+   }
+]

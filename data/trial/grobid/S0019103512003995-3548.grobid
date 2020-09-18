@@ -1,0 +1,169 @@
+[
+   200,
+   {
+      "runtime": 82,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 235,
+               "offsetEnd": 240
+            },
+            "quantified": {
+               "rawName": "simple parameters",
+               "normalizedName": "parameter",
+               "offsetStart": 241,
+               "offsetEnd": 258
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "\u03bcbar",
+                  "offsetStart": 653,
+                  "offsetEnd": 657
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 651,
+               "offsetEnd": 652
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "8250",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 862,
+                  "offsetEnd": 863
+               },
+               "parsedValue": {
+                  "name": "8250",
+                  "numeric": 8250,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "8250"
+                  },
+                  "parsed": "8250"
+               },
+               "normalizedQuantity": 8250,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 857,
+               "offsetEnd": 861
+            },
+            "quantified": {
+               "rawName": "the thermosphere",
+               "normalizedName": "the thermosphere",
+               "offsetStart": 60,
+               "offsetEnd": 76
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "3",
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "offsetStart": 890,
+               "offsetEnd": 891
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "6000",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 1027,
+                  "offsetEnd": 1028
+               },
+               "parsedValue": {
+                  "name": "6000",
+                  "numeric": 6000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6000"
+                  },
+                  "parsed": "6000"
+               },
+               "normalizedQuantity": 6000,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 1022,
+               "offsetEnd": 1026
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "11,000",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 1040,
+                  "offsetEnd": 1041
+               },
+               "parsedValue": {
+                  "name": "11,000",
+                  "numeric": 11000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "11,000"
+                  },
+                  "parsed": "11,000"
+               },
+               "normalizedQuantity": 11000,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 1033,
+               "offsetEnd": 1039
+            }
+         }
+      ]
+   }
+]

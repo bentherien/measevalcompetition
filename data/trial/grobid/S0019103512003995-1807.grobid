@@ -1,0 +1,116 @@
+[
+   200,
+   {
+      "runtime": 82,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "589.3",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 329,
+                  "offsetEnd": 331
+               },
+               "parsedValue": {
+                  "name": "589.3",
+                  "numeric": 589.3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "589.3"
+                  },
+                  "parsed": "589.3"
+               },
+               "normalizedQuantity": 5.893e-07,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 323,
+               "offsetEnd": 328
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "four",
+               "parsedValue": {
+                  "name": "four",
+                  "numeric": 4,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "four"
+                  },
+                  "parsed": "four"
+               },
+               "offsetStart": 421,
+               "offsetEnd": 425
+            },
+            "quantified": {
+               "rawName": "transits observed",
+               "normalizedName": "transit",
+               "offsetStart": 426,
+               "offsetEnd": 443
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "300-800",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 761,
+                  "offsetEnd": 763
+               },
+               "parsedValue": {
+                  "name": "300-800",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "00"
+                  },
+                  "parsed": "00"
+               },
+               "normalizedQuantity": 0,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 753,
+               "offsetEnd": 760
+            },
+            "quantified": {
+               "rawName": "wavelengths of",
+               "normalizedName": "wavelength",
+               "offsetStart": 738,
+               "offsetEnd": 752
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "3",
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "offsetStart": 846,
+               "offsetEnd": 847
+            }
+         }
+      ]
+   }
+]

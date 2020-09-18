@@ -1,0 +1,468 @@
+[
+   200,
+   {
+      "runtime": 283,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "concentration",
+               "rawValue": "0.2",
+               "rawUnit": {
+                  "name": "M",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 127,
+                  "offsetEnd": 128
+               },
+               "parsedValue": {
+                  "name": "0.2",
+                  "numeric": 0.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.2"
+                  },
+                  "parsed": "0.2"
+               },
+               "offsetStart": 123,
+               "offsetEnd": 126
+            },
+            "quantified": {
+               "rawName": "NaOH at",
+               "normalizedName": "naoh",
+               "offsetStart": 129,
+               "offsetEnd": 136
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 141,
+                  "offsetEnd": 143
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 373.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 137,
+               "offsetEnd": 140
+            },
+            "quantified": {
+               "rawName": "NaOH at",
+               "normalizedName": "naoh",
+               "offsetStart": 129,
+               "offsetEnd": 136
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "40",
+               "rawUnit": {
+                  "name": "min",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 151,
+                  "offsetEnd": 154
+               },
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "normalizedQuantity": 2400,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 148,
+               "offsetEnd": 150
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "week",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 176,
+                  "offsetEnd": 180
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 604800,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 174,
+               "offsetEnd": 175
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "concentration",
+               "rawValue": "0.2",
+               "rawUnit": {
+                  "name": "M",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 244,
+                  "offsetEnd": 245
+               },
+               "parsedValue": {
+                  "name": "0.2",
+                  "numeric": 0.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.2"
+                  },
+                  "parsed": "0.2"
+               },
+               "offsetStart": 240,
+               "offsetEnd": 243
+            },
+            "quantified": {
+               "rawName": "distilled HCl",
+               "normalizedName": "hcl",
+               "offsetStart": 256,
+               "offsetEnd": 269
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 551,
+                  "offsetEnd": 552
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 0.05,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 550,
+               "offsetEnd": 551
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 559,
+                  "offsetEnd": 560
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 557,
+               "offsetEnd": 559
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "six",
+               "parsedValue": {
+                  "name": "six",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "six"
+                  },
+                  "parsed": "six"
+               },
+               "offsetStart": 706,
+               "offsetEnd": 709
+            },
+            "quantified": {
+               "rawName": "sample brackets (",
+               "normalizedName": "bracket",
+               "offsetStart": 728,
+               "offsetEnd": 745
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "eight",
+               "parsedValue": {
+                  "name": "eight",
+                  "numeric": 8,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "eight"
+                  },
+                  "parsed": "eight"
+               },
+               "offsetStart": 713,
+               "offsetEnd": 718
+            },
+            "quantified": {
+               "rawName": "sample brackets (",
+               "normalizedName": "bracket",
+               "offsetStart": 728,
+               "offsetEnd": 745
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "twenty eight",
+               "rawUnit": {
+                  "name": "second",
+                  "type": "time",
+                  "system": "SI base",
+                  "offsetStart": 863,
+                  "offsetEnd": 869
+               },
+               "parsedValue": {
+                  "name": "twenty eight",
+                  "numeric": 28,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "twenty eight"
+                  },
+                  "parsed": "twenty eight"
+               },
+               "normalizedQuantity": 28,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 850,
+               "offsetEnd": 862
+            },
+            "quantified": {
+               "rawName": "integrations",
+               "normalizedName": "integration",
+               "offsetStart": 870,
+               "offsetEnd": 882
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "rawValue": "1.26",
+               "parsedValue": {
+                  "name": "1.26",
+                  "numeric": 1.26,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.26"
+                  },
+                  "parsed": "1.26"
+               },
+               "offsetStart": 978,
+               "offsetEnd": 982
+            },
+            "quantityRange": {
+               "rawValue": "0.2",
+               "parsedValue": {
+                  "name": "0.2",
+                  "numeric": 0.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.2"
+                  },
+                  "parsed": "0.2"
+               },
+               "offsetStart": 983,
+               "offsetEnd": 986
+            },
+            "quantityLeast": {
+               "rawValue": "1.06",
+               "parsedValue": {
+                  "numeric": 1.06
+               },
+               "offsetStart": 978,
+               "offsetEnd": 982
+            },
+            "quantityMost": {
+               "rawValue": "1.46",
+               "parsedValue": {
+                  "numeric": 1.46
+               },
+               "offsetStart": 983,
+               "offsetEnd": 986
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "2",
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "offsetStart": 1031,
+               "offsetEnd": 1032
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "type": "fraction",
+               "rawValue": "1.23",
+               "rawUnit": {
+                  "name": "\u2030",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1047,
+                  "offsetEnd": 1048
+               },
+               "parsedValue": {
+                  "name": "1.23",
+                  "numeric": 1.23,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.23"
+                  },
+                  "parsed": "1.23"
+               },
+               "offsetStart": 1038,
+               "offsetEnd": 1042
+            },
+            "quantityRange": {
+               "type": "fraction",
+               "rawValue": "0.25",
+               "rawUnit": {
+                  "name": "\u2030",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1047,
+                  "offsetEnd": 1048
+               },
+               "parsedValue": {
+                  "name": "0.25",
+                  "numeric": 0.25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.25"
+                  },
+                  "parsed": "0.25"
+               },
+               "offsetStart": 1043,
+               "offsetEnd": 1047
+            },
+            "quantityLeast": {
+               "type": "fraction",
+               "rawValue": "0.98",
+               "rawUnit": {
+                  "name": "\u2030",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1047,
+                  "offsetEnd": 1048
+               },
+               "parsedValue": {
+                  "numeric": 0.98
+               },
+               "offsetStart": 1038,
+               "offsetEnd": 1042
+            },
+            "quantityMost": {
+               "type": "fraction",
+               "rawValue": "1.48",
+               "rawUnit": {
+                  "name": "\u2030",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1047,
+                  "offsetEnd": 1048
+               },
+               "parsedValue": {
+                  "numeric": 1.48
+               },
+               "offsetStart": 1043,
+               "offsetEnd": 1047
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "104",
+               "parsedValue": {
+                  "name": "104",
+                  "numeric": 104,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "104"
+                  },
+                  "parsed": "104"
+               },
+               "offsetStart": 1052,
+               "offsetEnd": 1055
+            }
+         }
+      ]
+   }
+]

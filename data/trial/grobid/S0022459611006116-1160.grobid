@@ -1,0 +1,76 @@
+[
+   200,
+   {
+      "runtime": 21,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "99.9",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 180,
+                  "offsetEnd": 181
+               },
+               "parsedValue": {
+                  "name": "99.9",
+                  "numeric": 99.9,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "99.9"
+                  },
+                  "parsed": "99.9"
+               },
+               "normalizedQuantity": 0.999,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 176,
+               "offsetEnd": 180
+            },
+            "quantified": {
+               "rawName": "anhydrous MgF2 (Aldrich",
+               "normalizedName": "MgF2",
+               "offsetStart": 151,
+               "offsetEnd": 174
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "1:3",
+               "parsedValue": {
+                  "name": "1:3",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1:3"
+                  },
+                  "parsed": "1:3"
+               },
+               "offsetStart": 278,
+               "offsetEnd": 281
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "1:1",
+               "parsedValue": {
+                  "name": "1:1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1:1"
+                  },
+                  "parsed": "1:1"
+               },
+               "offsetStart": 286,
+               "offsetEnd": 289
+            }
+         }
+      ]
+   }
+]

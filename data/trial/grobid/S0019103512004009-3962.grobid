@@ -1,0 +1,107 @@
+[
+   200,
+   {
+      "runtime": 102,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "8250",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 60,
+                  "offsetEnd": 61
+               },
+               "parsedValue": {
+                  "name": "8250",
+                  "numeric": 8250,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "8250"
+                  },
+                  "parsed": "8250"
+               },
+               "normalizedQuantity": 8250,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 55,
+               "offsetEnd": 59
+            },
+            "quantified": {
+               "rawName": "the thermosphere",
+               "normalizedName": "the thermosphere",
+               "offsetStart": 49,
+               "offsetEnd": 65
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "\u03bcbar",
+                  "offsetStart": 107,
+                  "offsetEnd": 111
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 105,
+               "offsetEnd": 106
+            },
+            "quantified": {
+               "rawName": "HD209458b with",
+               "normalizedName": "HD209458b",
+               "offsetStart": 85,
+               "offsetEnd": 99
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.5",
+               "parsedValue": {
+                  "name": "0.5",
+                  "numeric": 0.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.5"
+                  },
+                  "parsed": "0.5"
+               },
+               "offsetStart": 265,
+               "offsetEnd": 268
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 318,
+               "offsetEnd": 320
+            }
+         }
+      ]
+   }
+]

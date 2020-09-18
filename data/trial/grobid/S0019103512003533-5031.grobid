@@ -1,0 +1,350 @@
+[
+   200,
+   {
+      "runtime": 68,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "450",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 140,
+                  "offsetEnd": 141
+               },
+               "parsedValue": {
+                  "name": "450",
+                  "numeric": 450,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "450"
+                  },
+                  "parsed": "450"
+               },
+               "normalizedQuantity": 450,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 136,
+               "offsetEnd": 139
+            },
+            "quantified": {
+               "rawName": "the pole",
+               "normalizedName": "the pole",
+               "offsetStart": 69,
+               "offsetEnd": 77
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "180",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 170,
+                  "offsetEnd": 171
+               },
+               "parsedValue": {
+                  "name": "180",
+                  "numeric": 180,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "180"
+                  },
+                  "parsed": "180"
+               },
+               "normalizedQuantity": 180,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 166,
+               "offsetEnd": 169
+            },
+            "quantified": {
+               "rawName": "the equator",
+               "normalizedName": "the equator",
+               "offsetStart": 99,
+               "offsetEnd": 110
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "type": "temperature",
+               "rawValue": "420",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 274,
+                  "offsetEnd": 275
+               },
+               "parsedValue": {
+                  "name": "420",
+                  "numeric": 420,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "420"
+                  },
+                  "parsed": "420"
+               },
+               "normalizedQuantity": 420,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 265,
+               "offsetEnd": 268
+            },
+            "quantityRange": {
+               "type": "temperature",
+               "rawValue": "30",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 274,
+                  "offsetEnd": 275
+               },
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "normalizedQuantity": 30,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 271,
+               "offsetEnd": 273
+            },
+            "quantityLeast": {
+               "type": "temperature",
+               "rawValue": "390",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 274,
+                  "offsetEnd": 275
+               },
+               "parsedValue": {
+                  "numeric": 390
+               },
+               "normalizedQuantity": 390,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 265,
+               "offsetEnd": 268
+            },
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "450",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 274,
+                  "offsetEnd": 275
+               },
+               "parsedValue": {
+                  "numeric": 450
+               },
+               "normalizedQuantity": 450,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 271,
+               "offsetEnd": 273
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "angle",
+               "rawValue": "29.5",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 285,
+                  "offsetEnd": 286
+               },
+               "parsedValue": {
+                  "name": "29.5",
+                  "numeric": 29.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "29.5"
+                  },
+                  "parsed": "29.5"
+               },
+               "offsetStart": 281,
+               "offsetEnd": 285
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "type": "temperature",
+               "rawValue": "488",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 385,
+                  "offsetEnd": 386
+               },
+               "parsedValue": {
+                  "name": "488",
+                  "numeric": 488,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "488"
+                  },
+                  "parsed": "488"
+               },
+               "normalizedQuantity": 488,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 376,
+               "offsetEnd": 379
+            },
+            "quantityRange": {
+               "type": "temperature",
+               "rawValue": "14",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 385,
+                  "offsetEnd": 386
+               },
+               "parsedValue": {
+                  "name": "14",
+                  "numeric": 14,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "14"
+                  },
+                  "parsed": "14"
+               },
+               "normalizedQuantity": 14,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 382,
+               "offsetEnd": 384
+            },
+            "quantityLeast": {
+               "type": "temperature",
+               "rawValue": "474",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 385,
+                  "offsetEnd": 386
+               },
+               "parsedValue": {
+                  "numeric": 474
+               },
+               "normalizedQuantity": 474,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 376,
+               "offsetEnd": 379
+            },
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "502",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 385,
+                  "offsetEnd": 386
+               },
+               "parsedValue": {
+                  "numeric": 502
+               },
+               "normalizedQuantity": 502,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 382,
+               "offsetEnd": 384
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "450",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 532,
+                  "offsetEnd": 533
+               },
+               "parsedValue": {
+                  "name": "450",
+                  "numeric": 450,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "450"
+                  },
+                  "parsed": "450"
+               },
+               "normalizedQuantity": 450,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 528,
+               "offsetEnd": 531
+            },
+            "quantified": {
+               "rawName": "the order of",
+               "normalizedName": "order",
+               "offsetStart": 515,
+               "offsetEnd": 527
+            }
+         }
+      ]
+   }
+]

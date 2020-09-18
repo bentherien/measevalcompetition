@@ -1,0 +1,198 @@
+[
+   200,
+   {
+      "runtime": 123,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "2005",
+               "parsedValue": {
+                  "name": "2005",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "2005"
+                  },
+                  "parsed": "2005"
+               },
+               "offsetStart": 370,
+               "offsetEnd": 374
+            },
+            "quantified": {
+               "rawName": "the time period",
+               "normalizedName": "period",
+               "offsetStart": 354,
+               "offsetEnd": 369
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "14",
+               "parsedValue": {
+                  "name": "14",
+                  "numeric": 14,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "14"
+                  },
+                  "parsed": "14"
+               },
+               "offsetStart": 426,
+               "offsetEnd": 428
+            },
+            "quantified": {
+               "rawName": "moon",
+               "normalizedName": "moon",
+               "offsetStart": 421,
+               "offsetEnd": 425
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "25",
+               "rawUnit": {
+                  "name": "km",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 459,
+                  "offsetEnd": 461
+               },
+               "parsedValue": {
+                  "name": "25",
+                  "numeric": 25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "25"
+                  },
+                  "parsed": "25"
+               },
+               "normalizedQuantity": 25000,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 456,
+               "offsetEnd": 458
+            },
+            "quantified": {
+               "rawName": "the surface",
+               "normalizedName": "the surface",
+               "offsetStart": 117,
+               "offsetEnd": 128
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "energy",
+               "rawValue": "27",
+               "rawUnit": {
+                  "name": "keV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 742,
+                  "offsetEnd": 745
+               },
+               "parsedValue": {
+                  "name": "27",
+                  "numeric": 27,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "27"
+                  },
+                  "parsed": "27"
+               },
+               "normalizedQuantity": 4.3258765149e-15,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 739,
+               "offsetEnd": 741
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "energy",
+               "rawValue": "21",
+               "rawUnit": {
+                  "name": "MeV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 752,
+                  "offsetEnd": 755
+               },
+               "parsedValue": {
+                  "name": "21",
+                  "numeric": 21,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "21"
+                  },
+                  "parsed": "21"
+               },
+               "normalizedQuantity": 3.3645706227e-12,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 749,
+               "offsetEnd": 751
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 1844,
+               "offsetEnd": 1847
+            },
+            "quantified": {
+               "rawName": "the flybys",
+               "normalizedName": "the flybys",
+               "offsetStart": 23,
+               "offsetEnd": 33
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "one",
+               "parsedValue": {
+                  "name": "one",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "one"
+                  },
+                  "parsed": "one"
+               },
+               "offsetStart": 1885,
+               "offsetEnd": 1888
+            },
+            "quantified": {
+               "rawName": "additional encounter",
+               "normalizedName": "encounter",
+               "offsetStart": 1889,
+               "offsetEnd": 1909
+            }
+         }
+      ]
+   }
+]

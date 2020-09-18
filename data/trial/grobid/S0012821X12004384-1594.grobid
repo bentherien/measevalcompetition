@@ -1,0 +1,70 @@
+[
+   200,
+   {
+      "runtime": 166,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "2618",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 167,
+                  "offsetEnd": 168
+               },
+               "parsedValue": {
+                  "name": "2618",
+                  "numeric": 261,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "261"
+                  },
+                  "parsed": "261"
+               },
+               "normalizedQuantity": 261,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 162,
+               "offsetEnd": 166
+            },
+            "quantified": {
+               "rawName": "the CIE onset",
+               "normalizedName": "the CIE onset",
+               "offsetStart": 176,
+               "offsetEnd": 189
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "angle",
+               "rawValue": "40",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 312,
+                  "offsetEnd": 313
+               },
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "offsetStart": 310,
+               "offsetEnd": 312
+            }
+         }
+      ]
+   }
+]

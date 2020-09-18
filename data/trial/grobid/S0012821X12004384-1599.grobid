@@ -1,0 +1,73 @@
+[
+   200,
+   {
+      "runtime": 190,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "103",
+               "rawUnit": {
+                  "name": "yrs",
+                  "offsetStart": 85,
+                  "offsetEnd": 88
+               },
+               "parsedValue": {
+                  "name": "103",
+                  "numeric": 103,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "103"
+                  },
+                  "parsed": "103"
+               },
+               "offsetStart": 81,
+               "offsetEnd": 84
+            },
+            "quantified": {
+               "rawName": "the CIE onset",
+               "normalizedName": "the CIE onset",
+               "offsetStart": 96,
+               "offsetEnd": 109
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "2618",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 122,
+                  "offsetEnd": 123
+               },
+               "parsedValue": {
+                  "name": "2618",
+                  "numeric": 261,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "261"
+                  },
+                  "parsed": "261"
+               },
+               "normalizedQuantity": 261,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 117,
+               "offsetEnd": 121
+            },
+            "quantified": {
+               "rawName": "the CIE onset (",
+               "normalizedName": "onset",
+               "offsetStart": 96,
+               "offsetEnd": 111
+            }
+         }
+      ]
+   }
+]

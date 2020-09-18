@@ -1,0 +1,158 @@
+[
+   200,
+   {
+      "runtime": 30,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "concentration",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 142,
+                  "offsetEnd": 145
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 140,
+               "offsetEnd": 141
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "type": "concentration",
+                  "rawValue": "0.63",
+                  "rawUnit": {
+                     "name": "ppm",
+                     "type": "concentration",
+                     "system": "non SI",
+                     "offsetStart": 217,
+                     "offsetEnd": 220
+                  },
+                  "parsedValue": {
+                     "name": "0.63",
+                     "numeric": 0.63,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "0.63"
+                     },
+                     "parsed": "0.63"
+                  },
+                  "offsetStart": 203,
+                  "offsetEnd": 207
+               },
+               {
+                  "type": "concentration",
+                  "rawValue": "0.51",
+                  "rawUnit": {
+                     "name": "ppm",
+                     "type": "concentration",
+                     "system": "non SI",
+                     "offsetStart": 217,
+                     "offsetEnd": 220
+                  },
+                  "parsedValue": {
+                     "name": "0.51",
+                     "numeric": 0.51,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "0.51"
+                     },
+                     "parsed": "0.51"
+                  },
+                  "offsetStart": 212,
+                  "offsetEnd": 216
+               }
+            ],
+            "quantified": {
+               "rawName": "the highest concentrations at",
+               "normalizedName": "concentration",
+               "offsetStart": 173,
+               "offsetEnd": 202
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1000 ppm",
+               "parsedValue": {
+                  "name": "1000 ppm",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 257,
+               "offsetEnd": 265
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0",
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "offsetStart": 424,
+               "offsetEnd": 425
+            },
+            "quantified": {
+               "rawName": "SO2",
+               "normalizedName": "SO2",
+               "offsetStart": 439,
+               "offsetEnd": 442
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "concentration",
+               "rawValue": "2000",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 435,
+                  "offsetEnd": 438
+               },
+               "parsedValue": {
+                  "name": "2000",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "2000"
+                  },
+                  "parsed": "2000"
+               },
+               "offsetStart": 430,
+               "offsetEnd": 434
+            },
+            "quantified": {
+               "rawName": "SO2",
+               "normalizedName": "SO2",
+               "offsetStart": 439,
+               "offsetEnd": 442
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,104 @@
+[
+   200,
+   {
+      "runtime": 272,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "60",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 315,
+                  "offsetEnd": 316
+               },
+               "parsedValue": {
+                  "name": "60",
+                  "numeric": 60,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60"
+                  },
+                  "parsed": "60"
+               },
+               "normalizedQuantity": 0.6,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 304,
+               "offsetEnd": 306
+            },
+            "quantityMost": {
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 315,
+                  "offsetEnd": 316
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 312,
+               "offsetEnd": 315
+            },
+            "quantified": {
+               "rawName": "that present today",
+               "normalizedName": "that present today",
+               "offsetStart": 112,
+               "offsetEnd": 130
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "million",
+               "rawUnit": {
+                  "name": "year",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 398,
+                  "offsetEnd": 402
+               },
+               "parsedValue": {
+                  "name": "million",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "million"
+                  },
+                  "parsed": "million"
+               },
+               "normalizedQuantity": 0.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 390,
+               "offsetEnd": 397
+            },
+            "quantified": {
+               "rawName": "timescale cooling",
+               "normalizedName": "timescale",
+               "offsetStart": 403,
+               "offsetEnd": 420
+            }
+         }
+      ]
+   }
+]

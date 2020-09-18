@@ -1,0 +1,61 @@
+[
+   200,
+   {
+      "runtime": 56,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "\u03bcbar",
+                  "offsetStart": 204,
+                  "offsetEnd": 208
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 202,
+               "offsetEnd": 203
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "8250",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 262,
+                  "offsetEnd": 263
+               },
+               "parsedValue": {
+                  "name": "8250",
+                  "numeric": 8250,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "8250"
+                  },
+                  "parsed": "8250"
+               },
+               "normalizedQuantity": 8250,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 257,
+               "offsetEnd": 261
+            }
+         }
+      ]
+   }
+]

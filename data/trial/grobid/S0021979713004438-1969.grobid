@@ -1,0 +1,188 @@
+[
+   200,
+   {
+      "runtime": 137,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "\u03bcM",
+                  "offsetStart": 156,
+                  "offsetEnd": 158
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 153,
+               "offsetEnd": 155
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "acidity",
+               "rawValue": "7-8",
+               "rawUnit": {
+                  "name": "pH",
+                  "type": "acidity",
+                  "system": "non SI",
+                  "offsetStart": 290,
+                  "offsetEnd": 292
+               },
+               "parsedValue": {
+                  "name": "7-8",
+                  "numeric": 7,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "7-8"
+                  },
+                  "parsed": "7-8"
+               },
+               "offsetStart": 293,
+               "offsetEnd": 296
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 356,
+                  "offsetEnd": 357
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 354,
+               "offsetEnd": 356
+            },
+            "quantified": {
+               "rawName": "NaOH",
+               "normalizedName": "naoh",
+               "offsetStart": 358,
+               "offsetEnd": 362
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "3.91",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 459,
+                  "offsetEnd": 461
+               },
+               "parsedValue": {
+                  "name": "3.91",
+                  "numeric": 3.91,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.91"
+                  },
+                  "parsed": "3.91"
+               },
+               "normalizedQuantity": 3.91e-09,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 454,
+               "offsetEnd": 458
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "500",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 473,
+                  "offsetEnd": 475
+               },
+               "parsedValue": {
+                  "name": "500",
+                  "numeric": 500,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "500"
+                  },
+                  "parsed": "500"
+               },
+               "normalizedQuantity": 5e-07,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 469,
+               "offsetEnd": 472
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "500",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 482,
+                  "offsetEnd": 484
+               },
+               "parsedValue": {
+                  "name": "500",
+                  "numeric": 500,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "500"
+                  },
+                  "parsed": "500"
+               },
+               "normalizedQuantity": 5e-07,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 478,
+               "offsetEnd": 481
+            },
+            "quantified": {
+               "rawName": "scanned area",
+               "normalizedName": "area",
+               "offsetStart": 485,
+               "offsetEnd": 497
+            }
+         }
+      ]
+   }
+]

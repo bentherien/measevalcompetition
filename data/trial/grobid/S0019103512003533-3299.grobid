@@ -1,0 +1,59 @@
+[
+   200,
+   {
+      "runtime": 78,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 31,
+               "offsetEnd": 34
+            },
+            "quantified": {
+               "rawName": "codes developed",
+               "normalizedName": "code",
+               "offsetStart": 35,
+               "offsetEnd": 50
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "50",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1090,
+                  "offsetEnd": 1091
+               },
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "normalizedQuantity": 0.5,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1088,
+               "offsetEnd": 1090
+            }
+         }
+      ]
+   }
+]

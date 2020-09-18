@@ -1,0 +1,95 @@
+[
+   200,
+   {
+      "runtime": 34,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 118,
+                  "offsetEnd": 119
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "normalizedQuantity": 0.06,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 109,
+               "offsetEnd": 110
+            },
+            "quantityMost": {
+               "rawValue": "13",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 118,
+                  "offsetEnd": 119
+               },
+               "parsedValue": {
+                  "name": "13",
+                  "numeric": 13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "13"
+                  },
+                  "parsed": "13"
+               },
+               "normalizedQuantity": 0.13,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 116,
+               "offsetEnd": 118
+            },
+            "quantified": {
+               "rawName": "% and",
+               "normalizedName": "%",
+               "offsetStart": 110,
+               "offsetEnd": 115
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "6-8",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 136,
+                  "offsetEnd": 137
+               },
+               "parsedValue": {
+                  "name": "6-8",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6-8"
+                  },
+                  "parsed": "6-8"
+               },
+               "normalizedQuantity": 0.06,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 133,
+               "offsetEnd": 136
+            }
+         }
+      ]
+   }
+]

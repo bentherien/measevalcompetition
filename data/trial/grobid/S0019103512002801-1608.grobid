@@ -1,0 +1,47 @@
+[
+   200,
+   {
+      "runtime": 38,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "km s\u22121",
+                  "offsetStart": 92,
+                  "offsetEnd": 98
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "offsetStart": 90,
+               "offsetEnd": 91
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 268,
+               "offsetEnd": 271
+            }
+         }
+      ]
+   }
+]

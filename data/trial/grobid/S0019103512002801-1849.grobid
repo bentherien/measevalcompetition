@@ -1,0 +1,96 @@
+[
+   200,
+   {
+      "runtime": 25,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "350",
+               "parsedValue": {
+                  "name": "350",
+                  "numeric": 350,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "350"
+                  },
+                  "parsed": "350"
+               },
+               "offsetStart": 34,
+               "offsetEnd": 37
+            },
+            "quantified": {
+               "rawName": "electrons",
+               "normalizedName": "electron",
+               "offsetStart": 38,
+               "offsetEnd": 47
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 128,
+                  "offsetEnd": 129
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 0.01,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 127,
+               "offsetEnd": 128
+            },
+            "quantified": {
+               "rawName": "level of",
+               "normalizedName": "level",
+               "offsetStart": 130,
+               "offsetEnd": 138
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "energy",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "keV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 146,
+                  "offsetEnd": 149
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 1.602176487e-16,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 144,
+               "offsetEnd": 145
+            }
+         }
+      ]
+   }
+]

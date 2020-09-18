@@ -1,0 +1,281 @@
+[
+   200,
+   {
+      "runtime": 198,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "17.7",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 97,
+                  "offsetEnd": 98
+               },
+               "parsedValue": {
+                  "name": "17.7",
+                  "numeric": 17.7,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "17.7"
+                  },
+                  "parsed": "17.7"
+               },
+               "normalizedQuantity": 17.7,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 92,
+               "offsetEnd": 96
+            },
+            "quantified": {
+               "rawName": "thick section of",
+               "normalizedName": "section",
+               "offsetStart": 99,
+               "offsetEnd": 115
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 177,
+                  "offsetEnd": 178
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "normalizedQuantity": 6,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 175,
+               "offsetEnd": 176
+            },
+            "quantified": {
+               "rawName": "Hartland Shale",
+               "normalizedName": "shale",
+               "offsetStart": 155,
+               "offsetEnd": 169
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "four",
+               "parsedValue": {
+                  "name": "four",
+                  "numeric": 4,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "four"
+                  },
+                  "parsed": "four"
+               },
+               "offsetStart": 422,
+               "offsetEnd": 426
+            },
+            "quantified": {
+               "rawName": "bentonite units of",
+               "normalizedName": "unit",
+               "offsetStart": 427,
+               "offsetEnd": 445
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "length",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 454,
+                  "offsetEnd": 456
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 0.01,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 446,
+               "offsetEnd": 447
+            },
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 454,
+                  "offsetEnd": 456
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "normalizedQuantity": 0.2,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 451,
+               "offsetEnd": 453
+            },
+            "quantified": {
+               "rawName": "bentonite units of",
+               "normalizedName": "unit",
+               "offsetStart": 427,
+               "offsetEnd": 445
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "40",
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "offsetStart": 525,
+               "offsetEnd": 527
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "rawValue": "93.90",
+               "parsedValue": {
+                  "name": "93.90",
+                  "numeric": 93.9,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "93.90"
+                  },
+                  "parsed": "93.90"
+               },
+               "offsetStart": 624,
+               "offsetEnd": 629
+            },
+            "quantityRange": {
+               "rawValue": "0.15",
+               "parsedValue": {
+                  "name": "0.15",
+                  "numeric": 0.15,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.15"
+                  },
+                  "parsed": "0.15"
+               },
+               "offsetStart": 630,
+               "offsetEnd": 634
+            },
+            "quantityLeast": {
+               "rawValue": "93.75",
+               "parsedValue": {
+                  "numeric": 93.75
+               },
+               "offsetStart": 624,
+               "offsetEnd": 629
+            },
+            "quantityMost": {
+               "rawValue": "94.05",
+               "parsedValue": {
+                  "numeric": 94.05
+               },
+               "offsetStart": 630,
+               "offsetEnd": 634
+            },
+            "quantified": {
+               "rawName": "Ma",
+               "normalizedName": "ma",
+               "offsetStart": 635,
+               "offsetEnd": 637
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "2005",
+                  "parsedValue": {
+                     "name": "2005",
+                     "structure": {
+                        "type": "TIME",
+                        "formatted": "2005"
+                     },
+                     "parsed": "2005"
+                  },
+                  "offsetStart": 780,
+                  "offsetEnd": 784
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "86",
+               "parsedValue": {
+                  "name": "86",
+                  "numeric": 86,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "86"
+                  },
+                  "parsed": "86"
+               },
+               "offsetStart": 1279,
+               "offsetEnd": 1281
+            },
+            "quantified": {
+               "rawName": "the Bridge Creek Limestone",
+               "normalizedName": "the Bridge Creek Limestone",
+               "offsetStart": 68,
+               "offsetEnd": 94
+            }
+         }
+      ]
+   }
+]

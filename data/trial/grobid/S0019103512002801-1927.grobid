@@ -1,0 +1,45 @@
+[
+   200,
+   {
+      "runtime": 29,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "0.1-0.2",
+               "parsedValue": {
+                  "name": "0.1-0.2",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.1-0.2"
+                  },
+                  "parsed": "0.1-0.2"
+               },
+               "offsetStart": 158,
+               "offsetEnd": 165
+            },
+            "quantityMost": {
+               "rawValue": "10 s",
+               "parsedValue": {
+                  "name": "10 s",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 214,
+               "offsetEnd": 218
+            },
+            "quantified": {
+               "rawName": "s\u22121",
+               "normalizedName": "s\u22121",
+               "offsetStart": 166,
+               "offsetEnd": 169
+            }
+         }
+      ]
+   }
+]

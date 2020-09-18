@@ -1,0 +1,76 @@
+[
+   200,
+   {
+      "runtime": 44,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "13",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 259,
+                  "offsetEnd": 261
+               },
+               "parsedValue": {
+                  "name": "13",
+                  "numeric": 13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "13"
+                  },
+                  "parsed": "13"
+               },
+               "normalizedQuantity": 13,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 256,
+               "offsetEnd": 258
+            },
+            "quantified": {
+               "rawName": "the largest bed inventory of",
+               "normalizedName": "inventory",
+               "offsetStart": 227,
+               "offsetEnd": 255
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "concentration",
+               "rawValue": "2",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 386,
+                  "offsetEnd": 389
+               },
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "offsetStart": 384,
+               "offsetEnd": 385
+            },
+            "quantified": {
+               "rawName": "low concentrations of",
+               "normalizedName": "concentration",
+               "offsetStart": 361,
+               "offsetEnd": 382
+            }
+         }
+      ]
+   }
+]

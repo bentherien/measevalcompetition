@@ -1,0 +1,61 @@
+[
+   200,
+   {
+      "runtime": 91,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "min",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 818,
+                  "offsetEnd": 821
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 600,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 815,
+               "offsetEnd": 817
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "\u03bcm",
+                  "offsetStart": 976,
+                  "offsetEnd": 978
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 973,
+               "offsetEnd": 975
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,113 @@
+[
+   200,
+   {
+      "runtime": 105,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "1",
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 632,
+               "offsetEnd": 633
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "93",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 778,
+                  "offsetEnd": 779
+               },
+               "parsedValue": {
+                  "name": "93",
+                  "numeric": 93,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "93"
+                  },
+                  "parsed": "93"
+               },
+               "normalizedQuantity": 0.93,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 776,
+               "offsetEnd": 778
+            },
+            "quantified": {
+               "rawName": "all altitudes",
+               "normalizedName": "all altitudes",
+               "offsetStart": 71,
+               "offsetEnd": 84
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "energy",
+               "rawValue": "50",
+               "rawUnit": {
+                  "name": "eV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 897,
+                  "offsetEnd": 899
+               },
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "normalizedQuantity": 8.010882435e-18,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 894,
+               "offsetEnd": 896
+            },
+            "quantified": {
+               "rawName": "photons",
+               "normalizedName": "photon",
+               "offsetStart": 900,
+               "offsetEnd": 907
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.1",
+               "parsedValue": {
+                  "name": "0.1",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.1"
+                  },
+                  "parsed": "0.1"
+               },
+               "offsetStart": 944,
+               "offsetEnd": 947
+            }
+         }
+      ]
+   }
+]

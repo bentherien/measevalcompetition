@@ -1,0 +1,39 @@
+[
+   200,
+   {
+      "runtime": 27,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 254,
+                  "offsetEnd": 255
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "normalizedQuantity": 6,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 252,
+               "offsetEnd": 253
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,121 @@
+[
+   200,
+   {
+      "runtime": 64,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "1300",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 555,
+                  "offsetEnd": 556
+               },
+               "parsedValue": {
+                  "name": "1300",
+                  "numeric": 1300,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1300"
+                  },
+                  "parsed": "1300"
+               },
+               "normalizedQuantity": 1300,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 550,
+               "offsetEnd": 554
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "3500",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 565,
+                  "offsetEnd": 566
+               },
+               "parsedValue": {
+                  "name": "3500",
+                  "numeric": 3500,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3500"
+                  },
+                  "parsed": "3500"
+               },
+               "normalizedQuantity": 3500,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 560,
+               "offsetEnd": 564
+            },
+            "quantified": {
+               "rawName": "the 1 \u03bcbar level",
+               "normalizedName": "the 1 \u03bcbar level",
+               "offsetStart": 86,
+               "offsetEnd": 102
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "\u03bcbar",
+                  "offsetStart": 578,
+                  "offsetEnd": 582
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 576,
+               "offsetEnd": 577
+            },
+            "quantified": {
+               "rawName": "level",
+               "normalizedName": "level",
+               "offsetStart": 583,
+               "offsetEnd": 588
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "3",
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "offsetStart": 812,
+               "offsetEnd": 813
+            }
+         }
+      ]
+   }
+]

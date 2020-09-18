@@ -1,0 +1,90 @@
+[
+   200,
+   {
+      "runtime": 192,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "100",
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "offsetStart": 319,
+               "offsetEnd": 322
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "50",
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "offsetStart": 408,
+               "offsetEnd": 410
+            },
+            "quantityMost": {
+               "rawValue": "100",
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "offsetStart": 415,
+               "offsetEnd": 418
+            },
+            "quantified": {
+               "rawName": "spicules",
+               "normalizedName": "spicule",
+               "offsetStart": 419,
+               "offsetEnd": 427
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "200",
+               "rawUnit": {
+                  "name": "\u03bcL",
+                  "offsetStart": 709,
+                  "offsetEnd": 711
+               },
+               "parsedValue": {
+                  "name": "200",
+                  "numeric": 200,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "200"
+                  },
+                  "parsed": "200"
+               },
+               "offsetStart": 705,
+               "offsetEnd": 708
+            },
+            "quantified": {
+               "rawName": "concentrated HNO3",
+               "normalizedName": "concentrated HNO3",
+               "offsetStart": 78,
+               "offsetEnd": 95
+            }
+         }
+      ]
+   }
+]

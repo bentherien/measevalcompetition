@@ -1,0 +1,133 @@
+[
+   200,
+   {
+      "runtime": 63,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "30",
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 310,
+               "offsetEnd": 312
+            },
+            "quantified": {
+               "rawName": "nbar",
+               "normalizedName": "nbar",
+               "offsetStart": 313,
+               "offsetEnd": 317
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "1000",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 345,
+                  "offsetEnd": 346
+               },
+               "parsedValue": {
+                  "name": "1000",
+                  "numeric": 1000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1000"
+                  },
+                  "parsed": "1000"
+               },
+               "normalizedQuantity": 1000,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 340,
+               "offsetEnd": 344
+            },
+            "quantified": {
+               "rawName": "a temperature of",
+               "normalizedName": "temperature",
+               "offsetStart": 323,
+               "offsetEnd": 339
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "energy",
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "eV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 683,
+                  "offsetEnd": 685
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "normalizedQuantity": 3.204352974e-18,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 680,
+               "offsetEnd": 682
+            },
+            "quantified": {
+               "rawName": "the stellar flux",
+               "normalizedName": "the stellar flux",
+               "offsetStart": 128,
+               "offsetEnd": 144
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.45",
+               "rawUnit": {
+                  "name": "W m\u22122",
+                  "offsetStart": 715,
+                  "offsetEnd": 720
+               },
+               "parsedValue": {
+                  "name": "0.45",
+                  "numeric": 0.45,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.45"
+                  },
+                  "parsed": "0.45"
+               },
+               "offsetStart": 710,
+               "offsetEnd": 714
+            },
+            "quantified": {
+               "rawName": "the orbital position",
+               "normalizedName": "the orbital position",
+               "offsetStart": 162,
+               "offsetEnd": 182
+            }
+         }
+      ]
+   }
+]

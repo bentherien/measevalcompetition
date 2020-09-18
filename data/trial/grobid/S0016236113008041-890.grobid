@@ -1,0 +1,121 @@
+[
+   200,
+   {
+      "runtime": 12,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "4.5",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 101,
+                  "offsetEnd": 103
+               },
+               "parsedValue": {
+                  "name": "4.5",
+                  "numeric": 4.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "4.5"
+                  },
+                  "parsed": "4.5"
+               },
+               "normalizedQuantity": 4.5,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 97,
+               "offsetEnd": 100
+            },
+            "quantified": {
+               "rawName": "bed inventories of",
+               "normalizedName": "inventory",
+               "offsetStart": 78,
+               "offsetEnd": 96
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 107,
+                  "offsetEnd": 109
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "normalizedQuantity": 6,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 105,
+               "offsetEnd": 106
+            },
+            "quantified": {
+               "rawName": "bed inventories of",
+               "normalizedName": "inventory",
+               "offsetStart": 78,
+               "offsetEnd": 96
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "type": "mass",
+                  "rawValue": "13",
+                  "rawUnit": {
+                     "name": "kg",
+                     "type": "mass",
+                     "system": "SI base",
+                     "offsetStart": 117,
+                     "offsetEnd": 119
+                  },
+                  "parsedValue": {
+                     "name": "13",
+                     "numeric": 13,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "13"
+                     },
+                     "parsed": "13"
+                  },
+                  "normalizedQuantity": 13,
+                  "normalizedUnit": {
+                     "name": "kg",
+                     "type": "mass",
+                     "system": "SI base"
+                  },
+                  "offsetStart": 114,
+                  "offsetEnd": 116
+               }
+            ],
+            "quantified": {
+               "rawName": "CaCO3",
+               "normalizedName": "CaCO3",
+               "offsetStart": 120,
+               "offsetEnd": 125
+            }
+         }
+      ]
+   }
+]

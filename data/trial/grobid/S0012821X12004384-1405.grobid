@@ -1,0 +1,93 @@
+[
+   200,
+   {
+      "runtime": 284,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 626,
+               "offsetEnd": 628
+            },
+            "quantified": {
+               "rawName": "specimens",
+               "normalizedName": "specimen",
+               "offsetStart": 629,
+               "offsetEnd": 638
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 776,
+                  "offsetEnd": 777
+               },
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "normalizedQuantity": 0,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 775,
+               "offsetEnd": 776
+            },
+            "quantified": {
+               "rawName": "the %low salinity dinoflagellate cysts (",
+               "normalizedName": "cyst",
+               "offsetStart": 722,
+               "offsetEnd": 762
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "80",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 783,
+                  "offsetEnd": 784
+               },
+               "parsedValue": {
+                  "name": "80",
+                  "numeric": 80,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "80"
+                  },
+                  "parsed": "80"
+               },
+               "normalizedQuantity": 0.8,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 781,
+               "offsetEnd": 783
+            }
+         }
+      ]
+   }
+]

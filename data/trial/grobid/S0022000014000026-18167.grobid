@@ -1,0 +1,118 @@
+[
+   200,
+   {
+      "runtime": 556,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "5",
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "offsetStart": 1395,
+               "offsetEnd": 1396
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "10",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 5352,
+                     "offsetEnd": 5353
+                  },
+                  "parsedValue": {
+                     "name": "10",
+                     "numeric": 10,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "10"
+                     },
+                     "parsed": "10"
+                  },
+                  "normalizedQuantity": 0.1,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 5350,
+                  "offsetEnd": 5352
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "9",
+               "parsedValue": {
+                  "name": "9",
+                  "numeric": 9,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "9"
+                  },
+                  "parsed": "9"
+               },
+               "offsetStart": 5498,
+               "offsetEnd": 5499
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "volume",
+               "rawValue": "1\u22121",
+               "rawUnit": {
+                  "name": "/nc",
+                  "offsetStart": 5548,
+                  "offsetEnd": 5551
+               },
+               "parsedValue": {
+                  "name": "1\u22121",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1\u22121"
+                  },
+                  "parsed": "1\u22121"
+               },
+               "offsetStart": 5545,
+               "offsetEnd": 5548
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 6670,
+               "offsetEnd": 6673
+            },
+            "quantified": {
+               "rawName": "prospective extensions of",
+               "normalizedName": "extension",
+               "offsetStart": 6679,
+               "offsetEnd": 6704
+            }
+         }
+      ]
+   }
+]

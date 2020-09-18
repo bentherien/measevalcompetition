@@ -1,0 +1,160 @@
+[
+   200,
+   {
+      "runtime": 114,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "angle",
+               "rawValue": "74",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 844,
+                  "offsetEnd": 845
+               },
+               "parsedValue": {
+                  "name": "74",
+                  "numeric": 74,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "74"
+                  },
+                  "parsed": "74"
+               },
+               "offsetStart": 842,
+               "offsetEnd": 844
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "90",
+               "rawUnit": {
+                  "name": "\u00b0S",
+                  "offsetStart": 852,
+                  "offsetEnd": 854
+               },
+               "parsedValue": {
+                  "name": "90",
+                  "numeric": 90,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "90"
+                  },
+                  "parsed": "90"
+               },
+               "offsetStart": 850,
+               "offsetEnd": 852
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "490",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 888,
+                  "offsetEnd": 889
+               },
+               "parsedValue": {
+                  "name": "490",
+                  "numeric": 490,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "490"
+                  },
+                  "parsed": "490"
+               },
+               "normalizedQuantity": 490,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 884,
+               "offsetEnd": 887
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "430",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 992,
+                  "offsetEnd": 993
+               },
+               "parsedValue": {
+                  "name": "430",
+                  "numeric": 430,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "430"
+                  },
+                  "parsed": "430"
+               },
+               "normalizedQuantity": 430,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 988,
+               "offsetEnd": 991
+            },
+            "quantified": {
+               "rawName": "This difference of",
+               "normalizedName": "difference",
+               "offsetStart": 995,
+               "offsetEnd": 1013
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "60",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 1017,
+                  "offsetEnd": 1018
+               },
+               "parsedValue": {
+                  "name": "60",
+                  "numeric": 60,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60"
+                  },
+                  "parsed": "60"
+               },
+               "normalizedQuantity": 60,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 1014,
+               "offsetEnd": 1016
+            },
+            "quantified": {
+               "rawName": "This difference of",
+               "normalizedName": "difference",
+               "offsetStart": 995,
+               "offsetEnd": 1013
+            }
+         }
+      ]
+   }
+]

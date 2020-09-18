@@ -1,0 +1,331 @@
+[
+   200,
+   {
+      "runtime": 849,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 492,
+               "offsetEnd": 497
+            },
+            "quantified": {
+               "rawName": "axes (describing",
+               "normalizedName": "ax",
+               "offsetStart": 498,
+               "offsetEnd": 514
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "Five",
+               "parsedValue": {
+                  "name": "Five",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "Five"
+                  },
+                  "parsed": "Five"
+               },
+               "offsetStart": 553,
+               "offsetEnd": 557
+            },
+            "quantified": {
+               "rawName": "samples from",
+               "normalizedName": "sample",
+               "offsetStart": 558,
+               "offsetEnd": 570
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "2619.60",
+                  "parsedValue": {
+                     "name": "2619.60",
+                     "numeric": 60,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "60"
+                     },
+                     "parsed": "60"
+                  },
+                  "offsetStart": 588,
+                  "offsetEnd": 595
+               },
+               {
+                  "rawValue": "2617.35",
+                  "parsedValue": {
+                     "name": "2617.35",
+                     "numeric": 0.35,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": ".35"
+                     },
+                     "parsed": ".35"
+                  },
+                  "offsetStart": 597,
+                  "offsetEnd": 604
+               },
+               {
+                  "rawValue": "2617.44",
+                  "parsedValue": {
+                     "name": "2617.44",
+                     "numeric": 0.44,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": ".44"
+                     },
+                     "parsed": ".44"
+                  },
+                  "offsetStart": 606,
+                  "offsetEnd": 613
+               },
+               {
+                  "rawValue": "2614.73",
+                  "parsedValue": {
+                     "name": "2614.73",
+                     "numeric": 0.73,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": ".73"
+                     },
+                     "parsed": ".73"
+                  },
+                  "offsetStart": 615,
+                  "offsetEnd": 622
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "2614.71",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 636,
+                  "offsetEnd": 637
+               },
+               "parsedValue": {
+                  "name": "2614.71",
+                  "numeric": 0.71,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": ".71"
+                  },
+                  "parsed": ".71"
+               },
+               "normalizedQuantity": 0.71,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 628,
+               "offsetEnd": 635
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "type": "length",
+                  "rawValue": "2619.60",
+                  "rawUnit": {
+                     "name": "m",
+                     "type": "length",
+                     "system": "SI base",
+                     "offsetStart": 799,
+                     "offsetEnd": 800
+                  },
+                  "parsedValue": {
+                     "name": "2619.60",
+                     "numeric": 60,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "60"
+                     },
+                     "parsed": "60"
+                  },
+                  "normalizedQuantity": 60,
+                  "normalizedUnit": {
+                     "name": "m",
+                     "type": "length",
+                     "system": "SI base"
+                  },
+                  "offsetStart": 769,
+                  "offsetEnd": 776
+               },
+               {
+                  "type": "length",
+                  "rawValue": "2614.73",
+                  "rawUnit": {
+                     "name": "m",
+                     "type": "length",
+                     "system": "SI base",
+                     "offsetStart": 799,
+                     "offsetEnd": 800
+                  },
+                  "parsedValue": {
+                     "name": "2614.73",
+                     "numeric": 0.73,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": ".73"
+                     },
+                     "parsed": ".73"
+                  },
+                  "normalizedQuantity": 0.73,
+                  "normalizedUnit": {
+                     "name": "m",
+                     "type": "length",
+                     "system": "SI base"
+                  },
+                  "offsetStart": 778,
+                  "offsetEnd": 785
+               },
+               {
+                  "type": "length",
+                  "rawValue": "2614.71",
+                  "rawUnit": {
+                     "name": "m",
+                     "type": "length",
+                     "system": "SI base",
+                     "offsetStart": 799,
+                     "offsetEnd": 800
+                  },
+                  "parsedValue": {
+                     "name": "2614.71",
+                     "numeric": 0.71,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": ".71"
+                     },
+                     "parsed": ".71"
+                  },
+                  "normalizedQuantity": 0.71,
+                  "normalizedUnit": {
+                     "name": "m",
+                     "type": "length",
+                     "system": "SI base"
+                  },
+                  "offsetStart": 791,
+                  "offsetEnd": 798
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 1481,
+               "offsetEnd": 1484
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "2619.60",
+                  "parsedValue": {
+                     "name": "2619.60",
+                     "numeric": 60,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "60"
+                     },
+                     "parsed": "60"
+                  },
+                  "offsetStart": 1493,
+                  "offsetEnd": 1500
+               },
+               {
+                  "rawValue": "2614.71",
+                  "parsedValue": {
+                     "name": "2614.71",
+                     "numeric": 0.71,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": ".71"
+                     },
+                     "parsed": ".71"
+                  },
+                  "offsetStart": 1505,
+                  "offsetEnd": 1512
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 1992,
+               "offsetEnd": 1995
+            },
+            "quantified": {
+               "rawName": "shifts",
+               "normalizedName": "shift",
+               "offsetStart": 1996,
+               "offsetEnd": 2002
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 2115,
+               "offsetEnd": 2118
+            },
+            "quantified": {
+               "rawName": "depths",
+               "normalizedName": "depth",
+               "offsetStart": 2119,
+               "offsetEnd": 2125
+            }
+         }
+      ]
+   }
+]

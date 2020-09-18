@@ -1,0 +1,163 @@
+[
+   200,
+   {
+      "runtime": 38,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "0.1",
+               "parsedValue": {
+                  "name": "0.1",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.1"
+                  },
+                  "parsed": "0.1"
+               },
+               "offsetStart": 122,
+               "offsetEnd": 125
+            },
+            "quantified": {
+               "rawName": "ppm",
+               "normalizedName": "ppm",
+               "offsetStart": 126,
+               "offsetEnd": 129
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "0.06",
+               "parsedValue": {
+                  "name": "0.06",
+                  "numeric": 0.06,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.06"
+                  },
+                  "parsed": "0.06"
+               },
+               "offsetStart": 196,
+               "offsetEnd": 200
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "concentration",
+               "rawValue": "0.42",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 217,
+                  "offsetEnd": 220
+               },
+               "parsedValue": {
+                  "name": "0.42",
+                  "numeric": 0.42,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.42"
+                  },
+                  "parsed": "0.42"
+               },
+               "offsetStart": 204,
+               "offsetEnd": 208
+            },
+            "quantityMost": {
+               "type": "concentration",
+               "rawValue": "0.74",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 217,
+                  "offsetEnd": 220
+               },
+               "parsedValue": {
+                  "name": "0.74",
+                  "numeric": 0.74,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.74"
+                  },
+                  "parsed": "0.74"
+               },
+               "offsetStart": 212,
+               "offsetEnd": 216
+            },
+            "quantified": {
+               "rawName": "inventories 4.5",
+               "normalizedName": "inventories 4.5",
+               "offsetStart": 94,
+               "offsetEnd": 109
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "13",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 251,
+                  "offsetEnd": 253
+               },
+               "parsedValue": {
+                  "name": "13",
+                  "numeric": 13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "13"
+                  },
+                  "parsed": "13"
+               },
+               "normalizedQuantity": 13,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 248,
+               "offsetEnd": 250
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "concentration",
+               "rawValue": "0.1",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 348,
+                  "offsetEnd": 351
+               },
+               "parsedValue": {
+                  "name": "0.1",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.1"
+                  },
+                  "parsed": "0.1"
+               },
+               "offsetStart": 344,
+               "offsetEnd": 347
+            },
+            "quantified": {
+               "rawName": "a concentration of",
+               "normalizedName": "concentration",
+               "offsetStart": 324,
+               "offsetEnd": 342
+            }
+         }
+      ]
+   }
+]

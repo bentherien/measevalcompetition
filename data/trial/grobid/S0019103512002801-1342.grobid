@@ -1,0 +1,93 @@
+[
+   200,
+   {
+      "runtime": 50,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "764",
+               "rawUnit": {
+                  "name": "km",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 54,
+                  "offsetEnd": 56
+               },
+               "parsedValue": {
+                  "name": "764",
+                  "numeric": 764,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "764"
+                  },
+                  "parsed": "764"
+               },
+               "normalizedQuantity": 764000,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 50,
+               "offsetEnd": 53
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "8.74",
+               "parsedValue": {
+                  "name": "8.74",
+                  "numeric": 8.74,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "8.74"
+                  },
+                  "parsed": "8.74"
+               },
+               "offsetStart": 139,
+               "offsetEnd": 143
+            },
+            "quantified": {
+               "rawName": "its center",
+               "normalizedName": "its center",
+               "offsetStart": 92,
+               "offsetEnd": 102
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "60,268",
+               "rawUnit": {
+                  "name": "km",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 176,
+                  "offsetEnd": 178
+               },
+               "parsedValue": {
+                  "name": "60,268",
+                  "numeric": 60268,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60,268"
+                  },
+                  "parsed": "60,268"
+               },
+               "normalizedQuantity": 60268000,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 169,
+               "offsetEnd": 175
+            }
+         }
+      ]
+   }
+]

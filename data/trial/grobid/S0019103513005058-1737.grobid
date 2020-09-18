@@ -1,0 +1,95 @@
+[
+   200,
+   {
+      "runtime": 22,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "g cm\u22123",
+                  "offsetStart": 99,
+                  "offsetEnd": 105
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 97,
+               "offsetEnd": 98
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "length",
+               "rawValue": "1.5",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 140,
+                  "offsetEnd": 141
+               },
+               "parsedValue": {
+                  "name": "1.5",
+                  "numeric": 1.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.5"
+                  },
+                  "parsed": "1.5"
+               },
+               "normalizedQuantity": 1.5,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 132,
+               "offsetEnd": 135
+            },
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "2.6",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 140,
+                  "offsetEnd": 141
+               },
+               "parsedValue": {
+                  "name": "2.6",
+                  "numeric": 2.6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.6"
+                  },
+                  "parsed": "2.6"
+               },
+               "normalizedQuantity": 2.6,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 136,
+               "offsetEnd": 139
+            },
+            "quantified": {
+               "rawName": "depth",
+               "normalizedName": "depth",
+               "offsetStart": 142,
+               "offsetEnd": 147
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,90 @@
+[
+   200,
+   {
+      "runtime": 51,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 26,
+               "offsetEnd": 31
+            },
+            "quantified": {
+               "rawName": "possible locations for",
+               "normalizedName": "location",
+               "offsetStart": 32,
+               "offsetEnd": 54
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "90",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 136,
+                  "offsetEnd": 137
+               },
+               "parsedValue": {
+                  "name": "90",
+                  "numeric": 90,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "90"
+                  },
+                  "parsed": "90"
+               },
+               "normalizedQuantity": 0.9,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 131,
+               "offsetEnd": 133
+            },
+            "quantityMost": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 136,
+                  "offsetEnd": 137
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 134,
+               "offsetEnd": 136
+            },
+            "quantified": {
+               "rawName": "elements",
+               "normalizedName": "elements",
+               "offsetStart": 141,
+               "offsetEnd": 149
+            }
+         }
+      ]
+   }
+]

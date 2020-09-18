@@ -1,0 +1,334 @@
+[
+   200,
+   {
+      "runtime": 232,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 141,
+               "offsetEnd": 144
+            },
+            "quantified": {
+               "rawName": "signals",
+               "normalizedName": "signal",
+               "offsetStart": 145,
+               "offsetEnd": 152
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "187Os/188",
+               "parsedValue": {
+                  "name": "187Os/188",
+                  "numeric": 88,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "88"
+                  },
+                  "parsed": "88"
+               },
+               "offsetStart": 437,
+               "offsetEnd": 446
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "day",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 558,
+                  "offsetEnd": 561
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 864000,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 529,
+               "offsetEnd": 531
+            },
+            "quantified": {
+               "rawName": "ppq",
+               "normalizedName": "ppq",
+               "offsetStart": 532,
+               "offsetEnd": 535
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.13",
+               "parsedValue": {
+                  "name": "0.13",
+                  "numeric": 0.13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.13"
+                  },
+                  "parsed": "0.13"
+               },
+               "offsetStart": 634,
+               "offsetEnd": 638
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "9.10",
+               "parsedValue": {
+                  "name": "9.10",
+                  "numeric": 9.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "9.10"
+                  },
+                  "parsed": "9.10"
+               },
+               "offsetStart": 844,
+               "offsetEnd": 848
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "1",
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 969,
+               "offsetEnd": 970
+            },
+            "quantityMost": {
+               "rawValue": "600",
+               "parsedValue": {
+                  "name": "600",
+                  "numeric": 600,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "600"
+                  },
+                  "parsed": "600"
+               },
+               "offsetStart": 974,
+               "offsetEnd": 977
+            },
+            "quantified": {
+               "rawName": "ppt",
+               "normalizedName": "ppt",
+               "offsetStart": 978,
+               "offsetEnd": 981
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "volume",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "ppt",
+                  "type": "volume",
+                  "system": "us",
+                  "offsetStart": 1056,
+                  "offsetEnd": 1059
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 1048,
+               "offsetEnd": 1049
+            },
+            "quantityMost": {
+               "type": "volume",
+               "rawValue": "30",
+               "rawUnit": {
+                  "name": "ppt",
+                  "type": "volume",
+                  "system": "us",
+                  "offsetStart": 1056,
+                  "offsetEnd": 1059
+               },
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 1053,
+               "offsetEnd": 1055
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "30",
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 1172,
+               "offsetEnd": 1174
+            },
+            "quantified": {
+               "rawName": "ppt",
+               "normalizedName": "ppt",
+               "offsetStart": 1175,
+               "offsetEnd": 1178
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "75",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1195,
+                  "offsetEnd": 1196
+               },
+               "parsedValue": {
+                  "name": "75",
+                  "numeric": 75,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "75"
+                  },
+                  "parsed": "75"
+               },
+               "normalizedQuantity": 0.75,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1193,
+               "offsetEnd": 1195
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "25",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1330,
+                  "offsetEnd": 1331
+               },
+               "parsedValue": {
+                  "name": "25",
+                  "numeric": 25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "25"
+                  },
+                  "parsed": "25"
+               },
+               "normalizedQuantity": 0.25,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1328,
+               "offsetEnd": 1330
+            },
+            "quantified": {
+               "rawName": "the LIP",
+               "normalizedName": "lip",
+               "offsetStart": 1319,
+               "offsetEnd": 1326
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "100",
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "offsetStart": 1392,
+               "offsetEnd": 1395
+            },
+            "quantified": {
+               "rawName": "ppt",
+               "normalizedName": "ppt",
+               "offsetStart": 1396,
+               "offsetEnd": 1399
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 1503,
+               "offsetEnd": 1505
+            },
+            "quantified": {
+               "rawName": "times that",
+               "normalizedName": "time",
+               "offsetStart": 1506,
+               "offsetEnd": 1516
+            }
+         }
+      ]
+   }
+]

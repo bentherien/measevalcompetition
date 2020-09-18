@@ -1,0 +1,101 @@
+[
+   200,
+   {
+      "runtime": 115,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "length",
+               "rawValue": "2632",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 57,
+                  "offsetEnd": 58
+               },
+               "parsedValue": {
+                  "name": "2632",
+                  "numeric": 2632,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2632"
+                  },
+                  "parsed": "2632"
+               },
+               "normalizedQuantity": 2632,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 44,
+               "offsetEnd": 48
+            },
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "2618",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 57,
+                  "offsetEnd": 58
+               },
+               "parsedValue": {
+                  "name": "2618",
+                  "numeric": 261,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "261"
+                  },
+                  "parsed": "261"
+               },
+               "normalizedQuantity": 261,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 52,
+               "offsetEnd": 56
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 292,
+                  "offsetEnd": 293
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 0.05,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 291,
+               "offsetEnd": 292
+            },
+            "quantified": {
+               "rawName": "peridinoid cysts including",
+               "normalizedName": "cyst",
+               "offsetStart": 294,
+               "offsetEnd": 320
+            }
+         }
+      ]
+   }
+]
