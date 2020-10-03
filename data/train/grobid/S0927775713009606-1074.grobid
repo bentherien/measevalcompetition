@@ -1,0 +1,142 @@
+[
+   200,
+   {
+      "runtime": 59,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 851,
+               "offsetEnd": 853
+            },
+            "quantified": {
+               "rawName": "nm",
+               "normalizedName": "nm",
+               "offsetStart": 854,
+               "offsetEnd": 856
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "0.5",
+               "parsedValue": {
+                  "name": "0.5",
+                  "numeric": 0.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.5"
+                  },
+                  "parsed": "0.5"
+               },
+               "offsetStart": 866,
+               "offsetEnd": 869
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "170",
+               "parsedValue": {
+                  "name": "170",
+                  "numeric": 170,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "170"
+                  },
+                  "parsed": "170"
+               },
+               "offsetStart": 905,
+               "offsetEnd": 908
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "offsetStart": 1033,
+               "offsetEnd": 1034
+            },
+            "quantified": {
+               "rawName": "range of",
+               "normalizedName": "range",
+               "offsetStart": 1041,
+               "offsetEnd": 1049
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "40",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 1038,
+                  "offsetEnd": 1040
+               },
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "normalizedQuantity": 4e-08,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 1035,
+               "offsetEnd": 1037
+            },
+            "quantified": {
+               "rawName": "range of",
+               "normalizedName": "range",
+               "offsetStart": 1041,
+               "offsetEnd": 1049
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 1201,
+               "offsetEnd": 1202
+            }
+         }
+      ]
+   }
+]

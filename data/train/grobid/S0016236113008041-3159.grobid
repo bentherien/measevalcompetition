@@ -1,0 +1,41 @@
+[
+   200,
+   {
+      "runtime": 12,
+      "measurements": [
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "type": "mass",
+                  "rawValue": "13",
+                  "rawUnit": {
+                     "name": "kg",
+                     "type": "mass",
+                     "system": "SI base",
+                     "offsetStart": 258,
+                     "offsetEnd": 260
+                  },
+                  "parsedValue": {
+                     "name": "13",
+                     "numeric": 13,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "13"
+                     },
+                     "parsed": "13"
+                  },
+                  "normalizedQuantity": 13,
+                  "normalizedUnit": {
+                     "name": "kg",
+                     "type": "mass",
+                     "system": "SI base"
+                  },
+                  "offsetStart": 255,
+                  "offsetEnd": 257
+               }
+            ]
+         }
+      ]
+   }
+]

@@ -1,0 +1,183 @@
+[
+   200,
+   {
+      "runtime": 36,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "four",
+               "parsedValue": {
+                  "name": "four",
+                  "numeric": 4,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "four"
+                  },
+                  "parsed": "four"
+               },
+               "offsetStart": 92,
+               "offsetEnd": 96
+            },
+            "quantified": {
+               "rawName": "main parameters",
+               "normalizedName": "parameter",
+               "offsetStart": 97,
+               "offsetEnd": 112
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "80",
+               "rawUnit": {
+                  "name": "vol%",
+                  "offsetStart": 433,
+                  "offsetEnd": 437
+               },
+               "parsedValue": {
+                  "name": "80",
+                  "numeric": 80,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "80"
+                  },
+                  "parsed": "80"
+               },
+               "offsetStart": 430,
+               "offsetEnd": 432
+            },
+            "quantified": {
+               "rawName": "C60",
+               "normalizedName": "C60",
+               "offsetStart": 67,
+               "offsetEnd": 70
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "70",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 467,
+                  "offsetEnd": 469
+               },
+               "parsedValue": {
+                  "name": "70",
+                  "numeric": 70,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "70"
+                  },
+                  "parsed": "70"
+               },
+               "normalizedQuantity": 7e-08,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 464,
+               "offsetEnd": 466
+            },
+            "quantified": {
+               "rawName": "a thickness of",
+               "normalizedName": "thickness",
+               "offsetStart": 449,
+               "offsetEnd": 463
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "Jsc\u223c2",
+               "rawUnit": {
+                  "name": "mA/cm2",
+                  "offsetStart": 578,
+                  "offsetEnd": 584
+               },
+               "parsedValue": {
+                  "name": "Jsc\u223c2",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "Jsc\u223c2"
+                  },
+                  "parsed": "Jsc\u223c2"
+               },
+               "offsetStart": 570,
+               "offsetEnd": 575
+            },
+            "quantityMost": {
+               "rawValue": "3",
+               "rawUnit": {
+                  "name": "mA/cm2",
+                  "offsetStart": 578,
+                  "offsetEnd": 584
+               },
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "normalizedQuantity": 30,
+               "normalizedUnit": {
+                  "name": "A/m\u00b2"
+               },
+               "offsetStart": 576,
+               "offsetEnd": 577
+            },
+            "quantified": {
+               "rawName": "a thickness of",
+               "normalizedName": "thickness",
+               "offsetStart": 449,
+               "offsetEnd": 463
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "Voc\u223c0.40",
+               "parsedValue": {
+                  "name": "Voc\u223c0.40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "offsetStart": 589,
+               "offsetEnd": 597
+            },
+            "quantityMost": {
+               "rawValue": "0.45",
+               "parsedValue": {
+                  "name": "0.45",
+                  "numeric": 0.45,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.45"
+                  },
+                  "parsed": "0.45"
+               },
+               "offsetStart": 598,
+               "offsetEnd": 602
+            },
+            "quantified": {
+               "rawName": "device characteristics comparable",
+               "normalizedName": "characteristic",
+               "offsetStart": 478,
+               "offsetEnd": 511
+            }
+         }
+      ]
+   }
+]

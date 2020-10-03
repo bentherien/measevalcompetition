@@ -1,0 +1,85 @@
+[
+   200,
+   {
+      "runtime": 67,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 14,
+               "offsetEnd": 17
+            },
+            "quantified": {
+               "rawName": "animals",
+               "normalizedName": "animal",
+               "offsetStart": 18,
+               "offsetEnd": 25
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 170,
+               "offsetEnd": 173
+            },
+            "quantified": {
+               "rawName": "animals",
+               "normalizedName": "animal",
+               "offsetStart": 174,
+               "offsetEnd": 181
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "12",
+               "rawUnit": {
+                  "name": "weeks",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 1076,
+                  "offsetEnd": 1081
+               },
+               "parsedValue": {
+                  "name": "12",
+                  "numeric": 12,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "12"
+                  },
+                  "parsed": "12"
+               },
+               "normalizedQuantity": 7257600,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 1073,
+               "offsetEnd": 1075
+            }
+         }
+      ]
+   }
+]

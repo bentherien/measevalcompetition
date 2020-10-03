@@ -1,0 +1,54 @@
+[
+   200,
+   {
+      "runtime": 55,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 551,
+               "offsetEnd": 554
+            },
+            "quantified": {
+               "rawName": "different hiPSC lines",
+               "normalizedName": "line",
+               "offsetStart": 555,
+               "offsetEnd": 576
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 790,
+               "offsetEnd": 792
+            },
+            "quantified": {
+               "rawName": "passages",
+               "normalizedName": "passage",
+               "offsetStart": 793,
+               "offsetEnd": 801
+            }
+         }
+      ]
+   }
+]

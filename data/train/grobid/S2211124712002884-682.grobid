@@ -1,0 +1,94 @@
+[
+   200,
+   {
+      "runtime": 16,
+      "measurements": [
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "17",
+                  "parsedValue": {
+                     "name": "17",
+                     "numeric": 17,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "17"
+                     },
+                     "parsed": "17"
+                  },
+                  "offsetStart": 25,
+                  "offsetEnd": 27
+               },
+               {
+                  "rawValue": "12",
+                  "parsedValue": {
+                     "name": "12",
+                     "numeric": 12,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "12"
+                     },
+                     "parsed": "12"
+                  },
+                  "offsetStart": 44,
+                  "offsetEnd": 46
+               },
+               {
+                  "rawValue": "23",
+                  "parsedValue": {
+                     "name": "23",
+                     "numeric": 23,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "23"
+                     },
+                     "parsed": "23"
+                  },
+                  "offsetStart": 51,
+                  "offsetEnd": 53
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "14",
+               "parsedValue": {
+                  "name": "14",
+                  "numeric": 14,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "14"
+                  },
+                  "parsed": "14"
+               },
+               "offsetStart": 82,
+               "offsetEnd": 84
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "50",
+               "rawUnit": {
+                  "name": "\u03bcm",
+                  "offsetStart": 262,
+                  "offsetEnd": 264
+               },
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "offsetStart": 259,
+               "offsetEnd": 261
+            }
+         }
+      ]
+   }
+]

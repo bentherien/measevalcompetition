@@ -1,0 +1,39 @@
+[
+   200,
+   {
+      "runtime": 6,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "weeks",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 53,
+                  "offsetEnd": 58
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "normalizedQuantity": 3628800,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 51,
+               "offsetEnd": 52
+            }
+         }
+      ]
+   }
+]

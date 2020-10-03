@@ -1,0 +1,150 @@
+[
+   200,
+   {
+      "runtime": 66,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 131,
+               "offsetEnd": 134
+            },
+            "quantified": {
+               "rawName": "major trends",
+               "normalizedName": "trend",
+               "offsetStart": 135,
+               "offsetEnd": 147
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "frequency",
+               "rawValue": "0.01",
+               "rawUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base",
+                  "offsetStart": 723,
+                  "offsetEnd": 725
+               },
+               "parsedValue": {
+                  "name": "0.01",
+                  "numeric": 0.01,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.01"
+                  },
+                  "parsed": "0.01"
+               },
+               "normalizedQuantity": 0.01,
+               "normalizedUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base"
+               },
+               "offsetStart": 713,
+               "offsetEnd": 717
+            },
+            "quantityMost": {
+               "type": "frequency",
+               "rawValue": "0.03",
+               "rawUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base",
+                  "offsetStart": 723,
+                  "offsetEnd": 725
+               },
+               "parsedValue": {
+                  "name": "0.03",
+                  "numeric": 0.03,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.03"
+                  },
+                  "parsed": "0.03"
+               },
+               "normalizedQuantity": 0.03,
+               "normalizedUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base"
+               },
+               "offsetStart": 718,
+               "offsetEnd": 722
+            },
+            "quantified": {
+               "rawName": "wind frequencies of",
+               "normalizedName": "frequency",
+               "offsetStart": 693,
+               "offsetEnd": 712
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "frequency",
+               "rawValue": "0.003",
+               "rawUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base",
+                  "offsetStart": 997,
+                  "offsetEnd": 999
+               },
+               "parsedValue": {
+                  "name": "0.003",
+                  "numeric": 0.003,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.003"
+                  },
+                  "parsed": "0.003"
+               },
+               "normalizedQuantity": 0.003,
+               "normalizedUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base"
+               },
+               "offsetStart": 991,
+               "offsetEnd": 996
+            },
+            "quantified": {
+               "rawName": "wind frequencies above",
+               "normalizedName": "frequency",
+               "offsetStart": 968,
+               "offsetEnd": 990
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "11",
+               "parsedValue": {
+                  "name": "11",
+                  "numeric": 11,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "11"
+                  },
+                  "parsed": "11"
+               },
+               "offsetStart": 1112,
+               "offsetEnd": 1114
+            }
+         }
+      ]
+   }
+]

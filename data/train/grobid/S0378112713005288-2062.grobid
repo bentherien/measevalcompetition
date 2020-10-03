@@ -1,0 +1,116 @@
+[
+   200,
+   {
+      "runtime": 67,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "200,000",
+               "parsedValue": {
+                  "name": "200,000",
+                  "numeric": 200000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "200,000"
+                  },
+                  "parsed": "200,000"
+               },
+               "offsetStart": 374,
+               "offsetEnd": 381
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 396,
+                  "offsetEnd": 398
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 394,
+               "offsetEnd": 395
+            },
+            "quantified": {
+               "rawName": "weigh",
+               "normalizedName": "weigh",
+               "offsetStart": 388,
+               "offsetEnd": 393
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5.9 million",
+               "parsedValue": {
+                  "name": "5.9 million",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "5.9 million"
+                  },
+                  "parsed": "5.9 million"
+               },
+               "offsetStart": 479,
+               "offsetEnd": 490
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 505,
+                  "offsetEnd": 507
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 503,
+               "offsetEnd": 504
+            },
+            "quantified": {
+               "rawName": "weigh",
+               "normalizedName": "weigh",
+               "offsetStart": 497,
+               "offsetEnd": 502
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,232 @@
+[
+   200,
+   {
+      "runtime": 56,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "99.9",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 198,
+                  "offsetEnd": 199
+               },
+               "parsedValue": {
+                  "name": "99.9",
+                  "numeric": 99.9,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "99.9"
+                  },
+                  "parsed": "99.9"
+               },
+               "normalizedQuantity": 0.999,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 194,
+               "offsetEnd": 198
+            },
+            "quantified": {
+               "rawName": "C60",
+               "normalizedName": "C60",
+               "offsetStart": 189,
+               "offsetEnd": 192
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "type": "temperature",
+               "rawValue": "300",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 575,
+                  "offsetEnd": 577
+               },
+               "parsedValue": {
+                  "name": "300",
+                  "numeric": 300,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "300"
+                  },
+                  "parsed": "300"
+               },
+               "normalizedQuantity": 573.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 568,
+               "offsetEnd": 571
+            },
+            "quantityRange": {
+               "type": "temperature",
+               "rawValue": "15",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 575,
+                  "offsetEnd": 577
+               },
+               "parsedValue": {
+                  "name": "15",
+                  "numeric": 15,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "15"
+                  },
+                  "parsed": "15"
+               },
+               "normalizedQuantity": 288.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 572,
+               "offsetEnd": 574
+            },
+            "quantityLeast": {
+               "type": "temperature",
+               "rawValue": "285",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 575,
+                  "offsetEnd": 577
+               },
+               "parsedValue": {
+                  "numeric": 285
+               },
+               "normalizedQuantity": 285.0,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 568,
+               "offsetEnd": 571
+            },
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "315",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 575,
+                  "offsetEnd": 577
+               },
+               "parsedValue": {
+                  "numeric": 315
+               },
+               "normalizedQuantity": 861.3,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 572,
+               "offsetEnd": 574
+            },
+            "quantified": {
+               "rawName": "a temperature of",
+               "normalizedName": "temperature",
+               "offsetStart": 551,
+               "offsetEnd": 567
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 1030,
+               "offsetEnd": 1032
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "energy",
+               "rawValue": "0",
+               "rawUnit": {
+                  "name": "eV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 1058,
+                  "offsetEnd": 1060
+               },
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "normalizedQuantity": 0.0,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 1056,
+               "offsetEnd": 1057
+            },
+            "quantified": {
+               "rawName": "its effective conjugation length",
+               "normalizedName": "length",
+               "offsetStart": 996,
+               "offsetEnd": 1028
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "2000",
+               "rawUnit": {
+                  "name": "g mol\u22121",
+                  "offsetStart": 1097,
+                  "offsetEnd": 1104
+               },
+               "parsedValue": {
+                  "name": "2000",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "2000"
+                  },
+                  "parsed": "2000"
+               },
+               "offsetStart": 1092,
+               "offsetEnd": 1096
+            },
+            "quantified": {
+               "rawName": "its effective conjugation length",
+               "normalizedName": "length",
+               "offsetStart": 996,
+               "offsetEnd": 1028
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,93 @@
+[
+   200,
+   {
+      "runtime": 129,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "78",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 468,
+                  "offsetEnd": 469
+               },
+               "parsedValue": {
+                  "name": "78",
+                  "numeric": 78,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "78"
+                  },
+                  "parsed": "78"
+               },
+               "normalizedQuantity": 0.78,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 466,
+               "offsetEnd": 468
+            },
+            "quantified": {
+               "rawName": "the precision of",
+               "normalizedName": "precision",
+               "offsetStart": 415,
+               "offsetEnd": 431
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 475,
+                  "offsetEnd": 476
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 473,
+               "offsetEnd": 475
+            },
+            "quantified": {
+               "rawName": "the precision of",
+               "normalizedName": "precision",
+               "offsetStart": 415,
+               "offsetEnd": 431
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "30",
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 624,
+               "offsetEnd": 626
+            }
+         }
+      ]
+   }
+]

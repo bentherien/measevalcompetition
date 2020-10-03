@@ -1,0 +1,392 @@
+[
+   200,
+   {
+      "runtime": 69,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 8,
+               "offsetEnd": 13
+            },
+            "quantified": {
+               "rawName": "indicators (",
+               "normalizedName": "indicator",
+               "offsetStart": 14,
+               "offsetEnd": 26
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "30",
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 146,
+               "offsetEnd": 148
+            },
+            "quantified": {
+               "rawName": "item General Health Questionnaire (GHQ",
+               "normalizedName": "questionnaire",
+               "offsetStart": 149,
+               "offsetEnd": 187
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "5",
+                  "parsedValue": {
+                     "name": "5",
+                     "numeric": 5,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "5"
+                     },
+                     "parsed": "5"
+                  },
+                  "offsetStart": 202,
+                  "offsetEnd": 203
+               },
+               {
+                  "rawValue": "7",
+                  "parsedValue": {
+                     "name": "7",
+                     "numeric": 7,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "7"
+                     },
+                     "parsed": "7"
+                  },
+                  "offsetStart": 205,
+                  "offsetEnd": 206
+               },
+               {
+                  "rawValue": "0",
+                  "parsedValue": {
+                     "name": "0",
+                     "numeric": 0,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "0"
+                     },
+                     "parsed": "0"
+                  },
+                  "offsetStart": 418,
+                  "offsetEnd": 419
+               }
+            ]
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "5",
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "offsetStart": 479,
+               "offsetEnd": 480
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "0",
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "offsetStart": 554,
+               "offsetEnd": 555
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "84",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 734,
+                  "offsetEnd": 735
+               },
+               "parsedValue": {
+                  "name": "84",
+                  "numeric": 84,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "84"
+                  },
+                  "parsed": "84"
+               },
+               "normalizedQuantity": 0.84,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 732,
+               "offsetEnd": 734
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "84",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 753,
+                  "offsetEnd": 754
+               },
+               "parsedValue": {
+                  "name": "84",
+                  "numeric": 84,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "84"
+                  },
+                  "parsed": "84"
+               },
+               "normalizedQuantity": 0.84,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 751,
+               "offsetEnd": 753
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "73",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1020,
+                  "offsetEnd": 1021
+               },
+               "parsedValue": {
+                  "name": "73",
+                  "numeric": 73,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "73"
+                  },
+                  "parsed": "73"
+               },
+               "normalizedQuantity": 0.73,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1018,
+               "offsetEnd": 1020
+            },
+            "quantified": {
+               "rawName": "acceptable sensitivity",
+               "normalizedName": "sensitivity",
+               "offsetStart": 994,
+               "offsetEnd": 1016
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "78",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1042,
+                  "offsetEnd": 1043
+               },
+               "parsedValue": {
+                  "name": "78",
+                  "numeric": 78,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "78"
+                  },
+                  "parsed": "78"
+               },
+               "normalizedQuantity": 0.78,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1040,
+               "offsetEnd": 1042
+            },
+            "quantified": {
+               "rawName": "specificity",
+               "normalizedName": "specificity",
+               "offsetStart": 1027,
+               "offsetEnd": 1038
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "274",
+               "parsedValue": {
+                  "name": "274",
+                  "numeric": 274,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "274"
+                  },
+                  "parsed": "274"
+               },
+               "offsetStart": 1099,
+               "offsetEnd": 1102
+            },
+            "quantified": {
+               "rawName": "participants",
+               "normalizedName": "participant",
+               "offsetStart": 1103,
+               "offsetEnd": 1115
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "58",
+               "parsedValue": {
+                  "name": "58",
+                  "numeric": 58,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "58"
+                  },
+                  "parsed": "58"
+               },
+               "offsetStart": 1121,
+               "offsetEnd": 1123
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "70",
+               "parsedValue": {
+                  "name": "70",
+                  "numeric": 70,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "70"
+                  },
+                  "parsed": "70"
+               },
+               "offsetStart": 1127,
+               "offsetEnd": 1129
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "2010",
+               "parsedValue": {
+                  "name": "2010",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "2010"
+                  },
+                  "parsed": "2010"
+               },
+               "offsetStart": 1133,
+               "offsetEnd": 1137
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "80",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 1284,
+                     "offsetEnd": 1285
+                  },
+                  "parsedValue": {
+                     "name": "80",
+                     "numeric": 80,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "80"
+                     },
+                     "parsed": "80"
+                  },
+                  "normalizedQuantity": 0.8,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 1282,
+                  "offsetEnd": 1284
+               }
+            ]
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "81",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 1292,
+                     "offsetEnd": 1293
+                  },
+                  "parsedValue": {
+                     "name": "81",
+                     "numeric": 81,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "81"
+                     },
+                     "parsed": "81"
+                  },
+                  "normalizedQuantity": 0.81,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 1290,
+                  "offsetEnd": 1292
+               }
+            ]
+         }
+      ]
+   }
+]

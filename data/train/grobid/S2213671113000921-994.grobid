@@ -1,0 +1,116 @@
+[
+   200,
+   {
+      "runtime": 97,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "36",
+               "parsedValue": {
+                  "name": "36",
+                  "numeric": 36,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "36"
+                  },
+                  "parsed": "36"
+               },
+               "offsetStart": 369,
+               "offsetEnd": 371
+            },
+            "quantified": {
+               "rawName": "clones",
+               "normalizedName": "clone",
+               "offsetStart": 372,
+               "offsetEnd": 378
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "72",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 490,
+                  "offsetEnd": 491
+               },
+               "parsedValue": {
+                  "name": "72",
+                  "numeric": 72,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "72"
+                  },
+                  "parsed": "72"
+               },
+               "normalizedQuantity": 0.72,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 488,
+               "offsetEnd": 490
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 1480,
+               "offsetEnd": 1482
+            },
+            "quantified": {
+               "rawName": "passages",
+               "normalizedName": "passage",
+               "offsetStart": 1483,
+               "offsetEnd": 1491
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1553,
+                  "offsetEnd": 1554
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1550,
+               "offsetEnd": 1553
+            },
+            "quantified": {
+               "rawName": "GFP+ cells",
+               "normalizedName": "GFP+ cells",
+               "offsetStart": 65,
+               "offsetEnd": 75
+            }
+         }
+      ]
+   }
+]

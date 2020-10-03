@@ -1,0 +1,79 @@
+[
+   200,
+   {
+      "runtime": 33,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.37",
+               "parsedValue": {
+                  "name": "1.37",
+                  "numeric": 1.37,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.37"
+                  },
+                  "parsed": "1.37"
+               },
+               "offsetStart": 118,
+               "offsetEnd": 122
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "1200",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 188,
+                  "offsetEnd": 190
+               },
+               "parsedValue": {
+                  "name": "1200",
+                  "numeric": 120,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "120"
+                  },
+                  "parsed": "120"
+               },
+               "normalizedQuantity": 393.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 183,
+               "offsetEnd": 187
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.67",
+               "parsedValue": {
+                  "name": "1.67",
+                  "numeric": 1.67,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.67"
+                  },
+                  "parsed": "1.67"
+               },
+               "offsetStart": 278,
+               "offsetEnd": 282
+            },
+            "quantified": {
+               "rawName": "pure HA (",
+               "normalizedName": "ha",
+               "offsetStart": 263,
+               "offsetEnd": 272
+            }
+         }
+      ]
+   }
+]

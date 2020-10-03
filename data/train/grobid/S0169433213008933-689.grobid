@@ -1,0 +1,123 @@
+[
+   200,
+   {
+      "runtime": 23,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "pressure",
+               "rawValue": "0.06",
+               "rawUnit": {
+                  "name": "mBar",
+                  "type": "pressure",
+                  "system": "non SI",
+                  "offsetStart": 267,
+                  "offsetEnd": 271
+               },
+               "parsedValue": {
+                  "name": "0.06",
+                  "numeric": 0.06,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.06"
+                  },
+                  "parsed": "0.06"
+               },
+               "offsetStart": 257,
+               "offsetEnd": 261
+            },
+            "quantityMost": {
+               "type": "pressure",
+               "rawValue": "0.07",
+               "rawUnit": {
+                  "name": "mBar",
+                  "type": "pressure",
+                  "system": "non SI",
+                  "offsetStart": 267,
+                  "offsetEnd": 271
+               },
+               "parsedValue": {
+                  "name": "0.07",
+                  "numeric": 0.07,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.07"
+                  },
+                  "parsed": "0.07"
+               },
+               "offsetStart": 262,
+               "offsetEnd": 266
+            },
+            "quantified": {
+               "rawName": "pressure of",
+               "normalizedName": "pressure",
+               "offsetStart": 272,
+               "offsetEnd": 283
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "240",
+               "rawUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base",
+                  "offsetStart": 327,
+                  "offsetEnd": 328
+               },
+               "parsedValue": {
+                  "name": "240",
+                  "numeric": 240,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "240"
+                  },
+                  "parsed": "240"
+               },
+               "normalizedQuantity": 240,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 323,
+               "offsetEnd": 326
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "electric current",
+               "rawValue": "30",
+               "rawUnit": {
+                  "name": "mA",
+                  "type": "electric current",
+                  "system": "SI base",
+                  "offsetStart": 335,
+                  "offsetEnd": 337
+               },
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "normalizedQuantity": 0.03,
+               "normalizedUnit": {
+                  "name": "A",
+                  "type": "electric current",
+                  "system": "SI base"
+               },
+               "offsetStart": 332,
+               "offsetEnd": 334
+            }
+         }
+      ]
+   }
+]

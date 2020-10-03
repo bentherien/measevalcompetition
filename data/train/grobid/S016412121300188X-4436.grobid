@@ -1,0 +1,76 @@
+[
+   200,
+   {
+      "runtime": 70,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 251,
+                  "offsetEnd": 252
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 249,
+               "offsetEnd": 251
+            },
+            "quantified": {
+               "rawName": "a threshold of",
+               "normalizedName": "threshold",
+               "offsetStart": 234,
+               "offsetEnd": 248
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 337,
+                  "offsetEnd": 338
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 335,
+               "offsetEnd": 337
+            },
+            "quantified": {
+               "rawName": "the program's SDG vertices",
+               "normalizedName": "the program's SDG vertices",
+               "offsetStart": 80,
+               "offsetEnd": 106
+            }
+         }
+      ]
+   }
+]

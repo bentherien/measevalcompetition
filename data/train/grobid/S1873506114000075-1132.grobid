@@ -1,0 +1,45 @@
+[
+   200,
+   {
+      "runtime": 40,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "48",
+               "rawUnit": {
+                  "name": "h",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 58,
+                  "offsetEnd": 59
+               },
+               "parsedValue": {
+                  "name": "48",
+                  "numeric": 48,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "48"
+                  },
+                  "parsed": "48"
+               },
+               "normalizedQuantity": 172800,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 55,
+               "offsetEnd": 57
+            },
+            "quantified": {
+               "rawName": "the assay",
+               "normalizedName": "the assay",
+               "offsetStart": 67,
+               "offsetEnd": 76
+            }
+         }
+      ]
+   }
+]

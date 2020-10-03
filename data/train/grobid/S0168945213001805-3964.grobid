@@ -1,0 +1,96 @@
+[
+   200,
+   {
+      "runtime": 50,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "51",
+               "parsedValue": {
+                  "name": "51",
+                  "numeric": 51,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "51"
+                  },
+                  "parsed": "51"
+               },
+               "offsetStart": 290,
+               "offsetEnd": 292
+            },
+            "quantified": {
+               "rawName": "bp in-frame deletion",
+               "normalizedName": "deletion",
+               "offsetStart": 293,
+               "offsetEnd": 313
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "40",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 977,
+                  "offsetEnd": 978
+               },
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "normalizedQuantity": 0.4,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 975,
+               "offsetEnd": 977
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "nine",
+               "rawUnit": {
+                  "name": "weeks",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 1016,
+                  "offsetEnd": 1021
+               },
+               "parsedValue": {
+                  "name": "nine",
+                  "numeric": 9,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "nine"
+                  },
+                  "parsed": "nine"
+               },
+               "normalizedQuantity": 5443200,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 1011,
+               "offsetEnd": 1015
+            },
+            "quantified": {
+               "rawName": "the greenhouse",
+               "normalizedName": "the greenhouse",
+               "offsetStart": 125,
+               "offsetEnd": 139
+            }
+         }
+      ]
+   }
+]

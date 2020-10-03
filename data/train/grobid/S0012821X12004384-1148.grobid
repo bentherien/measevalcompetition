@@ -1,0 +1,61 @@
+[
+   200,
+   {
+      "runtime": 79,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "angle",
+               "rawValue": "54",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 289,
+                  "offsetEnd": 290
+               },
+               "parsedValue": {
+                  "name": "54",
+                  "numeric": 54,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "54"
+                  },
+                  "parsed": "54"
+               },
+               "offsetStart": 286,
+               "offsetEnd": 288
+            },
+            "quantified": {
+               "rawName": "rain belt",
+               "normalizedName": "belt",
+               "offsetStart": 261,
+               "offsetEnd": 270
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "103",
+               "rawUnit": {
+                  "name": "yrs",
+                  "offsetStart": 949,
+                  "offsetEnd": 952
+               },
+               "parsedValue": {
+                  "name": "103",
+                  "numeric": 103,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "103"
+                  },
+                  "parsed": "103"
+               },
+               "offsetStart": 945,
+               "offsetEnd": 948
+            }
+         }
+      ]
+   }
+]

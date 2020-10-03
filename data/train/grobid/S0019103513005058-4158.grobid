@@ -1,0 +1,123 @@
+[
+   200,
+   {
+      "runtime": 98,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.51",
+               "parsedValue": {
+                  "name": "0.51",
+                  "numeric": 0.51,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.51"
+                  },
+                  "parsed": "0.51"
+               },
+               "offsetStart": 704,
+               "offsetEnd": 708
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "1.5",
+               "parsedValue": {
+                  "name": "1.5",
+                  "numeric": 1.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.5"
+                  },
+                  "parsed": "1.5"
+               },
+               "offsetStart": 767,
+               "offsetEnd": 770
+            },
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "0.85",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 714,
+                  "offsetEnd": 715
+               },
+               "parsedValue": {
+                  "name": "0.85",
+                  "numeric": 0.85,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.85"
+                  },
+                  "parsed": "0.85"
+               },
+               "normalizedQuantity": 0.85,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 709,
+               "offsetEnd": 713
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "2.6",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 775,
+                  "offsetEnd": 776
+               },
+               "parsedValue": {
+                  "name": "2.6",
+                  "numeric": 2.6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.6"
+                  },
+                  "parsed": "2.6"
+               },
+               "normalizedQuantity": 2.6,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 771,
+               "offsetEnd": 774
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "g cm\u22123",
+                  "offsetStart": 860,
+                  "offsetEnd": 866
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 858,
+               "offsetEnd": 859
+            }
+         }
+      ]
+   }
+]

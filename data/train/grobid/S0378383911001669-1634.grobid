@@ -1,0 +1,100 @@
+[
+   200,
+   {
+      "runtime": 35,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.1",
+               "rawUnit": {
+                  "name": "mg/l",
+                  "offsetStart": 167,
+                  "offsetEnd": 171
+               },
+               "parsedValue": {
+                  "name": "0.1",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.1"
+                  },
+                  "parsed": "0.1"
+               },
+               "normalizedQuantity": 0.0001,
+               "normalizedUnit": {
+                  "name": "kg/m\u00b3"
+               },
+               "offsetStart": 163,
+               "offsetEnd": 166
+            },
+            "quantified": {
+               "rawName": "a concentration of",
+               "normalizedName": "concentration",
+               "offsetStart": 130,
+               "offsetEnd": 148
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "50",
+               "rawUnit": {
+                  "name": "mm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 333,
+                  "offsetEnd": 335
+               },
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "normalizedQuantity": 0.05,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 330,
+               "offsetEnd": 332
+            },
+            "quantified": {
+               "rawName": "fixed focal length lens and",
+               "normalizedName": "lens",
+               "offsetStart": 336,
+               "offsetEnd": 363
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1:10",
+               "parsedValue": {
+                  "name": "1:10",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 424,
+               "offsetEnd": 428
+            },
+            "quantified": {
+               "rawName": "slope of",
+               "normalizedName": "slope",
+               "offsetStart": 429,
+               "offsetEnd": 437
+            }
+         }
+      ]
+   }
+]

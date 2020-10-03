@@ -1,0 +1,45 @@
+[
+   200,
+   {
+      "runtime": 48,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "1000-2000",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 581,
+                  "offsetEnd": 582
+               },
+               "parsedValue": {
+                  "name": "1000-2000",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 100,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 571,
+               "offsetEnd": 580
+            },
+            "quantified": {
+               "rawName": "The velocity",
+               "normalizedName": "velocity",
+               "offsetStart": 584,
+               "offsetEnd": 596
+            }
+         }
+      ]
+   }
+]

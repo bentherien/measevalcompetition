@@ -1,0 +1,142 @@
+[
+   200,
+   {
+      "runtime": 127,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 278,
+               "offsetEnd": 280
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 289,
+               "offsetEnd": 291
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.296",
+               "rawUnit": {
+                  "name": "\u03bcm",
+                  "offsetStart": 655,
+                  "offsetEnd": 657
+               },
+               "parsedValue": {
+                  "name": "0.296",
+                  "numeric": 0.296,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.296"
+                  },
+                  "parsed": "0.296"
+               },
+               "offsetStart": 649,
+               "offsetEnd": 654
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.18",
+               "rawUnit": {
+                  "name": "\u03bcm",
+                  "offsetStart": 779,
+                  "offsetEnd": 781
+               },
+               "parsedValue": {
+                  "name": "0.18",
+                  "numeric": 0.18,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.18"
+                  },
+                  "parsed": "0.18"
+               },
+               "offsetStart": 774,
+               "offsetEnd": 778
+            },
+            "quantified": {
+               "rawName": "the AFM images",
+               "normalizedName": "image",
+               "offsetStart": 748,
+               "offsetEnd": 762
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "15",
+                  "parsedValue": {
+                     "name": "15",
+                     "numeric": 15,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "15"
+                     },
+                     "parsed": "15"
+                  },
+                  "offsetStart": 1697,
+                  "offsetEnd": 1699
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "\u2212109",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 1760,
+                  "offsetEnd": 1762
+               },
+               "parsedValue": {
+                  "name": "\u2212109",
+                  "numeric": 1000000000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10^9"
+                  },
+                  "parsed": "10^9"
+               },
+               "normalizedQuantity": 1000000273.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 1755,
+               "offsetEnd": 1759
+            }
+         }
+      ]
+   }
+]

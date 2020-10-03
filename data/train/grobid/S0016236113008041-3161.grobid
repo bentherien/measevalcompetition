@@ -1,0 +1,202 @@
+[
+   200,
+   {
+      "runtime": 44,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "4.5",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 54,
+                  "offsetEnd": 56
+               },
+               "parsedValue": {
+                  "name": "4.5",
+                  "numeric": 4.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "4.5"
+                  },
+                  "parsed": "4.5"
+               },
+               "normalizedQuantity": 4.5,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 50,
+               "offsetEnd": 53
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "4.5",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 443,
+                  "offsetEnd": 445
+               },
+               "parsedValue": {
+                  "name": "4.5",
+                  "numeric": 4.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "4.5"
+                  },
+                  "parsed": "4.5"
+               },
+               "normalizedQuantity": 4.5,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 439,
+               "offsetEnd": 442
+            },
+            "quantified": {
+               "rawName": "bed inventories of",
+               "normalizedName": "inventory",
+               "offsetStart": 420,
+               "offsetEnd": 438
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "type": "mass",
+                  "rawValue": "13",
+                  "rawUnit": {
+                     "name": "kg",
+                     "type": "mass",
+                     "system": "SI base",
+                     "offsetStart": 453,
+                     "offsetEnd": 455
+                  },
+                  "parsedValue": {
+                     "name": "13",
+                     "numeric": 13,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "13"
+                     },
+                     "parsed": "13"
+                  },
+                  "normalizedQuantity": 13,
+                  "normalizedUnit": {
+                     "name": "kg",
+                     "type": "mass",
+                     "system": "SI base"
+                  },
+                  "offsetStart": 450,
+                  "offsetEnd": 452
+               }
+            ],
+            "quantified": {
+               "rawName": "bed inventories of",
+               "normalizedName": "inventory",
+               "offsetStart": 420,
+               "offsetEnd": 438
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 486,
+                  "offsetEnd": 488
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "normalizedQuantity": 6,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 484,
+               "offsetEnd": 485
+            },
+            "quantified": {
+               "rawName": "inventory",
+               "normalizedName": "inventory",
+               "offsetStart": 489,
+               "offsetEnd": 498
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "concentration",
+               "rawValue": "0.01",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 542,
+                  "offsetEnd": 545
+               },
+               "parsedValue": {
+                  "name": "0.01",
+                  "numeric": 0.01,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.01"
+                  },
+                  "parsed": "0.01"
+               },
+               "offsetStart": 537,
+               "offsetEnd": 541
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "concentration",
+               "rawValue": "2",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 670,
+                  "offsetEnd": 673
+               },
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "offsetStart": 668,
+               "offsetEnd": 669
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,99 @@
+[
+   200,
+   {
+      "runtime": 18,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 210,
+               "offsetEnd": 212
+            },
+            "quantified": {
+               "rawName": "ms to",
+               "normalizedName": "m",
+               "offsetStart": 213,
+               "offsetEnd": 218
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "0.1",
+               "rawUnit": {
+                  "name": "ms",
+                  "type": "time",
+                  "system": "SI base",
+                  "offsetStart": 223,
+                  "offsetEnd": 225
+               },
+               "parsedValue": {
+                  "name": "0.1",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.1"
+                  },
+                  "parsed": "0.1"
+               },
+               "normalizedQuantity": 0.0001,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 219,
+               "offsetEnd": 222
+            },
+            "quantified": {
+               "rawName": "ms to",
+               "normalizedName": "m",
+               "offsetStart": 213,
+               "offsetEnd": 218
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "0.5",
+               "rawUnit": {
+                  "name": "ms",
+                  "type": "time",
+                  "system": "SI base",
+                  "offsetStart": 331,
+                  "offsetEnd": 333
+               },
+               "parsedValue": {
+                  "name": "0.5",
+                  "numeric": 0.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.5"
+                  },
+                  "parsed": "0.5"
+               },
+               "normalizedQuantity": 0.0005,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 327,
+               "offsetEnd": 330
+            }
+         }
+      ]
+   }
+]

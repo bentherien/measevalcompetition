@@ -1,0 +1,93 @@
+[
+   200,
+   {
+      "runtime": 44,
+      "measurements": [
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "15",
+                  "parsedValue": {
+                     "name": "15",
+                     "numeric": 15,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "15"
+                     },
+                     "parsed": "15"
+                  },
+                  "offsetStart": 434,
+                  "offsetEnd": 436
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "9th August 2008",
+               "parsedValue": {
+                  "name": "9th August 2008",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "9th August 2008"
+                  },
+                  "parsed": "9th August 2008"
+               },
+               "offsetStart": 585,
+               "offsetEnd": 600
+            },
+            "quantified": {
+               "rawName": "the data set for",
+               "normalizedName": "set",
+               "offsetStart": 568,
+               "offsetEnd": 584
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "05:28",
+               "parsedValue": {
+                  "name": "05:28",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "05:28"
+                  },
+                  "parsed": "05:28"
+               },
+               "offsetStart": 635,
+               "offsetEnd": 640
+            },
+            "quantified": {
+               "rawName": "UT and",
+               "normalizedName": "ut",
+               "offsetStart": 641,
+               "offsetEnd": 647
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "05:47 UT",
+               "parsedValue": {
+                  "name": "05:47 UT",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "05:47 UT"
+                  },
+                  "parsed": "05:47 UT"
+               },
+               "offsetStart": 648,
+               "offsetEnd": 656
+            },
+            "quantified": {
+               "rawName": "UT and",
+               "normalizedName": "ut",
+               "offsetStart": 641,
+               "offsetEnd": 647
+            }
+         }
+      ]
+   }
+]

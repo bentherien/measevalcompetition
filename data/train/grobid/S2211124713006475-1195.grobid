@@ -1,0 +1,113 @@
+[
+   200,
+   {
+      "runtime": 54,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 285,
+               "offsetEnd": 287
+            },
+            "quantityMost": {
+               "rawValue": "12",
+               "parsedValue": {
+                  "name": "12",
+                  "numeric": 12,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "12"
+                  },
+                  "parsed": "12"
+               },
+               "offsetStart": 288,
+               "offsetEnd": 290
+            },
+            "quantified": {
+               "rawName": "H&H stage",
+               "normalizedName": "stage",
+               "offsetStart": 275,
+               "offsetEnd": 284
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "Two",
+               "rawUnit": {
+                  "name": "days",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 433,
+                  "offsetEnd": 437
+               },
+               "parsedValue": {
+                  "name": "Two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "Two"
+                  },
+                  "parsed": "Two"
+               },
+               "normalizedQuantity": 172800,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 429,
+               "offsetEnd": 432
+            },
+            "quantified": {
+               "rawName": "in",
+               "normalizedName": "in",
+               "offsetStart": 15,
+               "offsetEnd": 17
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "2",
+               "rawUnit": {
+                  "name": "days",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 814,
+                  "offsetEnd": 818
+               },
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "normalizedQuantity": 172800,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 812,
+               "offsetEnd": 813
+            }
+         }
+      ]
+   }
+]

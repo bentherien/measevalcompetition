@@ -1,0 +1,105 @@
+[
+   200,
+   {
+      "runtime": 12,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "0.072",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 84,
+                  "offsetEnd": 85
+               },
+               "parsedValue": {
+                  "name": "0.072",
+                  "numeric": 0.072,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.072"
+                  },
+                  "parsed": "0.072"
+               },
+               "normalizedQuantity": 0.072,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 78,
+               "offsetEnd": 83
+            },
+            "quantified": {
+               "rawName": "the 1.3 mm sand-rough beach",
+               "normalizedName": "the 1.3 mm sand-rough beach",
+               "offsetStart": 90,
+               "offsetEnd": 117
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "1.3",
+               "rawUnit": {
+                  "name": "mm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 98,
+                  "offsetEnd": 100
+               },
+               "parsedValue": {
+                  "name": "1.3",
+                  "numeric": 1.3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.3"
+                  },
+                  "parsed": "1.3"
+               },
+               "normalizedQuantity": 0.0013,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 94,
+               "offsetEnd": 97
+            },
+            "quantified": {
+               "rawName": "rough beach",
+               "normalizedName": "beach",
+               "offsetStart": 106,
+               "offsetEnd": 117
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "50",
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "offsetStart": 132,
+               "offsetEnd": 134
+            },
+            "quantified": {
+               "rawName": "individual events (grey) and",
+               "normalizedName": "event",
+               "offsetStart": 135,
+               "offsetEnd": 163
+            }
+         }
+      ]
+   }
+]

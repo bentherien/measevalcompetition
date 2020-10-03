@@ -1,0 +1,70 @@
+[
+   200,
+   {
+      "runtime": 25,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "211",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 427,
+                  "offsetEnd": 428
+               },
+               "parsedValue": {
+                  "name": "211",
+                  "numeric": 211,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "211"
+                  },
+                  "parsed": "211"
+               },
+               "normalizedQuantity": 211,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 423,
+               "offsetEnd": 426
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "284",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 436,
+                  "offsetEnd": 437
+               },
+               "parsedValue": {
+                  "name": "284",
+                  "numeric": 284,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "284"
+                  },
+                  "parsed": "284"
+               },
+               "normalizedQuantity": 284,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 432,
+               "offsetEnd": 435
+            }
+         }
+      ]
+   }
+]

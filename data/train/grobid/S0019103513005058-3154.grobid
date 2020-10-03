@@ -1,0 +1,166 @@
+[
+   200,
+   {
+      "runtime": 99,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityBase": {
+               "rawValue": "1.3",
+               "parsedValue": {
+                  "name": "1.3",
+                  "numeric": 1.3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.3"
+                  },
+                  "parsed": "1.3"
+               },
+               "offsetStart": 175,
+               "offsetEnd": 178
+            },
+            "quantityRange": {
+               "rawValue": "0.5",
+               "parsedValue": {
+                  "name": "0.5",
+                  "numeric": 0.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.5"
+                  },
+                  "parsed": "0.5"
+               },
+               "offsetStart": 181,
+               "offsetEnd": 184
+            },
+            "quantityLeast": {
+               "rawValue": "0.8",
+               "parsedValue": {
+                  "numeric": 0.8
+               },
+               "offsetStart": 175,
+               "offsetEnd": 178
+            },
+            "quantityMost": {
+               "rawValue": "1.8",
+               "parsedValue": {
+                  "numeric": 1.8
+               },
+               "offsetStart": 181,
+               "offsetEnd": 184
+            },
+            "quantified": {
+               "rawName": "wt",
+               "normalizedName": "wt",
+               "offsetStart": 185,
+               "offsetEnd": 187
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "\u223c0.5",
+               "parsedValue": {
+                  "name": "\u223c0.5",
+                  "numeric": 0.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.5"
+                  },
+                  "parsed": "0.5"
+               },
+               "offsetStart": 391,
+               "offsetEnd": 395
+            },
+            "quantified": {
+               "rawName": "wt",
+               "normalizedName": "wt",
+               "offsetStart": 396,
+               "offsetEnd": 398
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1000",
+               "parsedValue": {
+                  "name": "1000",
+                  "numeric": 1000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1000"
+                  },
+                  "parsed": "1000"
+               },
+               "offsetStart": 820,
+               "offsetEnd": 824
+            },
+            "quantified": {
+               "rawName": "times",
+               "normalizedName": "time",
+               "offsetStart": 825,
+               "offsetEnd": 830
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "\u2a7d1.6",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1645,
+                  "offsetEnd": 1646
+               },
+               "parsedValue": {
+                  "name": "\u2a7d1.6",
+                  "numeric": 1.6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.6"
+                  },
+                  "parsed": "1.6"
+               },
+               "normalizedQuantity": 0.016,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1641,
+               "offsetEnd": 1645
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "concentration",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "ppm",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 1916,
+                  "offsetEnd": 1919
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 1914,
+               "offsetEnd": 1915
+            },
+            "quantified": {
+               "rawName": "mass",
+               "normalizedName": "mass",
+               "offsetStart": 115,
+               "offsetEnd": 119
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,119 @@
+[
+   200,
+   {
+      "runtime": 31,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "3.5",
+               "parsedValue": {
+                  "name": "3.5",
+                  "numeric": 3.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.5"
+                  },
+                  "parsed": "3.5"
+               },
+               "offsetStart": 581,
+               "offsetEnd": 584
+            },
+            "quantified": {
+               "rawName": ") wt",
+               "normalizedName": "wt",
+               "offsetStart": 595,
+               "offsetEnd": 599
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "3",
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "offsetStart": 621,
+               "offsetEnd": 622
+            },
+            "quantified": {
+               "rawName": "byr",
+               "normalizedName": "byr",
+               "offsetStart": 623,
+               "offsetEnd": 626
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "length",
+               "rawValue": "1.5",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 650,
+                  "offsetEnd": 651
+               },
+               "parsedValue": {
+                  "name": "1.5",
+                  "numeric": 1.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.5"
+                  },
+                  "parsed": "1.5"
+               },
+               "normalizedQuantity": 1.5,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 642,
+               "offsetEnd": 645
+            },
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "2.6",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 650,
+                  "offsetEnd": 651
+               },
+               "parsedValue": {
+                  "name": "2.6",
+                  "numeric": 2.6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.6"
+                  },
+                  "parsed": "2.6"
+               },
+               "normalizedQuantity": 2.6,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 646,
+               "offsetEnd": 649
+            },
+            "quantified": {
+               "rawName": "soil",
+               "normalizedName": "soil",
+               "offsetStart": 55,
+               "offsetEnd": 59
+            }
+         }
+      ]
+   }
+]

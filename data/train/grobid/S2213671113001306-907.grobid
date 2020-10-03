@@ -1,0 +1,64 @@
+[
+   200,
+   {
+      "runtime": 11,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "50",
+               "rawUnit": {
+                  "name": "\u03bcm",
+                  "offsetStart": 58,
+                  "offsetEnd": 60
+               },
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "offsetStart": 55,
+               "offsetEnd": 57
+            },
+            "quantified": {
+               "rawName": "pan-cytokeratin",
+               "normalizedName": "pan-cytokeratin",
+               "offsetStart": 27,
+               "offsetEnd": 42
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "200",
+               "rawUnit": {
+                  "name": "\u03bcm",
+                  "offsetStart": 139,
+                  "offsetEnd": 141
+               },
+               "parsedValue": {
+                  "name": "200",
+                  "numeric": 200,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "200"
+                  },
+                  "parsed": "200"
+               },
+               "offsetStart": 135,
+               "offsetEnd": 138
+            },
+            "quantified": {
+               "rawName": "hematoxylin/eosin",
+               "normalizedName": "eosin",
+               "offsetStart": 105,
+               "offsetEnd": 122
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,155 @@
+[
+   200,
+   {
+      "runtime": 38,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "five",
+               "parsedValue": {
+                  "name": "five",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "five"
+                  },
+                  "parsed": "five"
+               },
+               "offsetStart": 37,
+               "offsetEnd": 41
+            },
+            "quantified": {
+               "rawName": "largest clusters of",
+               "normalizedName": "cluster",
+               "offsetStart": 42,
+               "offsetEnd": 61
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "11.4",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 453,
+                  "offsetEnd": 454
+               },
+               "parsedValue": {
+                  "name": "11.4",
+                  "numeric": 11.4,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "11.4"
+                  },
+                  "parsed": "11.4"
+               },
+               "normalizedQuantity": 0.114,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 449,
+               "offsetEnd": 453
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "2.4",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 461,
+                  "offsetEnd": 462
+               },
+               "parsedValue": {
+                  "name": "2.4",
+                  "numeric": 2.4,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.4"
+                  },
+                  "parsed": "2.4"
+               },
+               "normalizedQuantity": 0.024,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 458,
+               "offsetEnd": 461
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "five",
+               "parsedValue": {
+                  "name": "five",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "five"
+                  },
+                  "parsed": "five"
+               },
+               "offsetStart": 470,
+               "offsetEnd": 474
+            },
+            "quantified": {
+               "rawName": "clusters",
+               "normalizedName": "cluster",
+               "offsetStart": 475,
+               "offsetEnd": 483
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "2",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 616,
+                  "offsetEnd": 617
+               },
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "normalizedQuantity": 0.02,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 615,
+               "offsetEnd": 616
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "30",
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 621,
+               "offsetEnd": 623
+            }
+         }
+      ]
+   }
+]

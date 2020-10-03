@@ -1,0 +1,39 @@
+[
+   200,
+   {
+      "runtime": 71,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "frequency",
+               "rawValue": "40",
+               "rawUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base",
+                  "offsetStart": 660,
+                  "offsetEnd": 662
+               },
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "normalizedQuantity": 40,
+               "normalizedUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base"
+               },
+               "offsetStart": 657,
+               "offsetEnd": 659
+            }
+         }
+      ]
+   }
+]

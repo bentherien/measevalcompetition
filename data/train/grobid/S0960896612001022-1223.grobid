@@ -1,0 +1,77 @@
+[
+   200,
+   {
+      "runtime": 45,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 125,
+               "offsetEnd": 127
+            },
+            "quantified": {
+               "rawName": "years",
+               "normalizedName": "year",
+               "offsetStart": 128,
+               "offsetEnd": 133
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "one",
+               "parsedValue": {
+                  "name": "one",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "one"
+                  },
+                  "parsed": "one"
+               },
+               "offsetStart": 148,
+               "offsetEnd": 151
+            },
+            "quantified": {
+               "rawName": " cardiac conduction block",
+               "normalizedName": " cardiac conduction block",
+               "offsetStart": 155,
+               "offsetEnd": 180
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "0.1",
+               "parsedValue": {
+                  "name": "0.1",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.1"
+                  },
+                  "parsed": "0.1"
+               },
+               "offsetStart": 243,
+               "offsetEnd": 246
+            },
+            "quantified": {
+               "rawName": "g/L",
+               "normalizedName": "g",
+               "offsetStart": 247,
+               "offsetEnd": 250
+            }
+         }
+      ]
+   }
+]

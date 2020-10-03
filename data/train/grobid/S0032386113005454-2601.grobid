@@ -1,0 +1,122 @@
+[
+   200,
+   {
+      "runtime": 41,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 516,
+               "offsetEnd": 518
+            },
+            "quantified": {
+               "rawName": "\u00b0C",
+               "normalizedName": "\u00b0c",
+               "offsetStart": 519,
+               "offsetEnd": 521
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "pressure",
+               "rawValue": "111",
+               "rawUnit": {
+                  "name": "MPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 538,
+                  "offsetEnd": 541
+               },
+               "parsedValue": {
+                  "name": "111",
+                  "numeric": 111,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "111"
+                  },
+                  "parsed": "111"
+               },
+               "normalizedQuantity": 111000000,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 534,
+               "offsetEnd": 537
+            },
+            "quantified": {
+               "rawName": "a value of",
+               "normalizedName": "value",
+               "offsetStart": 523,
+               "offsetEnd": 533
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "pressure",
+               "rawValue": "63",
+               "rawUnit": {
+                  "name": "MPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 830,
+                  "offsetEnd": 833
+               },
+               "parsedValue": {
+                  "name": "63",
+                  "numeric": 63,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "63"
+                  },
+                  "parsed": "63"
+               },
+               "normalizedQuantity": 63000000,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 827,
+               "offsetEnd": 829
+            },
+            "quantified": {
+               "rawName": "the 20 wt% S-CSR-modified epoxy polymer",
+               "normalizedName": "the 20 wt% S-CSR-modified epoxy polymer",
+               "offsetStart": 84,
+               "offsetEnd": 123
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 842,
+               "offsetEnd": 844
+            }
+         }
+      ]
+   }
+]

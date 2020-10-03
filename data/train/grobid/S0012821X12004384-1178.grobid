@@ -1,0 +1,105 @@
+[
+   200,
+   {
+      "runtime": 75,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "55.8",
+               "rawUnit": {
+                  "name": "Ma",
+                  "offsetStart": 105,
+                  "offsetEnd": 107
+               },
+               "parsedValue": {
+                  "name": "55.8",
+                  "numeric": 55.8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "55.8"
+                  },
+                  "parsed": "55.8"
+               },
+               "offsetStart": 100,
+               "offsetEnd": 104
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "5-8",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 181,
+                  "offsetEnd": 183
+               },
+               "parsedValue": {
+                  "name": "5-8",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5-8"
+                  },
+                  "parsed": "5-8"
+               },
+               "normalizedQuantity": 278.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 177,
+               "offsetEnd": 180
+            },
+            "quantified": {
+               "rawName": "background levels",
+               "normalizedName": "background levels",
+               "offsetStart": 62,
+               "offsetEnd": 79
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "ka",
+                  "offsetStart": 391,
+                  "offsetEnd": 393
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 388,
+               "offsetEnd": 390
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "\u221260",
+               "parsedValue": {
+                  "name": "\u221260",
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "\u221260"
+                  },
+                  "parsed": "\u221260"
+               },
+               "offsetStart": 955,
+               "offsetEnd": 958
+            }
+         }
+      ]
+   }
+]

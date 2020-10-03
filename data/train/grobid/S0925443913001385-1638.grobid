@@ -1,0 +1,257 @@
+[
+   200,
+   {
+      "runtime": 56,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "30",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 79,
+                  "offsetEnd": 80
+               },
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "normalizedQuantity": 0.3,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 77,
+               "offsetEnd": 79
+            },
+            "quantified": {
+               "rawName": "control value",
+               "normalizedName": "control value",
+               "offsetStart": 84,
+               "offsetEnd": 97
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "30",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 163,
+                  "offsetEnd": 164
+               },
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "normalizedQuantity": 0.3,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 161,
+               "offsetEnd": 163
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "37",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 203,
+                  "offsetEnd": 204
+               },
+               "parsedValue": {
+                  "name": "37",
+                  "numeric": 37,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "37"
+                  },
+                  "parsed": "37"
+               },
+               "normalizedQuantity": 0.37,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 201,
+               "offsetEnd": 203
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 436,
+               "offsetEnd": 441
+            },
+            "quantified": {
+               "rawName": "proteins of",
+               "normalizedName": "protein",
+               "offsetStart": 442,
+               "offsetEnd": 453
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "60",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 567,
+                  "offsetEnd": 568
+               },
+               "parsedValue": {
+                  "name": "60",
+                  "numeric": 60,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60"
+                  },
+                  "parsed": "60"
+               },
+               "normalizedQuantity": 0.6,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 562,
+               "offsetEnd": 564
+            },
+            "quantityMost": {
+               "rawValue": "80",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 567,
+                  "offsetEnd": 568
+               },
+               "parsedValue": {
+                  "name": "80",
+                  "numeric": 80,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "80"
+                  },
+                  "parsed": "80"
+               },
+               "normalizedQuantity": 0.8,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 565,
+               "offsetEnd": 567
+            },
+            "quantified": {
+               "rawName": "control (Fig",
+               "normalizedName": "control (Fig",
+               "offsetStart": 57,
+               "offsetEnd": 69
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "12",
+               "parsedValue": {
+                  "name": "12",
+                  "numeric": 12,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "12"
+                  },
+                  "parsed": "12"
+               },
+               "offsetStart": 622,
+               "offsetEnd": 624
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "35",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 658,
+                     "offsetEnd": 659
+                  },
+                  "parsedValue": {
+                     "name": "35",
+                     "numeric": 35,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "35"
+                     },
+                     "parsed": "35"
+                  },
+                  "normalizedQuantity": 0.35,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 656,
+                  "offsetEnd": 658
+               }
+            ]
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "22",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 666,
+                     "offsetEnd": 667
+                  },
+                  "parsedValue": {
+                     "name": "22",
+                     "numeric": 22,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "22"
+                     },
+                     "parsed": "22"
+                  },
+                  "normalizedQuantity": 0.22,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 664,
+                  "offsetEnd": 666
+               }
+            ]
+         }
+      ]
+   }
+]

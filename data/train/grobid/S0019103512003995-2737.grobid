@@ -1,0 +1,173 @@
+[
+   200,
+   {
+      "runtime": 414,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "temperature",
+               "rawValue": "8000",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 204,
+                  "offsetEnd": 205
+               },
+               "parsedValue": {
+                  "name": "8000",
+                  "numeric": 8000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "8000"
+                  },
+                  "parsed": "8000"
+               },
+               "normalizedQuantity": 8000,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 190,
+               "offsetEnd": 194
+            },
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "9000",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 204,
+                  "offsetEnd": 205
+               },
+               "parsedValue": {
+                  "name": "9000",
+                  "numeric": 9000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "9000"
+                  },
+                  "parsed": "9000"
+               },
+               "normalizedQuantity": 9000,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 199,
+               "offsetEnd": 203
+            },
+            "quantified": {
+               "rawName": "such circumstances",
+               "normalizedName": "such circumstances",
+               "offsetStart": 213,
+               "offsetEnd": 231
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "109",
+               "rawUnit": {
+                  "name": "kg s\u22121",
+                  "offsetStart": 821,
+                  "offsetEnd": 827
+               },
+               "parsedValue": {
+                  "name": "109",
+                  "numeric": 1000000000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10^9"
+                  },
+                  "parsed": "10^9"
+               },
+               "offsetStart": 812,
+               "offsetEnd": 815
+            },
+            "quantityMost": {
+               "rawValue": "1010",
+               "rawUnit": {
+                  "name": "kg s\u22121",
+                  "offsetStart": 821,
+                  "offsetEnd": 827
+               },
+               "parsedValue": {
+                  "name": "1010",
+                  "numeric": 10000000000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10^10"
+                  },
+                  "parsed": "10^10"
+               },
+               "offsetStart": 816,
+               "offsetEnd": 820
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 854,
+                  "offsetEnd": 855
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 848,
+               "offsetEnd": 850
+            },
+            "quantityMost": {
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 854,
+                  "offsetEnd": 855
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 851,
+               "offsetEnd": 854
+            },
+            "quantified": {
+               "rawName": "the planet\u2019s mass",
+               "normalizedName": "the planet\u2019s mass",
+               "offsetStart": 72,
+               "offsetEnd": 89
+            }
+         }
+      ]
+   }
+]

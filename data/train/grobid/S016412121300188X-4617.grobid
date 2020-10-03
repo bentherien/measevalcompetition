@@ -1,0 +1,64 @@
+[
+   200,
+   {
+      "runtime": 24,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "52",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 229,
+                  "offsetEnd": 230
+               },
+               "parsedValue": {
+                  "name": "52",
+                  "numeric": 52,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "52"
+                  },
+                  "parsed": "52"
+               },
+               "normalizedQuantity": 0.52,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 227,
+               "offsetEnd": 229
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "11",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 301,
+                  "offsetEnd": 302
+               },
+               "parsedValue": {
+                  "name": "11",
+                  "numeric": 11,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "11"
+                  },
+                  "parsed": "11"
+               },
+               "normalizedQuantity": 0.11,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 299,
+               "offsetEnd": 301
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,84 @@
+[
+   200,
+   {
+      "runtime": 42,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "Four",
+               "rawUnit": {
+                  "name": "year",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 5,
+                  "offsetEnd": 9
+               },
+               "parsedValue": {
+                  "name": "Four",
+                  "numeric": 4,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "Four"
+                  },
+                  "parsed": "Four"
+               },
+               "normalizedQuantity": 126227808.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 0,
+               "offsetEnd": 4
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "13",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 203,
+                  "offsetEnd": 204
+               },
+               "parsedValue": {
+                  "name": "13",
+                  "numeric": 13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "13"
+                  },
+                  "parsed": "13"
+               },
+               "normalizedQuantity": 0.13,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 201,
+               "offsetEnd": 203
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 431,
+               "offsetEnd": 436
+            }
+         }
+      ]
+   }
+]

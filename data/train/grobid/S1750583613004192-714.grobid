@@ -1,0 +1,202 @@
+[
+   200,
+   {
+      "runtime": 49,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "July 2002",
+               "parsedValue": {
+                  "name": "July 2002",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "July 2002"
+                  },
+                  "parsed": "July 2002"
+               },
+               "offsetStart": 61,
+               "offsetEnd": 70
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "Mt",
+                  "type": "mass",
+                  "system": "non SI",
+                  "offsetStart": 130,
+                  "offsetEnd": 132
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 5000000000,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 128,
+               "offsetEnd": 129
+            },
+            "quantified": {
+               "rawName": "injected CO2",
+               "normalizedName": "injected CO2",
+               "offsetStart": 64,
+               "offsetEnd": 76
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "nine",
+               "parsedValue": {
+                  "name": "nine",
+                  "numeric": 9,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "nine"
+                  },
+                  "parsed": "nine"
+               },
+               "offsetStart": 176,
+               "offsetEnd": 180
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1999",
+               "parsedValue": {
+                  "name": "1999",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "1999"
+                  },
+                  "parsed": "1999"
+               },
+               "offsetStart": 379,
+               "offsetEnd": 383
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "220",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 440,
+                  "offsetEnd": 441
+               },
+               "parsedValue": {
+                  "name": "220",
+                  "numeric": 220,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "220"
+                  },
+                  "parsed": "220"
+               },
+               "normalizedQuantity": 220,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 436,
+               "offsetEnd": 439
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1012",
+               "parsedValue": {
+                  "name": "1012",
+                  "numeric": 1000000000000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10^12"
+                  },
+                  "parsed": "10^12"
+               },
+               "offsetStart": 486,
+               "offsetEnd": 490
+            },
+            "quantified": {
+               "rawName": "mbsl",
+               "normalizedName": "mbsl",
+               "offsetStart": 491,
+               "offsetEnd": 495
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "3",
+               "rawUnit": {
+                  "name": "years",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 501,
+                  "offsetEnd": 506
+               },
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "normalizedQuantity": 94670856.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 499,
+               "offsetEnd": 500
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 691,
+               "offsetEnd": 696
+            },
+            "quantified": {
+               "rawName": "seals",
+               "normalizedName": "seal",
+               "offsetStart": 697,
+               "offsetEnd": 702
+            }
+         }
+      ]
+   }
+]

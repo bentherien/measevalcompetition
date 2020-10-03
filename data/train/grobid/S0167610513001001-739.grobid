@@ -1,0 +1,67 @@
+[
+   200,
+   {
+      "runtime": 9,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "180",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 56,
+                  "offsetEnd": 57
+               },
+               "parsedValue": {
+                  "name": "180",
+                  "numeric": 180,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "180"
+                  },
+                  "parsed": "180"
+               },
+               "normalizedQuantity": 180,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 52,
+               "offsetEnd": 55
+            },
+            "quantified": {
+               "rawName": "mean wind speed",
+               "normalizedName": "speed",
+               "offsetStart": 21,
+               "offsetEnd": 36
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "7.83",
+               "rawUnit": {
+                  "name": "m s\u22121",
+                  "offsetStart": 86,
+                  "offsetEnd": 91
+               },
+               "parsedValue": {
+                  "name": "7.83",
+                  "numeric": 7.83,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "7.83"
+                  },
+                  "parsed": "7.83"
+               },
+               "offsetStart": 81,
+               "offsetEnd": 85
+            }
+         }
+      ]
+   }
+]

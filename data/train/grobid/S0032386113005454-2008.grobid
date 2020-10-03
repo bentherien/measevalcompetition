@@ -1,0 +1,39 @@
+[
+   200,
+   {
+      "runtime": 4,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "\u2212100",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 80,
+                  "offsetEnd": 82
+               },
+               "parsedValue": {
+                  "name": "\u2212100",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "00"
+                  },
+                  "parsed": "00"
+               },
+               "normalizedQuantity": 273.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 75,
+               "offsetEnd": 79
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,82 @@
+[
+   200,
+   {
+      "runtime": 8,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 102,
+               "offsetEnd": 104
+            },
+            "quantified": {
+               "rawName": "control line",
+               "normalizedName": "line",
+               "offsetStart": 89,
+               "offsetEnd": 101
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 120,
+                  "offsetEnd": 121
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 117,
+               "offsetEnd": 120
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "3",
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "offsetStart": 127,
+               "offsetEnd": 128
+            },
+            "quantified": {
+               "rawName": "independent cultures",
+               "normalizedName": "culture",
+               "offsetStart": 131,
+               "offsetEnd": 151
+            }
+         }
+      ]
+   }
+]

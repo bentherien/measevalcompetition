@@ -1,0 +1,121 @@
+[
+   200,
+   {
+      "runtime": 93,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "20-30",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 172,
+                  "offsetEnd": 174
+               },
+               "parsedValue": {
+                  "name": "20-30",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "normalizedQuantity": 0,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 166,
+               "offsetEnd": 171
+            },
+            "quantified": {
+               "rawName": "the soil profile",
+               "normalizedName": "the soil profile",
+               "offsetStart": 178,
+               "offsetEnd": 194
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "six",
+               "parsedValue": {
+                  "name": "six",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "six"
+                  },
+                  "parsed": "six"
+               },
+               "offsetStart": 406,
+               "offsetEnd": 409
+            },
+            "quantified": {
+               "rawName": "Mediterranean forest sites in",
+               "normalizedName": "site",
+               "offsetStart": 410,
+               "offsetEnd": 439
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 562,
+                  "offsetEnd": 564
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "normalizedQuantity": 0.2,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 559,
+               "offsetEnd": 561
+            },
+            "quantified": {
+               "rawName": "soil profile",
+               "normalizedName": "soil profile",
+               "offsetStart": 108,
+               "offsetEnd": 120
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "2013",
+               "parsedValue": {
+                  "name": "2013",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "2013"
+                  },
+                  "parsed": "2013"
+               },
+               "offsetStart": 667,
+               "offsetEnd": 671
+            }
+         }
+      ]
+   }
+]

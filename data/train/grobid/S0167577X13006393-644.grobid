@@ -1,0 +1,124 @@
+[
+   200,
+   {
+      "runtime": 24,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "1000",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 71,
+                  "offsetEnd": 73
+               },
+               "parsedValue": {
+                  "name": "1000",
+                  "numeric": 1000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1000"
+                  },
+                  "parsed": "1000"
+               },
+               "normalizedQuantity": 1273.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 66,
+               "offsetEnd": 70
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.67",
+               "parsedValue": {
+                  "name": "1.67",
+                  "numeric": 1.67,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.67"
+                  },
+                  "parsed": "1.67"
+               },
+               "offsetStart": 240,
+               "offsetEnd": 244
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "1200",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 313,
+                  "offsetEnd": 315
+               },
+               "parsedValue": {
+                  "name": "1200",
+                  "numeric": 120,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "120"
+                  },
+                  "parsed": "120"
+               },
+               "normalizedQuantity": 393.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 308,
+               "offsetEnd": 312
+            },
+            "quantified": {
+               "rawName": "argon atmosphere at",
+               "normalizedName": "atmosphere",
+               "offsetStart": 270,
+               "offsetEnd": 289
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "800",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 384,
+                  "offsetEnd": 386
+               },
+               "parsedValue": {
+                  "name": "800",
+                  "numeric": 800,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "800"
+                  },
+                  "parsed": "800"
+               },
+               "normalizedQuantity": 1073.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 380,
+               "offsetEnd": 383
+            }
+         }
+      ]
+   }
+]

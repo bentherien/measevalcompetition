@@ -1,0 +1,96 @@
+[
+   200,
+   {
+      "runtime": 36,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "2.30",
+               "parsedValue": {
+                  "name": "2.30",
+                  "numeric": 2.3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.30"
+                  },
+                  "parsed": "2.30"
+               },
+               "offsetStart": 584,
+               "offsetEnd": 588
+            },
+            "quantified": {
+               "rawName": "odds ratio",
+               "normalizedName": "ratio",
+               "offsetStart": 573,
+               "offsetEnd": 583
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 592,
+                  "offsetEnd": 593
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 590,
+               "offsetEnd": 592
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "1.03",
+               "parsedValue": {
+                  "name": "1.03",
+                  "numeric": 1.03,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.03"
+                  },
+                  "parsed": "1.03"
+               },
+               "offsetStart": 597,
+               "offsetEnd": 601
+            },
+            "quantityMost": {
+               "rawValue": "5.13",
+               "parsedValue": {
+                  "name": "5.13",
+                  "numeric": 5.13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5.13"
+                  },
+                  "parsed": "5.13"
+               },
+               "offsetStart": 602,
+               "offsetEnd": 606
+            },
+            "quantified": {
+               "rawName": "CI",
+               "normalizedName": "ci",
+               "offsetStart": 594,
+               "offsetEnd": 596
+            }
+         }
+      ]
+   }
+]

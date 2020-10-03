@@ -1,0 +1,45 @@
+[
+   200,
+   {
+      "runtime": 168,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "1083",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 245,
+                  "offsetEnd": 247
+               },
+               "parsedValue": {
+                  "name": "1083",
+                  "numeric": 1083,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1083"
+                  },
+                  "parsed": "1083"
+               },
+               "normalizedQuantity": 1.083e-06,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 240,
+               "offsetEnd": 244
+            },
+            "quantified": {
+               "rawName": "line",
+               "normalizedName": "line",
+               "offsetStart": 248,
+               "offsetEnd": 252
+            }
+         }
+      ]
+   }
+]

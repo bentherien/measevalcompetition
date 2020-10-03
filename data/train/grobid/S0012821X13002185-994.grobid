@@ -1,0 +1,59 @@
+[
+   200,
+   {
+      "runtime": 108,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "40",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 376,
+                  "offsetEnd": 377
+               },
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "normalizedQuantity": 0.4,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 374,
+               "offsetEnd": 376
+            },
+            "quantified": {
+               "rawName": "primary production",
+               "normalizedName": "primary production",
+               "offsetStart": 177,
+               "offsetEnd": 195
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.5",
+               "parsedValue": {
+                  "name": "1.5",
+                  "numeric": 1.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.5"
+                  },
+                  "parsed": "1.5"
+               },
+               "offsetStart": 1078,
+               "offsetEnd": 1081
+            }
+         }
+      ]
+   }
+]

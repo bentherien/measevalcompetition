@@ -1,0 +1,45 @@
+[
+   200,
+   {
+      "runtime": 46,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "mass",
+               "rawValue": "2",
+               "rawUnit": {
+                  "name": "mg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 497,
+                  "offsetEnd": 499
+               },
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "normalizedQuantity": 2e-06,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 495,
+               "offsetEnd": 496
+            },
+            "quantified": {
+               "rawName": ") injection",
+               "normalizedName": "injection",
+               "offsetStart": 531,
+               "offsetEnd": 542
+            }
+         }
+      ]
+   }
+]

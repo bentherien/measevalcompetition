@@ -1,0 +1,311 @@
+[
+   200,
+   {
+      "runtime": 61,
+      "measurements": [
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "9",
+                  "parsedValue": {
+                     "name": "9",
+                     "numeric": 9,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "9"
+                     },
+                     "parsed": "9"
+                  },
+                  "offsetStart": 24,
+                  "offsetEnd": 25
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "20",
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 220,
+               "offsetEnd": 222
+            },
+            "quantified": {
+               "rawName": "items of",
+               "normalizedName": "item",
+               "offsetStart": 223,
+               "offsetEnd": 231
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "four",
+               "parsedValue": {
+                  "name": "four",
+                  "numeric": 4,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "four"
+                  },
+                  "parsed": "four"
+               },
+               "offsetStart": 398,
+               "offsetEnd": 402
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "time",
+               "rawValue": "one",
+               "rawUnit": {
+                  "name": "day",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 434,
+                  "offsetEnd": 437
+               },
+               "parsedValue": {
+                  "name": "one",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "one"
+                  },
+                  "parsed": "one"
+               },
+               "normalizedQuantity": 86400,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 430,
+               "offsetEnd": 433
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "1-2",
+               "rawUnit": {
+                  "name": "days",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 447,
+                  "offsetEnd": 451
+               },
+               "parsedValue": {
+                  "name": "1-2",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1-2"
+                  },
+                  "parsed": "1-2"
+               },
+               "normalizedQuantity": 86400,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 443,
+               "offsetEnd": 446
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "3-4",
+               "rawUnit": {
+                  "name": "days",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 461,
+                  "offsetEnd": 465
+               },
+               "parsedValue": {
+                  "name": "3-4",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3-4"
+                  },
+                  "parsed": "3-4"
+               },
+               "normalizedQuantity": 259200,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 457,
+               "offsetEnd": 460
+            },
+            "quantified": {
+               "rawName": "participants",
+               "normalizedName": "participant",
+               "offsetStart": 287,
+               "offsetEnd": 299
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "0",
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "offsetStart": 540,
+               "offsetEnd": 541
+            },
+            "quantityMost": {
+               "type": "time",
+               "rawValue": "7",
+               "rawUnit": {
+                  "name": "days",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 479,
+                  "offsetEnd": 483
+               },
+               "parsedValue": {
+                  "name": "7",
+                  "numeric": 7,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "7"
+                  },
+                  "parsed": "7"
+               },
+               "normalizedQuantity": 604800,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 477,
+               "offsetEnd": 478
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "60",
+               "parsedValue": {
+                  "name": "60",
+                  "numeric": 60,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60"
+                  },
+                  "parsed": "60"
+               },
+               "offsetStart": 546,
+               "offsetEnd": 548
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "274",
+               "parsedValue": {
+                  "name": "274",
+                  "numeric": 274,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "274"
+                  },
+                  "parsed": "274"
+               },
+               "offsetStart": 655,
+               "offsetEnd": 658
+            },
+            "quantified": {
+               "rawName": "Whitehall II participants, sensitivity",
+               "normalizedName": "participant",
+               "offsetStart": 659,
+               "offsetEnd": 697
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "89",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 721,
+                     "offsetEnd": 722
+                  },
+                  "parsedValue": {
+                     "name": "89",
+                     "numeric": 89,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "89"
+                     },
+                     "parsed": "89"
+                  },
+                  "normalizedQuantity": 0.89,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 719,
+                  "offsetEnd": 721
+               }
+            ]
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "86",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 729,
+                     "offsetEnd": 730
+                  },
+                  "parsedValue": {
+                     "name": "86",
+                     "numeric": 86,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "86"
+                     },
+                     "parsed": "86"
+                  },
+                  "normalizedQuantity": 0.86,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 727,
+                  "offsetEnd": 729
+               }
+            ]
+         }
+      ]
+   }
+]

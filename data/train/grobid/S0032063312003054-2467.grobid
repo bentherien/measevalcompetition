@@ -1,0 +1,42 @@
+[
+   200,
+   {
+      "runtime": 30,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 721,
+                  "offsetEnd": 722
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 719,
+               "offsetEnd": 721
+            },
+            "quantified": {
+               "rawName": "MEX orbits",
+               "normalizedName": "MEX orbits",
+               "offsetStart": 225,
+               "offsetEnd": 235
+            }
+         }
+      ]
+   }
+]

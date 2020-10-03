@@ -1,0 +1,386 @@
+[
+   200,
+   {
+      "runtime": 146,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "5",
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "offsetStart": 682,
+               "offsetEnd": 683
+            },
+            "quantified": {
+               "rawName": "hours",
+               "normalizedName": "hour",
+               "offsetStart": 684,
+               "offsetEnd": 689
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "\u22124",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 772,
+                  "offsetEnd": 774
+               },
+               "parsedValue": {
+                  "name": "\u22124",
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "\u22124"
+                  },
+                  "parsed": "\u22124"
+               },
+               "offsetStart": 770,
+               "offsetEnd": 772
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "72",
+               "rawUnit": {
+                  "name": "hours",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 797,
+                  "offsetEnd": 802
+               },
+               "parsedValue": {
+                  "name": "72",
+                  "numeric": 72,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "72"
+                  },
+                  "parsed": "72"
+               },
+               "normalizedQuantity": 259200,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 794,
+               "offsetEnd": 796
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "2",
+               "rawUnit": {
+                  "name": "hours",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 1218,
+                  "offsetEnd": 1223
+               },
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "normalizedQuantity": 7200,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 1216,
+               "offsetEnd": 1217
+            },
+            "quantified": {
+               "rawName": "postadministration of",
+               "normalizedName": "postadministration",
+               "offsetStart": 1224,
+               "offsetEnd": 1245
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "mass",
+               "rawValue": "75",
+               "rawUnit": {
+                  "name": "g",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 1251,
+                  "offsetEnd": 1252
+               },
+               "parsedValue": {
+                  "name": "75",
+                  "numeric": 75,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "75"
+                  },
+                  "parsed": "75"
+               },
+               "normalizedQuantity": 0.075,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 1248,
+               "offsetEnd": 1250
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "2300",
+               "parsedValue": {
+                  "name": "2300",
+                  "numeric": 2300,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2300"
+                  },
+                  "parsed": "2300"
+               },
+               "offsetStart": 1346,
+               "offsetEnd": 1350
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.4",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1444,
+                  "offsetEnd": 1445
+               },
+               "parsedValue": {
+                  "name": "1.4",
+                  "numeric": 1.4,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.4"
+                  },
+                  "parsed": "1.4"
+               },
+               "normalizedQuantity": 0.014,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1441,
+               "offsetEnd": 1444
+            },
+            "quantified": {
+               "rawName": "mean coefficient of",
+               "normalizedName": "coefficient",
+               "offsetStart": 1410,
+               "offsetEnd": 1429
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "3.1",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1449,
+                  "offsetEnd": 1450
+               },
+               "parsedValue": {
+                  "name": "3.1",
+                  "numeric": 3.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.1"
+                  },
+                  "parsed": "3.1"
+               },
+               "normalizedQuantity": 0.031,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1446,
+               "offsetEnd": 1449
+            },
+            "quantified": {
+               "rawName": "mean coefficient of",
+               "normalizedName": "coefficient",
+               "offsetStart": 1410,
+               "offsetEnd": 1429
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "concentration",
+               "rawValue": "0",
+               "rawUnit": {
+                  "name": "mmol/L",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 1498,
+                  "offsetEnd": 1504
+               },
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "normalizedQuantity": 0,
+               "normalizedUnit": {
+                  "name": "mol/m\u00b3",
+                  "type": "concentration",
+                  "system": "non SI"
+               },
+               "offsetStart": 1496,
+               "offsetEnd": 1497
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "2",
+               "rawUnit": {
+                  "name": "hour",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 1510,
+                  "offsetEnd": 1514
+               },
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "normalizedQuantity": 7200,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 1508,
+               "offsetEnd": 1509
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "concentration",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "mmol/L",
+                  "type": "concentration",
+                  "system": "non SI",
+                  "offsetStart": 1538,
+                  "offsetEnd": 1544
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "mol/m\u00b3",
+                  "type": "concentration",
+                  "system": "non SI"
+               },
+               "offsetStart": 1536,
+               "offsetEnd": 1537
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "minutes",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 1706,
+                  "offsetEnd": 1713
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 300,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 1704,
+               "offsetEnd": 1705
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 1913,
+               "offsetEnd": 1916
+            },
+            "quantified": {
+               "rawName": "readings used",
+               "normalizedName": "reading",
+               "offsetStart": 1917,
+               "offsetEnd": 1930
+            }
+         }
+      ]
+   }
+]

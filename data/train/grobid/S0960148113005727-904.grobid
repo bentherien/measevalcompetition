@@ -1,0 +1,67 @@
+[
+   200,
+   {
+      "runtime": 20,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 272,
+                  "offsetEnd": 273
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 0.05,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 268,
+               "offsetEnd": 269
+            },
+            "quantityMost": {
+               "rawValue": "13",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 272,
+                  "offsetEnd": 273
+               },
+               "parsedValue": {
+                  "name": "13",
+                  "numeric": 13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "13"
+                  },
+                  "parsed": "13"
+               },
+               "normalizedQuantity": 0.13,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 270,
+               "offsetEnd": 272
+            },
+            "quantified": {
+               "rawName": "year",
+               "normalizedName": "year",
+               "offsetStart": 95,
+               "offsetEnd": 99
+            }
+         }
+      ]
+   }
+]

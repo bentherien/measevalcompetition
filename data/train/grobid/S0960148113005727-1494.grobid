@@ -1,0 +1,190 @@
+[
+   200,
+   {
+      "runtime": 31,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityBase": {
+               "rawValue": "0.43",
+               "rawUnit": {
+                  "name": "percentage",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 55,
+                  "offsetEnd": 65
+               },
+               "parsedValue": {
+                  "name": "0.43",
+                  "numeric": 0.43,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.43"
+                  },
+                  "parsed": "0.43"
+               },
+               "normalizedQuantity": 0.0043,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 43,
+               "offsetEnd": 47
+            },
+            "quantityRange": {
+               "rawValue": "0.05",
+               "rawUnit": {
+                  "name": "percentage",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 55,
+                  "offsetEnd": 65
+               },
+               "parsedValue": {
+                  "name": "0.05",
+                  "numeric": 0.05,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.05"
+                  },
+                  "parsed": "0.05"
+               },
+               "normalizedQuantity": 0.0005,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 50,
+               "offsetEnd": 54
+            },
+            "quantityLeast": {
+               "rawValue": "0.38",
+               "rawUnit": {
+                  "name": "percentage",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 55,
+                  "offsetEnd": 65
+               },
+               "parsedValue": {
+                  "numeric": 0.38
+               },
+               "normalizedQuantity": 0.0038,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 43,
+               "offsetEnd": 47
+            },
+            "quantityMost": {
+               "rawValue": "0.48",
+               "rawUnit": {
+                  "name": "percentage",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 55,
+                  "offsetEnd": 65
+               },
+               "parsedValue": {
+                  "numeric": 0.48
+               },
+               "normalizedQuantity": 0.0048,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 50,
+               "offsetEnd": 54
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "rawValue": "1.6",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 100,
+                  "offsetEnd": 101
+               },
+               "parsedValue": {
+                  "name": "1.6",
+                  "numeric": 1.6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.6"
+                  },
+                  "parsed": "1.6"
+               },
+               "normalizedQuantity": 0.016,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 91,
+               "offsetEnd": 94
+            },
+            "quantityRange": {
+               "rawValue": "0.2",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 100,
+                  "offsetEnd": 101
+               },
+               "parsedValue": {
+                  "name": "0.2",
+                  "numeric": 0.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.2"
+                  },
+                  "parsed": "0.2"
+               },
+               "normalizedQuantity": 0.002,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 97,
+               "offsetEnd": 100
+            },
+            "quantityLeast": {
+               "rawValue": "1.4",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 100,
+                  "offsetEnd": 101
+               },
+               "parsedValue": {
+                  "numeric": 1.4
+               },
+               "normalizedQuantity": 0.014,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 91,
+               "offsetEnd": 94
+            },
+            "quantityMost": {
+               "rawValue": "1.8",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 100,
+                  "offsetEnd": 101
+               },
+               "parsedValue": {
+                  "numeric": 1.8
+               },
+               "normalizedQuantity": 0.018,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 97,
+               "offsetEnd": 100
+            }
+         }
+      ]
+   }
+]

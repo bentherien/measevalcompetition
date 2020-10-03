@@ -1,0 +1,189 @@
+[
+   200,
+   {
+      "runtime": 71,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "30",
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 380,
+               "offsetEnd": 382
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "1000",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 433,
+                  "offsetEnd": 434
+               },
+               "parsedValue": {
+                  "name": "1000",
+                  "numeric": 1000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1000"
+                  },
+                  "parsed": "1000"
+               },
+               "normalizedQuantity": 1000,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 428,
+               "offsetEnd": 432
+            },
+            "quantified": {
+               "rawName": "order",
+               "normalizedName": "order",
+               "offsetStart": 94,
+               "offsetEnd": 99
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "\u03bcbar",
+                  "offsetStart": 551,
+                  "offsetEnd": 555
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 549,
+               "offsetEnd": 550
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "1300",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 572,
+                  "offsetEnd": 573
+               },
+               "parsedValue": {
+                  "name": "1300",
+                  "numeric": 1300,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1300"
+                  },
+                  "parsed": "1300"
+               },
+               "normalizedQuantity": 1300,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 567,
+               "offsetEnd": 571
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "2",
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "offsetStart": 1026,
+               "offsetEnd": 1027
+            },
+            "quantified": {
+               "rawName": "the order of",
+               "normalizedName": "order",
+               "offsetStart": 1013,
+               "offsetEnd": 1025
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "3.4",
+               "parsedValue": {
+                  "name": "3.4",
+                  "numeric": 3.4,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.4"
+                  },
+                  "parsed": "3.4"
+               },
+               "offsetStart": 697,
+               "offsetEnd": 700
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "3",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1029,
+                  "offsetEnd": 1030
+               },
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "normalizedQuantity": 0.03,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1028,
+               "offsetEnd": 1029
+            },
+            "quantified": {
+               "rawName": "the order of",
+               "normalizedName": "order",
+               "offsetStart": 1013,
+               "offsetEnd": 1025
+            }
+         }
+      ]
+   }
+]

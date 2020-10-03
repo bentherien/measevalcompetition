@@ -1,0 +1,70 @@
+[
+   200,
+   {
+      "runtime": 37,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "km",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 591,
+                  "offsetEnd": 593
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 100000,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 587,
+               "offsetEnd": 590
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "400",
+               "rawUnit": {
+                  "name": "km",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 701,
+                  "offsetEnd": 703
+               },
+               "parsedValue": {
+                  "name": "400",
+                  "numeric": 400,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "400"
+                  },
+                  "parsed": "400"
+               },
+               "normalizedQuantity": 400000,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 697,
+               "offsetEnd": 700
+            }
+         }
+      ]
+   }
+]

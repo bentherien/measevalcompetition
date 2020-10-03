@@ -1,0 +1,45 @@
+[
+   200,
+   {
+      "runtime": 31,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "65",
+               "rawUnit": {
+                  "name": "years",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 638,
+                  "offsetEnd": 643
+               },
+               "parsedValue": {
+                  "name": "65",
+                  "numeric": 65,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "65"
+                  },
+                  "parsed": "65"
+               },
+               "normalizedQuantity": 2051201880.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 635,
+               "offsetEnd": 637
+            },
+            "quantified": {
+               "rawName": "the age of",
+               "normalizedName": "age",
+               "offsetStart": 624,
+               "offsetEnd": 634
+            }
+         }
+      ]
+   }
+]

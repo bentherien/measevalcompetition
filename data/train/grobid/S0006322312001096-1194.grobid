@@ -1,0 +1,376 @@
+[
+   200,
+   {
+      "runtime": 35,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 219,
+                  "offsetEnd": 220
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 217,
+               "offsetEnd": 219
+            },
+            "quantified": {
+               "rawName": "increment",
+               "normalizedName": "increment",
+               "offsetStart": 221,
+               "offsetEnd": 230
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "2.84",
+               "parsedValue": {
+                  "name": "2.84",
+                  "numeric": 2.84,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.84"
+                  },
+                  "parsed": "2.84"
+               },
+               "offsetStart": 243,
+               "offsetEnd": 247
+            },
+            "quantified": {
+               "rawName": "increment",
+               "normalizedName": "increment",
+               "offsetStart": 221,
+               "offsetEnd": 230
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 251,
+                  "offsetEnd": 252
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 249,
+               "offsetEnd": 251
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "4.88",
+               "parsedValue": {
+                  "name": "4.88",
+                  "numeric": 4.88,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "4.88"
+                  },
+                  "parsed": "4.88"
+               },
+               "offsetStart": 283,
+               "offsetEnd": 287
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "2.25",
+               "parsedValue": {
+                  "name": "2.25",
+                  "numeric": 2.25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.25"
+                  },
+                  "parsed": "2.25"
+               },
+               "offsetStart": 347,
+               "offsetEnd": 351
+            },
+            "quantified": {
+               "rawName": "CI",
+               "normalizedName": "ci",
+               "offsetStart": 274,
+               "offsetEnd": 276
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 355,
+                  "offsetEnd": 356
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 353,
+               "offsetEnd": 355
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "1.92",
+               "parsedValue": {
+                  "name": "1.92",
+                  "numeric": 1.92,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.92"
+                  },
+                  "parsed": "1.92"
+               },
+               "offsetStart": 360,
+               "offsetEnd": 364
+            },
+            "quantityMost": {
+               "rawValue": "2.65",
+               "parsedValue": {
+                  "name": "2.65",
+                  "numeric": 2.65,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.65"
+                  },
+                  "parsed": "2.65"
+               },
+               "offsetStart": 365,
+               "offsetEnd": 369
+            },
+            "quantified": {
+               "rawName": "CI",
+               "normalizedName": "ci",
+               "offsetStart": 274,
+               "offsetEnd": 276
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.34",
+               "parsedValue": {
+                  "name": "1.34",
+                  "numeric": 1.34,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.34"
+                  },
+                  "parsed": "1.34"
+               },
+               "offsetStart": 514,
+               "offsetEnd": 518
+            },
+            "quantified": {
+               "rawName": "CHD",
+               "normalizedName": "chd",
+               "offsetStart": 505,
+               "offsetEnd": 508
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 522,
+                  "offsetEnd": 523
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 520,
+               "offsetEnd": 522
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "1.11",
+               "parsedValue": {
+                  "name": "1.11",
+                  "numeric": 1.11,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.11"
+                  },
+                  "parsed": "1.11"
+               },
+               "offsetStart": 527,
+               "offsetEnd": 531
+            },
+            "quantityMost": {
+               "rawValue": "1.62",
+               "parsedValue": {
+                  "name": "1.62",
+                  "numeric": 1.62,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.62"
+                  },
+                  "parsed": "1.62"
+               },
+               "offsetStart": 532,
+               "offsetEnd": 536
+            },
+            "quantified": {
+               "rawName": "CHD",
+               "normalizedName": "chd",
+               "offsetStart": 505,
+               "offsetEnd": 508
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "2.14",
+                  "parsedValue": {
+                     "name": "2.14",
+                     "numeric": 2.14,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "2.14"
+                     },
+                     "parsed": "2.14"
+                  },
+                  "offsetStart": 542,
+                  "offsetEnd": 546
+               }
+            ],
+            "quantified": {
+               "rawName": "CHD",
+               "normalizedName": "chd",
+               "offsetStart": 505,
+               "offsetEnd": 508
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 550,
+                  "offsetEnd": 551
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 548,
+               "offsetEnd": 550
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "1.85",
+               "parsedValue": {
+                  "name": "1.85",
+                  "numeric": 1.85,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.85"
+                  },
+                  "parsed": "1.85"
+               },
+               "offsetStart": 555,
+               "offsetEnd": 559
+            },
+            "quantityMost": {
+               "rawValue": "2.48",
+               "parsedValue": {
+                  "name": "2.48",
+                  "numeric": 2.48,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.48"
+                  },
+                  "parsed": "2.48"
+               },
+               "offsetStart": 560,
+               "offsetEnd": 564
+            },
+            "quantified": {
+               "rawName": "CHD",
+               "normalizedName": "chd",
+               "offsetStart": 505,
+               "offsetEnd": 508
+            }
+         }
+      ]
+   }
+]

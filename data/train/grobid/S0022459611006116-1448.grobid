@@ -1,0 +1,83 @@
+[
+   200,
+   {
+      "runtime": 19,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "\u03c7M\u223c5\u00d710\u22124",
+               "parsedValue": {
+                  "name": "\u03c7M\u223c5\u00d710\u22124",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "offsetStart": 138,
+               "offsetEnd": 147
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "temperature",
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 177,
+                  "offsetEnd": 178
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 5,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 167,
+               "offsetEnd": 168
+            },
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "300",
+               "rawUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base",
+                  "offsetStart": 177,
+                  "offsetEnd": 178
+               },
+               "parsedValue": {
+                  "name": "300",
+                  "numeric": 300,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "300"
+                  },
+                  "parsed": "300"
+               },
+               "normalizedQuantity": 300,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 173,
+               "offsetEnd": 176
+            }
+         }
+      ]
+   }
+]

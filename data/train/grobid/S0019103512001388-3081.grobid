@@ -1,0 +1,92 @@
+[
+   200,
+   {
+      "runtime": 19,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.64",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 117,
+                  "offsetEnd": 118
+               },
+               "parsedValue": {
+                  "name": "0.64",
+                  "numeric": 0.64,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.64"
+                  },
+                  "parsed": "0.64"
+               },
+               "normalizedQuantity": 0.0064,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 113,
+               "offsetEnd": 117
+            },
+            "quantified": {
+               "rawName": "the discovery image",
+               "normalizedName": "the discovery image",
+               "offsetStart": 122,
+               "offsetEnd": 141
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "26 October 2011",
+               "parsedValue": {
+                  "name": "26 October 2011",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "26 October 2011"
+                  },
+                  "parsed": "26 October 2011"
+               },
+               "offsetStart": 145,
+               "offsetEnd": 160
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.02",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 182,
+                  "offsetEnd": 183
+               },
+               "parsedValue": {
+                  "name": "0.02",
+                  "numeric": 0.02,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.02"
+                  },
+                  "parsed": "0.02"
+               },
+               "normalizedQuantity": 0.0002,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 178,
+               "offsetEnd": 182
+            },
+            "quantified": {
+               "rawName": "December",
+               "normalizedName": "December",
+               "offsetStart": 187,
+               "offsetEnd": 195
+            }
+         }
+      ]
+   }
+]

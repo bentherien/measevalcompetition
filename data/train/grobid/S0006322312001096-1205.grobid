@@ -1,0 +1,86 @@
+[
+   200,
+   {
+      "runtime": 42,
+      "measurements": [
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "5",
+                  "parsedValue": {
+                     "name": "5",
+                     "numeric": 5,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "5"
+                     },
+                     "parsed": "5"
+                  },
+                  "offsetStart": 20,
+                  "offsetEnd": 21
+               },
+               {
+                  "rawValue": "7",
+                  "parsedValue": {
+                     "name": "7",
+                     "numeric": 7,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "7"
+                     },
+                     "parsed": "7"
+                  },
+                  "offsetStart": 23,
+                  "offsetEnd": 24
+               },
+               {
+                  "rawValue": "9",
+                  "parsedValue": {
+                     "name": "9",
+                     "numeric": 9,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "9"
+                     },
+                     "parsed": "9"
+                  },
+                  "offsetStart": 30,
+                  "offsetEnd": 31
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "14",
+               "rawUnit": {
+                  "name": "days",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 110,
+                  "offsetEnd": 114
+               },
+               "parsedValue": {
+                  "name": "14",
+                  "numeric": 14,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "14"
+                  },
+                  "parsed": "14"
+               },
+               "normalizedQuantity": 1209600,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 107,
+               "offsetEnd": 109
+            }
+         }
+      ]
+   }
+]

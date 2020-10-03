@@ -1,0 +1,99 @@
+[
+   200,
+   {
+      "runtime": 43,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "0.563",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 93,
+                  "offsetEnd": 94
+               },
+               "parsedValue": {
+                  "name": "0.563",
+                  "numeric": 0.563,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.563"
+                  },
+                  "parsed": "0.563"
+               },
+               "normalizedQuantity": 0.563,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 87,
+               "offsetEnd": 92
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "0.025",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 127,
+                  "offsetEnd": 128
+               },
+               "parsedValue": {
+                  "name": "0.025",
+                  "numeric": 0.025,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.025"
+                  },
+                  "parsed": "0.025"
+               },
+               "normalizedQuantity": 0.025,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 121,
+               "offsetEnd": 126
+            },
+            "quantified": {
+               "rawName": "thickness",
+               "normalizedName": "thickness",
+               "offsetStart": 111,
+               "offsetEnd": 120
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 315,
+               "offsetEnd": 318
+            },
+            "quantified": {
+               "rawName": "sets of",
+               "normalizedName": "set",
+               "offsetStart": 319,
+               "offsetEnd": 326
+            }
+         }
+      ]
+   }
+]

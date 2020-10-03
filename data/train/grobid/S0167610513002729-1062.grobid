@@ -1,0 +1,68 @@
+[
+   200,
+   {
+      "runtime": 73,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "inductance",
+               "rawValue": "0.64",
+               "rawUnit": {
+                  "name": "H",
+                  "type": "inductance",
+                  "system": "SI derived",
+                  "offsetStart": 10,
+                  "offsetEnd": 11
+               },
+               "parsedValue": {
+                  "name": "0.64",
+                  "numeric": 0.64,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.64"
+                  },
+                  "parsed": "0.64"
+               },
+               "normalizedQuantity": 0.64,
+               "normalizedUnit": {
+                  "name": "H",
+                  "type": "inductance",
+                  "system": "SI derived"
+               },
+               "offsetStart": 5,
+               "offsetEnd": 9
+            },
+            "quantified": {
+               "rawName": "third of",
+               "normalizedName": "third",
+               "offsetStart": 23,
+               "offsetEnd": 31
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 19,
+               "offsetEnd": 22
+            },
+            "quantified": {
+               "rawName": "third of",
+               "normalizedName": "third",
+               "offsetStart": 23,
+               "offsetEnd": 31
+            }
+         }
+      ]
+   }
+]

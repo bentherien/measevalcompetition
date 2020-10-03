@@ -1,0 +1,306 @@
+[
+   200,
+   {
+      "runtime": 41,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 123,
+               "offsetEnd": 126
+            },
+            "quantified": {
+               "rawName": "ears",
+               "normalizedName": "ear",
+               "offsetStart": 127,
+               "offsetEnd": 131
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "one",
+               "parsedValue": {
+                  "name": "one",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "one"
+                  },
+                  "parsed": "one"
+               },
+               "offsetStart": 205,
+               "offsetEnd": 208
+            },
+            "quantified": {
+               "rawName": "ear",
+               "normalizedName": "ear",
+               "offsetStart": 209,
+               "offsetEnd": 212
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "one",
+               "parsedValue": {
+                  "name": "one",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "one"
+                  },
+                  "parsed": "one"
+               },
+               "offsetStart": 258,
+               "offsetEnd": 261
+            },
+            "quantified": {
+               "rawName": "ear containing",
+               "normalizedName": "ear",
+               "offsetStart": 262,
+               "offsetEnd": 276
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "54.3",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 407,
+                  "offsetEnd": 408
+               },
+               "parsedValue": {
+                  "name": "54.3",
+                  "numeric": 54.3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "54.3"
+                  },
+                  "parsed": "54.3"
+               },
+               "normalizedQuantity": 0.543,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 403,
+               "offsetEnd": 407
+            },
+            "quantified": {
+               "rawName": "biofilm results",
+               "normalizedName": "result",
+               "offsetStart": 374,
+               "offsetEnd": 389
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "14.3",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 417,
+                     "offsetEnd": 418
+                  },
+                  "parsedValue": {
+                     "name": "14.3",
+                     "numeric": 14.3,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "14.3"
+                     },
+                     "parsed": "14.3"
+                  },
+                  "normalizedQuantity": 0.143,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 413,
+                  "offsetEnd": 417
+               }
+            ],
+            "quantified": {
+               "rawName": "biofilm results",
+               "normalizedName": "result",
+               "offsetStart": 374,
+               "offsetEnd": 389
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "82.9",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 424,
+                  "offsetEnd": 425
+               },
+               "parsedValue": {
+                  "name": "82.9",
+                  "numeric": 82.9,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "82.9"
+                  },
+                  "parsed": "82.9"
+               },
+               "normalizedQuantity": 0.829,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 420,
+               "offsetEnd": 424
+            },
+            "quantified": {
+               "rawName": "biofilm results",
+               "normalizedName": "result",
+               "offsetStart": 374,
+               "offsetEnd": 389
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "57.1",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 434,
+                     "offsetEnd": 435
+                  },
+                  "parsedValue": {
+                     "name": "57.1",
+                     "numeric": 57.1,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "57.1"
+                     },
+                     "parsed": "57.1"
+                  },
+                  "normalizedQuantity": 0.571,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 430,
+                  "offsetEnd": 434
+               }
+            ],
+            "quantified": {
+               "rawName": "biofilm results",
+               "normalizedName": "result",
+               "offsetStart": 374,
+               "offsetEnd": 389
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "67.9",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 445,
+                     "offsetEnd": 446
+                  },
+                  "parsedValue": {
+                     "name": "67.9",
+                     "numeric": 67.9,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "67.9"
+                     },
+                     "parsed": "67.9"
+                  },
+                  "normalizedQuantity": 0.679,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 441,
+                  "offsetEnd": 445
+               }
+            ],
+            "quantified": {
+               "rawName": "biofilm results",
+               "normalizedName": "result",
+               "offsetStart": 374,
+               "offsetEnd": 389
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "0",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 452,
+                     "offsetEnd": 453
+                  },
+                  "parsedValue": {
+                     "name": "0",
+                     "numeric": 0,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "0"
+                     },
+                     "parsed": "0"
+                  },
+                  "normalizedQuantity": 0,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 451,
+                  "offsetEnd": 452
+               }
+            ],
+            "quantified": {
+               "rawName": "biofilm results",
+               "normalizedName": "result",
+               "offsetStart": 374,
+               "offsetEnd": 389
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.02",
+               "parsedValue": {
+                  "name": "0.02",
+                  "numeric": 0.02,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.02"
+                  },
+                  "parsed": "0.02"
+               },
+               "offsetStart": 567,
+               "offsetEnd": 571
+            }
+         }
+      ]
+   }
+]

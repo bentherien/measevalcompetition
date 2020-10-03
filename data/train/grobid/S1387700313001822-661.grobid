@@ -1,0 +1,144 @@
+[
+   200,
+   {
+      "runtime": 75,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "260",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 460,
+                  "offsetEnd": 462
+               },
+               "parsedValue": {
+                  "name": "260",
+                  "numeric": 260,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "260"
+                  },
+                  "parsed": "260"
+               },
+               "normalizedQuantity": 2.6e-07,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 456,
+               "offsetEnd": 459
+            },
+            "quantified": {
+               "rawName": "the negative band at",
+               "normalizedName": "band",
+               "offsetStart": 431,
+               "offsetEnd": 451
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "215-225",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 607,
+                  "offsetEnd": 609
+               },
+               "parsedValue": {
+                  "name": "215-225",
+                  "numeric": 25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "25"
+                  },
+                  "parsed": "25"
+               },
+               "normalizedQuantity": 2.5e-08,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 599,
+               "offsetEnd": 606
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "297",
+               "rawUnit": {
+                  "name": "nm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 899,
+                  "offsetEnd": 901
+               },
+               "parsedValue": {
+                  "name": "297",
+                  "numeric": 297,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "297"
+                  },
+                  "parsed": "297"
+               },
+               "normalizedQuantity": 2.97e-07,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 895,
+               "offsetEnd": 898
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "angle",
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "mdeg",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 912,
+                  "offsetEnd": 916
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.00017453292519943296,
+               "normalizedUnit": {
+                  "name": "rad",
+                  "type": "angle",
+                  "system": "SI derived"
+               },
+               "offsetStart": 909,
+               "offsetEnd": 911
+            },
+            "quantified": {
+               "rawName": "\u03b8 \u2248 \u2212",
+               "normalizedName": "\u2212",
+               "offsetStart": 903,
+               "offsetEnd": 908
+            }
+         }
+      ]
+   }
+]

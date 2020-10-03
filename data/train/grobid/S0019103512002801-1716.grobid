@@ -1,0 +1,39 @@
+[
+   200,
+   {
+      "runtime": 23,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "magnetic induction",
+               "rawValue": "3-4",
+               "rawUnit": {
+                  "name": "nT",
+                  "type": "magnetic induction",
+                  "system": "SI derived",
+                  "offsetStart": 130,
+                  "offsetEnd": 132
+               },
+               "parsedValue": {
+                  "name": "3-4",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3-4"
+                  },
+                  "parsed": "3-4"
+               },
+               "normalizedQuantity": 3e-09,
+               "normalizedUnit": {
+                  "name": "T",
+                  "type": "magnetic induction",
+                  "system": "SI derived"
+               },
+               "offsetStart": 126,
+               "offsetEnd": 129
+            }
+         }
+      ]
+   }
+]

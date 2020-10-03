@@ -1,0 +1,45 @@
+[
+   200,
+   {
+      "runtime": 22,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "1.5",
+               "rawUnit": {
+                  "name": "mm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 121,
+                  "offsetEnd": 123
+               },
+               "parsedValue": {
+                  "name": "1.5",
+                  "numeric": 1.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.5"
+                  },
+                  "parsed": "1.5"
+               },
+               "normalizedQuantity": 0.0015,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 117,
+               "offsetEnd": 120
+            },
+            "quantified": {
+               "rawName": "beach",
+               "normalizedName": "beach",
+               "offsetStart": 124,
+               "offsetEnd": 129
+            }
+         }
+      ]
+   }
+]

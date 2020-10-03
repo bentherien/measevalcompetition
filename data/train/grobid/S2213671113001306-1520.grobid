@@ -1,0 +1,152 @@
+[
+   200,
+   {
+      "runtime": 35,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "30",
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 305,
+               "offsetEnd": 307
+            },
+            "quantified": {
+               "rawName": "field setting of",
+               "normalizedName": "setting",
+               "offsetStart": 326,
+               "offsetEnd": 342
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "60",
+               "rawUnit": {
+                  "name": "\u03bcm",
+                  "offsetStart": 394,
+                  "offsetEnd": 396
+               },
+               "parsedValue": {
+                  "name": "60",
+                  "numeric": 60,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60"
+                  },
+                  "parsed": "60"
+               },
+               "offsetStart": 391,
+               "offsetEnd": 393
+            },
+            "quantified": {
+               "rawName": "distance between",
+               "normalizedName": "distance",
+               "offsetStart": 397,
+               "offsetEnd": 413
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "angle",
+               "rawValue": "20 \u00d7 20",
+               "rawUnit": {
+                  "name": "degrees",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 455,
+                  "offsetEnd": 462
+               },
+               "parsedValue": {
+                  "name": "20 \u00d7 20",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "offsetStart": 447,
+               "offsetEnd": 454
+            },
+            "quantified": {
+               "rawName": "visual field",
+               "normalizedName": "visual field",
+               "offsetStart": 107,
+               "offsetEnd": 119
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "4.2",
+               "rawUnit": {
+                  "name": "mm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 630,
+                  "offsetEnd": 632
+               },
+               "parsedValue": {
+                  "name": "4.2",
+                  "numeric": 4.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "4.2"
+                  },
+                  "parsed": "4.2"
+               },
+               "normalizedQuantity": 0.0042,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 626,
+               "offsetEnd": 629
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "angle",
+               "rawValue": "30",
+               "rawUnit": {
+                  "name": "degrees",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 685,
+                  "offsetEnd": 692
+               },
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 682,
+               "offsetEnd": 684
+            },
+            "quantified": {
+               "rawName": "visual field",
+               "normalizedName": "visual field",
+               "offsetStart": 62,
+               "offsetEnd": 74
+            }
+         }
+      ]
+   }
+]

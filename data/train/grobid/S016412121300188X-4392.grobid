@@ -1,0 +1,76 @@
+[
+   200,
+   {
+      "runtime": 1021,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.00",
+               "parsedValue": {
+                  "name": "1.00",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.00"
+                  },
+                  "parsed": "1.00"
+               },
+               "offsetStart": 97,
+               "offsetEnd": 101
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 142,
+                  "offsetEnd": 143
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 139,
+               "offsetEnd": 142
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1",
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "offsetStart": 333,
+               "offsetEnd": 334
+            },
+            "quantified": {
+               "rawName": "every slice leaving",
+               "normalizedName": "slice",
+               "offsetStart": 308,
+               "offsetEnd": 327
+            }
+         }
+      ]
+   }
+]

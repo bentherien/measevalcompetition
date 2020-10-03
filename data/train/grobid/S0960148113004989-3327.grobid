@@ -1,0 +1,121 @@
+[
+   200,
+   {
+      "runtime": 36,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "22",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 61,
+                  "offsetEnd": 62
+               },
+               "parsedValue": {
+                  "name": "22",
+                  "numeric": 22,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "22"
+                  },
+                  "parsed": "22"
+               },
+               "normalizedQuantity": 0.22,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 59,
+               "offsetEnd": 61
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "power",
+               "rawValue": "48.4",
+               "rawUnit": {
+                  "name": "MW",
+                  "type": "power",
+                  "system": "SI derived",
+                  "offsetStart": 73,
+                  "offsetEnd": 75
+               },
+               "parsedValue": {
+                  "name": "48.4",
+                  "numeric": 48.4,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "48.4"
+                  },
+                  "parsed": "48.4"
+               },
+               "normalizedQuantity": 48400000.0,
+               "normalizedUnit": {
+                  "name": "W",
+                  "type": "power",
+                  "system": "SI derived"
+               },
+               "offsetStart": 68,
+               "offsetEnd": 72
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "power",
+               "rawValue": "59.0",
+               "rawUnit": {
+                  "name": "MW",
+                  "type": "power",
+                  "system": "SI derived",
+                  "offsetStart": 84,
+                  "offsetEnd": 86
+               },
+               "parsedValue": {
+                  "name": "59.0",
+                  "numeric": 59,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "59.0"
+                  },
+                  "parsed": "59.0"
+               },
+               "normalizedQuantity": 59000000,
+               "normalizedUnit": {
+                  "name": "W",
+                  "type": "power",
+                  "system": "SI derived"
+               },
+               "offsetStart": 79,
+               "offsetEnd": 83
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 379,
+               "offsetEnd": 382
+            },
+            "quantified": {
+               "rawName": "distorted \u2228 shapes",
+               "normalizedName": "shape",
+               "offsetStart": 383,
+               "offsetEnd": 401
+            }
+         }
+      ]
+   }
+]

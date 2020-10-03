@@ -1,0 +1,164 @@
+[
+   200,
+   {
+      "runtime": 41,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "half",
+               "parsedValue": {
+                  "name": "half",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "half"
+                  },
+                  "parsed": "half"
+               },
+               "offsetStart": 358,
+               "offsetEnd": 362
+            },
+            "quantified": {
+               "rawName": "maximum (FHWM) of",
+               "normalizedName": "maximum",
+               "offsetStart": 363,
+               "offsetEnd": 380
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "001",
+               "parsedValue": {
+                  "name": "001",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "001"
+                  },
+                  "parsed": "001"
+               },
+               "offsetStart": 385,
+               "offsetEnd": 388
+            },
+            "quantified": {
+               "rawName": "basal illite peak and",
+               "normalizedName": "peak",
+               "offsetStart": 389,
+               "offsetEnd": 410
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 763,
+               "offsetEnd": 765
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "9",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 612,
+                  "offsetEnd": 613
+               },
+               "parsedValue": {
+                  "name": "9",
+                  "numeric": 9,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "9"
+                  },
+                  "parsed": "9"
+               },
+               "normalizedQuantity": 9,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 610,
+               "offsetEnd": 611
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 808,
+                  "offsetEnd": 809
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 0.05,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 807,
+               "offsetEnd": 808
+            },
+            "quantified": {
+               "rawName": "weight",
+               "normalizedName": "weight",
+               "offsetStart": 810,
+               "offsetEnd": 816
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "95",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 826,
+                  "offsetEnd": 827
+               },
+               "parsedValue": {
+                  "name": "95",
+                  "numeric": 95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95"
+                  },
+                  "parsed": "95"
+               },
+               "normalizedQuantity": 0.95,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 824,
+               "offsetEnd": 826
+            }
+         }
+      ]
+   }
+]

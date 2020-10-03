@@ -1,0 +1,87 @@
+[
+   200,
+   {
+      "runtime": 26,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "147",
+               "parsedValue": {
+                  "name": "147",
+                  "numeric": 147,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "147"
+                  },
+                  "parsed": "147"
+               },
+               "offsetStart": 13,
+               "offsetEnd": 16
+            },
+            "quantified": {
+               "rawName": "patients from",
+               "normalizedName": "patient",
+               "offsetStart": 17,
+               "offsetEnd": 30
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "time",
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "months",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 177,
+                  "offsetEnd": 183
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "offsetStart": 175,
+               "offsetEnd": 176
+            },
+            "quantified": {
+               "rawName": "age",
+               "normalizedName": "age",
+               "offsetStart": 187,
+               "offsetEnd": 190
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "time",
+               "rawValue": "9",
+               "rawUnit": {
+                  "name": "months",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 242,
+                  "offsetEnd": 248
+               },
+               "parsedValue": {
+                  "name": "9",
+                  "numeric": 9,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "9"
+                  },
+                  "parsed": "9"
+               },
+               "offsetStart": 240,
+               "offsetEnd": 241
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,45 @@
+[
+   200,
+   {
+      "runtime": 13,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "4",
+               "rawUnit": {
+                  "name": "weeks",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 107,
+                  "offsetEnd": 112
+               },
+               "parsedValue": {
+                  "name": "4",
+                  "numeric": 4,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "4"
+                  },
+                  "parsed": "4"
+               },
+               "normalizedQuantity": 2419200,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 105,
+               "offsetEnd": 106
+            },
+            "quantified": {
+               "rawName": "PET carriers",
+               "normalizedName": "PET carriers",
+               "offsetStart": 116,
+               "offsetEnd": 128
+            }
+         }
+      ]
+   }
+]

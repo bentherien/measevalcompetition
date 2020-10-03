@@ -1,0 +1,68 @@
+[
+   200,
+   {
+      "runtime": 34,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "873",
+               "parsedValue": {
+                  "name": "873",
+                  "numeric": 873,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "873"
+                  },
+                  "parsed": "873"
+               },
+               "offsetStart": 186,
+               "offsetEnd": 189
+            },
+            "quantified": {
+               "rawName": "varves",
+               "normalizedName": "varves",
+               "offsetStart": 190,
+               "offsetEnd": 196
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "10.5",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 705,
+                  "offsetEnd": 706
+               },
+               "parsedValue": {
+                  "name": "10.5",
+                  "numeric": 10.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10.5"
+                  },
+                  "parsed": "10.5"
+               },
+               "normalizedQuantity": 10.5,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 700,
+               "offsetEnd": 704
+            },
+            "quantified": {
+               "rawName": "depth",
+               "normalizedName": "depth",
+               "offsetStart": 707,
+               "offsetEnd": 712
+            }
+         }
+      ]
+   }
+]

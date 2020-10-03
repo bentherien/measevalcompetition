@@ -1,0 +1,119 @@
+[
+   200,
+   {
+      "runtime": 53,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "pressure",
+               "rawValue": "70",
+               "rawUnit": {
+                  "name": "MPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 1010,
+                  "offsetEnd": 1013
+               },
+               "parsedValue": {
+                  "name": "70",
+                  "numeric": 70,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "70"
+                  },
+                  "parsed": "70"
+               },
+               "normalizedQuantity": 70000000,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 1007,
+               "offsetEnd": 1009
+            },
+            "quantified": {
+               "rawName": "an applied uniaxial stress of",
+               "normalizedName": "stress",
+               "offsetStart": 971,
+               "offsetEnd": 1000
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "pressure",
+               "rawValue": "210",
+               "rawUnit": {
+                  "name": "MPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 1083,
+                  "offsetEnd": 1086
+               },
+               "parsedValue": {
+                  "name": "210",
+                  "numeric": 210,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "210"
+                  },
+                  "parsed": "210"
+               },
+               "normalizedQuantity": 210000000,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 1079,
+               "offsetEnd": 1082
+            },
+            "quantified": {
+               "rawName": "the crack tip of",
+               "normalizedName": "tip",
+               "offsetStart": 1056,
+               "offsetEnd": 1072
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "pressure",
+               "rawValue": "210",
+               "rawUnit": {
+                  "name": "MPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 1189,
+                  "offsetEnd": 1192
+               },
+               "parsedValue": {
+                  "name": "210",
+                  "numeric": 210,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "210"
+                  },
+                  "parsed": "210"
+               },
+               "normalizedQuantity": 210000000,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 1185,
+               "offsetEnd": 1188
+            },
+            "quantified": {
+               "rawName": "an applied hydrostatic stress of",
+               "normalizedName": "stress",
+               "offsetStart": 1152,
+               "offsetEnd": 1184
+            }
+         }
+      ]
+   }
+]

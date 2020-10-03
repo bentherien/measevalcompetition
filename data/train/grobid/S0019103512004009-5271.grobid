@@ -1,0 +1,70 @@
+[
+   200,
+   {
+      "runtime": 53,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "3.5",
+               "parsedValue": {
+                  "name": "3.5",
+                  "numeric": 3.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.5"
+                  },
+                  "parsed": "3.5"
+               },
+               "offsetStart": 166,
+               "offsetEnd": 169
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "6 \u00d7 106",
+               "rawUnit": {
+                  "name": "kg s\u22121",
+                  "offsetStart": 302,
+                  "offsetEnd": 308
+               },
+               "parsedValue": {
+                  "name": "6 \u00d7 106",
+                  "numeric": 6000000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6 x 10^6"
+                  },
+                  "parsed": "6 x 10^6"
+               },
+               "offsetStart": 294,
+               "offsetEnd": 301
+            },
+            "quantified": {
+               "rawName": "loss rate of",
+               "normalizedName": "rate",
+               "offsetStart": 281,
+               "offsetEnd": 293
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "107",
+               "parsedValue": {
+                  "name": "107",
+                  "numeric": 10000000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10^7"
+                  },
+                  "parsed": "10^7"
+               },
+               "offsetStart": 465,
+               "offsetEnd": 468
+            }
+         }
+      ]
+   }
+]

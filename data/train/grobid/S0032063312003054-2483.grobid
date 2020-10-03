@@ -1,0 +1,53 @@
+[
+   200,
+   {
+      "runtime": 36,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "25:00 UT",
+               "parsedValue": {
+                  "name": "25:00 UT",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "offsetStart": 60,
+               "offsetEnd": 68
+            },
+            "quantified": {
+               "rawName": "heavy-ions between",
+               "normalizedName": "ion",
+               "offsetStart": 37,
+               "offsetEnd": 55
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "01:25:40 UT",
+               "parsedValue": {
+                  "name": "01:25:40 UT",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "01:25:40 UT"
+                  },
+                  "parsed": "01:25:40 UT"
+               },
+               "offsetStart": 73,
+               "offsetEnd": 84
+            },
+            "quantified": {
+               "rawName": "heavy-ions between",
+               "normalizedName": "ion",
+               "offsetStart": 37,
+               "offsetEnd": 55
+            }
+         }
+      ]
+   }
+]

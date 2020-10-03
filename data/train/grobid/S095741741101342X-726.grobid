@@ -1,0 +1,42 @@
+[
+   200,
+   {
+      "runtime": 4,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "85/15",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 25,
+                  "offsetEnd": 26
+               },
+               "parsedValue": {
+                  "name": "85/15",
+                  "numeric": 85,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "85/15"
+                  },
+                  "parsed": "85/15"
+               },
+               "normalizedQuantity": 0.85,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 20,
+               "offsetEnd": 25
+            },
+            "quantified": {
+               "rawName": "split of",
+               "normalizedName": "split",
+               "offsetStart": 27,
+               "offsetEnd": 35
+            }
+         }
+      ]
+   }
+]

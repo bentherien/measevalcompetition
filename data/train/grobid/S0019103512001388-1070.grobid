@@ -1,0 +1,98 @@
+[
+   200,
+   {
+      "runtime": 56,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "6 November 2011 UT",
+               "parsedValue": {
+                  "name": "6 November 2011 UT",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "vember 2011 UT"
+                  },
+                  "parsed": "vember 2011 UT"
+               },
+               "offsetStart": 40,
+               "offsetEnd": 58
+            },
+            "quantified": {
+               "rawName": "viewing VLT images taken",
+               "normalizedName": "image",
+               "offsetStart": 12,
+               "offsetEnd": 36
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "two",
+               "rawUnit": {
+                  "name": "days",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 69,
+                  "offsetEnd": 73
+               },
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "normalizedQuantity": 172800,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 65,
+               "offsetEnd": 68
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "30",
+               "rawUnit": {
+                  "name": "min",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 599,
+                  "offsetEnd": 602
+               },
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "normalizedQuantity": 1800,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 596,
+               "offsetEnd": 598
+            },
+            "quantified": {
+               "rawName": "BS1",
+               "normalizedName": "BS1",
+               "offsetStart": 230,
+               "offsetEnd": 233
+            }
+         }
+      ]
+   }
+]

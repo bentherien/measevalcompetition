@@ -1,0 +1,95 @@
+[
+   200,
+   {
+      "runtime": 48,
+      "measurements": [
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "70",
+                  "parsedValue": {
+                     "name": "70",
+                     "numeric": 70,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "70"
+                     },
+                     "parsed": "70"
+                  },
+                  "offsetStart": 233,
+                  "offsetEnd": 235
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "2",
+               "rawUnit": {
+                  "name": "year",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 405,
+                  "offsetEnd": 409
+               },
+               "parsedValue": {
+                  "name": "2",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2"
+                  },
+                  "parsed": "2"
+               },
+               "normalizedQuantity": 63113904.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 403,
+               "offsetEnd": 404
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "years",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 655,
+                  "offsetEnd": 660
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "normalizedQuantity": 189341712.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 653,
+               "offsetEnd": 654
+            },
+            "quantified": {
+               "rawName": "the Rotterdam study of",
+               "normalizedName": "study",
+               "offsetStart": 601,
+               "offsetEnd": 623
+            }
+         }
+      ]
+   }
+]

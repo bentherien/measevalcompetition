@@ -1,0 +1,122 @@
+[
+   200,
+   {
+      "runtime": 21,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "689",
+               "parsedValue": {
+                  "name": "689",
+                  "numeric": 689,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "689"
+                  },
+                  "parsed": "689"
+               },
+               "offsetStart": 17,
+               "offsetEnd": 20
+            },
+            "quantified": {
+               "rawName": "events of",
+               "normalizedName": "event",
+               "offsetStart": 21,
+               "offsetEnd": 30
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "12",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 149,
+                  "offsetEnd": 150
+               },
+               "parsedValue": {
+                  "name": "12",
+                  "numeric": 12,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "12"
+                  },
+                  "parsed": "12"
+               },
+               "normalizedQuantity": 0.12,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 147,
+               "offsetEnd": 149
+            },
+            "quantified": {
+               "rawName": "precipitation signatures",
+               "normalizedName": "precipitation signatures",
+               "offsetStart": 25,
+               "offsetEnd": 49
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "37",
+               "parsedValue": {
+                  "name": "37",
+                  "numeric": 37,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "37"
+                  },
+                  "parsed": "37"
+               },
+               "offsetStart": 216,
+               "offsetEnd": 218
+            },
+            "quantified": {
+               "rawName": "events of",
+               "normalizedName": "event",
+               "offsetStart": 219,
+               "offsetEnd": 228
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 407,
+                  "offsetEnd": 408
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 0.05,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 406,
+               "offsetEnd": 407
+            },
+            "quantified": {
+               "rawName": "precipitation signatures",
+               "normalizedName": "precipitation signatures",
+               "offsetStart": 89,
+               "offsetEnd": 113
+            }
+         }
+      ]
+   }
+]

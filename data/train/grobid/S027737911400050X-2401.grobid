@@ -1,0 +1,109 @@
+[
+   200,
+   {
+      "runtime": 105,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "several hundred",
+               "parsedValue": {
+                  "name": "several hundred",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "hun"
+                  },
+                  "parsed": "hun"
+               },
+               "offsetStart": 641,
+               "offsetEnd": 656
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "thousand",
+               "rawUnit": {
+                  "name": "years",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 686,
+                  "offsetEnd": 691
+               },
+               "parsedValue": {
+                  "name": "thousand",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "thousand"
+                  },
+                  "parsed": "thousand"
+               },
+               "normalizedQuantity": 0.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 677,
+               "offsetEnd": 685
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "one",
+               "parsedValue": {
+                  "name": "one",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "one"
+                  },
+                  "parsed": "one"
+               },
+               "offsetStart": 1259,
+               "offsetEnd": 1262
+            },
+            "quantified": {
+               "rawName": "independent sources",
+               "normalizedName": "source",
+               "offsetStart": 1271,
+               "offsetEnd": 1290
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "3.00",
+               "parsedValue": {
+                  "name": "3.00",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.00"
+                  },
+                  "parsed": "3.00"
+               },
+               "offsetStart": 1392,
+               "offsetEnd": 1396
+            },
+            "quantityMost": {
+               "rawValue": "3.05",
+               "parsedValue": {
+                  "name": "3.05",
+                  "numeric": 3.05,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.05"
+                  },
+                  "parsed": "3.05"
+               },
+               "offsetStart": 1397,
+               "offsetEnd": 1401
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,53 @@
+[
+   200,
+   {
+      "runtime": 19,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "100",
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "offsetStart": 16,
+               "offsetEnd": 19
+            },
+            "quantified": {
+               "rawName": "Al",
+               "normalizedName": "al",
+               "offsetStart": 22,
+               "offsetEnd": 24
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "2.5",
+               "rawUnit": {
+                  "name": "\u03bcm",
+                  "offsetStart": 258,
+                  "offsetEnd": 260
+               },
+               "parsedValue": {
+                  "name": "2.5",
+                  "numeric": 2.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2.5"
+                  },
+                  "parsed": "2.5"
+               },
+               "offsetStart": 254,
+               "offsetEnd": 257
+            }
+         }
+      ]
+   }
+]

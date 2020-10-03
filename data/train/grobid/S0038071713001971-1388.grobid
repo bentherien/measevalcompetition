@@ -1,0 +1,76 @@
+[
+   200,
+   {
+      "runtime": 33,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "55",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 180,
+                  "offsetEnd": 181
+               },
+               "parsedValue": {
+                  "name": "55",
+                  "numeric": 55,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "55"
+                  },
+                  "parsed": "55"
+               },
+               "normalizedQuantity": 0.55,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 178,
+               "offsetEnd": 180
+            },
+            "quantified": {
+               "rawName": "Majority",
+               "normalizedName": "majority",
+               "offsetStart": 168,
+               "offsetEnd": 176
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "63",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 294,
+                  "offsetEnd": 295
+               },
+               "parsedValue": {
+                  "name": "63",
+                  "numeric": 63,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "63"
+                  },
+                  "parsed": "63"
+               },
+               "normalizedQuantity": 0.63,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 292,
+               "offsetEnd": 294
+            },
+            "quantified": {
+               "rawName": "the majorities",
+               "normalizedName": "majority",
+               "offsetStart": 276,
+               "offsetEnd": 290
+            }
+         }
+      ]
+   }
+]

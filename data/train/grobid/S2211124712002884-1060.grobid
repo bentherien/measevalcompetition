@@ -1,0 +1,70 @@
+[
+   200,
+   {
+      "runtime": 50,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 658,
+                  "offsetEnd": 659
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 656,
+               "offsetEnd": 658
+            },
+            "quantified": {
+               "rawName": "fetal bovine serum",
+               "normalizedName": "serum",
+               "offsetStart": 660,
+               "offsetEnd": 678
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "U/ml",
+                  "offsetStart": 742,
+                  "offsetEnd": 746
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "offsetStart": 738,
+               "offsetEnd": 741
+            },
+            "quantified": {
+               "rawName": "penicillin/streptomycin",
+               "normalizedName": "streptomycin",
+               "offsetStart": 713,
+               "offsetEnd": 736
+            }
+         }
+      ]
+   }
+]

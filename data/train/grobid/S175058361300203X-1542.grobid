@@ -1,0 +1,188 @@
+[
+   200,
+   {
+      "runtime": 42,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "temperature",
+               "rawValue": "34",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 132,
+                  "offsetEnd": 134
+               },
+               "parsedValue": {
+                  "name": "34",
+                  "numeric": 34,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "34"
+                  },
+                  "parsed": "34"
+               },
+               "normalizedQuantity": 307.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 126,
+               "offsetEnd": 128
+            },
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "-38",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 132,
+                  "offsetEnd": 134
+               },
+               "parsedValue": {
+                  "name": "-38",
+                  "numeric": -38,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "-38"
+                  },
+                  "parsed": "-38"
+               },
+               "normalizedQuantity": 235.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 128,
+               "offsetEnd": 131
+            },
+            "quantified": {
+               "rawName": "the range of",
+               "normalizedName": "range",
+               "offsetStart": 113,
+               "offsetEnd": 125
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "50",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 385,
+                  "offsetEnd": 386
+               },
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "normalizedQuantity": 0.5,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 383,
+               "offsetEnd": 385
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "velocity",
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "m/s",
+                  "type": "velocity",
+                  "system": "SI derived",
+                  "offsetStart": 471,
+                  "offsetEnd": 474
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 5,
+               "normalizedUnit": {
+                  "name": "m/s",
+                  "type": "velocity",
+                  "system": "SI derived"
+               },
+               "offsetStart": 469,
+               "offsetEnd": 470
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "34",
+                  "parsedValue": {
+                     "name": "34",
+                     "numeric": 34,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "34"
+                     },
+                     "parsed": "34"
+                  },
+                  "offsetStart": 776,
+                  "offsetEnd": 778
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "38",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 786,
+                  "offsetEnd": 788
+               },
+               "parsedValue": {
+                  "name": "38",
+                  "numeric": 38,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "38"
+                  },
+                  "parsed": "38"
+               },
+               "normalizedQuantity": 311.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 783,
+               "offsetEnd": 785
+            },
+            "quantified": {
+               "rawName": "the different temperature scenarios",
+               "normalizedName": "scenario",
+               "offsetStart": 739,
+               "offsetEnd": 774
+            }
+         }
+      ]
+   }
+]

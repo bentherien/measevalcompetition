@@ -1,0 +1,99 @@
+[
+   200,
+   {
+      "runtime": 18,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "35",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 196,
+                  "offsetEnd": 197
+               },
+               "parsedValue": {
+                  "name": "35",
+                  "numeric": 35,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "35"
+                  },
+                  "parsed": "35"
+               },
+               "normalizedQuantity": 0.35,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 194,
+               "offsetEnd": 196
+            },
+            "quantified": {
+               "rawName": "5% increments",
+               "normalizedName": "5% increments",
+               "offsetStart": 201,
+               "offsetEnd": 214
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 202,
+                  "offsetEnd": 203
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 0.05,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 201,
+               "offsetEnd": 202
+            },
+            "quantified": {
+               "rawName": "increments",
+               "normalizedName": "increment",
+               "offsetStart": 204,
+               "offsetEnd": 214
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "six",
+               "parsedValue": {
+                  "name": "six",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "six"
+                  },
+                  "parsed": "six"
+               },
+               "offsetStart": 375,
+               "offsetEnd": 378
+            },
+            "quantified": {
+               "rawName": "orders of",
+               "normalizedName": "order",
+               "offsetStart": 379,
+               "offsetEnd": 388
+            }
+         }
+      ]
+   }
+]

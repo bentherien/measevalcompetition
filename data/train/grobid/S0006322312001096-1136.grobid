@@ -1,0 +1,150 @@
+[
+   200,
+   {
+      "runtime": 22,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1997",
+               "parsedValue": {
+                  "name": "1997",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "1997"
+                  },
+                  "parsed": "1997"
+               },
+               "offsetStart": 103,
+               "offsetEnd": 107
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "2003",
+                  "parsedValue": {
+                     "name": "2003",
+                     "numeric": 0,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "0"
+                     },
+                     "parsed": "0"
+                  },
+                  "offsetStart": 109,
+                  "offsetEnd": 113
+               },
+               {
+                  "rawValue": "2008",
+                  "parsedValue": {
+                     "name": "2008",
+                     "structure": {
+                        "type": "TIME",
+                        "formatted": "2008"
+                     },
+                     "parsed": "2008"
+                  },
+                  "offsetStart": 119,
+                  "offsetEnd": 123
+               }
+            ]
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5318",
+               "parsedValue": {
+                  "name": "5318",
+                  "numeric": 5318,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5318"
+                  },
+                  "parsed": "5318"
+               },
+               "offsetStart": 205,
+               "offsetEnd": 209
+            },
+            "quantified": {
+               "rawName": "participants",
+               "normalizedName": "participant",
+               "offsetStart": 210,
+               "offsetEnd": 222
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "54.8",
+               "rawUnit": {
+                  "name": "years",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 238,
+                  "offsetEnd": 243
+               },
+               "parsedValue": {
+                  "name": "54.8",
+                  "numeric": 54.8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "54.8"
+                  },
+                  "parsed": "54.8"
+               },
+               "normalizedQuantity": 1729320969.6,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 233,
+               "offsetEnd": 237
+            },
+            "quantified": {
+               "rawName": "participants",
+               "normalizedName": "participant",
+               "offsetStart": 210,
+               "offsetEnd": 222
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "31",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 247,
+                  "offsetEnd": 248
+               },
+               "parsedValue": {
+                  "name": "31",
+                  "numeric": 31,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "31"
+                  },
+                  "parsed": "31"
+               },
+               "normalizedQuantity": 0.31,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 245,
+               "offsetEnd": 247
+            },
+            "quantified": {
+               "rawName": "participants",
+               "normalizedName": "participant",
+               "offsetStart": 210,
+               "offsetEnd": 222
+            }
+         }
+      ]
+   }
+]

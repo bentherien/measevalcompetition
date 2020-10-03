@@ -1,0 +1,39 @@
+[
+   200,
+   {
+      "runtime": 11,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "seven",
+               "rawUnit": {
+                  "name": "months",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 62,
+                  "offsetEnd": 68
+               },
+               "parsedValue": {
+                  "name": "seven",
+                  "numeric": 7,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "seven"
+                  },
+                  "parsed": "seven"
+               },
+               "offsetStart": 56,
+               "offsetEnd": 61
+            },
+            "quantified": {
+               "rawName": "month 7 only",
+               "normalizedName": "month",
+               "offsetStart": 90,
+               "offsetEnd": 102
+            }
+         }
+      ]
+   }
+]

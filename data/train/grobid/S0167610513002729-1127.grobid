@@ -1,0 +1,132 @@
+[
+   200,
+   {
+      "runtime": 219,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "angle",
+               "rawValue": "45",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 24,
+                  "offsetEnd": 25
+               },
+               "parsedValue": {
+                  "name": "45",
+                  "numeric": 45,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "45"
+                  },
+                  "parsed": "45"
+               },
+               "offsetStart": 22,
+               "offsetEnd": 24
+            },
+            "quantified": {
+               "rawName": "case",
+               "normalizedName": "case",
+               "offsetStart": 26,
+               "offsetEnd": 30
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "inductance",
+               "rawValue": "0.23",
+               "rawUnit": {
+                  "name": "H",
+                  "type": "inductance",
+                  "system": "SI derived",
+                  "offsetStart": 153,
+                  "offsetEnd": 154
+               },
+               "parsedValue": {
+                  "name": "0.23",
+                  "numeric": 0.23,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.23"
+                  },
+                  "parsed": "0.23"
+               },
+               "normalizedQuantity": 0.23,
+               "normalizedUnit": {
+                  "name": "H",
+                  "type": "inductance",
+                  "system": "SI derived"
+               },
+               "offsetStart": 148,
+               "offsetEnd": 152
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "inductance",
+               "rawValue": "0.52",
+               "rawUnit": {
+                  "name": "H",
+                  "type": "inductance",
+                  "system": "SI derived",
+                  "offsetStart": 533,
+                  "offsetEnd": 534
+               },
+               "parsedValue": {
+                  "name": "0.52",
+                  "numeric": 0.52,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.52"
+                  },
+                  "parsed": "0.52"
+               },
+               "normalizedQuantity": 0.52,
+               "normalizedUnit": {
+                  "name": "H",
+                  "type": "inductance",
+                  "system": "SI derived"
+               },
+               "offsetStart": 528,
+               "offsetEnd": 532
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "inductance",
+               "rawValue": "0.80",
+               "rawUnit": {
+                  "name": "H",
+                  "type": "inductance",
+                  "system": "SI derived",
+                  "offsetStart": 701,
+                  "offsetEnd": 702
+               },
+               "parsedValue": {
+                  "name": "0.80",
+                  "numeric": 0.8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.80"
+                  },
+                  "parsed": "0.80"
+               },
+               "normalizedQuantity": 0.8,
+               "normalizedUnit": {
+                  "name": "H",
+                  "type": "inductance",
+                  "system": "SI derived"
+               },
+               "offsetStart": 696,
+               "offsetEnd": 700
+            }
+         }
+      ]
+   }
+]

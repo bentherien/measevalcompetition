@@ -1,0 +1,177 @@
+[
+   200,
+   {
+      "runtime": 37,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "7",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 477,
+                  "offsetEnd": 478
+               },
+               "parsedValue": {
+                  "name": "7",
+                  "numeric": 7,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "7"
+                  },
+                  "parsed": "7"
+               },
+               "normalizedQuantity": 0.07,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 470,
+               "offsetEnd": 471
+            },
+            "quantityMost": {
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 477,
+                  "offsetEnd": 478
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "normalizedQuantity": 0.2,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 475,
+               "offsetEnd": 477
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "year",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 532,
+                  "offsetEnd": 536
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 315569520.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 529,
+               "offsetEnd": 531
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "48",
+               "parsedValue": {
+                  "name": "48",
+                  "numeric": 48,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "48"
+                  },
+                  "parsed": "48"
+               },
+               "offsetStart": 572,
+               "offsetEnd": 574
+            },
+            "quantified": {
+               "rawName": "years of",
+               "normalizedName": "year",
+               "offsetStart": 575,
+               "offsetEnd": 583
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "13",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 586,
+                  "offsetEnd": 587
+               },
+               "parsedValue": {
+                  "name": "13",
+                  "numeric": 13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "13"
+                  },
+                  "parsed": "13"
+               },
+               "normalizedQuantity": 0.13,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 584,
+               "offsetEnd": 586
+            },
+            "quantified": {
+               "rawName": "years of",
+               "normalizedName": "year",
+               "offsetStart": 575,
+               "offsetEnd": 583
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "5",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 608,
+                  "offsetEnd": 609
+               },
+               "parsedValue": {
+                  "name": "5",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5"
+                  },
+                  "parsed": "5"
+               },
+               "normalizedQuantity": 0.05,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 607,
+               "offsetEnd": 608
+            }
+         }
+      ]
+   }
+]

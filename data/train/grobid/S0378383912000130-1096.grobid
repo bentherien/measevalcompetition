@@ -1,0 +1,105 @@
+[
+   200,
+   {
+      "runtime": 9,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "8.5",
+               "rawUnit": {
+                  "name": "mm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 123,
+                  "offsetEnd": 125
+               },
+               "parsedValue": {
+                  "name": "8.5",
+                  "numeric": 8.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "8.5"
+                  },
+                  "parsed": "8.5"
+               },
+               "normalizedQuantity": 0.0085,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 119,
+               "offsetEnd": 122
+            },
+            "quantified": {
+               "rawName": "beach",
+               "normalizedName": "beach",
+               "offsetStart": 126,
+               "offsetEnd": 131
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "type": "length",
+                  "rawValue": "1180",
+                  "rawUnit": {
+                     "name": "mm",
+                     "type": "length",
+                     "system": "SI base",
+                     "offsetStart": 153,
+                     "offsetEnd": 155
+                  },
+                  "parsedValue": {
+                     "name": "1180",
+                     "numeric": 1180,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "1180"
+                     },
+                     "parsed": "1180"
+                  },
+                  "normalizedQuantity": 1.18,
+                  "normalizedUnit": {
+                     "name": "m",
+                     "type": "length",
+                     "system": "SI base"
+                  },
+                  "offsetStart": 139,
+                  "offsetEnd": 143
+               },
+               {
+                  "type": "length",
+                  "rawValue": "1980",
+                  "rawUnit": {
+                     "name": "mm",
+                     "type": "length",
+                     "system": "SI base",
+                     "offsetStart": 153,
+                     "offsetEnd": 155
+                  },
+                  "parsedValue": {
+                     "name": "1980",
+                     "structure": {
+                        "type": "TIME",
+                        "formatted": "1980"
+                     },
+                     "parsed": "1980"
+                  },
+                  "offsetStart": 148,
+                  "offsetEnd": 152
+               }
+            ],
+            "quantified": {
+               "rawName": "hydraulic head, H\u03b7, within",
+               "normalizedName": "head",
+               "offsetStart": 88,
+               "offsetEnd": 114
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,204 @@
+[
+   200,
+   {
+      "runtime": 30,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "12.4",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 29,
+                  "offsetEnd": 30
+               },
+               "parsedValue": {
+                  "name": "12.4",
+                  "numeric": 12.4,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "12.4"
+                  },
+                  "parsed": "12.4"
+               },
+               "normalizedQuantity": 0.124,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 25,
+               "offsetEnd": 29
+            },
+            "quantified": {
+               "rawName": "Costa Rica",
+               "normalizedName": "Costa Rica",
+               "offsetStart": 34,
+               "offsetEnd": 44
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.13",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 53,
+                  "offsetEnd": 54
+               },
+               "parsedValue": {
+                  "name": "0.13",
+                  "numeric": 0.13,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.13"
+                  },
+                  "parsed": "0.13"
+               },
+               "normalizedQuantity": 0.0013,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 49,
+               "offsetEnd": 53
+            },
+            "quantified": {
+               "rawName": "Nicaragua",
+               "normalizedName": "Nicaragua",
+               "offsetStart": 58,
+               "offsetEnd": 67
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 138,
+                  "offsetEnd": 140
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 135,
+               "offsetEnd": 137
+            },
+            "quantified": {
+               "rawName": "soil",
+               "normalizedName": "soil",
+               "offsetStart": 42,
+               "offsetEnd": 46
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "20-40",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 186,
+                  "offsetEnd": 188
+               },
+               "parsedValue": {
+                  "name": "20-40",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "normalizedQuantity": 0,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 180,
+               "offsetEnd": 185
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0",
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "offsetStart": 238,
+               "offsetEnd": 239
+            },
+            "quantified": {
+               "rawName": "SOC",
+               "normalizedName": "soc",
+               "offsetStart": 246,
+               "offsetEnd": 249
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 243,
+                  "offsetEnd": 245
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 240,
+               "offsetEnd": 242
+            },
+            "quantified": {
+               "rawName": "SOC",
+               "normalizedName": "soc",
+               "offsetStart": 246,
+               "offsetEnd": 249
+            }
+         }
+      ]
+   }
+]

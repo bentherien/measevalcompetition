@@ -1,0 +1,113 @@
+[
+   200,
+   {
+      "runtime": 20,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "power",
+               "rawValue": "90",
+               "rawUnit": {
+                  "name": "kW",
+                  "type": "power",
+                  "system": "SI derived",
+                  "offsetStart": 52,
+                  "offsetEnd": 54
+               },
+               "parsedValue": {
+                  "name": "90",
+                  "numeric": 90,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "90"
+                  },
+                  "parsed": "90"
+               },
+               "normalizedQuantity": 90000,
+               "normalizedUnit": {
+                  "name": "W",
+                  "type": "power",
+                  "system": "SI derived"
+               },
+               "offsetStart": 49,
+               "offsetEnd": 51
+            },
+            "quantified": {
+               "rawName": "combustion pilot plant fed",
+               "normalizedName": "plant",
+               "offsetStart": 59,
+               "offsetEnd": 85
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "82",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 135,
+                  "offsetEnd": 136
+               },
+               "parsedValue": {
+                  "name": "82",
+                  "numeric": 82,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "82"
+                  },
+                  "parsed": "82"
+               },
+               "normalizedQuantity": 0.82,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 133,
+               "offsetEnd": 135
+            },
+            "quantified": {
+               "rawName": "elemental Hg",
+               "normalizedName": "elemental Hg",
+               "offsetStart": 25,
+               "offsetEnd": 37
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "81",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 194,
+                  "offsetEnd": 195
+               },
+               "parsedValue": {
+                  "name": "81",
+                  "numeric": 81,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "81"
+                  },
+                  "parsed": "81"
+               },
+               "normalizedQuantity": 0.81,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 192,
+               "offsetEnd": 194
+            },
+            "quantified": {
+               "rawName": "Cl",
+               "normalizedName": "Cl",
+               "offsetStart": 84,
+               "offsetEnd": 86
+            }
+         }
+      ]
+   }
+]

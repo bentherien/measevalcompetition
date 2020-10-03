@@ -1,0 +1,243 @@
+[
+   200,
+   {
+      "runtime": 195,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "frequency",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base",
+                  "offsetStart": 195,
+                  "offsetEnd": 197
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base"
+               },
+               "offsetStart": 193,
+               "offsetEnd": 194
+            },
+            "quantified": {
+               "rawName": "cantilever mode at",
+               "normalizedName": "mode",
+               "offsetStart": 174,
+               "offsetEnd": 192
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "volume",
+               "rawValue": "60 \u00d7 10 \u00d7 3",
+               "rawUnit": {
+                  "name": "mm3",
+                  "offsetStart": 244,
+                  "offsetEnd": 247
+               },
+               "parsedValue": {
+                  "name": "60 \u00d7 10 \u00d7 3",
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0 x 10^\u00d7 3"
+                  },
+                  "parsed": "0 x 10^\u00d7 3"
+               },
+               "offsetStart": 232,
+               "offsetEnd": 243
+            },
+            "quantified": {
+               "rawName": "size",
+               "normalizedName": "size",
+               "offsetStart": 86,
+               "offsetEnd": 90
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "\u2212100",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 293,
+                  "offsetEnd": 295
+               },
+               "parsedValue": {
+                  "name": "\u2212100",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "00"
+                  },
+                  "parsed": "00"
+               },
+               "normalizedQuantity": 273.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 288,
+               "offsetEnd": 292
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "temperature",
+               "rawValue": "200",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 303,
+                  "offsetEnd": 305
+               },
+               "parsedValue": {
+                  "name": "200",
+                  "numeric": 200,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "200"
+                  },
+                  "parsed": "200"
+               },
+               "normalizedQuantity": 473.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 299,
+               "offsetEnd": 302
+            },
+            "quantified": {
+               "rawName": "a heating rate",
+               "normalizedName": "a heating rate",
+               "offsetStart": 54,
+               "offsetEnd": 68
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "4",
+               "rawUnit": {
+                  "name": "\u00b0C/min",
+                  "offsetStart": 331,
+                  "offsetEnd": 337
+               },
+               "parsedValue": {
+                  "name": "4",
+                  "numeric": 4,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "4"
+                  },
+                  "parsed": "4"
+               },
+               "offsetStart": 329,
+               "offsetEnd": 330
+            },
+            "quantified": {
+               "rawName": "a heating rate of",
+               "normalizedName": "rate",
+               "offsetStart": 311,
+               "offsetEnd": 328
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.725",
+               "parsedValue": {
+                  "name": "0.725",
+                  "numeric": 0.725,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.725"
+                  },
+                  "parsed": "0.725"
+               },
+               "offsetStart": 866,
+               "offsetEnd": 871
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.20",
+               "rawUnit": {
+                  "name": "g/m3",
+                  "offsetStart": 1013,
+                  "offsetEnd": 1017
+               },
+               "parsedValue": {
+                  "name": "1.20",
+                  "numeric": 1.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.20"
+                  },
+                  "parsed": "1.20"
+               },
+               "normalizedQuantity": 0.0012,
+               "normalizedUnit": {
+                  "name": "kg/m\u00b3"
+               },
+               "offsetStart": 1008,
+               "offsetEnd": 1012
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 1024,
+                  "offsetEnd": 1026
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "normalizedQuantity": 293.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 1021,
+               "offsetEnd": 1023
+            }
+         }
+      ]
+   }
+]

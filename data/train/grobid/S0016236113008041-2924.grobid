@@ -1,0 +1,50 @@
+[
+   200,
+   {
+      "runtime": 6,
+      "measurements": [
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "9",
+                  "parsedValue": {
+                     "name": "9",
+                     "numeric": 9,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "9"
+                     },
+                     "parsed": "9"
+                  },
+                  "offsetStart": 57,
+                  "offsetEnd": 58
+               }
+            ],
+            "quantified": {
+               "rawName": "trace elements",
+               "normalizedName": "element",
+               "offsetStart": 66,
+               "offsetEnd": 80
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "21",
+               "parsedValue": {
+                  "name": "21",
+                  "numeric": 21,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "21"
+                  },
+                  "parsed": "21"
+               },
+               "offsetStart": 63,
+               "offsetEnd": 65
+            }
+         }
+      ]
+   }
+]

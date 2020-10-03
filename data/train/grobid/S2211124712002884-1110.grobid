@@ -1,0 +1,210 @@
+[
+   200,
+   {
+      "runtime": 76,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "time",
+               "rawValue": "6",
+               "rawUnit": {
+                  "name": "days",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 111,
+                  "offsetEnd": 115
+               },
+               "parsedValue": {
+                  "name": "6",
+                  "numeric": 6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "6"
+                  },
+                  "parsed": "6"
+               },
+               "normalizedQuantity": 518400,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 109,
+               "offsetEnd": 110
+            },
+            "quantified": {
+               "rawName": "iPSC medium",
+               "normalizedName": "iPSC medium",
+               "offsetStart": 119,
+               "offsetEnd": 130
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "Ten",
+               "rawUnit": {
+                  "name": "day",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 221,
+                  "offsetEnd": 224
+               },
+               "parsedValue": {
+                  "name": "Ten",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "Ten"
+                  },
+                  "parsed": "Ten"
+               },
+               "normalizedQuantity": 864000,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 217,
+               "offsetEnd": 220
+            },
+            "quantified": {
+               "rawName": "old rosettes",
+               "normalizedName": "rosette",
+               "offsetStart": 225,
+               "offsetEnd": 237
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "3-4",
+               "rawUnit": {
+                  "name": "weeks",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 334,
+                  "offsetEnd": 339
+               },
+               "parsedValue": {
+                  "name": "3-4",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3-4"
+                  },
+                  "parsed": "3-4"
+               },
+               "normalizedQuantity": 1814400,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 330,
+               "offsetEnd": 333
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.1",
+               "rawUnit": {
+                  "name": "mg/ml",
+                  "offsetStart": 445,
+                  "offsetEnd": 450
+               },
+               "parsedValue": {
+                  "name": "0.1",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.1"
+                  },
+                  "parsed": "0.1"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "kg/m\u00b3"
+               },
+               "offsetStart": 441,
+               "offsetEnd": 444
+            },
+            "quantified": {
+               "rawName": "poly-D-lysine",
+               "normalizedName": "poly-d-lysine",
+               "offsetStart": 426,
+               "offsetEnd": 439
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "\u03bcg/m",
+                  "offsetStart": 468,
+                  "offsetEnd": 472
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 465,
+               "offsetEnd": 467
+            },
+            "quantified": {
+               "rawName": "laminin",
+               "normalizedName": "laminin",
+               "offsetStart": 456,
+               "offsetEnd": 463
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "2-4",
+               "rawUnit": {
+                  "name": "weeks",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 503,
+                  "offsetEnd": 508
+               },
+               "parsedValue": {
+                  "name": "2-4",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "2-4"
+                  },
+                  "parsed": "2-4"
+               },
+               "normalizedQuantity": 1209600,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 499,
+               "offsetEnd": 502
+            },
+            "quantified": {
+               "rawName": "culture",
+               "normalizedName": "culture",
+               "offsetStart": 37,
+               "offsetEnd": 44
+            }
+         }
+      ]
+   }
+]

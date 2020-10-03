@@ -1,0 +1,67 @@
+[
+   200,
+   {
+      "runtime": 52,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "150",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 627,
+                  "offsetEnd": 629
+               },
+               "parsedValue": {
+                  "name": "150",
+                  "numeric": 150,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "150"
+                  },
+                  "parsed": "150"
+               },
+               "normalizedQuantity": 423.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 623,
+               "offsetEnd": 626
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 775,
+                  "offsetEnd": 776
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 772,
+               "offsetEnd": 775
+            }
+         }
+      ]
+   }
+]

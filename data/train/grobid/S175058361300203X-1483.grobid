@@ -1,0 +1,144 @@
+[
+   200,
+   {
+      "runtime": 113,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "33",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 768,
+                  "offsetEnd": 769
+               },
+               "parsedValue": {
+                  "name": "33",
+                  "numeric": 33,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "33"
+                  },
+                  "parsed": "33"
+               },
+               "normalizedQuantity": 33,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 765,
+               "offsetEnd": 767
+            },
+            "quantified": {
+               "rawName": "the upper part",
+               "normalizedName": "part",
+               "offsetStart": 749,
+               "offsetEnd": 763
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "3",
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "offsetStart": 827,
+               "offsetEnd": 828
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1055,
+                  "offsetEnd": 1056
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "normalizedQuantity": 0.2,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1050,
+               "offsetEnd": 1052
+            },
+            "quantityMost": {
+               "rawValue": "25",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1055,
+                  "offsetEnd": 1056
+               },
+               "parsedValue": {
+                  "name": "25",
+                  "numeric": 25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "25"
+                  },
+                  "parsed": "25"
+               },
+               "normalizedQuantity": 0.25,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1053,
+               "offsetEnd": 1055
+            },
+            "quantified": {
+               "rawName": "the range of",
+               "normalizedName": "range",
+               "offsetStart": 1037,
+               "offsetEnd": 1049
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 1226,
+               "offsetEnd": 1229
+            },
+            "quantified": {
+               "rawName": "sandstone layers",
+               "normalizedName": "layer",
+               "offsetStart": 1244,
+               "offsetEnd": 1260
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,122 @@
+[
+   200,
+   {
+      "runtime": 56,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "15",
+               "parsedValue": {
+                  "name": "15",
+                  "numeric": 15,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "15"
+                  },
+                  "parsed": "15"
+               },
+               "offsetStart": 334,
+               "offsetEnd": 336
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "120",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 378,
+                  "offsetEnd": 379
+               },
+               "parsedValue": {
+                  "name": "120",
+                  "numeric": 120,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "120"
+                  },
+                  "parsed": "120"
+               },
+               "normalizedQuantity": 120,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 374,
+               "offsetEnd": 377
+            },
+            "quantified": {
+               "rawName": "altitudes ranging",
+               "normalizedName": "altitude",
+               "offsetStart": 351,
+               "offsetEnd": 368
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "380",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 387,
+                  "offsetEnd": 388
+               },
+               "parsedValue": {
+                  "name": "380",
+                  "numeric": 380,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "380"
+                  },
+                  "parsed": "380"
+               },
+               "normalizedQuantity": 380,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 383,
+               "offsetEnd": 386
+            },
+            "quantified": {
+               "rawName": "sea level",
+               "normalizedName": "sea level",
+               "offsetStart": 114,
+               "offsetEnd": 123
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1000",
+               "parsedValue": {
+                  "name": "1000",
+                  "numeric": 1000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1000"
+                  },
+                  "parsed": "1000"
+               },
+               "offsetStart": 682,
+               "offsetEnd": 686
+            },
+            "quantified": {
+               "rawName": "stems/ha, exceeding",
+               "normalizedName": "stem",
+               "offsetStart": 687,
+               "offsetEnd": 706
+            }
+         }
+      ]
+   }
+]

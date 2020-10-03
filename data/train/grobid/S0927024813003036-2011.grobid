@@ -1,0 +1,227 @@
+[
+   200,
+   {
+      "runtime": 289,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "1013",
+               "rawUnit": {
+                  "name": "cm\u22123",
+                  "offsetStart": 268,
+                  "offsetEnd": 272
+               },
+               "parsedValue": {
+                  "name": "1013",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 250,
+               "offsetEnd": 254
+            },
+            "quantityMost": {
+               "rawValue": "1016",
+               "rawUnit": {
+                  "name": "cm\u22123",
+                  "offsetStart": 268,
+                  "offsetEnd": 272
+               },
+               "parsedValue": {
+                  "name": "1016",
+                  "numeric": 10000000000000000,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10^16"
+                  },
+                  "parsed": "10^16"
+               },
+               "offsetStart": 263,
+               "offsetEnd": 267
+            },
+            "quantified": {
+               "rawName": "cm\u22123",
+               "normalizedName": "cm\u22123",
+               "offsetStart": 255,
+               "offsetEnd": 259
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "min",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 558,
+                  "offsetEnd": 561
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 600,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 555,
+               "offsetEnd": 557
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "temperature",
+               "rawValue": "200",
+               "rawUnit": {
+                  "name": "\u00b0C",
+                  "type": "temperature",
+                  "system": "SI derived",
+                  "offsetStart": 580,
+                  "offsetEnd": 582
+               },
+               "parsedValue": {
+                  "name": "200",
+                  "numeric": 200,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "200"
+                  },
+                  "parsed": "200"
+               },
+               "normalizedQuantity": 473.15,
+               "normalizedUnit": {
+                  "name": "K",
+                  "type": "temperature",
+                  "system": "SI base"
+               },
+               "offsetStart": 576,
+               "offsetEnd": 579
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "24",
+               "parsedValue": {
+                  "name": "24",
+                  "numeric": 24,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "24"
+                  },
+                  "parsed": "24"
+               },
+               "offsetStart": 1061,
+               "offsetEnd": 1063
+            },
+            "quantified": {
+               "rawName": "h",
+               "normalizedName": "h",
+               "offsetStart": 1064,
+               "offsetEnd": 1065
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "ms",
+                  "type": "time",
+                  "system": "SI base",
+                  "offsetStart": 925,
+                  "offsetEnd": 927
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "normalizedQuantity": 0.02,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 921,
+               "offsetEnd": 923
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 1144,
+               "offsetEnd": 1147
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.2",
+               "parsedValue": {
+                  "name": "0.2",
+                  "numeric": 0.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.2"
+                  },
+                  "parsed": "0.2"
+               },
+               "offsetStart": 1910,
+               "offsetEnd": 1913
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "\u22641.5",
+               "rawUnit": {
+                  "name": "\u00d71012 cm\u22123",
+                  "offsetStart": 1994,
+                  "offsetEnd": 2004
+               },
+               "parsedValue": {
+                  "name": "\u22641.5",
+                  "numeric": 1.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.5"
+                  },
+                  "parsed": "1.5"
+               },
+               "offsetStart": 1990,
+               "offsetEnd": 1994
+            }
+         }
+      ]
+   }
+]

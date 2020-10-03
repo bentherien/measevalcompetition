@@ -1,0 +1,82 @@
+[
+   200,
+   {
+      "runtime": 152,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "frequency",
+               "rawValue": "0.5",
+               "rawUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base",
+                  "offsetStart": 72,
+                  "offsetEnd": 74
+               },
+               "parsedValue": {
+                  "name": "0.5",
+                  "numeric": 0.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.5"
+                  },
+                  "parsed": "0.5"
+               },
+               "normalizedQuantity": 0.5,
+               "normalizedUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base"
+               },
+               "offsetStart": 68,
+               "offsetEnd": 71
+            },
+            "quantified": {
+               "rawName": "a JONSWAP spectrum with",
+               "normalizedName": "spectrum",
+               "offsetStart": 39,
+               "offsetEnd": 62
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "1.8",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 88,
+                  "offsetEnd": 90
+               },
+               "parsedValue": {
+                  "name": "1.8",
+                  "numeric": 1.8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.8"
+                  },
+                  "parsed": "1.8"
+               },
+               "normalizedQuantity": 0.018,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 84,
+               "offsetEnd": 87
+            },
+            "quantified": {
+               "rawName": "a JONSWAP spectrum with",
+               "normalizedName": "spectrum",
+               "offsetStart": 39,
+               "offsetEnd": 62
+            }
+         }
+      ]
+   }
+]

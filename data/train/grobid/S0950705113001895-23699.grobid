@@ -1,0 +1,115 @@
+[
+   200,
+   {
+      "runtime": 47,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 577,
+                  "offsetEnd": 578
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 567,
+               "offsetEnd": 569
+            },
+            "quantityMost": {
+               "rawValue": "100",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 577,
+                  "offsetEnd": 578
+               },
+               "parsedValue": {
+                  "name": "100",
+                  "numeric": 100,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "100"
+                  },
+                  "parsed": "100"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 574,
+               "offsetEnd": 577
+            },
+            "quantified": {
+               "rawName": "%",
+               "normalizedName": "%",
+               "offsetStart": 569,
+               "offsetEnd": 570
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "85",
+               "parsedValue": {
+                  "name": "85",
+                  "numeric": 85,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "85"
+                  },
+                  "parsed": "85"
+               },
+               "offsetStart": 814,
+               "offsetEnd": 816
+            },
+            "quantityMost": {
+               "rawValue": "85",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 736,
+                  "offsetEnd": 737
+               },
+               "parsedValue": {
+                  "name": "85",
+                  "numeric": 85,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "85"
+                  },
+                  "parsed": "85"
+               },
+               "normalizedQuantity": 0.85,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 734,
+               "offsetEnd": 736
+            },
+            "quantified": {
+               "rawName": "%",
+               "normalizedName": "%",
+               "offsetStart": 816,
+               "offsetEnd": 817
+            }
+         }
+      ]
+   }
+]

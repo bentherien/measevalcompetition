@@ -1,0 +1,124 @@
+[
+   200,
+   {
+      "runtime": 84,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "eight",
+               "rawUnit": {
+                  "name": "year",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 352,
+                  "offsetEnd": 356
+               },
+               "parsedValue": {
+                  "name": "eight",
+                  "numeric": 8,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "eight"
+                  },
+                  "parsed": "eight"
+               },
+               "normalizedQuantity": 252455616.0,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 346,
+               "offsetEnd": 351
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "42-48",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 455,
+                  "offsetEnd": 456
+               },
+               "parsedValue": {
+                  "name": "42-48",
+                  "numeric": 42,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "42-48"
+                  },
+                  "parsed": "42-48"
+               },
+               "normalizedQuantity": 0.42,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 450,
+               "offsetEnd": 455
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "15-27",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 583,
+                  "offsetEnd": 584
+               },
+               "parsedValue": {
+                  "name": "15-27",
+                  "numeric": 15,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "15-27"
+                  },
+                  "parsed": "15-27"
+               },
+               "normalizedQuantity": 0.15,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 578,
+               "offsetEnd": 583
+            },
+            "quantified": {
+               "rawName": "three poplar genotypes",
+               "normalizedName": "three poplar genotypes",
+               "offsetStart": 104,
+               "offsetEnd": 126
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 588,
+               "offsetEnd": 593
+            },
+            "quantified": {
+               "rawName": "poplar genotypes",
+               "normalizedName": "genotype",
+               "offsetStart": 594,
+               "offsetEnd": 610
+            }
+         }
+      ]
+   }
+]

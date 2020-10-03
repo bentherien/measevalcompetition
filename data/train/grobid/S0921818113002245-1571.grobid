@@ -1,0 +1,399 @@
+[
+   200,
+   {
+      "runtime": 65,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "Three",
+               "parsedValue": {
+                  "name": "Three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "Three"
+                  },
+                  "parsed": "Three"
+               },
+               "offsetStart": 0,
+               "offsetEnd": 5
+            },
+            "quantified": {
+               "rawName": "different methods",
+               "normalizedName": "method",
+               "offsetStart": 6,
+               "offsetEnd": 23
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "2010",
+               "parsedValue": {
+                  "name": "2010",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "2010"
+                  },
+                  "parsed": "2010"
+               },
+               "offsetStart": 63,
+               "offsetEnd": 67
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "0.8",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 83,
+                  "offsetEnd": 84
+               },
+               "parsedValue": {
+                  "name": "0.8",
+                  "numeric": 0.8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.8"
+                  },
+                  "parsed": "0.8"
+               },
+               "normalizedQuantity": 0.8,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 79,
+               "offsetEnd": 82
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 217,
+                  "offsetEnd": 219
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 0.01,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 215,
+               "offsetEnd": 216
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "Five",
+               "parsedValue": {
+                  "name": "Five",
+                  "numeric": 5,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "Five"
+                  },
+                  "parsed": "Five"
+               },
+               "offsetStart": 462,
+               "offsetEnd": 466
+            },
+            "quantified": {
+               "rawName": "cores for",
+               "normalizedName": "core",
+               "offsetStart": 467,
+               "offsetEnd": 476
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "4.8",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 636,
+                  "offsetEnd": 637
+               },
+               "parsedValue": {
+                  "name": "4.8",
+                  "numeric": 4.8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "4.8"
+                  },
+                  "parsed": "4.8"
+               },
+               "normalizedQuantity": 4.8,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 632,
+               "offsetEnd": 635
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "60",
+                  "parsedValue": {
+                     "name": "60",
+                     "numeric": 60,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "60"
+                     },
+                     "parsed": "60"
+                  },
+                  "offsetStart": 684,
+                  "offsetEnd": 686
+               }
+            ],
+            "quantified": {
+               "rawName": "internal diameter",
+               "normalizedName": "diameter",
+               "offsetStart": 696,
+               "offsetEnd": 713
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "63",
+               "rawUnit": {
+                  "name": "mm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 693,
+                  "offsetEnd": 695
+               },
+               "parsedValue": {
+                  "name": "63",
+                  "numeric": 63,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "63"
+                  },
+                  "parsed": "63"
+               },
+               "normalizedQuantity": 0.063,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 690,
+               "offsetEnd": 692
+            },
+            "quantified": {
+               "rawName": "internal diameter",
+               "normalizedName": "diameter",
+               "offsetStart": 696,
+               "offsetEnd": 713
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "four",
+               "parsedValue": {
+                  "name": "four",
+                  "numeric": 4,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "four"
+                  },
+                  "parsed": "four"
+               },
+               "offsetStart": 811,
+               "offsetEnd": 815
+            },
+            "quantified": {
+               "rawName": "overlapping cores",
+               "normalizedName": "core",
+               "offsetStart": 816,
+               "offsetEnd": 833
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "8",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 893,
+                  "offsetEnd": 894
+               },
+               "parsedValue": {
+                  "name": "8",
+                  "numeric": 8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "8"
+                  },
+                  "parsed": "8"
+               },
+               "normalizedQuantity": 8,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 891,
+               "offsetEnd": 892
+            },
+            "quantified": {
+               "rawName": "a sediment depth of",
+               "normalizedName": "depth",
+               "offsetStart": 871,
+               "offsetEnd": 890
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 1023,
+               "offsetEnd": 1028
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "11.8",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 1122,
+                  "offsetEnd": 1123
+               },
+               "parsedValue": {
+                  "name": "11.8",
+                  "numeric": 11.8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "11.8"
+                  },
+                  "parsed": "11.8"
+               },
+               "normalizedQuantity": 11.8,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 1117,
+               "offsetEnd": 1121
+            },
+            "quantified": {
+               "rawName": "depth of",
+               "normalizedName": "depth",
+               "offsetStart": 1094,
+               "offsetEnd": 1102
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "11.8",
+               "parsedValue": {
+                  "name": "11.8",
+                  "numeric": 11.8,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "11.8"
+                  },
+                  "parsed": "11.8"
+               },
+               "offsetStart": 1232,
+               "offsetEnd": 1236
+            },
+            "quantified": {
+               "rawName": "m and",
+               "normalizedName": "m",
+               "offsetStart": 1237,
+               "offsetEnd": 1242
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "11.5",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 1248,
+                  "offsetEnd": 1249
+               },
+               "parsedValue": {
+                  "name": "11.5",
+                  "numeric": 11.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "11.5"
+                  },
+                  "parsed": "11.5"
+               },
+               "normalizedQuantity": 11.5,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 1243,
+               "offsetEnd": 1247
+            },
+            "quantified": {
+               "rawName": "m and",
+               "normalizedName": "m",
+               "offsetStart": 1237,
+               "offsetEnd": 1242
+            }
+         }
+      ]
+   }
+]

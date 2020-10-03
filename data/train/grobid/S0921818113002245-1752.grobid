@@ -1,0 +1,82 @@
+[
+   200,
+   {
+      "runtime": 26,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "mm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 265,
+                  "offsetEnd": 267
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 0.001,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 263,
+               "offsetEnd": 264
+            },
+            "quantified": {
+               "rawName": "clastic sediment",
+               "normalizedName": "sediment",
+               "offsetStart": 231,
+               "offsetEnd": 247
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "5.16",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 326,
+                  "offsetEnd": 327
+               },
+               "parsedValue": {
+                  "name": "5.16",
+                  "numeric": 5.16,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "5.16"
+                  },
+                  "parsed": "5.16"
+               },
+               "normalizedQuantity": 5.16,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 321,
+               "offsetEnd": 325
+            },
+            "quantified": {
+               "rawName": "Magnetic susceptibility",
+               "normalizedName": "susceptibility",
+               "offsetStart": 329,
+               "offsetEnd": 352
+            }
+         }
+      ]
+   }
+]

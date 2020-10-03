@@ -1,0 +1,163 @@
+[
+   200,
+   {
+      "runtime": 36,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "1",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 149,
+                  "offsetEnd": 150
+               },
+               "parsedValue": {
+                  "name": "1",
+                  "numeric": 1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1"
+                  },
+                  "parsed": "1"
+               },
+               "normalizedQuantity": 1,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 147,
+               "offsetEnd": 148
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 342,
+                  "offsetEnd": 343
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "normalizedQuantity": 20,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 339,
+               "offsetEnd": 341
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "\u221225.9",
+               "parsedValue": {
+                  "name": "\u221225.9",
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "\u221225.9"
+                  },
+                  "parsed": "\u221225.9"
+               },
+               "offsetStart": 538,
+               "offsetEnd": 543
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "\u221226.5",
+               "parsedValue": {
+                  "name": "\u221226.5",
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "\u221226.5"
+                  },
+                  "parsed": "\u221226.5"
+               },
+               "offsetStart": 547,
+               "offsetEnd": 552
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "27.2",
+               "parsedValue": {
+                  "name": "27.2",
+                  "numeric": 27.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "27.2"
+                  },
+                  "parsed": "27.2"
+               },
+               "offsetStart": 620,
+               "offsetEnd": 624
+            },
+            "quantityMost": {
+               "rawValue": "\u221223",
+               "parsedValue": {
+                  "name": "\u221223",
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "\u221223"
+                  },
+                  "parsed": "\u221223"
+               },
+               "offsetStart": 628,
+               "offsetEnd": 631
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "0.5",
+               "rawUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 658,
+                  "offsetEnd": 659
+               },
+               "parsedValue": {
+                  "name": "0.5",
+                  "numeric": 0.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.5"
+                  },
+                  "parsed": "0.5"
+               },
+               "normalizedQuantity": 0.5,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 654,
+               "offsetEnd": 657
+            }
+         }
+      ]
+   }
+]

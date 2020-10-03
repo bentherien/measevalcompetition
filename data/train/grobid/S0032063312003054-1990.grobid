@@ -1,0 +1,76 @@
+[
+   200,
+   {
+      "runtime": 50,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "type": "time",
+               "rawValue": "12",
+               "rawUnit": {
+                  "name": "min",
+                  "type": "time",
+                  "system": "non SI",
+                  "offsetStart": 125,
+                  "offsetEnd": 128
+               },
+               "parsedValue": {
+                  "name": "12",
+                  "numeric": 12,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "12"
+                  },
+                  "parsed": "12"
+               },
+               "normalizedQuantity": 720,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 122,
+               "offsetEnd": 124
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "energy",
+               "rawValue": "60",
+               "rawUnit": {
+                  "name": "eV",
+                  "type": "energy",
+                  "system": "non SI",
+                  "offsetStart": 349,
+                  "offsetEnd": 351
+               },
+               "parsedValue": {
+                  "name": "60",
+                  "numeric": 60,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60"
+                  },
+                  "parsed": "60"
+               },
+               "normalizedQuantity": 9.613058922e-18,
+               "normalizedUnit": {
+                  "name": "J",
+                  "type": "energy",
+                  "system": "SI derived"
+               },
+               "offsetStart": 346,
+               "offsetEnd": 348
+            },
+            "quantified": {
+               "rawName": "the peak",
+               "normalizedName": "peak",
+               "offsetStart": 310,
+               "offsetEnd": 318
+            }
+         }
+      ]
+   }
+]

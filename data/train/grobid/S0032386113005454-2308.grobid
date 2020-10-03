@@ -1,0 +1,248 @@
+[
+   200,
+   {
+      "runtime": 116,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityBase": {
+               "type": "pressure",
+               "rawValue": "3.19",
+               "rawUnit": {
+                  "name": "GPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 33,
+                  "offsetEnd": 36
+               },
+               "parsedValue": {
+                  "name": "3.19",
+                  "numeric": 3.19,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.19"
+                  },
+                  "parsed": "3.19"
+               },
+               "normalizedQuantity": 3190000000.0,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 21,
+               "offsetEnd": 25
+            },
+            "quantityRange": {
+               "type": "pressure",
+               "rawValue": "0.10",
+               "rawUnit": {
+                  "name": "GPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 33,
+                  "offsetEnd": 36
+               },
+               "parsedValue": {
+                  "name": "0.10",
+                  "numeric": 0.1,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.10"
+                  },
+                  "parsed": "0.10"
+               },
+               "normalizedQuantity": 100000000.0,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 28,
+               "offsetEnd": 32
+            },
+            "quantityLeast": {
+               "type": "pressure",
+               "rawValue": "3.09",
+               "rawUnit": {
+                  "name": "GPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 33,
+                  "offsetEnd": 36
+               },
+               "parsedValue": {
+                  "numeric": 3.09
+               },
+               "normalizedQuantity": 3090000000.0,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 21,
+               "offsetEnd": 25
+            },
+            "quantityMost": {
+               "type": "pressure",
+               "rawValue": "3.29",
+               "rawUnit": {
+                  "name": "GPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 33,
+                  "offsetEnd": 36
+               },
+               "parsedValue": {
+                  "numeric": 3.29
+               },
+               "normalizedQuantity": 3290000000.0,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 28,
+               "offsetEnd": 32
+            },
+            "quantified": {
+               "rawName": "A tensile modulus of",
+               "normalizedName": "modulus",
+               "offsetStart": 0,
+               "offsetEnd": 20
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "type": "pressure",
+               "rawValue": "1.96",
+               "rawUnit": {
+                  "name": "GPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 172,
+                  "offsetEnd": 175
+               },
+               "parsedValue": {
+                  "name": "1.96",
+                  "numeric": 1.96,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.96"
+                  },
+                  "parsed": "1.96"
+               },
+               "normalizedQuantity": 1960000000.0,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 160,
+               "offsetEnd": 164
+            },
+            "quantityRange": {
+               "type": "pressure",
+               "rawValue": "0.08",
+               "rawUnit": {
+                  "name": "GPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 172,
+                  "offsetEnd": 175
+               },
+               "parsedValue": {
+                  "name": "0.08",
+                  "numeric": 0.08,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.08"
+                  },
+                  "parsed": "0.08"
+               },
+               "normalizedQuantity": 80000000.0,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 167,
+               "offsetEnd": 171
+            },
+            "quantityLeast": {
+               "type": "pressure",
+               "rawValue": "1.88",
+               "rawUnit": {
+                  "name": "GPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 172,
+                  "offsetEnd": 175
+               },
+               "parsedValue": {
+                  "numeric": 1.88
+               },
+               "normalizedQuantity": 1880000000.0,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 160,
+               "offsetEnd": 164
+            },
+            "quantityMost": {
+               "type": "pressure",
+               "rawValue": "2.04",
+               "rawUnit": {
+                  "name": "GPa",
+                  "type": "pressure",
+                  "system": "SI derived",
+                  "offsetStart": 172,
+                  "offsetEnd": 175
+               },
+               "parsedValue": {
+                  "numeric": 2.04
+               },
+               "normalizedQuantity": 2040000000.0,
+               "normalizedUnit": {
+                  "name": "Pa",
+                  "type": "pressure",
+                  "system": "SI derived"
+               },
+               "offsetStart": 167,
+               "offsetEnd": 171
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "20",
+               "rawUnit": {
+                  "name": "wt%",
+                  "offsetStart": 184,
+                  "offsetEnd": 187
+               },
+               "parsedValue": {
+                  "name": "20",
+                  "numeric": 20,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "20"
+                  },
+                  "parsed": "20"
+               },
+               "offsetStart": 181,
+               "offsetEnd": 183
+            },
+            "quantified": {
+               "rawName": "S-CSR particles",
+               "normalizedName": "S-CSR particles",
+               "offsetStart": 107,
+               "offsetEnd": 122
+            }
+         }
+      ]
+   }
+]

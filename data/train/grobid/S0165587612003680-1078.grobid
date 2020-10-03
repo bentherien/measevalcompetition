@@ -1,0 +1,111 @@
+[
+   200,
+   {
+      "runtime": 74,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 190,
+               "offsetEnd": 195
+            },
+            "quantified": {
+               "rawName": "bacteria",
+               "normalizedName": "bacteria",
+               "offsetStart": 196,
+               "offsetEnd": 204
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 444,
+               "offsetEnd": 449
+            },
+            "quantified": {
+               "rawName": "commonest pathogens isolated",
+               "normalizedName": "pathogen",
+               "offsetStart": 450,
+               "offsetEnd": 478
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "three",
+               "parsedValue": {
+                  "name": "three",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "three"
+                  },
+                  "parsed": "three"
+               },
+               "offsetStart": 719,
+               "offsetEnd": 724
+            },
+            "quantified": {
+               "rawName": "occasions",
+               "normalizedName": "occasion",
+               "offsetStart": 725,
+               "offsetEnd": 734
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "60",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1027,
+                  "offsetEnd": 1028
+               },
+               "parsedValue": {
+                  "name": "60",
+                  "numeric": 60,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60"
+                  },
+                  "parsed": "60"
+               },
+               "normalizedQuantity": 0.6,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1025,
+               "offsetEnd": 1027
+            },
+            "quantified": {
+               "rawName": "bacteria",
+               "normalizedName": "bacteria",
+               "offsetStart": 122,
+               "offsetEnd": 130
+            }
+         }
+      ]
+   }
+]

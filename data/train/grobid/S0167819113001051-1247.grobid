@@ -1,0 +1,76 @@
+[
+   200,
+   {
+      "runtime": 31,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "50",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 334,
+                  "offsetEnd": 335
+               },
+               "parsedValue": {
+                  "name": "50",
+                  "numeric": 50,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "50"
+                  },
+                  "parsed": "50"
+               },
+               "normalizedQuantity": 0.5,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 332,
+               "offsetEnd": 334
+            },
+            "quantified": {
+               "rawName": "manufactured dice from",
+               "normalizedName": "dice",
+               "offsetStart": 309,
+               "offsetEnd": 331
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "80",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 348,
+                  "offsetEnd": 349
+               },
+               "parsedValue": {
+                  "name": "80",
+                  "numeric": 80,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "80"
+                  },
+                  "parsed": "80"
+               },
+               "normalizedQuantity": 0.8,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 346,
+               "offsetEnd": 348
+            },
+            "quantified": {
+               "rawName": "manufactured dice from",
+               "normalizedName": "dice",
+               "offsetStart": 309,
+               "offsetEnd": 331
+            }
+         }
+      ]
+   }
+]

@@ -1,0 +1,101 @@
+[
+   200,
+   {
+      "runtime": 41,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "25",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 304,
+                  "offsetEnd": 305
+               },
+               "parsedValue": {
+                  "name": "25",
+                  "numeric": 25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "25"
+                  },
+                  "parsed": "25"
+               },
+               "normalizedQuantity": 0.25,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 302,
+               "offsetEnd": 304
+            },
+            "quantified": {
+               "rawName": "packets",
+               "normalizedName": "packet",
+               "offsetStart": 306,
+               "offsetEnd": 313
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "the",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 337,
+                  "offsetEnd": 338
+               },
+               "parsedValue": {
+                  "name": "the",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "the"
+                  },
+                  "parsed": "the"
+               },
+               "normalizedQuantity": 0,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 330,
+               "offsetEnd": 333
+            },
+            "quantityMost": {
+               "rawValue": "7.6",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 337,
+                  "offsetEnd": 338
+               },
+               "parsedValue": {
+                  "name": "7.6",
+                  "numeric": 7.6,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "7.6"
+                  },
+                  "parsed": "7.6"
+               },
+               "normalizedQuantity": 0.076,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 334,
+               "offsetEnd": 337
+            },
+            "quantified": {
+               "rawName": "DropTail",
+               "normalizedName": "DropTail",
+               "offsetStart": 76,
+               "offsetEnd": 84
+            }
+         }
+      ]
+   }
+]

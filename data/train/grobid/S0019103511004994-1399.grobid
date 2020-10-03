@@ -1,0 +1,167 @@
+[
+   200,
+   {
+      "runtime": 65,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "62",
+               "parsedValue": {
+                  "name": "62",
+                  "numeric": 62,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "62"
+                  },
+                  "parsed": "62"
+               },
+               "offsetStart": 32,
+               "offsetEnd": 34
+            },
+            "quantified": {
+               "rawName": "satellites of",
+               "normalizedName": "satellite",
+               "offsetStart": 35,
+               "offsetEnd": 48
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "3.95",
+               "parsedValue": {
+                  "name": "3.95",
+                  "numeric": 3.95,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3.95"
+                  },
+                  "parsed": "3.95"
+               },
+               "offsetStart": 92,
+               "offsetEnd": 96
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "60,268",
+               "rawUnit": {
+                  "name": "km",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 127,
+                  "offsetEnd": 129
+               },
+               "parsedValue": {
+                  "name": "60,268",
+                  "numeric": 60268,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "60,268"
+                  },
+                  "parsed": "60,268"
+               },
+               "normalizedQuantity": 60268000,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 120,
+               "offsetEnd": 126
+            },
+            "quantified": {
+               "rawName": "Saturn radii RS",
+               "normalizedName": "r",
+               "offsetStart": 97,
+               "offsetEnd": 112
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "length",
+               "rawValue": "252",
+               "rawUnit": {
+                  "name": "km",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 245,
+                  "offsetEnd": 247
+               },
+               "parsedValue": {
+                  "name": "252",
+                  "numeric": 252,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "252"
+                  },
+                  "parsed": "252"
+               },
+               "normalizedQuantity": 252000,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 241,
+               "offsetEnd": 244
+            },
+            "quantified": {
+               "rawName": "a small radius REnc of",
+               "normalizedName": "renc",
+               "offsetStart": 213,
+               "offsetEnd": 235
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "July 2004",
+               "parsedValue": {
+                  "name": "July 2004",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "July 2004"
+                  },
+                  "parsed": "July 2004"
+               },
+               "offsetStart": 741,
+               "offsetEnd": 750
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "2005",
+               "parsedValue": {
+                  "name": "2005",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "2005"
+                  },
+                  "parsed": "2005"
+               },
+               "offsetStart": 792,
+               "offsetEnd": 796
+            },
+            "quantityMost": {
+               "rawValue": "2010",
+               "parsedValue": {
+                  "name": "2010",
+                  "structure": {
+                     "type": "TIME",
+                     "formatted": "2010"
+                  },
+                  "parsed": "2010"
+               },
+               "offsetStart": 801,
+               "offsetEnd": 805
+            }
+         }
+      ]
+   }
+]

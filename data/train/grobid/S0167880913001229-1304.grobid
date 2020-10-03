@@ -1,0 +1,241 @@
+[
+   200,
+   {
+      "runtime": 46,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "mass",
+               "rawValue": "11.25",
+               "rawUnit": {
+                  "name": "Mg",
+                  "type": "mass",
+                  "system": "SI base",
+                  "offsetStart": 123,
+                  "offsetEnd": 125
+               },
+               "parsedValue": {
+                  "name": "11.25",
+                  "numeric": 11.25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "11.25"
+                  },
+                  "parsed": "11.25"
+               },
+               "normalizedQuantity": 11250.0,
+               "normalizedUnit": {
+                  "name": "kg",
+                  "type": "mass",
+                  "system": "SI base"
+               },
+               "offsetStart": 117,
+               "offsetEnd": 122
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "\u22121",
+               "rawUnit": {
+                  "name": "year\u22121",
+                  "offsetStart": 131,
+                  "offsetEnd": 137
+               },
+               "parsedValue": {
+                  "name": "\u22121",
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "\u22121"
+                  },
+                  "parsed": "\u22121"
+               },
+               "offsetStart": 128,
+               "offsetEnd": 130
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.24",
+               "parsedValue": {
+                  "name": "0.24",
+                  "numeric": 0.24,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.24"
+                  },
+                  "parsed": "0.24"
+               },
+               "offsetStart": 329,
+               "offsetEnd": 333
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0",
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "offsetStart": 439,
+               "offsetEnd": 440
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "10",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 444,
+                  "offsetEnd": 446
+               },
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "normalizedQuantity": 0.1,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 441,
+               "offsetEnd": 443
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.18",
+               "parsedValue": {
+                  "name": "0.18",
+                  "numeric": 0.18,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.18"
+                  },
+                  "parsed": "0.18"
+               },
+               "offsetStart": 463,
+               "offsetEnd": 467
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "0.01",
+               "parsedValue": {
+                  "name": "0.01",
+                  "numeric": 0.01,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.01"
+                  },
+                  "parsed": "0.01"
+               },
+               "offsetStart": 473,
+               "offsetEnd": 477
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "two",
+               "parsedValue": {
+                  "name": "two",
+                  "numeric": 2,
+                  "structure": {
+                     "type": "ALPHABETIC",
+                     "formatted": "two"
+                  },
+                  "parsed": "two"
+               },
+               "offsetStart": 571,
+               "offsetEnd": 574
+            },
+            "quantified": {
+               "rawName": "lower soil depths with",
+               "normalizedName": "depth",
+               "offsetStart": 575,
+               "offsetEnd": 597
+            }
+         },
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "type": "length",
+               "rawValue": "0",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 675,
+                  "offsetEnd": 677
+               },
+               "parsedValue": {
+                  "name": "0",
+                  "numeric": 0,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0"
+                  },
+                  "parsed": "0"
+               },
+               "normalizedQuantity": 0,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 670,
+               "offsetEnd": 671
+            },
+            "quantityMost": {
+               "type": "length",
+               "rawValue": "40",
+               "rawUnit": {
+                  "name": "cm",
+                  "type": "length",
+                  "system": "SI base",
+                  "offsetStart": 675,
+                  "offsetEnd": 677
+               },
+               "parsedValue": {
+                  "name": "40",
+                  "numeric": 40,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "40"
+                  },
+                  "parsed": "40"
+               },
+               "normalizedQuantity": 0.4,
+               "normalizedUnit": {
+                  "name": "m",
+                  "type": "length",
+                  "system": "SI base"
+               },
+               "offsetStart": 672,
+               "offsetEnd": 674
+            }
+         }
+      ]
+   }
+]

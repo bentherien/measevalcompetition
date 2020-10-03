@@ -1,0 +1,168 @@
+[
+   200,
+   {
+      "runtime": 50,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "10",
+               "parsedValue": {
+                  "name": "10",
+                  "numeric": 10,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "10"
+                  },
+                  "parsed": "10"
+               },
+               "offsetStart": 111,
+               "offsetEnd": 113
+            },
+            "quantified": {
+               "rawName": "wt",
+               "normalizedName": "wt",
+               "offsetStart": 114,
+               "offsetEnd": 116
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "99.5",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 211,
+                  "offsetEnd": 212
+               },
+               "parsedValue": {
+                  "name": "99.5",
+                  "numeric": 99.5,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "99.5"
+                  },
+                  "parsed": "99.5"
+               },
+               "normalizedQuantity": 0.995,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 207,
+               "offsetEnd": 211
+            },
+            "quantified": {
+               "rawName": "pure ethanol",
+               "normalizedName": "ethanol",
+               "offsetStart": 213,
+               "offsetEnd": 225
+            }
+         },
+         {
+            "type": "interval",
+            "quantityBase": {
+               "type": "angle",
+               "rawValue": "69",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 831,
+                  "offsetEnd": 832
+               },
+               "parsedValue": {
+                  "name": "69",
+                  "numeric": 69,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "69"
+                  },
+                  "parsed": "69"
+               },
+               "offsetStart": 825,
+               "offsetEnd": 827
+            },
+            "quantityRange": {
+               "type": "angle",
+               "rawValue": "3",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 831,
+                  "offsetEnd": 832
+               },
+               "parsedValue": {
+                  "name": "3",
+                  "numeric": 3,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "3"
+                  },
+                  "parsed": "3"
+               },
+               "offsetStart": 830,
+               "offsetEnd": 831
+            },
+            "quantityLeast": {
+               "type": "angle",
+               "rawValue": "66",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 831,
+                  "offsetEnd": 832
+               },
+               "parsedValue": {
+                  "numeric": 66
+               },
+               "offsetStart": 825,
+               "offsetEnd": 827
+            },
+            "quantityMost": {
+               "type": "angle",
+               "rawValue": "72",
+               "rawUnit": {
+                  "name": "\u00b0",
+                  "type": "angle",
+                  "system": "non SI",
+                  "offsetStart": 831,
+                  "offsetEnd": 832
+               },
+               "parsedValue": {
+                  "numeric": 72
+               },
+               "offsetStart": 830,
+               "offsetEnd": 831
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "type": "voltage",
+               "rawValue": "\u22120.72",
+               "rawUnit": {
+                  "name": "V",
+                  "type": "voltage",
+                  "system": "SI derived",
+                  "offsetStart": 894,
+                  "offsetEnd": 895
+               },
+               "parsedValue": {
+                  "name": "\u22120.72",
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "\u22120.72"
+                  },
+                  "parsed": "\u22120.72"
+               },
+               "offsetStart": 888,
+               "offsetEnd": 893
+            }
+         }
+      ]
+   }
+]

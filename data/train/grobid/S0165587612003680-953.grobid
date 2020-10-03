@@ -1,0 +1,31 @@
+[
+   200,
+   {
+      "runtime": 50,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "90",
+               "parsedValue": {
+                  "name": "90",
+                  "numeric": 90,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "90"
+                  },
+                  "parsed": "90"
+               },
+               "offsetStart": 305,
+               "offsetEnd": 307
+            },
+            "quantified": {
+               "rawName": "% of",
+               "normalizedName": "%",
+               "offsetStart": 307,
+               "offsetEnd": 311
+            }
+         }
+      ]
+   }
+]

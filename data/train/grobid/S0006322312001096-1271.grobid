@@ -1,0 +1,150 @@
+[
+   200,
+   {
+      "runtime": 49,
+      "measurements": [
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "26,29,49",
+               "parsedValue": {
+                  "name": "26,29,49",
+                  "numeric": 9,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "9"
+                  },
+                  "parsed": "9"
+               },
+               "offsetStart": 222,
+               "offsetEnd": 230
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "26,29",
+               "parsedValue": {
+                  "name": "26,29",
+                  "numeric": 2629,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "26,29"
+                  },
+                  "parsed": "26,29"
+               },
+               "offsetStart": 340,
+               "offsetEnd": 345
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "rawValue": "38,44",
+               "parsedValue": {
+                  "name": "38,44",
+                  "numeric": 3844,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "38,44"
+                  },
+                  "parsed": "38,44"
+               },
+               "offsetStart": 737,
+               "offsetEnd": 742
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "274",
+               "parsedValue": {
+                  "name": "274",
+                  "numeric": 274,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "274"
+                  },
+                  "parsed": "274"
+               },
+               "offsetStart": 783,
+               "offsetEnd": 786
+            },
+            "quantified": {
+               "rawName": "elderly participants from",
+               "normalizedName": "participant",
+               "offsetStart": 787,
+               "offsetEnd": 812
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "90",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 987,
+                  "offsetEnd": 988
+               },
+               "parsedValue": {
+                  "name": "90",
+                  "numeric": 90,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "90"
+                  },
+                  "parsed": "90"
+               },
+               "normalizedQuantity": 0.9,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 985,
+               "offsetEnd": 987
+            },
+            "quantified": {
+               "rawName": "CES-D depressive symptoms",
+               "normalizedName": "CES-D depressive symptoms",
+               "offsetStart": 248,
+               "offsetEnd": 273
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "80",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 1039,
+                  "offsetEnd": 1040
+               },
+               "parsedValue": {
+                  "name": "80",
+                  "numeric": 80,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "80"
+                  },
+                  "parsed": "80"
+               },
+               "normalizedQuantity": 0.8,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 1037,
+               "offsetEnd": 1039
+            },
+            "quantified": {
+               "rawName": "GHQ symptoms",
+               "normalizedName": "GHQ symptoms",
+               "offsetStart": 300,
+               "offsetEnd": 312
+            }
+         }
+      ]
+   }
+]

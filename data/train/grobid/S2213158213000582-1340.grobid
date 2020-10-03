@@ -1,0 +1,292 @@
+[
+   200,
+   {
+      "runtime": 35,
+      "measurements": [
+         {
+            "type": "interval",
+            "quantityLeast": {
+               "rawValue": "30",
+               "parsedValue": {
+                  "name": "30",
+                  "numeric": 30,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "30"
+                  },
+                  "parsed": "30"
+               },
+               "offsetStart": 99,
+               "offsetEnd": 101
+            },
+            "quantityMost": {
+               "type": "frequency",
+               "rawValue": "55",
+               "rawUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base",
+                  "offsetStart": 33,
+                  "offsetEnd": 35
+               },
+               "parsedValue": {
+                  "name": "55",
+                  "numeric": 55,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "55"
+                  },
+                  "parsed": "55"
+               },
+               "normalizedQuantity": 55,
+               "normalizedUnit": {
+                  "name": "Hz",
+                  "type": "frequency",
+                  "system": "SI base"
+               },
+               "offsetStart": 30,
+               "offsetEnd": 32
+            }
+         },
+         {
+            "type": "interval",
+            "quantityMost": {
+               "type": "time",
+               "rawValue": "130",
+               "rawUnit": {
+                  "name": "ms",
+                  "type": "time",
+                  "system": "SI base",
+                  "offsetStart": 106,
+                  "offsetEnd": 108
+               },
+               "parsedValue": {
+                  "name": "130",
+                  "numeric": 130,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "130"
+                  },
+                  "parsed": "130"
+               },
+               "normalizedQuantity": 0.13,
+               "normalizedUnit": {
+                  "name": "s",
+                  "type": "time",
+                  "system": "SI base"
+               },
+               "offsetStart": 102,
+               "offsetEnd": 105
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "95.81",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 303,
+                  "offsetEnd": 304
+               },
+               "parsedValue": {
+                  "name": "95.81",
+                  "numeric": 95.81,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "95.81"
+                  },
+                  "parsed": "95.81"
+               },
+               "normalizedQuantity": 0.9581,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 298,
+               "offsetEnd": 303
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "94.38",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 321,
+                     "offsetEnd": 322
+                  },
+                  "parsedValue": {
+                     "name": "94.38",
+                     "numeric": 94.38,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "94.38"
+                     },
+                     "parsed": "94.38"
+                  },
+                  "normalizedQuantity": 0.9438,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 316,
+                  "offsetEnd": 321
+               }
+            ],
+            "quantified": {
+               "rawName": "SZ",
+               "normalizedName": "SZ",
+               "offsetStart": 106,
+               "offsetEnd": 108
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "96.24",
+               "rawUnit": {
+                  "name": "%",
+                  "type": "fraction",
+                  "system": "non SI",
+                  "offsetStart": 422,
+                  "offsetEnd": 423
+               },
+               "parsedValue": {
+                  "name": "96.24",
+                  "numeric": 96.24,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "96.24"
+                  },
+                  "parsed": "96.24"
+               },
+               "normalizedQuantity": 0.9624,
+               "normalizedUnit": {
+                  "name": "one"
+               },
+               "offsetStart": 417,
+               "offsetEnd": 422
+            }
+         },
+         {
+            "type": "listc",
+            "quantities": [
+               {
+                  "rawValue": "93.17",
+                  "rawUnit": {
+                     "name": "%",
+                     "type": "fraction",
+                     "system": "non SI",
+                     "offsetStart": 440,
+                     "offsetEnd": 441
+                  },
+                  "parsedValue": {
+                     "name": "93.17",
+                     "numeric": 93.17,
+                     "structure": {
+                        "type": "NUMBER",
+                        "formatted": "93.17"
+                     },
+                     "parsed": "93.17"
+                  },
+                  "normalizedQuantity": 0.9317,
+                  "normalizedUnit": {
+                     "name": "one"
+                  },
+                  "offsetStart": 435,
+                  "offsetEnd": 440
+               }
+            ],
+            "quantified": {
+               "rawName": "SZ",
+               "normalizedName": "SZ",
+               "offsetStart": 115,
+               "offsetEnd": 117
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.16",
+               "parsedValue": {
+                  "name": "1.16",
+                  "numeric": 1.16,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.16"
+                  },
+                  "parsed": "1.16"
+               },
+               "offsetStart": 542,
+               "offsetEnd": 546
+            },
+            "quantified": {
+               "rawName": "gradiometer data",
+               "normalizedName": "datum",
+               "offsetStart": 516,
+               "offsetEnd": 532
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.25",
+               "parsedValue": {
+                  "name": "0.25",
+                  "numeric": 0.25,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.25"
+                  },
+                  "parsed": "0.25"
+               },
+               "offsetStart": 552,
+               "offsetEnd": 556
+            },
+            "quantified": {
+               "rawName": "gradiometer data",
+               "normalizedName": "datum",
+               "offsetStart": 516,
+               "offsetEnd": 532
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "1.31",
+               "parsedValue": {
+                  "name": "1.31",
+                  "numeric": 1.31,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "1.31"
+                  },
+                  "parsed": "1.31"
+               },
+               "offsetStart": 588,
+               "offsetEnd": 592
+            }
+         },
+         {
+            "type": "value",
+            "quantity": {
+               "rawValue": "0.20",
+               "parsedValue": {
+                  "name": "0.20",
+                  "numeric": 0.2,
+                  "structure": {
+                     "type": "NUMBER",
+                     "formatted": "0.20"
+                  },
+                  "parsed": "0.20"
+               },
+               "offsetStart": 598,
+               "offsetEnd": 602
+            }
+         }
+      ]
+   }
+]
