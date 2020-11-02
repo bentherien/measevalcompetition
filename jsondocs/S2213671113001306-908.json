@@ -1,0 +1,851 @@
+{
+   "text": "(B) Fetal hRPE stained for SC121 (red) and MCT1 (green; scale bars, 125 \u03bcm and 25 \u03bcm [inset]).",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               1
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 0,
+            "head": 1
+         },
+         {
+            "indices": [
+               1,
+               2
+            ],
+            "category": "NN",
+            "kind": "ROOT",
+            "id": 1,
+            "head": 1
+         },
+         {
+            "indices": [
+               2,
+               3
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 2,
+            "head": 1
+         },
+         {
+            "indices": [
+               4,
+               9
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 3,
+            "head": 4
+         },
+         {
+            "indices": [
+               10,
+               14
+            ],
+            "category": "NN",
+            "kind": "nsubj",
+            "id": 4,
+            "head": 5
+         },
+         {
+            "indices": [
+               15,
+               22
+            ],
+            "category": "VBN",
+            "kind": "ROOT",
+            "id": 5,
+            "head": 5
+         },
+         {
+            "indices": [
+               23,
+               26
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 6,
+            "head": 5
+         },
+         {
+            "indices": [
+               27,
+               32
+            ],
+            "category": "NNP",
+            "kind": "pobj",
+            "id": 7,
+            "head": 6
+         },
+         {
+            "indices": [
+               33,
+               34
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 8,
+            "head": 9
+         },
+         {
+            "indices": [
+               34,
+               37
+            ],
+            "category": "NNP",
+            "kind": "intj",
+            "id": 9,
+            "head": 5
+         },
+         {
+            "indices": [
+               37,
+               38
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 10,
+            "head": 9
+         },
+         {
+            "indices": [
+               39,
+               42
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 11,
+            "head": 5
+         },
+         {
+            "indices": [
+               43,
+               47
+            ],
+            "category": "NNP",
+            "kind": "npadvmod",
+            "id": 12,
+            "head": 14
+         },
+         {
+            "indices": [
+               48,
+               49
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 13,
+            "head": 14
+         },
+         {
+            "indices": [
+               49,
+               54
+            ],
+            "category": "JJ",
+            "kind": "conj",
+            "id": 14,
+            "head": 5
+         },
+         {
+            "indices": [
+               54,
+               55
+            ],
+            "category": ":",
+            "kind": "punct",
+            "id": 15,
+            "head": 14
+         },
+         {
+            "indices": [
+               56,
+               61
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 16,
+            "head": 17
+         },
+         {
+            "indices": [
+               62,
+               66
+            ],
+            "category": "NNS",
+            "kind": "conj",
+            "id": 17,
+            "head": 14
+         },
+         {
+            "indices": [
+               66,
+               67
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 18,
+            "head": 17
+         },
+         {
+            "indices": [
+               68,
+               71
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 19,
+            "head": 20
+         },
+         {
+            "indices": [
+               72,
+               74
+            ],
+            "category": "NNS",
+            "kind": "appos",
+            "id": 20,
+            "head": 17
+         },
+         {
+            "indices": [
+               75,
+               78
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 21,
+            "head": 20
+         },
+         {
+            "indices": [
+               79,
+               81
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 22,
+            "head": 23
+         },
+         {
+            "indices": [
+               82,
+               84
+            ],
+            "category": "NN",
+            "kind": "nmod",
+            "id": 23,
+            "head": 25
+         },
+         {
+            "indices": [
+               85,
+               86
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 24,
+            "head": 25
+         },
+         {
+            "indices": [
+               86,
+               91
+            ],
+            "category": "NN",
+            "kind": "conj",
+            "id": 25,
+            "head": 20
+         },
+         {
+            "indices": [
+               91,
+               92
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 26,
+            "head": 25
+         },
+         {
+            "indices": [
+               92,
+               93
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 27,
+            "head": 14
+         },
+         {
+            "indices": [
+               93,
+               94
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 28,
+            "head": 5
+         }
+      ],
+      "PERSON": [
+         {
+            "indices": [
+               27,
+               32
+            ]
+         }
+      ],
+      "QUANTITY": [
+         {
+            "indices": [
+               68,
+               84
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "B",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               0,
+               2
+            ]
+         },
+         {
+            "args": [
+               "B",
+               "B"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               1,
+               2
+            ]
+         },
+         {
+            "args": [
+               "B",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               1,
+               3
+            ]
+         },
+         {
+            "args": [
+               "hRPE",
+               "Fetal"
+            ],
+            "kind": "compound",
+            "indices": [
+               4,
+               14
+            ]
+         },
+         {
+            "args": [
+               "stained",
+               "hRPE"
+            ],
+            "kind": "nsubj",
+            "indices": [
+               10,
+               22
+            ]
+         },
+         {
+            "args": [
+               "stained",
+               "stained"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               15,
+               22
+            ]
+         },
+         {
+            "args": [
+               "stained",
+               "for"
+            ],
+            "kind": "prep",
+            "indices": [
+               15,
+               26
+            ]
+         },
+         {
+            "args": [
+               "for",
+               "SC121"
+            ],
+            "kind": "pobj",
+            "indices": [
+               23,
+               32
+            ]
+         },
+         {
+            "args": [
+               "red",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               33,
+               37
+            ]
+         },
+         {
+            "args": [
+               "stained",
+               "red"
+            ],
+            "kind": "intj",
+            "indices": [
+               15,
+               37
+            ]
+         },
+         {
+            "args": [
+               "red",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               34,
+               38
+            ]
+         },
+         {
+            "args": [
+               "stained",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               15,
+               42
+            ]
+         },
+         {
+            "args": [
+               "green",
+               "MCT1"
+            ],
+            "kind": "npadvmod",
+            "indices": [
+               43,
+               54
+            ]
+         },
+         {
+            "args": [
+               "green",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               48,
+               54
+            ]
+         },
+         {
+            "args": [
+               "stained",
+               "green"
+            ],
+            "kind": "conj",
+            "indices": [
+               15,
+               54
+            ]
+         },
+         {
+            "args": [
+               "green",
+               ";"
+            ],
+            "kind": "punct",
+            "indices": [
+               49,
+               55
+            ]
+         },
+         {
+            "args": [
+               "bars",
+               "scale"
+            ],
+            "kind": "compound",
+            "indices": [
+               56,
+               66
+            ]
+         },
+         {
+            "args": [
+               "green",
+               "bars"
+            ],
+            "kind": "conj",
+            "indices": [
+               49,
+               66
+            ]
+         },
+         {
+            "args": [
+               "bars",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               62,
+               67
+            ]
+         },
+         {
+            "args": [
+               "\u03bcm",
+               "125"
+            ],
+            "kind": "nummod",
+            "indices": [
+               68,
+               74
+            ]
+         },
+         {
+            "args": [
+               "bars",
+               "\u03bcm"
+            ],
+            "kind": "appos",
+            "indices": [
+               62,
+               74
+            ]
+         },
+         {
+            "args": [
+               "\u03bcm",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               72,
+               78
+            ]
+         },
+         {
+            "args": [
+               "\u03bcm",
+               "25"
+            ],
+            "kind": "nummod",
+            "indices": [
+               79,
+               84
+            ]
+         },
+         {
+            "args": [
+               "inset",
+               "\u03bcm"
+            ],
+            "kind": "nmod",
+            "indices": [
+               82,
+               91
+            ]
+         },
+         {
+            "args": [
+               "inset",
+               "["
+            ],
+            "kind": "punct",
+            "indices": [
+               85,
+               91
+            ]
+         },
+         {
+            "args": [
+               "\u03bcm",
+               "inset"
+            ],
+            "kind": "conj",
+            "indices": [
+               72,
+               91
+            ]
+         },
+         {
+            "args": [
+               "inset",
+               "]"
+            ],
+            "kind": "punct",
+            "indices": [
+               86,
+               92
+            ]
+         },
+         {
+            "args": [
+               "green",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               49,
+               93
+            ]
+         },
+         {
+            "args": [
+               "stained",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               15,
+               94
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               3
+            ]
+         },
+         {
+            "indices": [
+               4,
+               94
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               68,
+               74
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "125 \u03bcm",
+            "other": "{\"unit\": \"\u03bcm\"}"
+         },
+         {
+            "indices": [
+               79,
+               84
+            ],
+            "annotSet": 2,
+            "annotId": "T1-2",
+            "text": "25 \u03bcm",
+            "other": "{\"unit\": \"\u03bcm\"}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               56,
+               66
+            ],
+            "annotSet": 1,
+            "annotId": "T3-1",
+            "text": "scale bars",
+            "other": "{\"HasQuantity\": \"T1-1\"}"
+         },
+         {
+            "indices": [
+               86,
+               91
+            ],
+            "annotSet": 2,
+            "annotId": "T3-2",
+            "text": "inset",
+            "other": "{\"HasQuantity\": \"T1-2\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               68,
+               71
+            ],
+            "text": "125"
+         },
+         {
+            "indices": [
+               72,
+               74
+            ],
+            "text": "\u03bcm"
+         },
+         {
+            "indices": [
+               75,
+               78
+            ],
+            "text": "and"
+         },
+         {
+            "indices": [
+               79,
+               81
+            ],
+            "text": "25"
+         },
+         {
+            "indices": [
+               82,
+               84
+            ],
+            "text": "\u03bcm"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               72,
+               74
+            ],
+            "text": "\u03bcm"
+         },
+         {
+            "indices": [
+               62,
+               66
+            ],
+            "text": "bars"
+         },
+         {
+            "indices": [
+               72,
+               74
+            ],
+            "text": "\u03bcm"
+         },
+         {
+            "indices": [
+               82,
+               84
+            ],
+            "text": "\u03bcm"
+         },
+         {
+            "indices": [
+               86,
+               91
+            ],
+            "text": "inset"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               62,
+               66
+            ],
+            "text": "bars"
+         },
+         {
+            "indices": [
+               49,
+               54
+            ],
+            "text": "green"
+         },
+         {
+            "indices": [
+               62,
+               66
+            ],
+            "text": "bars"
+         },
+         {
+            "indices": [
+               86,
+               91
+            ],
+            "text": "inset"
+         },
+         {
+            "indices": [
+               72,
+               74
+            ],
+            "text": "\u03bcm"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               68,
+               71
+            ],
+            "text": "125"
+         },
+         {
+            "indices": [
+               79,
+               81
+            ],
+            "text": "25"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               72,
+               74
+            ],
+            "text": "\u03bcm"
+         },
+         {
+            "indices": [
+               82,
+               84
+            ],
+            "text": "\u03bcm"
+         }
+      ],
+      "h0MeasuredEntityTP": [
+         {
+            "indices": [
+               68,
+               71
+            ],
+            "text": "125"
+         },
+         {
+            "indices": [
+               79,
+               81
+            ],
+            "text": "25"
+         }
+      ]
+   }
+}

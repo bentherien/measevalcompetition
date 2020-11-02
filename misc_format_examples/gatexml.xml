@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Users/Benjamin%20Therien/Documents/github/MeasEval/data/train/brat/S2213671113001306-1398-1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/x-brat</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>We asked whether encapsulating the graft in additional materials would help the surgical delivery and potentially reduce the retinal thinning. Temporary graft encapsulation with thermosensitive gelatin and/or plasmin-assisted vitrectomy, however, was found to cause more aggressive retinal destruction and choroidal engorgement on SD-OCT compared to unaided implantation of fetal hRPE/PET implants (Figure S2). In contrast, we found that all these negative effects were ameliorated through <Node id="490"/>1 to 2 <Node id="497"/>mg<Node id="499"/> <Node id="500"/>intravitreal triamcinolone (TCA) injection<Node id="542"/> at the end of the surgery. This long-acting synthetic corticosteroid is routinely given intraocularly to reduce immune responses. Ophthalmic and systemic complications related to the implantation procedure are summarized in Table 2.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="1" Type="Quantity" StartNode="490" EndNode="499">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">1 to 2 mg</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">QuantityQualifier</Name>
+  <Value className="java.lang.String">IsRange</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="Unit" StartNode="497" EndNode="499">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">mg</Value>
+</Feature>
+</Annotation>
+<Annotation Id="2" Type="bens annot" StartNode="400" EndNode="499">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">mg</Value>
+</Feature>
+</Annotation>
+<Annotation Id="3" Type="MeasuredEntity" StartNode="500" EndNode="542">
+<Feature>
+  <Name className="java.lang.String">string</Name>
+  <Value className="java.lang.String">intravitreal triamcinolone (TCA) injection</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Relation Set for Original markups -->
+
+<RelationSet Name="Original markups">
+<Relation Id="4" Type="relation" Members="3;1">
+<UserData/>
+<Feature>
+  <Name className="java.lang.String">type</Name>
+  <Value className="java.lang.String">HasQuantity</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">roleLabels</Name>
+  <Value className="gate.corpora.ObjectWrapper"><![CDATA[<?xml version='1.1'?><gate.corpora.ObjectWrapper><value class="list"><string>Arg1</string><string>Arg2</string></value></gate.corpora.ObjectWrapper>]]></Value>
+</Feature>
+</Relation>
+</RelationSet>
+</GateDocument>

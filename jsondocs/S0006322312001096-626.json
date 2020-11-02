@@ -1,0 +1,699 @@
+{
+   "text": "Association Between Framingham Risk Scores (per 10% Increase) and Subsequent Onset of Depressive Symptoms Before and After Age 65",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               11
+            ],
+            "category": "NNP",
+            "kind": "ROOT",
+            "id": 0,
+            "head": 0
+         },
+         {
+            "indices": [
+               12,
+               19
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 1,
+            "head": 0
+         },
+         {
+            "indices": [
+               20,
+               30
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 2,
+            "head": 4
+         },
+         {
+            "indices": [
+               31,
+               35
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 3,
+            "head": 4
+         },
+         {
+            "indices": [
+               36,
+               42
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 4,
+            "head": 1
+         },
+         {
+            "indices": [
+               43,
+               44
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 5,
+            "head": 4
+         },
+         {
+            "indices": [
+               44,
+               47
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 6,
+            "head": 0
+         },
+         {
+            "indices": [
+               48,
+               50
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 7,
+            "head": 8
+         },
+         {
+            "indices": [
+               50,
+               51
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 8,
+            "head": 9
+         },
+         {
+            "indices": [
+               52,
+               60
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 9,
+            "head": 6
+         },
+         {
+            "indices": [
+               60,
+               61
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 10,
+            "head": 0
+         },
+         {
+            "indices": [
+               62,
+               65
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 11,
+            "head": 0
+         },
+         {
+            "indices": [
+               66,
+               76
+            ],
+            "category": "JJ",
+            "kind": "compound",
+            "id": 12,
+            "head": 13
+         },
+         {
+            "indices": [
+               77,
+               82
+            ],
+            "category": "NN",
+            "kind": "conj",
+            "id": 13,
+            "head": 0
+         },
+         {
+            "indices": [
+               83,
+               85
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 14,
+            "head": 13
+         },
+         {
+            "indices": [
+               86,
+               96
+            ],
+            "category": "JJ",
+            "kind": "compound",
+            "id": 15,
+            "head": 16
+         },
+         {
+            "indices": [
+               97,
+               105
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 16,
+            "head": 14
+         },
+         {
+            "indices": [
+               106,
+               112
+            ],
+            "category": "RB",
+            "kind": "prep",
+            "id": 17,
+            "head": 13
+         },
+         {
+            "indices": [
+               113,
+               116
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 18,
+            "head": 17
+         },
+         {
+            "indices": [
+               117,
+               122
+            ],
+            "category": "IN",
+            "kind": "conj",
+            "id": 19,
+            "head": 17
+         },
+         {
+            "indices": [
+               123,
+               126
+            ],
+            "category": "NNP",
+            "kind": "pobj",
+            "id": 20,
+            "head": 19
+         },
+         {
+            "indices": [
+               127,
+               129
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 21,
+            "head": 20
+         }
+      ],
+      "ORG": [
+         {
+            "indices": [
+               0,
+               42
+            ]
+         }
+      ],
+      "PERCENT": [
+         {
+            "indices": [
+               48,
+               51
+            ]
+         }
+      ],
+      "DATE": [
+         {
+            "indices": [
+               123,
+               129
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "Association",
+               "Association"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               0,
+               11
+            ]
+         },
+         {
+            "args": [
+               "Association",
+               "Between"
+            ],
+            "kind": "prep",
+            "indices": [
+               0,
+               19
+            ]
+         },
+         {
+            "args": [
+               "Scores",
+               "Framingham"
+            ],
+            "kind": "compound",
+            "indices": [
+               20,
+               42
+            ]
+         },
+         {
+            "args": [
+               "Scores",
+               "Risk"
+            ],
+            "kind": "compound",
+            "indices": [
+               31,
+               42
+            ]
+         },
+         {
+            "args": [
+               "Between",
+               "Scores"
+            ],
+            "kind": "pobj",
+            "indices": [
+               12,
+               42
+            ]
+         },
+         {
+            "args": [
+               "Scores",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               36,
+               44
+            ]
+         },
+         {
+            "args": [
+               "Association",
+               "per"
+            ],
+            "kind": "prep",
+            "indices": [
+               0,
+               47
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "10"
+            ],
+            "kind": "nummod",
+            "indices": [
+               48,
+               51
+            ]
+         },
+         {
+            "args": [
+               "Increase",
+               "%"
+            ],
+            "kind": "compound",
+            "indices": [
+               50,
+               60
+            ]
+         },
+         {
+            "args": [
+               "per",
+               "Increase"
+            ],
+            "kind": "pobj",
+            "indices": [
+               44,
+               60
+            ]
+         },
+         {
+            "args": [
+               "Association",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               0,
+               61
+            ]
+         },
+         {
+            "args": [
+               "Association",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               0,
+               65
+            ]
+         },
+         {
+            "args": [
+               "Onset",
+               "Subsequent"
+            ],
+            "kind": "compound",
+            "indices": [
+               66,
+               82
+            ]
+         },
+         {
+            "args": [
+               "Association",
+               "Onset"
+            ],
+            "kind": "conj",
+            "indices": [
+               0,
+               82
+            ]
+         },
+         {
+            "args": [
+               "Onset",
+               "of"
+            ],
+            "kind": "prep",
+            "indices": [
+               77,
+               85
+            ]
+         },
+         {
+            "args": [
+               "Symptoms",
+               "Depressive"
+            ],
+            "kind": "compound",
+            "indices": [
+               86,
+               105
+            ]
+         },
+         {
+            "args": [
+               "of",
+               "Symptoms"
+            ],
+            "kind": "pobj",
+            "indices": [
+               83,
+               105
+            ]
+         },
+         {
+            "args": [
+               "Onset",
+               "Before"
+            ],
+            "kind": "prep",
+            "indices": [
+               77,
+               112
+            ]
+         },
+         {
+            "args": [
+               "Before",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               106,
+               116
+            ]
+         },
+         {
+            "args": [
+               "Before",
+               "After"
+            ],
+            "kind": "conj",
+            "indices": [
+               106,
+               122
+            ]
+         },
+         {
+            "args": [
+               "After",
+               "Age"
+            ],
+            "kind": "pobj",
+            "indices": [
+               117,
+               126
+            ]
+         },
+         {
+            "args": [
+               "Age",
+               "65"
+            ],
+            "kind": "nummod",
+            "indices": [
+               123,
+               129
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               129
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               48,
+               51
+            ],
+            "annotSet": 1,
+            "annotId": "T11-1",
+            "text": "10%",
+            "other": "nothing"
+         },
+         {
+            "indices": [
+               127,
+               129
+            ],
+            "annotSet": 2,
+            "annotId": "T1-2",
+            "text": "65",
+            "other": "{\"mods\": [\"IsRange\"]}"
+         }
+      ],
+      "MEval-MeasuredProperty": [
+         {
+            "indices": [
+               52,
+               60
+            ],
+            "annotSet": 1,
+            "annotId": "T21-1",
+            "text": "Increase",
+            "other": "{\"HasQuantity\": \"T11-1\"}"
+         },
+         {
+            "indices": [
+               123,
+               126
+            ],
+            "annotSet": 2,
+            "annotId": "T2-2",
+            "text": "Age",
+            "other": "{\"HasQuantity\": \"T1-2\"}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               20,
+               42
+            ],
+            "annotSet": 1,
+            "annotId": "T31-1",
+            "text": "Framingham Risk Scores",
+            "other": "{\"HasProperty\": \"T21-1\"}"
+         },
+         {
+            "indices": [
+               86,
+               105
+            ],
+            "annotSet": 2,
+            "annotId": "T4-2",
+            "text": "Depressive Symptoms",
+            "other": "{\"HasProperty\": \"T2-2\"}"
+         }
+      ],
+      "MEval-Qualifier": [
+         {
+            "indices": [
+               0,
+               82
+            ],
+            "annotSet": 2,
+            "annotId": "T5-2",
+            "text": "Association Between Framingham Risk Scores (per 10% Increase) and Subsequent Onset",
+            "other": "{\"Qualifies\": \"T4-2\"}"
+         },
+         {
+            "indices": [
+               106,
+               122
+            ],
+            "annotSet": 2,
+            "annotId": "T3-2",
+            "text": "Before and After",
+            "other": "{\"Qualifies\": \"T1-2\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               48,
+               50
+            ],
+            "text": "10"
+         },
+         {
+            "indices": [
+               50,
+               51
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               123,
+               126
+            ],
+            "text": "Age"
+         },
+         {
+            "indices": [
+               127,
+               129
+            ],
+            "text": "65"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               50,
+               51
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               52,
+               60
+            ],
+            "text": "Increase"
+         },
+         {
+            "indices": [
+               117,
+               122
+            ],
+            "text": "After"
+         },
+         {
+            "indices": [
+               123,
+               126
+            ],
+            "text": "Age"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               52,
+               60
+            ],
+            "text": "Increase"
+         },
+         {
+            "indices": [
+               0,
+               11
+            ],
+            "text": "Association"
+         },
+         {
+            "indices": [
+               106,
+               112
+            ],
+            "text": "Before"
+         },
+         {
+            "indices": [
+               106,
+               112
+            ],
+            "text": "Before"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               48,
+               50
+            ],
+            "text": "10"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               50,
+               51
+            ],
+            "text": "%"
+         }
+      ]
+   }
+}

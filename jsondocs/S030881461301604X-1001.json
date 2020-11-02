@@ -1,0 +1,3572 @@
+{
+   "text": "The water was ultrapure water obtained from a Milli-Q-system (Millipore Corporation, Bedford, MA, USA) and nitric acid (68 \u2013 70%), hydrochloric acid (30%), ammonium carbonate (powder), hydrogen peroxide (30%) and formic acid (98%) were all from J. T. Baker (Deventer, Netherlands). In the arsenic speciation analysis arsenobetaine (AB) (Fluka Analytical, Italy), arsenic(III)oxide (As(III)) (Aldrich Chemistry, USA), dimethyl arsenic acid (DMA) (Chem Service, USA), monomethyl arsenic acid disodium salt (MMA) (Argus Chemicals, Italy) and arsenic(V) (As(V)) standard solution (Merck, Germany) were used.",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               3
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 0,
+            "head": 1
+         },
+         {
+            "indices": [
+               4,
+               9
+            ],
+            "category": "NN",
+            "kind": "nsubj",
+            "id": 1,
+            "head": 2
+         },
+         {
+            "indices": [
+               10,
+               13
+            ],
+            "category": "VBD",
+            "kind": "ccomp",
+            "id": 2,
+            "head": 59
+         },
+         {
+            "indices": [
+               14,
+               23
+            ],
+            "category": "JJ",
+            "kind": "compound",
+            "id": 3,
+            "head": 4
+         },
+         {
+            "indices": [
+               24,
+               29
+            ],
+            "category": "NN",
+            "kind": "attr",
+            "id": 4,
+            "head": 2
+         },
+         {
+            "indices": [
+               30,
+               38
+            ],
+            "category": "VBN",
+            "kind": "acl",
+            "id": 5,
+            "head": 4
+         },
+         {
+            "indices": [
+               39,
+               43
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 6,
+            "head": 5
+         },
+         {
+            "indices": [
+               44,
+               45
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 7,
+            "head": 12
+         },
+         {
+            "indices": [
+               46,
+               51
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 8,
+            "head": 12
+         },
+         {
+            "indices": [
+               51,
+               52
+            ],
+            "category": "HYPH",
+            "kind": "punct",
+            "id": 9,
+            "head": 12
+         },
+         {
+            "indices": [
+               52,
+               53
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 10,
+            "head": 12
+         },
+         {
+            "indices": [
+               53,
+               54
+            ],
+            "category": "HYPH",
+            "kind": "punct",
+            "id": 11,
+            "head": 12
+         },
+         {
+            "indices": [
+               54,
+               60
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 12,
+            "head": 6
+         },
+         {
+            "indices": [
+               61,
+               62
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 13,
+            "head": 12
+         },
+         {
+            "indices": [
+               62,
+               71
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 14,
+            "head": 15
+         },
+         {
+            "indices": [
+               72,
+               83
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 15,
+            "head": 12
+         },
+         {
+            "indices": [
+               83,
+               84
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 16,
+            "head": 15
+         },
+         {
+            "indices": [
+               85,
+               92
+            ],
+            "category": "NNP",
+            "kind": "conj",
+            "id": 17,
+            "head": 15
+         },
+         {
+            "indices": [
+               92,
+               93
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 18,
+            "head": 17
+         },
+         {
+            "indices": [
+               94,
+               96
+            ],
+            "category": "NNP",
+            "kind": "conj",
+            "id": 19,
+            "head": 17
+         },
+         {
+            "indices": [
+               96,
+               97
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 20,
+            "head": 19
+         },
+         {
+            "indices": [
+               98,
+               101
+            ],
+            "category": "NNP",
+            "kind": "conj",
+            "id": 21,
+            "head": 19
+         },
+         {
+            "indices": [
+               101,
+               102
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 22,
+            "head": 15
+         },
+         {
+            "indices": [
+               103,
+               106
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 23,
+            "head": 15
+         },
+         {
+            "indices": [
+               107,
+               113
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 24,
+            "head": 25
+         },
+         {
+            "indices": [
+               114,
+               118
+            ],
+            "category": "NN",
+            "kind": "conj",
+            "id": 25,
+            "head": 15
+         },
+         {
+            "indices": [
+               119,
+               120
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 26,
+            "head": 12
+         },
+         {
+            "indices": [
+               120,
+               122
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 27,
+            "head": 30
+         },
+         {
+            "indices": [
+               123,
+               124
+            ],
+            "category": ":",
+            "kind": "punct",
+            "id": 28,
+            "head": 29
+         },
+         {
+            "indices": [
+               125,
+               127
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 29,
+            "head": 30
+         },
+         {
+            "indices": [
+               127,
+               128
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 30,
+            "head": 12
+         },
+         {
+            "indices": [
+               128,
+               129
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 31,
+            "head": 12
+         },
+         {
+            "indices": [
+               129,
+               130
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 32,
+            "head": 4
+         },
+         {
+            "indices": [
+               131,
+               143
+            ],
+            "category": "JJ",
+            "kind": "compound",
+            "id": 33,
+            "head": 34
+         },
+         {
+            "indices": [
+               144,
+               148
+            ],
+            "category": "NN",
+            "kind": "nsubj",
+            "id": 34,
+            "head": 59
+         },
+         {
+            "indices": [
+               149,
+               150
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 35,
+            "head": 34
+         },
+         {
+            "indices": [
+               150,
+               152
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 36,
+            "head": 37
+         },
+         {
+            "indices": [
+               152,
+               153
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 37,
+            "head": 34
+         },
+         {
+            "indices": [
+               153,
+               154
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 38,
+            "head": 34
+         },
+         {
+            "indices": [
+               154,
+               155
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 39,
+            "head": 34
+         },
+         {
+            "indices": [
+               156,
+               164
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 40,
+            "head": 41
+         },
+         {
+            "indices": [
+               165,
+               174
+            ],
+            "category": "NN",
+            "kind": "conj",
+            "id": 41,
+            "head": 34
+         },
+         {
+            "indices": [
+               175,
+               176
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 42,
+            "head": 41
+         },
+         {
+            "indices": [
+               176,
+               182
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 43,
+            "head": 41
+         },
+         {
+            "indices": [
+               182,
+               183
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 44,
+            "head": 41
+         },
+         {
+            "indices": [
+               183,
+               184
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 45,
+            "head": 41
+         },
+         {
+            "indices": [
+               185,
+               193
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 46,
+            "head": 47
+         },
+         {
+            "indices": [
+               194,
+               202
+            ],
+            "category": "NN",
+            "kind": "conj",
+            "id": 47,
+            "head": 41
+         },
+         {
+            "indices": [
+               203,
+               204
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 48,
+            "head": 47
+         },
+         {
+            "indices": [
+               204,
+               206
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 49,
+            "head": 50
+         },
+         {
+            "indices": [
+               206,
+               207
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 50,
+            "head": 47
+         },
+         {
+            "indices": [
+               207,
+               208
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 51,
+            "head": 47
+         },
+         {
+            "indices": [
+               209,
+               212
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 52,
+            "head": 47
+         },
+         {
+            "indices": [
+               213,
+               219
+            ],
+            "category": "JJ",
+            "kind": "compound",
+            "id": 53,
+            "head": 54
+         },
+         {
+            "indices": [
+               220,
+               224
+            ],
+            "category": "NN",
+            "kind": "conj",
+            "id": 54,
+            "head": 47
+         },
+         {
+            "indices": [
+               225,
+               226
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 55,
+            "head": 54
+         },
+         {
+            "indices": [
+               226,
+               228
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 56,
+            "head": 57
+         },
+         {
+            "indices": [
+               228,
+               229
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 57,
+            "head": 54
+         },
+         {
+            "indices": [
+               229,
+               230
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 58,
+            "head": 54
+         },
+         {
+            "indices": [
+               231,
+               235
+            ],
+            "category": "VBD",
+            "kind": "ROOT",
+            "id": 59,
+            "head": 59
+         },
+         {
+            "indices": [
+               236,
+               239
+            ],
+            "category": "DT",
+            "kind": "dep",
+            "id": 60,
+            "head": 59
+         },
+         {
+            "indices": [
+               240,
+               244
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 61,
+            "head": 59
+         },
+         {
+            "indices": [
+               245,
+               247
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 62,
+            "head": 64
+         },
+         {
+            "indices": [
+               248,
+               250
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 63,
+            "head": 64
+         },
+         {
+            "indices": [
+               251,
+               256
+            ],
+            "category": "NNP",
+            "kind": "pobj",
+            "id": 64,
+            "head": 61
+         },
+         {
+            "indices": [
+               257,
+               258
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 65,
+            "head": 64
+         },
+         {
+            "indices": [
+               258,
+               266
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 66,
+            "head": 64
+         },
+         {
+            "indices": [
+               266,
+               267
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 67,
+            "head": 66
+         },
+         {
+            "indices": [
+               268,
+               279
+            ],
+            "category": "NNP",
+            "kind": "npadvmod",
+            "id": 68,
+            "head": 66
+         },
+         {
+            "indices": [
+               279,
+               280
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 69,
+            "head": 64
+         },
+         {
+            "indices": [
+               280,
+               281
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 70,
+            "head": 59
+         },
+         {
+            "indices": [
+               282,
+               284
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 71,
+            "head": 87
+         },
+         {
+            "indices": [
+               285,
+               288
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 72,
+            "head": 76
+         },
+         {
+            "indices": [
+               289,
+               296
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 73,
+            "head": 75
+         },
+         {
+            "indices": [
+               297,
+               307
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 74,
+            "head": 75
+         },
+         {
+            "indices": [
+               308,
+               316
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 75,
+            "head": 76
+         },
+         {
+            "indices": [
+               317,
+               330
+            ],
+            "category": "NNP",
+            "kind": "pobj",
+            "id": 76,
+            "head": 71
+         },
+         {
+            "indices": [
+               331,
+               332
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 77,
+            "head": 78
+         },
+         {
+            "indices": [
+               332,
+               334
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 78,
+            "head": 76
+         },
+         {
+            "indices": [
+               334,
+               335
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 79,
+            "head": 78
+         },
+         {
+            "indices": [
+               336,
+               337
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 80,
+            "head": 82
+         },
+         {
+            "indices": [
+               337,
+               342
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 81,
+            "head": 82
+         },
+         {
+            "indices": [
+               343,
+               353
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 82,
+            "head": 76
+         },
+         {
+            "indices": [
+               353,
+               354
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 83,
+            "head": 82
+         },
+         {
+            "indices": [
+               355,
+               360
+            ],
+            "category": "NNP",
+            "kind": "npadvmod",
+            "id": 84,
+            "head": 82
+         },
+         {
+            "indices": [
+               360,
+               361
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 85,
+            "head": 82
+         },
+         {
+            "indices": [
+               361,
+               362
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 86,
+            "head": 82
+         },
+         {
+            "indices": [
+               363,
+               380
+            ],
+            "category": "NNP",
+            "kind": "ROOT",
+            "id": 87,
+            "head": 87
+         },
+         {
+            "indices": [
+               381,
+               382
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 88,
+            "head": 89
+         },
+         {
+            "indices": [
+               382,
+               388
+            ],
+            "category": "NFP",
+            "kind": "dep",
+            "id": 89,
+            "head": 90
+         },
+         {
+            "indices": [
+               388,
+               389
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 90,
+            "head": 87
+         },
+         {
+            "indices": [
+               389,
+               390
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 91,
+            "head": 87
+         },
+         {
+            "indices": [
+               391,
+               392
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 92,
+            "head": 94
+         },
+         {
+            "indices": [
+               392,
+               399
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 93,
+            "head": 94
+         },
+         {
+            "indices": [
+               400,
+               409
+            ],
+            "category": "NNP",
+            "kind": "ROOT",
+            "id": 94,
+            "head": 94
+         },
+         {
+            "indices": [
+               409,
+               410
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 95,
+            "head": 94
+         },
+         {
+            "indices": [
+               411,
+               414
+            ],
+            "category": "NNP",
+            "kind": "npadvmod",
+            "id": 96,
+            "head": 94
+         },
+         {
+            "indices": [
+               414,
+               415
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 97,
+            "head": 94
+         },
+         {
+            "indices": [
+               415,
+               416
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 98,
+            "head": 94
+         },
+         {
+            "indices": [
+               417,
+               425
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 99,
+            "head": 101
+         },
+         {
+            "indices": [
+               426,
+               433
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 100,
+            "head": 101
+         },
+         {
+            "indices": [
+               434,
+               438
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 101,
+            "head": 94
+         },
+         {
+            "indices": [
+               439,
+               440
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 102,
+            "head": 101
+         },
+         {
+            "indices": [
+               440,
+               443
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 103,
+            "head": 101
+         },
+         {
+            "indices": [
+               443,
+               444
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 104,
+            "head": 101
+         },
+         {
+            "indices": [
+               445,
+               446
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 105,
+            "head": 107
+         },
+         {
+            "indices": [
+               446,
+               450
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 106,
+            "head": 107
+         },
+         {
+            "indices": [
+               451,
+               458
+            ],
+            "category": "NNP",
+            "kind": "ROOT",
+            "id": 107,
+            "head": 107
+         },
+         {
+            "indices": [
+               458,
+               459
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 108,
+            "head": 107
+         },
+         {
+            "indices": [
+               460,
+               463
+            ],
+            "category": "NNP",
+            "kind": "npadvmod",
+            "id": 109,
+            "head": 107
+         },
+         {
+            "indices": [
+               463,
+               464
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 110,
+            "head": 107
+         },
+         {
+            "indices": [
+               464,
+               465
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 111,
+            "head": 107
+         },
+         {
+            "indices": [
+               466,
+               476
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 112,
+            "head": 114
+         },
+         {
+            "indices": [
+               477,
+               484
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 113,
+            "head": 114
+         },
+         {
+            "indices": [
+               485,
+               489
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 114,
+            "head": 116
+         },
+         {
+            "indices": [
+               490,
+               498
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 115,
+            "head": 116
+         },
+         {
+            "indices": [
+               499,
+               503
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 116,
+            "head": 107
+         },
+         {
+            "indices": [
+               504,
+               505
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 117,
+            "head": 116
+         },
+         {
+            "indices": [
+               505,
+               508
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 118,
+            "head": 116
+         },
+         {
+            "indices": [
+               508,
+               509
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 119,
+            "head": 116
+         },
+         {
+            "indices": [
+               510,
+               511
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 120,
+            "head": 107
+         },
+         {
+            "indices": [
+               511,
+               516
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 121,
+            "head": 122
+         },
+         {
+            "indices": [
+               517,
+               526
+            ],
+            "category": "NNPS",
+            "kind": "appos",
+            "id": 122,
+            "head": 107
+         },
+         {
+            "indices": [
+               526,
+               527
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 123,
+            "head": 122
+         },
+         {
+            "indices": [
+               528,
+               533
+            ],
+            "category": "NNP",
+            "kind": "npadvmod",
+            "id": 124,
+            "head": 122
+         },
+         {
+            "indices": [
+               533,
+               534
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 125,
+            "head": 122
+         },
+         {
+            "indices": [
+               535,
+               538
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 126,
+            "head": 127
+         },
+         {
+            "indices": [
+               539,
+               548
+            ],
+            "category": "NNP",
+            "kind": "ROOT",
+            "id": 127,
+            "head": 127
+         },
+         {
+            "indices": [
+               548,
+               549
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 128,
+            "head": 127
+         },
+         {
+            "indices": [
+               550,
+               551
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 129,
+            "head": 130
+         },
+         {
+            "indices": [
+               551,
+               555
+            ],
+            "category": "NNP",
+            "kind": "ROOT",
+            "id": 130,
+            "head": 130
+         },
+         {
+            "indices": [
+               555,
+               556
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 131,
+            "head": 130
+         },
+         {
+            "indices": [
+               556,
+               557
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 132,
+            "head": 130
+         },
+         {
+            "indices": [
+               558,
+               566
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 133,
+            "head": 134
+         },
+         {
+            "indices": [
+               567,
+               575
+            ],
+            "category": "NN",
+            "kind": "nsubjpass",
+            "id": 134,
+            "head": 141
+         },
+         {
+            "indices": [
+               576,
+               577
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 135,
+            "head": 134
+         },
+         {
+            "indices": [
+               577,
+               582
+            ],
+            "category": "NNP",
+            "kind": "nsubjpass",
+            "id": 136,
+            "head": 141
+         },
+         {
+            "indices": [
+               582,
+               583
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 137,
+            "head": 136
+         },
+         {
+            "indices": [
+               584,
+               591
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 138,
+            "head": 136
+         },
+         {
+            "indices": [
+               591,
+               592
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 139,
+            "head": 136
+         },
+         {
+            "indices": [
+               593,
+               597
+            ],
+            "category": "VBD",
+            "kind": "auxpass",
+            "id": 140,
+            "head": 141
+         },
+         {
+            "indices": [
+               598,
+               602
+            ],
+            "category": "VBN",
+            "kind": "ROOT",
+            "id": 141,
+            "head": 141
+         },
+         {
+            "indices": [
+               602,
+               603
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 142,
+            "head": 141
+         }
+      ],
+      "ORG": [
+         {
+            "indices": [
+               62,
+               83
+            ]
+         },
+         {
+            "indices": [
+               332,
+               334
+            ]
+         },
+         {
+            "indices": [
+               337,
+               353
+            ]
+         },
+         {
+            "indices": [
+               392,
+               414
+            ]
+         },
+         {
+            "indices": [
+               440,
+               443
+            ]
+         },
+         {
+            "indices": [
+               446,
+               458
+            ]
+         },
+         {
+            "indices": [
+               505,
+               508
+            ]
+         },
+         {
+            "indices": [
+               511,
+               526
+            ]
+         },
+         {
+            "indices": [
+               577,
+               582
+            ]
+         }
+      ],
+      "GPE": [
+         {
+            "indices": [
+               85,
+               92
+            ]
+         },
+         {
+            "indices": [
+               94,
+               96
+            ]
+         },
+         {
+            "indices": [
+               98,
+               101
+            ]
+         },
+         {
+            "indices": [
+               258,
+               266
+            ]
+         },
+         {
+            "indices": [
+               268,
+               279
+            ]
+         },
+         {
+            "indices": [
+               355,
+               360
+            ]
+         },
+         {
+            "indices": [
+               460,
+               463
+            ]
+         },
+         {
+            "indices": [
+               528,
+               533
+            ]
+         },
+         {
+            "indices": [
+               584,
+               591
+            ]
+         }
+      ],
+      "CARDINAL": [
+         {
+            "indices": [
+               120,
+               122
+            ]
+         }
+      ],
+      "PERCENT": [
+         {
+            "indices": [
+               125,
+               128
+            ]
+         },
+         {
+            "indices": [
+               150,
+               153
+            ]
+         },
+         {
+            "indices": [
+               204,
+               207
+            ]
+         },
+         {
+            "indices": [
+               226,
+               229
+            ]
+         }
+      ],
+      "PERSON": [
+         {
+            "indices": [
+               245,
+               256
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "water",
+               "The"
+            ],
+            "kind": "det",
+            "indices": [
+               0,
+               9
+            ]
+         },
+         {
+            "args": [
+               "was",
+               "water"
+            ],
+            "kind": "nsubj",
+            "indices": [
+               4,
+               13
+            ]
+         },
+         {
+            "args": [
+               "were",
+               "was"
+            ],
+            "kind": "ccomp",
+            "indices": [
+               10,
+               235
+            ]
+         },
+         {
+            "args": [
+               "water",
+               "ultrapure"
+            ],
+            "kind": "compound",
+            "indices": [
+               14,
+               29
+            ]
+         },
+         {
+            "args": [
+               "was",
+               "water"
+            ],
+            "kind": "attr",
+            "indices": [
+               10,
+               29
+            ]
+         },
+         {
+            "args": [
+               "water",
+               "obtained"
+            ],
+            "kind": "acl",
+            "indices": [
+               24,
+               38
+            ]
+         },
+         {
+            "args": [
+               "obtained",
+               "from"
+            ],
+            "kind": "prep",
+            "indices": [
+               30,
+               43
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "a"
+            ],
+            "kind": "det",
+            "indices": [
+               44,
+               60
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "Milli"
+            ],
+            "kind": "compound",
+            "indices": [
+               46,
+               60
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "-"
+            ],
+            "kind": "punct",
+            "indices": [
+               51,
+               60
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "Q"
+            ],
+            "kind": "compound",
+            "indices": [
+               52,
+               60
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "-"
+            ],
+            "kind": "punct",
+            "indices": [
+               53,
+               60
+            ]
+         },
+         {
+            "args": [
+               "from",
+               "system"
+            ],
+            "kind": "pobj",
+            "indices": [
+               39,
+               60
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               54,
+               62
+            ]
+         },
+         {
+            "args": [
+               "Corporation",
+               "Millipore"
+            ],
+            "kind": "compound",
+            "indices": [
+               62,
+               83
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "Corporation"
+            ],
+            "kind": "appos",
+            "indices": [
+               54,
+               83
+            ]
+         },
+         {
+            "args": [
+               "Corporation",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               72,
+               84
+            ]
+         },
+         {
+            "args": [
+               "Corporation",
+               "Bedford"
+            ],
+            "kind": "conj",
+            "indices": [
+               72,
+               92
+            ]
+         },
+         {
+            "args": [
+               "Bedford",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               85,
+               93
+            ]
+         },
+         {
+            "args": [
+               "Bedford",
+               "MA"
+            ],
+            "kind": "conj",
+            "indices": [
+               85,
+               96
+            ]
+         },
+         {
+            "args": [
+               "MA",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               94,
+               97
+            ]
+         },
+         {
+            "args": [
+               "MA",
+               "USA"
+            ],
+            "kind": "conj",
+            "indices": [
+               94,
+               101
+            ]
+         },
+         {
+            "args": [
+               "Corporation",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               72,
+               102
+            ]
+         },
+         {
+            "args": [
+               "Corporation",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               72,
+               106
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "nitric"
+            ],
+            "kind": "amod",
+            "indices": [
+               107,
+               118
+            ]
+         },
+         {
+            "args": [
+               "Corporation",
+               "acid"
+            ],
+            "kind": "conj",
+            "indices": [
+               72,
+               118
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               54,
+               120
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "68"
+            ],
+            "kind": "nummod",
+            "indices": [
+               120,
+               128
+            ]
+         },
+         {
+            "args": [
+               "70",
+               "\u2013"
+            ],
+            "kind": "punct",
+            "indices": [
+               123,
+               127
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "70"
+            ],
+            "kind": "nummod",
+            "indices": [
+               125,
+               128
+            ]
+         },
+         {
+            "args": [
+               "system",
+               "%"
+            ],
+            "kind": "appos",
+            "indices": [
+               54,
+               128
+            ]
+         },
+         {
+            "args": [
+               "system",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               54,
+               129
+            ]
+         },
+         {
+            "args": [
+               "water",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               24,
+               130
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "hydrochloric"
+            ],
+            "kind": "compound",
+            "indices": [
+               131,
+               148
+            ]
+         },
+         {
+            "args": [
+               "were",
+               "acid"
+            ],
+            "kind": "nsubj",
+            "indices": [
+               144,
+               235
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               144,
+               150
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "30"
+            ],
+            "kind": "nummod",
+            "indices": [
+               150,
+               153
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "%"
+            ],
+            "kind": "appos",
+            "indices": [
+               144,
+               153
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               144,
+               154
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               144,
+               155
+            ]
+         },
+         {
+            "args": [
+               "carbonate",
+               "ammonium"
+            ],
+            "kind": "compound",
+            "indices": [
+               156,
+               174
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "carbonate"
+            ],
+            "kind": "conj",
+            "indices": [
+               144,
+               174
+            ]
+         },
+         {
+            "args": [
+               "carbonate",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               165,
+               176
+            ]
+         },
+         {
+            "args": [
+               "carbonate",
+               "powder"
+            ],
+            "kind": "appos",
+            "indices": [
+               165,
+               182
+            ]
+         },
+         {
+            "args": [
+               "carbonate",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               165,
+               183
+            ]
+         },
+         {
+            "args": [
+               "carbonate",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               165,
+               184
+            ]
+         },
+         {
+            "args": [
+               "peroxide",
+               "hydrogen"
+            ],
+            "kind": "compound",
+            "indices": [
+               185,
+               202
+            ]
+         },
+         {
+            "args": [
+               "carbonate",
+               "peroxide"
+            ],
+            "kind": "conj",
+            "indices": [
+               165,
+               202
+            ]
+         },
+         {
+            "args": [
+               "peroxide",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               194,
+               204
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "30"
+            ],
+            "kind": "nummod",
+            "indices": [
+               204,
+               207
+            ]
+         },
+         {
+            "args": [
+               "peroxide",
+               "%"
+            ],
+            "kind": "appos",
+            "indices": [
+               194,
+               207
+            ]
+         },
+         {
+            "args": [
+               "peroxide",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               194,
+               208
+            ]
+         },
+         {
+            "args": [
+               "peroxide",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               194,
+               212
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "formic"
+            ],
+            "kind": "compound",
+            "indices": [
+               213,
+               224
+            ]
+         },
+         {
+            "args": [
+               "peroxide",
+               "acid"
+            ],
+            "kind": "conj",
+            "indices": [
+               194,
+               224
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               220,
+               226
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "98"
+            ],
+            "kind": "nummod",
+            "indices": [
+               226,
+               229
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "%"
+            ],
+            "kind": "appos",
+            "indices": [
+               220,
+               229
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               220,
+               230
+            ]
+         },
+         {
+            "args": [
+               "were",
+               "were"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               231,
+               235
+            ]
+         },
+         {
+            "args": [
+               "were",
+               "all"
+            ],
+            "kind": "dep",
+            "indices": [
+               231,
+               239
+            ]
+         },
+         {
+            "args": [
+               "were",
+               "from"
+            ],
+            "kind": "prep",
+            "indices": [
+               231,
+               244
+            ]
+         },
+         {
+            "args": [
+               "Baker",
+               "J."
+            ],
+            "kind": "compound",
+            "indices": [
+               245,
+               256
+            ]
+         },
+         {
+            "args": [
+               "Baker",
+               "T."
+            ],
+            "kind": "compound",
+            "indices": [
+               248,
+               256
+            ]
+         },
+         {
+            "args": [
+               "from",
+               "Baker"
+            ],
+            "kind": "pobj",
+            "indices": [
+               240,
+               256
+            ]
+         },
+         {
+            "args": [
+               "Baker",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               251,
+               258
+            ]
+         },
+         {
+            "args": [
+               "Baker",
+               "Deventer"
+            ],
+            "kind": "appos",
+            "indices": [
+               251,
+               266
+            ]
+         },
+         {
+            "args": [
+               "Deventer",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               258,
+               267
+            ]
+         },
+         {
+            "args": [
+               "Deventer",
+               "Netherlands"
+            ],
+            "kind": "npadvmod",
+            "indices": [
+               258,
+               279
+            ]
+         },
+         {
+            "args": [
+               "Baker",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               251,
+               280
+            ]
+         },
+         {
+            "args": [
+               "were",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               231,
+               281
+            ]
+         },
+         {
+            "args": [
+               "arsenic(III)oxide",
+               "In"
+            ],
+            "kind": "prep",
+            "indices": [
+               282,
+               380
+            ]
+         },
+         {
+            "args": [
+               "arsenobetaine",
+               "the"
+            ],
+            "kind": "det",
+            "indices": [
+               285,
+               330
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "arsenic"
+            ],
+            "kind": "compound",
+            "indices": [
+               289,
+               316
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "speciation"
+            ],
+            "kind": "compound",
+            "indices": [
+               297,
+               316
+            ]
+         },
+         {
+            "args": [
+               "arsenobetaine",
+               "analysis"
+            ],
+            "kind": "compound",
+            "indices": [
+               308,
+               330
+            ]
+         },
+         {
+            "args": [
+               "In",
+               "arsenobetaine"
+            ],
+            "kind": "pobj",
+            "indices": [
+               282,
+               330
+            ]
+         },
+         {
+            "args": [
+               "AB",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               331,
+               334
+            ]
+         },
+         {
+            "args": [
+               "arsenobetaine",
+               "AB"
+            ],
+            "kind": "appos",
+            "indices": [
+               317,
+               334
+            ]
+         },
+         {
+            "args": [
+               "AB",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               332,
+               335
+            ]
+         },
+         {
+            "args": [
+               "Analytical",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               336,
+               353
+            ]
+         },
+         {
+            "args": [
+               "Analytical",
+               "Fluka"
+            ],
+            "kind": "compound",
+            "indices": [
+               337,
+               353
+            ]
+         },
+         {
+            "args": [
+               "arsenobetaine",
+               "Analytical"
+            ],
+            "kind": "appos",
+            "indices": [
+               317,
+               353
+            ]
+         },
+         {
+            "args": [
+               "Analytical",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               343,
+               354
+            ]
+         },
+         {
+            "args": [
+               "Analytical",
+               "Italy"
+            ],
+            "kind": "npadvmod",
+            "indices": [
+               343,
+               360
+            ]
+         },
+         {
+            "args": [
+               "Analytical",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               343,
+               361
+            ]
+         },
+         {
+            "args": [
+               "Analytical",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               343,
+               362
+            ]
+         },
+         {
+            "args": [
+               "arsenic(III)oxide",
+               "arsenic(III)oxide"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               363,
+               380
+            ]
+         },
+         {
+            "args": [
+               "As(III",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               381,
+               388
+            ]
+         },
+         {
+            "args": [
+               ")",
+               "As(III"
+            ],
+            "kind": "dep",
+            "indices": [
+               382,
+               389
+            ]
+         },
+         {
+            "args": [
+               "arsenic(III)oxide",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               363,
+               389
+            ]
+         },
+         {
+            "args": [
+               "arsenic(III)oxide",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               363,
+               390
+            ]
+         },
+         {
+            "args": [
+               "Chemistry",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               391,
+               409
+            ]
+         },
+         {
+            "args": [
+               "Chemistry",
+               "Aldrich"
+            ],
+            "kind": "compound",
+            "indices": [
+               392,
+               409
+            ]
+         },
+         {
+            "args": [
+               "Chemistry",
+               "Chemistry"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               400,
+               409
+            ]
+         },
+         {
+            "args": [
+               "Chemistry",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               400,
+               410
+            ]
+         },
+         {
+            "args": [
+               "Chemistry",
+               "USA"
+            ],
+            "kind": "npadvmod",
+            "indices": [
+               400,
+               414
+            ]
+         },
+         {
+            "args": [
+               "Chemistry",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               400,
+               415
+            ]
+         },
+         {
+            "args": [
+               "Chemistry",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               400,
+               416
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "dimethyl"
+            ],
+            "kind": "compound",
+            "indices": [
+               417,
+               438
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "arsenic"
+            ],
+            "kind": "compound",
+            "indices": [
+               426,
+               438
+            ]
+         },
+         {
+            "args": [
+               "Chemistry",
+               "acid"
+            ],
+            "kind": "appos",
+            "indices": [
+               400,
+               438
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               434,
+               440
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "DMA"
+            ],
+            "kind": "appos",
+            "indices": [
+               434,
+               443
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               434,
+               444
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               445,
+               458
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               "Chem"
+            ],
+            "kind": "compound",
+            "indices": [
+               446,
+               458
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               "Service"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               451,
+               458
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               451,
+               459
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               "USA"
+            ],
+            "kind": "npadvmod",
+            "indices": [
+               451,
+               463
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               451,
+               464
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               451,
+               465
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "monomethyl"
+            ],
+            "kind": "compound",
+            "indices": [
+               466,
+               489
+            ]
+         },
+         {
+            "args": [
+               "acid",
+               "arsenic"
+            ],
+            "kind": "compound",
+            "indices": [
+               477,
+               489
+            ]
+         },
+         {
+            "args": [
+               "salt",
+               "acid"
+            ],
+            "kind": "compound",
+            "indices": [
+               485,
+               503
+            ]
+         },
+         {
+            "args": [
+               "salt",
+               "disodium"
+            ],
+            "kind": "compound",
+            "indices": [
+               490,
+               503
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               "salt"
+            ],
+            "kind": "appos",
+            "indices": [
+               451,
+               503
+            ]
+         },
+         {
+            "args": [
+               "salt",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               499,
+               505
+            ]
+         },
+         {
+            "args": [
+               "salt",
+               "MMA"
+            ],
+            "kind": "appos",
+            "indices": [
+               499,
+               508
+            ]
+         },
+         {
+            "args": [
+               "salt",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               499,
+               509
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               451,
+               511
+            ]
+         },
+         {
+            "args": [
+               "Chemicals",
+               "Argus"
+            ],
+            "kind": "compound",
+            "indices": [
+               511,
+               526
+            ]
+         },
+         {
+            "args": [
+               "Service",
+               "Chemicals"
+            ],
+            "kind": "appos",
+            "indices": [
+               451,
+               526
+            ]
+         },
+         {
+            "args": [
+               "Chemicals",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               517,
+               527
+            ]
+         },
+         {
+            "args": [
+               "Chemicals",
+               "Italy"
+            ],
+            "kind": "npadvmod",
+            "indices": [
+               517,
+               533
+            ]
+         },
+         {
+            "args": [
+               "Chemicals",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               517,
+               534
+            ]
+         },
+         {
+            "args": [
+               "arsenic(V",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               535,
+               548
+            ]
+         },
+         {
+            "args": [
+               "arsenic(V",
+               "arsenic(V"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               539,
+               548
+            ]
+         },
+         {
+            "args": [
+               "arsenic(V",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               539,
+               549
+            ]
+         },
+         {
+            "args": [
+               "As(V",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               550,
+               555
+            ]
+         },
+         {
+            "args": [
+               "As(V",
+               "As(V"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               551,
+               555
+            ]
+         },
+         {
+            "args": [
+               "As(V",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               551,
+               556
+            ]
+         },
+         {
+            "args": [
+               "As(V",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               551,
+               557
+            ]
+         },
+         {
+            "args": [
+               "solution",
+               "standard"
+            ],
+            "kind": "amod",
+            "indices": [
+               558,
+               575
+            ]
+         },
+         {
+            "args": [
+               "used",
+               "solution"
+            ],
+            "kind": "nsubjpass",
+            "indices": [
+               567,
+               602
+            ]
+         },
+         {
+            "args": [
+               "solution",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               567,
+               577
+            ]
+         },
+         {
+            "args": [
+               "used",
+               "Merck"
+            ],
+            "kind": "nsubjpass",
+            "indices": [
+               577,
+               602
+            ]
+         },
+         {
+            "args": [
+               "Merck",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               577,
+               583
+            ]
+         },
+         {
+            "args": [
+               "Merck",
+               "Germany"
+            ],
+            "kind": "appos",
+            "indices": [
+               577,
+               591
+            ]
+         },
+         {
+            "args": [
+               "Merck",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               577,
+               592
+            ]
+         },
+         {
+            "args": [
+               "used",
+               "were"
+            ],
+            "kind": "auxpass",
+            "indices": [
+               593,
+               602
+            ]
+         },
+         {
+            "args": [
+               "used",
+               "used"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               598,
+               602
+            ]
+         },
+         {
+            "args": [
+               "used",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               598,
+               603
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               281
+            ]
+         },
+         {
+            "indices": [
+               282,
+               390
+            ]
+         },
+         {
+            "indices": [
+               391,
+               444
+            ]
+         },
+         {
+            "indices": [
+               445,
+               534
+            ]
+         },
+         {
+            "indices": [
+               535,
+               549
+            ]
+         },
+         {
+            "indices": [
+               550,
+               557
+            ]
+         },
+         {
+            "indices": [
+               558,
+               603
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               120,
+               128
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "68 \u2013 70%",
+            "other": "{\"mods\": [\"IsRange\"], \"unit\": \"%\"}"
+         },
+         {
+            "indices": [
+               150,
+               153
+            ],
+            "annotSet": 2,
+            "annotId": "T1-2",
+            "text": "30%",
+            "other": "{\"unit\": \"%\"}"
+         },
+         {
+            "indices": [
+               204,
+               207
+            ],
+            "annotSet": 3,
+            "annotId": "T1-3",
+            "text": "30%",
+            "other": "{\"unit\": \"%\"}"
+         },
+         {
+            "indices": [
+               226,
+               229
+            ],
+            "annotSet": 4,
+            "annotId": "T1-4",
+            "text": "98%",
+            "other": "{\"unit\": \"%\"}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               107,
+               118
+            ],
+            "annotSet": 1,
+            "annotId": "T2-1",
+            "text": "nitric acid",
+            "other": "{\"HasQuantity\": \"T1-1\"}"
+         },
+         {
+            "indices": [
+               131,
+               148
+            ],
+            "annotSet": 2,
+            "annotId": "T2-2",
+            "text": "hydrochloric acid",
+            "other": "{\"HasQuantity\": \"T1-2\"}"
+         },
+         {
+            "indices": [
+               185,
+               202
+            ],
+            "annotSet": 3,
+            "annotId": "T2-3",
+            "text": "hydrogen peroxide",
+            "other": "{\"HasQuantity\": \"T1-3\"}"
+         },
+         {
+            "indices": [
+               213,
+               224
+            ],
+            "annotSet": 4,
+            "annotId": "T2-4",
+            "text": "formic acid",
+            "other": "{\"HasQuantity\": \"T1-4\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               120,
+               122
+            ],
+            "text": "68"
+         },
+         {
+            "indices": [
+               125,
+               127
+            ],
+            "text": "70"
+         },
+         {
+            "indices": [
+               127,
+               128
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               150,
+               152
+            ],
+            "text": "30"
+         },
+         {
+            "indices": [
+               152,
+               153
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               204,
+               206
+            ],
+            "text": "30"
+         },
+         {
+            "indices": [
+               206,
+               207
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               226,
+               228
+            ],
+            "text": "98"
+         },
+         {
+            "indices": [
+               228,
+               229
+            ],
+            "text": "%"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               127,
+               128
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               127,
+               128
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               54,
+               60
+            ],
+            "text": "system"
+         },
+         {
+            "indices": [
+               152,
+               153
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               144,
+               148
+            ],
+            "text": "acid"
+         },
+         {
+            "indices": [
+               206,
+               207
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               194,
+               202
+            ],
+            "text": "peroxide"
+         },
+         {
+            "indices": [
+               228,
+               229
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               220,
+               224
+            ],
+            "text": "acid"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               54,
+               60
+            ],
+            "text": "system"
+         },
+         {
+            "indices": [
+               54,
+               60
+            ],
+            "text": "system"
+         },
+         {
+            "indices": [
+               30,
+               38
+            ],
+            "text": "obtained"
+         },
+         {
+            "indices": [
+               144,
+               148
+            ],
+            "text": "acid"
+         },
+         {
+            "indices": [
+               231,
+               235
+            ],
+            "text": "were"
+         },
+         {
+            "indices": [
+               194,
+               202
+            ],
+            "text": "peroxide"
+         },
+         {
+            "indices": [
+               165,
+               174
+            ],
+            "text": "carbonate"
+         },
+         {
+            "indices": [
+               220,
+               224
+            ],
+            "text": "acid"
+         },
+         {
+            "indices": [
+               194,
+               202
+            ],
+            "text": "peroxide"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               120,
+               122
+            ],
+            "text": "68"
+         },
+         {
+            "indices": [
+               150,
+               152
+            ],
+            "text": "30"
+         },
+         {
+            "indices": [
+               204,
+               206
+            ],
+            "text": "30"
+         },
+         {
+            "indices": [
+               226,
+               228
+            ],
+            "text": "98"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               127,
+               128
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               152,
+               153
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               206,
+               207
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               228,
+               229
+            ],
+            "text": "%"
+         }
+      ],
+      "h0MeasuredEntityTP": [
+         {
+            "indices": [
+               150,
+               152
+            ],
+            "text": "30"
+         },
+         {
+            "indices": [
+               204,
+               206
+            ],
+            "text": "30"
+         },
+         {
+            "indices": [
+               226,
+               228
+            ],
+            "text": "98"
+         }
+      ]
+   }
+}

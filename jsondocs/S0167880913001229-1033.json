@@ -1,0 +1,489 @@
+{
+   "text": "Organic management caused a greater increase in 0\u201310 cm SOC but did not influence reduction at depth.",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               7
+            ],
+            "category": "JJ",
+            "kind": "compound",
+            "id": 0,
+            "head": 1
+         },
+         {
+            "indices": [
+               8,
+               18
+            ],
+            "category": "NN",
+            "kind": "nsubj",
+            "id": 1,
+            "head": 2
+         },
+         {
+            "indices": [
+               19,
+               25
+            ],
+            "category": "VBD",
+            "kind": "ROOT",
+            "id": 2,
+            "head": 2
+         },
+         {
+            "indices": [
+               26,
+               27
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 3,
+            "head": 5
+         },
+         {
+            "indices": [
+               28,
+               35
+            ],
+            "category": "JJR",
+            "kind": "amod",
+            "id": 4,
+            "head": 5
+         },
+         {
+            "indices": [
+               36,
+               44
+            ],
+            "category": "NN",
+            "kind": "dobj",
+            "id": 5,
+            "head": 2
+         },
+         {
+            "indices": [
+               45,
+               47
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 6,
+            "head": 5
+         },
+         {
+            "indices": [
+               48,
+               52
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 7,
+            "head": 8
+         },
+         {
+            "indices": [
+               53,
+               55
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 8,
+            "head": 9
+         },
+         {
+            "indices": [
+               56,
+               59
+            ],
+            "category": "NNP",
+            "kind": "pobj",
+            "id": 9,
+            "head": 6
+         },
+         {
+            "indices": [
+               60,
+               63
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 10,
+            "head": 2
+         },
+         {
+            "indices": [
+               64,
+               67
+            ],
+            "category": "VBD",
+            "kind": "aux",
+            "id": 11,
+            "head": 13
+         },
+         {
+            "indices": [
+               68,
+               71
+            ],
+            "category": "RB",
+            "kind": "neg",
+            "id": 12,
+            "head": 13
+         },
+         {
+            "indices": [
+               72,
+               81
+            ],
+            "category": "VB",
+            "kind": "conj",
+            "id": 13,
+            "head": 2
+         },
+         {
+            "indices": [
+               82,
+               91
+            ],
+            "category": "NN",
+            "kind": "dobj",
+            "id": 14,
+            "head": 13
+         },
+         {
+            "indices": [
+               92,
+               94
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 15,
+            "head": 14
+         },
+         {
+            "indices": [
+               95,
+               100
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 16,
+            "head": 15
+         },
+         {
+            "indices": [
+               100,
+               101
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 17,
+            "head": 2
+         }
+      ],
+      "MONEY": [
+         {
+            "indices": [
+               48,
+               55
+            ]
+         }
+      ],
+      "ORG": [
+         {
+            "indices": [
+               56,
+               59
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "management",
+               "Organic"
+            ],
+            "kind": "compound",
+            "indices": [
+               0,
+               18
+            ]
+         },
+         {
+            "args": [
+               "caused",
+               "management"
+            ],
+            "kind": "nsubj",
+            "indices": [
+               8,
+               25
+            ]
+         },
+         {
+            "args": [
+               "caused",
+               "caused"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               19,
+               25
+            ]
+         },
+         {
+            "args": [
+               "increase",
+               "a"
+            ],
+            "kind": "det",
+            "indices": [
+               26,
+               44
+            ]
+         },
+         {
+            "args": [
+               "increase",
+               "greater"
+            ],
+            "kind": "amod",
+            "indices": [
+               28,
+               44
+            ]
+         },
+         {
+            "args": [
+               "caused",
+               "increase"
+            ],
+            "kind": "dobj",
+            "indices": [
+               19,
+               44
+            ]
+         },
+         {
+            "args": [
+               "increase",
+               "in"
+            ],
+            "kind": "prep",
+            "indices": [
+               36,
+               47
+            ]
+         },
+         {
+            "args": [
+               "cm",
+               "0\u201310"
+            ],
+            "kind": "nummod",
+            "indices": [
+               48,
+               55
+            ]
+         },
+         {
+            "args": [
+               "SOC",
+               "cm"
+            ],
+            "kind": "compound",
+            "indices": [
+               53,
+               59
+            ]
+         },
+         {
+            "args": [
+               "in",
+               "SOC"
+            ],
+            "kind": "pobj",
+            "indices": [
+               45,
+               59
+            ]
+         },
+         {
+            "args": [
+               "caused",
+               "but"
+            ],
+            "kind": "cc",
+            "indices": [
+               19,
+               63
+            ]
+         },
+         {
+            "args": [
+               "influence",
+               "did"
+            ],
+            "kind": "aux",
+            "indices": [
+               64,
+               81
+            ]
+         },
+         {
+            "args": [
+               "influence",
+               "not"
+            ],
+            "kind": "neg",
+            "indices": [
+               68,
+               81
+            ]
+         },
+         {
+            "args": [
+               "caused",
+               "influence"
+            ],
+            "kind": "conj",
+            "indices": [
+               19,
+               81
+            ]
+         },
+         {
+            "args": [
+               "influence",
+               "reduction"
+            ],
+            "kind": "dobj",
+            "indices": [
+               72,
+               91
+            ]
+         },
+         {
+            "args": [
+               "reduction",
+               "at"
+            ],
+            "kind": "prep",
+            "indices": [
+               82,
+               94
+            ]
+         },
+         {
+            "args": [
+               "at",
+               "depth"
+            ],
+            "kind": "pobj",
+            "indices": [
+               92,
+               100
+            ]
+         },
+         {
+            "args": [
+               "caused",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               19,
+               101
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               101
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               48,
+               55
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "0\u201310 cm",
+            "other": "{\"unit\": \"cm\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               48,
+               52
+            ],
+            "text": "0\u201310"
+         },
+         {
+            "indices": [
+               53,
+               55
+            ],
+            "text": "cm"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               53,
+               55
+            ],
+            "text": "cm"
+         },
+         {
+            "indices": [
+               56,
+               59
+            ],
+            "text": "SOC"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               56,
+               59
+            ],
+            "text": "SOC"
+         },
+         {
+            "indices": [
+               36,
+               44
+            ],
+            "text": "increase"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               48,
+               52
+            ],
+            "text": "0\u201310"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               53,
+               55
+            ],
+            "text": "cm"
+         }
+      ]
+   }
+}

@@ -1,0 +1,752 @@
+{
+   "text": "\u03b8=tan\u22121(w/U) against mean wind speed (gate midpoint=180 m). Median wind speed is 7.83 m s\u22121.",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               1
+            ],
+            "category": "NN",
+            "kind": "nmod",
+            "id": 0,
+            "head": 4
+         },
+         {
+            "indices": [
+               1,
+               2
+            ],
+            "category": "SYM",
+            "kind": "punct",
+            "id": 1,
+            "head": 4
+         },
+         {
+            "indices": [
+               2,
+               9
+            ],
+            "category": "NN",
+            "kind": "nmod",
+            "id": 2,
+            "head": 4
+         },
+         {
+            "indices": [
+               9,
+               10
+            ],
+            "category": "SYM",
+            "kind": "punct",
+            "id": 3,
+            "head": 4
+         },
+         {
+            "indices": [
+               10,
+               11
+            ],
+            "category": "NN",
+            "kind": "ROOT",
+            "id": 4,
+            "head": 4
+         },
+         {
+            "indices": [
+               11,
+               12
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 5,
+            "head": 4
+         },
+         {
+            "indices": [
+               13,
+               20
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 6,
+            "head": 4
+         },
+         {
+            "indices": [
+               21,
+               25
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 7,
+            "head": 9
+         },
+         {
+            "indices": [
+               26,
+               30
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 8,
+            "head": 9
+         },
+         {
+            "indices": [
+               31,
+               36
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 9,
+            "head": 6
+         },
+         {
+            "indices": [
+               37,
+               38
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 10,
+            "head": 9
+         },
+         {
+            "indices": [
+               38,
+               42
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 11,
+            "head": 13
+         },
+         {
+            "indices": [
+               43,
+               55
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 12,
+            "head": 13
+         },
+         {
+            "indices": [
+               56,
+               57
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 13,
+            "head": 9
+         },
+         {
+            "indices": [
+               57,
+               58
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 14,
+            "head": 9
+         },
+         {
+            "indices": [
+               58,
+               59
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 15,
+            "head": 4
+         },
+         {
+            "indices": [
+               60,
+               66
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 16,
+            "head": 18
+         },
+         {
+            "indices": [
+               67,
+               71
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 17,
+            "head": 18
+         },
+         {
+            "indices": [
+               72,
+               77
+            ],
+            "category": "NN",
+            "kind": "nsubj",
+            "id": 18,
+            "head": 19
+         },
+         {
+            "indices": [
+               78,
+               80
+            ],
+            "category": "VBZ",
+            "kind": "ROOT",
+            "id": 19,
+            "head": 19
+         },
+         {
+            "indices": [
+               81,
+               85
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 20,
+            "head": 22
+         },
+         {
+            "indices": [
+               86,
+               87
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 21,
+            "head": 22
+         },
+         {
+            "indices": [
+               88,
+               91
+            ],
+            "category": "CD",
+            "kind": "attr",
+            "id": 22,
+            "head": 19
+         },
+         {
+            "indices": [
+               91,
+               92
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 23,
+            "head": 19
+         }
+      ],
+      "QUANTITY": [
+         {
+            "indices": [
+               43,
+               57
+            ]
+         },
+         {
+            "indices": [
+               81,
+               91
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "U",
+               "\u03b8"
+            ],
+            "kind": "nmod",
+            "indices": [
+               0,
+               11
+            ]
+         },
+         {
+            "args": [
+               "U",
+               "="
+            ],
+            "kind": "punct",
+            "indices": [
+               1,
+               11
+            ]
+         },
+         {
+            "args": [
+               "U",
+               "tan\u22121(w"
+            ],
+            "kind": "nmod",
+            "indices": [
+               2,
+               11
+            ]
+         },
+         {
+            "args": [
+               "U",
+               "/"
+            ],
+            "kind": "punct",
+            "indices": [
+               9,
+               11
+            ]
+         },
+         {
+            "args": [
+               "U",
+               "U"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               10,
+               11
+            ]
+         },
+         {
+            "args": [
+               "U",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               10,
+               12
+            ]
+         },
+         {
+            "args": [
+               "U",
+               "against"
+            ],
+            "kind": "prep",
+            "indices": [
+               10,
+               20
+            ]
+         },
+         {
+            "args": [
+               "speed",
+               "mean"
+            ],
+            "kind": "amod",
+            "indices": [
+               21,
+               36
+            ]
+         },
+         {
+            "args": [
+               "speed",
+               "wind"
+            ],
+            "kind": "compound",
+            "indices": [
+               26,
+               36
+            ]
+         },
+         {
+            "args": [
+               "against",
+               "speed"
+            ],
+            "kind": "pobj",
+            "indices": [
+               13,
+               36
+            ]
+         },
+         {
+            "args": [
+               "speed",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               31,
+               38
+            ]
+         },
+         {
+            "args": [
+               "m",
+               "gate"
+            ],
+            "kind": "compound",
+            "indices": [
+               38,
+               57
+            ]
+         },
+         {
+            "args": [
+               "m",
+               "midpoint=180"
+            ],
+            "kind": "compound",
+            "indices": [
+               43,
+               57
+            ]
+         },
+         {
+            "args": [
+               "speed",
+               "m"
+            ],
+            "kind": "appos",
+            "indices": [
+               31,
+               57
+            ]
+         },
+         {
+            "args": [
+               "speed",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               31,
+               58
+            ]
+         },
+         {
+            "args": [
+               "U",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               10,
+               59
+            ]
+         },
+         {
+            "args": [
+               "speed",
+               "Median"
+            ],
+            "kind": "amod",
+            "indices": [
+               60,
+               77
+            ]
+         },
+         {
+            "args": [
+               "speed",
+               "wind"
+            ],
+            "kind": "compound",
+            "indices": [
+               67,
+               77
+            ]
+         },
+         {
+            "args": [
+               "is",
+               "speed"
+            ],
+            "kind": "nsubj",
+            "indices": [
+               72,
+               80
+            ]
+         },
+         {
+            "args": [
+               "is",
+               "is"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               78,
+               80
+            ]
+         },
+         {
+            "args": [
+               "s\u22121",
+               "7.83"
+            ],
+            "kind": "nummod",
+            "indices": [
+               81,
+               91
+            ]
+         },
+         {
+            "args": [
+               "s\u22121",
+               "m"
+            ],
+            "kind": "compound",
+            "indices": [
+               86,
+               91
+            ]
+         },
+         {
+            "args": [
+               "is",
+               "s\u22121"
+            ],
+            "kind": "attr",
+            "indices": [
+               78,
+               91
+            ]
+         },
+         {
+            "args": [
+               "is",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               78,
+               92
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               59
+            ]
+         },
+         {
+            "indices": [
+               60,
+               92
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               52,
+               57
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "180 m",
+            "other": "{\"unit\": \"m\"}"
+         },
+         {
+            "indices": [
+               81,
+               91
+            ],
+            "annotSet": 2,
+            "annotId": "T1-2",
+            "text": "7.83 m s\u22121",
+            "other": "{\"mods\": [\"IsMedian\"], \"unit\": \"m s\u22121\"}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               38,
+               51
+            ],
+            "annotSet": 1,
+            "annotId": "T3-1",
+            "text": "gate midpoint",
+            "other": "{\"HasQuantity\": \"T1-1\"}"
+         },
+         {
+            "indices": [
+               67,
+               71
+            ],
+            "annotSet": 2,
+            "annotId": "T3-2",
+            "text": "wind",
+            "other": "{\"HasProperty\": \"T4-2\"}"
+         }
+      ],
+      "MEval-MeasuredProperty": [
+         {
+            "indices": [
+               72,
+               77
+            ],
+            "annotSet": 2,
+            "annotId": "T4-2",
+            "text": "speed",
+            "other": "{\"HasQuantity\": \"T1-2\"}"
+         }
+      ],
+      "MEval-Qualifier": [
+         {
+            "indices": [
+               60,
+               66
+            ],
+            "annotSet": 2,
+            "annotId": "T5-2",
+            "text": "Median",
+            "other": "{\"Qualifies\": \"T1-2\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               43,
+               55
+            ],
+            "text": "midpoint=180"
+         },
+         {
+            "indices": [
+               56,
+               57
+            ],
+            "text": "m"
+         },
+         {
+            "indices": [
+               81,
+               85
+            ],
+            "text": "7.83"
+         },
+         {
+            "indices": [
+               86,
+               87
+            ],
+            "text": "m"
+         },
+         {
+            "indices": [
+               88,
+               91
+            ],
+            "text": "s\u22121"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               56,
+               57
+            ],
+            "text": "m"
+         },
+         {
+            "indices": [
+               31,
+               36
+            ],
+            "text": "speed"
+         },
+         {
+            "indices": [
+               88,
+               91
+            ],
+            "text": "s\u22121"
+         },
+         {
+            "indices": [
+               88,
+               91
+            ],
+            "text": "s\u22121"
+         },
+         {
+            "indices": [
+               78,
+               80
+            ],
+            "text": "is"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               31,
+               36
+            ],
+            "text": "speed"
+         },
+         {
+            "indices": [
+               10,
+               11
+            ],
+            "text": "U"
+         },
+         {
+            "indices": [
+               78,
+               80
+            ],
+            "text": "is"
+         },
+         {
+            "indices": [
+               78,
+               80
+            ],
+            "text": "is"
+         },
+         {
+            "indices": [
+               78,
+               80
+            ],
+            "text": "is"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               43,
+               55
+            ],
+            "text": "midpoint=180"
+         },
+         {
+            "indices": [
+               81,
+               85
+            ],
+            "text": "7.83"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               56,
+               57
+            ],
+            "text": "m"
+         },
+         {
+            "indices": [
+               88,
+               91
+            ],
+            "text": "s\u22121"
+         }
+      ]
+   }
+}

@@ -1,0 +1,655 @@
+{
+   "text": "Principal component analysis of fungal TRFs for (A) all seven months combined and (B) for month 7 only.",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               9
+            ],
+            "category": "JJ",
+            "kind": "compound",
+            "id": 0,
+            "head": 1
+         },
+         {
+            "indices": [
+               10,
+               19
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 1,
+            "head": 2
+         },
+         {
+            "indices": [
+               20,
+               28
+            ],
+            "category": "NN",
+            "kind": "ROOT",
+            "id": 2,
+            "head": 2
+         },
+         {
+            "indices": [
+               29,
+               31
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 3,
+            "head": 2
+         },
+         {
+            "indices": [
+               32,
+               38
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 4,
+            "head": 5
+         },
+         {
+            "indices": [
+               39,
+               43
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 5,
+            "head": 3
+         },
+         {
+            "indices": [
+               44,
+               47
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 6,
+            "head": 2
+         },
+         {
+            "indices": [
+               48,
+               49
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 7,
+            "head": 8
+         },
+         {
+            "indices": [
+               49,
+               50
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 8,
+            "head": 6
+         },
+         {
+            "indices": [
+               50,
+               51
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 9,
+            "head": 8
+         },
+         {
+            "indices": [
+               52,
+               55
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 10,
+            "head": 12
+         },
+         {
+            "indices": [
+               56,
+               61
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 11,
+            "head": 12
+         },
+         {
+            "indices": [
+               62,
+               68
+            ],
+            "category": "NNS",
+            "kind": "npadvmod",
+            "id": 12,
+            "head": 13
+         },
+         {
+            "indices": [
+               69,
+               77
+            ],
+            "category": "VBN",
+            "kind": "ROOT",
+            "id": 13,
+            "head": 13
+         },
+         {
+            "indices": [
+               78,
+               81
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 14,
+            "head": 13
+         },
+         {
+            "indices": [
+               82,
+               83
+            ],
+            "category": "-LRB-",
+            "kind": "punct",
+            "id": 15,
+            "head": 16
+         },
+         {
+            "indices": [
+               83,
+               84
+            ],
+            "category": "NN",
+            "kind": "parataxis",
+            "id": 16,
+            "head": 13
+         },
+         {
+            "indices": [
+               84,
+               85
+            ],
+            "category": "-RRB-",
+            "kind": "punct",
+            "id": 17,
+            "head": 16
+         },
+         {
+            "indices": [
+               86,
+               89
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 18,
+            "head": 13
+         },
+         {
+            "indices": [
+               90,
+               95
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 19,
+            "head": 18
+         },
+         {
+            "indices": [
+               96,
+               97
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 20,
+            "head": 19
+         },
+         {
+            "indices": [
+               98,
+               102
+            ],
+            "category": "RB",
+            "kind": "advmod",
+            "id": 21,
+            "head": 19
+         },
+         {
+            "indices": [
+               102,
+               103
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 22,
+            "head": 13
+         }
+      ],
+      "DATE": [
+         {
+            "indices": [
+               52,
+               68
+            ]
+         },
+         {
+            "indices": [
+               90,
+               97
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "component",
+               "Principal"
+            ],
+            "kind": "compound",
+            "indices": [
+               0,
+               19
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "component"
+            ],
+            "kind": "compound",
+            "indices": [
+               10,
+               28
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "analysis"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               20,
+               28
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "of"
+            ],
+            "kind": "prep",
+            "indices": [
+               20,
+               31
+            ]
+         },
+         {
+            "args": [
+               "TRFs",
+               "fungal"
+            ],
+            "kind": "amod",
+            "indices": [
+               32,
+               43
+            ]
+         },
+         {
+            "args": [
+               "of",
+               "TRFs"
+            ],
+            "kind": "pobj",
+            "indices": [
+               29,
+               43
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "for"
+            ],
+            "kind": "prep",
+            "indices": [
+               20,
+               47
+            ]
+         },
+         {
+            "args": [
+               "A",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               48,
+               50
+            ]
+         },
+         {
+            "args": [
+               "for",
+               "A"
+            ],
+            "kind": "pobj",
+            "indices": [
+               44,
+               50
+            ]
+         },
+         {
+            "args": [
+               "A",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               49,
+               51
+            ]
+         },
+         {
+            "args": [
+               "months",
+               "all"
+            ],
+            "kind": "det",
+            "indices": [
+               52,
+               68
+            ]
+         },
+         {
+            "args": [
+               "months",
+               "seven"
+            ],
+            "kind": "nummod",
+            "indices": [
+               56,
+               68
+            ]
+         },
+         {
+            "args": [
+               "combined",
+               "months"
+            ],
+            "kind": "npadvmod",
+            "indices": [
+               62,
+               77
+            ]
+         },
+         {
+            "args": [
+               "combined",
+               "combined"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               69,
+               77
+            ]
+         },
+         {
+            "args": [
+               "combined",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               69,
+               81
+            ]
+         },
+         {
+            "args": [
+               "B",
+               "("
+            ],
+            "kind": "punct",
+            "indices": [
+               82,
+               84
+            ]
+         },
+         {
+            "args": [
+               "combined",
+               "B"
+            ],
+            "kind": "parataxis",
+            "indices": [
+               69,
+               84
+            ]
+         },
+         {
+            "args": [
+               "B",
+               ")"
+            ],
+            "kind": "punct",
+            "indices": [
+               83,
+               85
+            ]
+         },
+         {
+            "args": [
+               "combined",
+               "for"
+            ],
+            "kind": "prep",
+            "indices": [
+               69,
+               89
+            ]
+         },
+         {
+            "args": [
+               "for",
+               "month"
+            ],
+            "kind": "pobj",
+            "indices": [
+               86,
+               95
+            ]
+         },
+         {
+            "args": [
+               "month",
+               "7"
+            ],
+            "kind": "nummod",
+            "indices": [
+               90,
+               97
+            ]
+         },
+         {
+            "args": [
+               "month",
+               "only"
+            ],
+            "kind": "advmod",
+            "indices": [
+               90,
+               102
+            ]
+         },
+         {
+            "args": [
+               "combined",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               69,
+               103
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               51
+            ]
+         },
+         {
+            "indices": [
+               52,
+               103
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               56,
+               61
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "seven",
+            "other": "{\"mods\": [\"IsCount\"]}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               62,
+               68
+            ],
+            "annotSet": 1,
+            "annotId": "T2-1",
+            "text": "months",
+            "other": "{\"HasQuantity\": \"T1-1\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               52,
+               55
+            ],
+            "text": "all"
+         },
+         {
+            "indices": [
+               56,
+               61
+            ],
+            "text": "seven"
+         },
+         {
+            "indices": [
+               62,
+               68
+            ],
+            "text": "months"
+         },
+         {
+            "indices": [
+               90,
+               95
+            ],
+            "text": "month"
+         },
+         {
+            "indices": [
+               96,
+               97
+            ],
+            "text": "7"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               62,
+               68
+            ],
+            "text": "months"
+         },
+         {
+            "indices": [
+               62,
+               68
+            ],
+            "text": "months"
+         },
+         {
+            "indices": [
+               69,
+               77
+            ],
+            "text": "combined"
+         },
+         {
+            "indices": [
+               86,
+               89
+            ],
+            "text": "for"
+         },
+         {
+            "indices": [
+               90,
+               95
+            ],
+            "text": "month"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               69,
+               77
+            ],
+            "text": "combined"
+         },
+         {
+            "indices": [
+               69,
+               77
+            ],
+            "text": "combined"
+         },
+         {
+            "indices": [
+               69,
+               77
+            ],
+            "text": "combined"
+         },
+         {
+            "indices": [
+               69,
+               77
+            ],
+            "text": "combined"
+         },
+         {
+            "indices": [
+               69,
+               77
+            ],
+            "text": "combined"
+         }
+      ]
+   }
+}

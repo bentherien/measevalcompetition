@@ -1,0 +1,797 @@
+{
+   "text": "The differentiation medium was changed to fresh medium 48 h before the assay. Albumin secretion was measured by the central clinical laboratory at Kumamoto University, Kumamoto, Japan.",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               3
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 0,
+            "head": 2
+         },
+         {
+            "indices": [
+               4,
+               19
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 1,
+            "head": 2
+         },
+         {
+            "indices": [
+               20,
+               26
+            ],
+            "category": "NN",
+            "kind": "nsubjpass",
+            "id": 2,
+            "head": 4
+         },
+         {
+            "indices": [
+               27,
+               30
+            ],
+            "category": "VBD",
+            "kind": "auxpass",
+            "id": 3,
+            "head": 4
+         },
+         {
+            "indices": [
+               31,
+               38
+            ],
+            "category": "VBN",
+            "kind": "ROOT",
+            "id": 4,
+            "head": 4
+         },
+         {
+            "indices": [
+               39,
+               41
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 5,
+            "head": 4
+         },
+         {
+            "indices": [
+               42,
+               47
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 6,
+            "head": 9
+         },
+         {
+            "indices": [
+               48,
+               54
+            ],
+            "category": "NN",
+            "kind": "amod",
+            "id": 7,
+            "head": 9
+         },
+         {
+            "indices": [
+               55,
+               57
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 8,
+            "head": 9
+         },
+         {
+            "indices": [
+               58,
+               59
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 9,
+            "head": 5
+         },
+         {
+            "indices": [
+               60,
+               66
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 10,
+            "head": 9
+         },
+         {
+            "indices": [
+               67,
+               70
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 11,
+            "head": 12
+         },
+         {
+            "indices": [
+               71,
+               76
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 12,
+            "head": 10
+         },
+         {
+            "indices": [
+               76,
+               77
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 13,
+            "head": 4
+         },
+         {
+            "indices": [
+               78,
+               85
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 14,
+            "head": 15
+         },
+         {
+            "indices": [
+               86,
+               95
+            ],
+            "category": "NN",
+            "kind": "nsubjpass",
+            "id": 15,
+            "head": 17
+         },
+         {
+            "indices": [
+               96,
+               99
+            ],
+            "category": "VBD",
+            "kind": "auxpass",
+            "id": 16,
+            "head": 17
+         },
+         {
+            "indices": [
+               100,
+               108
+            ],
+            "category": "VBN",
+            "kind": "ROOT",
+            "id": 17,
+            "head": 17
+         },
+         {
+            "indices": [
+               109,
+               111
+            ],
+            "category": "IN",
+            "kind": "agent",
+            "id": 18,
+            "head": 17
+         },
+         {
+            "indices": [
+               112,
+               115
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 19,
+            "head": 22
+         },
+         {
+            "indices": [
+               116,
+               123
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 20,
+            "head": 22
+         },
+         {
+            "indices": [
+               124,
+               132
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 21,
+            "head": 22
+         },
+         {
+            "indices": [
+               133,
+               143
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 22,
+            "head": 18
+         },
+         {
+            "indices": [
+               144,
+               146
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 23,
+            "head": 22
+         },
+         {
+            "indices": [
+               147,
+               155
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 24,
+            "head": 25
+         },
+         {
+            "indices": [
+               156,
+               166
+            ],
+            "category": "NNP",
+            "kind": "pobj",
+            "id": 25,
+            "head": 23
+         },
+         {
+            "indices": [
+               166,
+               167
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 26,
+            "head": 25
+         },
+         {
+            "indices": [
+               168,
+               176
+            ],
+            "category": "NNP",
+            "kind": "conj",
+            "id": 27,
+            "head": 25
+         },
+         {
+            "indices": [
+               176,
+               177
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 28,
+            "head": 27
+         },
+         {
+            "indices": [
+               178,
+               183
+            ],
+            "category": "NNP",
+            "kind": "appos",
+            "id": 29,
+            "head": 27
+         },
+         {
+            "indices": [
+               183,
+               184
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 30,
+            "head": 17
+         }
+      ],
+      "CARDINAL": [
+         {
+            "indices": [
+               55,
+               57
+            ]
+         }
+      ],
+      "ORG": [
+         {
+            "indices": [
+               147,
+               166
+            ]
+         }
+      ],
+      "GPE": [
+         {
+            "indices": [
+               168,
+               176
+            ]
+         },
+         {
+            "indices": [
+               178,
+               183
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "medium",
+               "The"
+            ],
+            "kind": "det",
+            "indices": [
+               0,
+               26
+            ]
+         },
+         {
+            "args": [
+               "medium",
+               "differentiation"
+            ],
+            "kind": "compound",
+            "indices": [
+               4,
+               26
+            ]
+         },
+         {
+            "args": [
+               "changed",
+               "medium"
+            ],
+            "kind": "nsubjpass",
+            "indices": [
+               20,
+               38
+            ]
+         },
+         {
+            "args": [
+               "changed",
+               "was"
+            ],
+            "kind": "auxpass",
+            "indices": [
+               27,
+               38
+            ]
+         },
+         {
+            "args": [
+               "changed",
+               "changed"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               31,
+               38
+            ]
+         },
+         {
+            "args": [
+               "changed",
+               "to"
+            ],
+            "kind": "prep",
+            "indices": [
+               31,
+               41
+            ]
+         },
+         {
+            "args": [
+               "h",
+               "fresh"
+            ],
+            "kind": "amod",
+            "indices": [
+               42,
+               59
+            ]
+         },
+         {
+            "args": [
+               "h",
+               "medium"
+            ],
+            "kind": "amod",
+            "indices": [
+               48,
+               59
+            ]
+         },
+         {
+            "args": [
+               "h",
+               "48"
+            ],
+            "kind": "nummod",
+            "indices": [
+               55,
+               59
+            ]
+         },
+         {
+            "args": [
+               "to",
+               "h"
+            ],
+            "kind": "pobj",
+            "indices": [
+               39,
+               59
+            ]
+         },
+         {
+            "args": [
+               "h",
+               "before"
+            ],
+            "kind": "prep",
+            "indices": [
+               58,
+               66
+            ]
+         },
+         {
+            "args": [
+               "assay",
+               "the"
+            ],
+            "kind": "det",
+            "indices": [
+               67,
+               76
+            ]
+         },
+         {
+            "args": [
+               "before",
+               "assay"
+            ],
+            "kind": "pobj",
+            "indices": [
+               60,
+               76
+            ]
+         },
+         {
+            "args": [
+               "changed",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               31,
+               77
+            ]
+         },
+         {
+            "args": [
+               "secretion",
+               "Albumin"
+            ],
+            "kind": "compound",
+            "indices": [
+               78,
+               95
+            ]
+         },
+         {
+            "args": [
+               "measured",
+               "secretion"
+            ],
+            "kind": "nsubjpass",
+            "indices": [
+               86,
+               108
+            ]
+         },
+         {
+            "args": [
+               "measured",
+               "was"
+            ],
+            "kind": "auxpass",
+            "indices": [
+               96,
+               108
+            ]
+         },
+         {
+            "args": [
+               "measured",
+               "measured"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               100,
+               108
+            ]
+         },
+         {
+            "args": [
+               "measured",
+               "by"
+            ],
+            "kind": "agent",
+            "indices": [
+               100,
+               111
+            ]
+         },
+         {
+            "args": [
+               "laboratory",
+               "the"
+            ],
+            "kind": "det",
+            "indices": [
+               112,
+               143
+            ]
+         },
+         {
+            "args": [
+               "laboratory",
+               "central"
+            ],
+            "kind": "amod",
+            "indices": [
+               116,
+               143
+            ]
+         },
+         {
+            "args": [
+               "laboratory",
+               "clinical"
+            ],
+            "kind": "amod",
+            "indices": [
+               124,
+               143
+            ]
+         },
+         {
+            "args": [
+               "by",
+               "laboratory"
+            ],
+            "kind": "pobj",
+            "indices": [
+               109,
+               143
+            ]
+         },
+         {
+            "args": [
+               "laboratory",
+               "at"
+            ],
+            "kind": "prep",
+            "indices": [
+               133,
+               146
+            ]
+         },
+         {
+            "args": [
+               "University",
+               "Kumamoto"
+            ],
+            "kind": "compound",
+            "indices": [
+               147,
+               166
+            ]
+         },
+         {
+            "args": [
+               "at",
+               "University"
+            ],
+            "kind": "pobj",
+            "indices": [
+               144,
+               166
+            ]
+         },
+         {
+            "args": [
+               "University",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               156,
+               167
+            ]
+         },
+         {
+            "args": [
+               "University",
+               "Kumamoto"
+            ],
+            "kind": "conj",
+            "indices": [
+               156,
+               176
+            ]
+         },
+         {
+            "args": [
+               "Kumamoto",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               168,
+               177
+            ]
+         },
+         {
+            "args": [
+               "Kumamoto",
+               "Japan"
+            ],
+            "kind": "appos",
+            "indices": [
+               168,
+               183
+            ]
+         },
+         {
+            "args": [
+               "measured",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               100,
+               184
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               77
+            ]
+         },
+         {
+            "indices": [
+               78,
+               184
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               55,
+               59
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "48 h",
+            "other": "{\"unit\": \"h\"}"
+         }
+      ],
+      "MEval-MeasuredProperty": [
+         {
+            "indices": [
+               31,
+               38
+            ],
+            "annotSet": 1,
+            "annotId": "T4-1",
+            "text": "changed",
+            "other": "{\"HasQuantity\": \"T1-1\"}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               4,
+               26
+            ],
+            "annotSet": 1,
+            "annotId": "T3-1",
+            "text": "differentiation medium",
+            "other": "{\"HasProperty\": \"T4-1\"}"
+         }
+      ],
+      "MEval-Qualifier": [
+         {
+            "indices": [
+               60,
+               76
+            ],
+            "annotSet": 1,
+            "annotId": "T5-1",
+            "text": "before the assay",
+            "other": "{\"Qualifies\": \"T1-1\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               55,
+               57
+            ],
+            "text": "48"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               58,
+               59
+            ],
+            "text": "h"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               31,
+               38
+            ],
+            "text": "changed"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               55,
+               57
+            ],
+            "text": "48"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               58,
+               59
+            ],
+            "text": "h"
+         }
+      ]
+   }
+}

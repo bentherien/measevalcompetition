@@ -1,0 +1,702 @@
+{
+   "text": "The following significance diagram displays the average rank of the classifiers at an 85% good, 15% bad class split:",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               3
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 0,
+            "head": 2
+         },
+         {
+            "indices": [
+               4,
+               13
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 1,
+            "head": 2
+         },
+         {
+            "indices": [
+               14,
+               26
+            ],
+            "category": "NN",
+            "kind": "nsubj",
+            "id": 2,
+            "head": 4
+         },
+         {
+            "indices": [
+               27,
+               34
+            ],
+            "category": "NN",
+            "kind": "nsubj",
+            "id": 3,
+            "head": 4
+         },
+         {
+            "indices": [
+               35,
+               43
+            ],
+            "category": "VBZ",
+            "kind": "ROOT",
+            "id": 4,
+            "head": 4
+         },
+         {
+            "indices": [
+               44,
+               47
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 5,
+            "head": 7
+         },
+         {
+            "indices": [
+               48,
+               55
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 6,
+            "head": 7
+         },
+         {
+            "indices": [
+               56,
+               60
+            ],
+            "category": "NN",
+            "kind": "dobj",
+            "id": 7,
+            "head": 4
+         },
+         {
+            "indices": [
+               61,
+               63
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 8,
+            "head": 7
+         },
+         {
+            "indices": [
+               64,
+               67
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 9,
+            "head": 10
+         },
+         {
+            "indices": [
+               68,
+               79
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 10,
+            "head": 8
+         },
+         {
+            "indices": [
+               80,
+               82
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 11,
+            "head": 7
+         },
+         {
+            "indices": [
+               83,
+               85
+            ],
+            "category": "DT",
+            "kind": "det",
+            "id": 12,
+            "head": 15
+         },
+         {
+            "indices": [
+               86,
+               88
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 13,
+            "head": 14
+         },
+         {
+            "indices": [
+               88,
+               89
+            ],
+            "category": "NN",
+            "kind": "npadvmod",
+            "id": 14,
+            "head": 15
+         },
+         {
+            "indices": [
+               90,
+               94
+            ],
+            "category": "JJ",
+            "kind": "pobj",
+            "id": 15,
+            "head": 11
+         },
+         {
+            "indices": [
+               94,
+               95
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 16,
+            "head": 7
+         },
+         {
+            "indices": [
+               96,
+               98
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 17,
+            "head": 18
+         },
+         {
+            "indices": [
+               98,
+               99
+            ],
+            "category": "NN",
+            "kind": "nmod",
+            "id": 18,
+            "head": 20
+         },
+         {
+            "indices": [
+               100,
+               103
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 19,
+            "head": 20
+         },
+         {
+            "indices": [
+               104,
+               109
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 20,
+            "head": 21
+         },
+         {
+            "indices": [
+               110,
+               115
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 21,
+            "head": 7
+         },
+         {
+            "indices": [
+               115,
+               116
+            ],
+            "category": ":",
+            "kind": "punct",
+            "id": 22,
+            "head": 4
+         }
+      ],
+      "PERCENT": [
+         {
+            "indices": [
+               86,
+               89
+            ]
+         },
+         {
+            "indices": [
+               96,
+               99
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "significance",
+               "The"
+            ],
+            "kind": "det",
+            "indices": [
+               0,
+               26
+            ]
+         },
+         {
+            "args": [
+               "significance",
+               "following"
+            ],
+            "kind": "amod",
+            "indices": [
+               4,
+               26
+            ]
+         },
+         {
+            "args": [
+               "displays",
+               "significance"
+            ],
+            "kind": "nsubj",
+            "indices": [
+               14,
+               43
+            ]
+         },
+         {
+            "args": [
+               "displays",
+               "diagram"
+            ],
+            "kind": "nsubj",
+            "indices": [
+               27,
+               43
+            ]
+         },
+         {
+            "args": [
+               "displays",
+               "displays"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               35,
+               43
+            ]
+         },
+         {
+            "args": [
+               "rank",
+               "the"
+            ],
+            "kind": "det",
+            "indices": [
+               44,
+               60
+            ]
+         },
+         {
+            "args": [
+               "rank",
+               "average"
+            ],
+            "kind": "amod",
+            "indices": [
+               48,
+               60
+            ]
+         },
+         {
+            "args": [
+               "displays",
+               "rank"
+            ],
+            "kind": "dobj",
+            "indices": [
+               35,
+               60
+            ]
+         },
+         {
+            "args": [
+               "rank",
+               "of"
+            ],
+            "kind": "prep",
+            "indices": [
+               56,
+               63
+            ]
+         },
+         {
+            "args": [
+               "classifiers",
+               "the"
+            ],
+            "kind": "det",
+            "indices": [
+               64,
+               79
+            ]
+         },
+         {
+            "args": [
+               "of",
+               "classifiers"
+            ],
+            "kind": "pobj",
+            "indices": [
+               61,
+               79
+            ]
+         },
+         {
+            "args": [
+               "rank",
+               "at"
+            ],
+            "kind": "prep",
+            "indices": [
+               56,
+               82
+            ]
+         },
+         {
+            "args": [
+               "good",
+               "an"
+            ],
+            "kind": "det",
+            "indices": [
+               83,
+               94
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "85"
+            ],
+            "kind": "nummod",
+            "indices": [
+               86,
+               89
+            ]
+         },
+         {
+            "args": [
+               "good",
+               "%"
+            ],
+            "kind": "npadvmod",
+            "indices": [
+               88,
+               94
+            ]
+         },
+         {
+            "args": [
+               "at",
+               "good"
+            ],
+            "kind": "pobj",
+            "indices": [
+               80,
+               94
+            ]
+         },
+         {
+            "args": [
+               "rank",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               56,
+               95
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "15"
+            ],
+            "kind": "nummod",
+            "indices": [
+               96,
+               99
+            ]
+         },
+         {
+            "args": [
+               "class",
+               "%"
+            ],
+            "kind": "nmod",
+            "indices": [
+               98,
+               109
+            ]
+         },
+         {
+            "args": [
+               "class",
+               "bad"
+            ],
+            "kind": "amod",
+            "indices": [
+               100,
+               109
+            ]
+         },
+         {
+            "args": [
+               "split",
+               "class"
+            ],
+            "kind": "compound",
+            "indices": [
+               104,
+               115
+            ]
+         },
+         {
+            "args": [
+               "rank",
+               "split"
+            ],
+            "kind": "appos",
+            "indices": [
+               56,
+               115
+            ]
+         },
+         {
+            "args": [
+               "displays",
+               ":"
+            ],
+            "kind": "punct",
+            "indices": [
+               35,
+               116
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               116
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               86,
+               89
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "85%",
+            "other": "{\"unit\": \"%\"}"
+         },
+         {
+            "indices": [
+               96,
+               99
+            ],
+            "annotSet": 2,
+            "annotId": "T1-2",
+            "text": "15%",
+            "other": "{\"unit\": \"%\"}"
+         }
+      ],
+      "MEval-MeasuredProperty": [
+         {
+            "indices": [
+               90,
+               94
+            ],
+            "annotSet": 1,
+            "annotId": "T3-1",
+            "text": "good",
+            "other": "{\"HasQuantity\": \"T1-1\"}"
+         },
+         {
+            "indices": [
+               100,
+               109
+            ],
+            "annotSet": 2,
+            "annotId": "T3-2",
+            "text": "bad class",
+            "other": "{\"HasQuantity\": \"T1-2\"}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               68,
+               79
+            ],
+            "annotSet": 1,
+            "annotId": "T4-1",
+            "text": "classifiers",
+            "other": "{\"HasProperty\": \"T3-1\"}"
+         },
+         {
+            "indices": [
+               68,
+               79
+            ],
+            "annotSet": 2,
+            "annotId": "T4-2",
+            "text": "classifiers",
+            "other": "{\"HasProperty\": \"T3-2\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               86,
+               88
+            ],
+            "text": "85"
+         },
+         {
+            "indices": [
+               88,
+               89
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               96,
+               98
+            ],
+            "text": "15"
+         },
+         {
+            "indices": [
+               98,
+               99
+            ],
+            "text": "%"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               88,
+               89
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               90,
+               94
+            ],
+            "text": "good"
+         },
+         {
+            "indices": [
+               98,
+               99
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               104,
+               109
+            ],
+            "text": "class"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               90,
+               94
+            ],
+            "text": "good"
+         },
+         {
+            "indices": [
+               56,
+               60
+            ],
+            "text": "rank"
+         },
+         {
+            "indices": [
+               104,
+               109
+            ],
+            "text": "class"
+         },
+         {
+            "indices": [
+               110,
+               115
+            ],
+            "text": "split"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               86,
+               88
+            ],
+            "text": "85"
+         },
+         {
+            "indices": [
+               96,
+               98
+            ],
+            "text": "15"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               88,
+               89
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               98,
+               99
+            ],
+            "text": "%"
+         }
+      ]
+   }
+}

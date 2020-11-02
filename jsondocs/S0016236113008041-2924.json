@@ -1,0 +1,453 @@
+{
+   "text": "Sensitivity analysis carried out on MTDATA software, for 9 and 21 trace elements.",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               11
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 0,
+            "head": 1
+         },
+         {
+            "indices": [
+               12,
+               20
+            ],
+            "category": "NN",
+            "kind": "nsubj",
+            "id": 1,
+            "head": 2
+         },
+         {
+            "indices": [
+               21,
+               28
+            ],
+            "category": "VBD",
+            "kind": "ROOT",
+            "id": 2,
+            "head": 2
+         },
+         {
+            "indices": [
+               29,
+               32
+            ],
+            "category": "RP",
+            "kind": "prt",
+            "id": 3,
+            "head": 2
+         },
+         {
+            "indices": [
+               33,
+               35
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 4,
+            "head": 2
+         },
+         {
+            "indices": [
+               36,
+               42
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 5,
+            "head": 6
+         },
+         {
+            "indices": [
+               43,
+               51
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 6,
+            "head": 4
+         },
+         {
+            "indices": [
+               51,
+               52
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 7,
+            "head": 2
+         },
+         {
+            "indices": [
+               53,
+               56
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 8,
+            "head": 2
+         },
+         {
+            "indices": [
+               57,
+               58
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 9,
+            "head": 13
+         },
+         {
+            "indices": [
+               59,
+               62
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 10,
+            "head": 9
+         },
+         {
+            "indices": [
+               63,
+               65
+            ],
+            "category": "CD",
+            "kind": "conj",
+            "id": 11,
+            "head": 9
+         },
+         {
+            "indices": [
+               66,
+               71
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 12,
+            "head": 13
+         },
+         {
+            "indices": [
+               72,
+               80
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 13,
+            "head": 8
+         },
+         {
+            "indices": [
+               80,
+               81
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 14,
+            "head": 2
+         }
+      ],
+      "ORG": [
+         {
+            "indices": [
+               36,
+               42
+            ]
+         }
+      ],
+      "CARDINAL": [
+         {
+            "indices": [
+               57,
+               58
+            ]
+         },
+         {
+            "indices": [
+               63,
+               65
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "analysis",
+               "Sensitivity"
+            ],
+            "kind": "compound",
+            "indices": [
+               0,
+               20
+            ]
+         },
+         {
+            "args": [
+               "carried",
+               "analysis"
+            ],
+            "kind": "nsubj",
+            "indices": [
+               12,
+               28
+            ]
+         },
+         {
+            "args": [
+               "carried",
+               "carried"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               21,
+               28
+            ]
+         },
+         {
+            "args": [
+               "carried",
+               "out"
+            ],
+            "kind": "prt",
+            "indices": [
+               21,
+               32
+            ]
+         },
+         {
+            "args": [
+               "carried",
+               "on"
+            ],
+            "kind": "prep",
+            "indices": [
+               21,
+               35
+            ]
+         },
+         {
+            "args": [
+               "software",
+               "MTDATA"
+            ],
+            "kind": "compound",
+            "indices": [
+               36,
+               51
+            ]
+         },
+         {
+            "args": [
+               "on",
+               "software"
+            ],
+            "kind": "pobj",
+            "indices": [
+               33,
+               51
+            ]
+         },
+         {
+            "args": [
+               "carried",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               21,
+               52
+            ]
+         },
+         {
+            "args": [
+               "carried",
+               "for"
+            ],
+            "kind": "prep",
+            "indices": [
+               21,
+               56
+            ]
+         },
+         {
+            "args": [
+               "elements",
+               "9"
+            ],
+            "kind": "nummod",
+            "indices": [
+               57,
+               80
+            ]
+         },
+         {
+            "args": [
+               "9",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               57,
+               62
+            ]
+         },
+         {
+            "args": [
+               "9",
+               "21"
+            ],
+            "kind": "conj",
+            "indices": [
+               57,
+               65
+            ]
+         },
+         {
+            "args": [
+               "elements",
+               "trace"
+            ],
+            "kind": "compound",
+            "indices": [
+               66,
+               80
+            ]
+         },
+         {
+            "args": [
+               "for",
+               "elements"
+            ],
+            "kind": "pobj",
+            "indices": [
+               53,
+               80
+            ]
+         },
+         {
+            "args": [
+               "carried",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               21,
+               81
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               81
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               57,
+               65
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "9 and 21",
+            "other": "{\"mods\": [\"IsCount\"]}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               66,
+               80
+            ],
+            "annotSet": 1,
+            "annotId": "T2-1",
+            "text": "trace elements",
+            "other": "{\"HasQuantity\": \"T1-1\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               57,
+               58
+            ],
+            "text": "9"
+         },
+         {
+            "indices": [
+               63,
+               65
+            ],
+            "text": "21"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               72,
+               80
+            ],
+            "text": "elements"
+         },
+         {
+            "indices": [
+               57,
+               58
+            ],
+            "text": "9"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               21,
+               28
+            ],
+            "text": "carried"
+         },
+         {
+            "indices": [
+               72,
+               80
+            ],
+            "text": "elements"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               63,
+               65
+            ],
+            "text": "21"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               57,
+               58
+            ],
+            "text": "9"
+         }
+      ],
+      "h0MeasuredEntityTP": [
+         {
+            "indices": [
+               63,
+               65
+            ],
+            "text": "21"
+         }
+      ]
+   }
+}

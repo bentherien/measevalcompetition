@@ -1,0 +1,757 @@
+{
+   "text": "Effect of bed inventory on increase of solid minor element concentrations for bed inventories of 4.5 kg, 6 kg and 13 kg CaCO3.",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               6
+            ],
+            "category": "NN",
+            "kind": "ROOT",
+            "id": 0,
+            "head": 0
+         },
+         {
+            "indices": [
+               7,
+               9
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 1,
+            "head": 0
+         },
+         {
+            "indices": [
+               10,
+               13
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 2,
+            "head": 3
+         },
+         {
+            "indices": [
+               14,
+               23
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 3,
+            "head": 1
+         },
+         {
+            "indices": [
+               24,
+               26
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 4,
+            "head": 0
+         },
+         {
+            "indices": [
+               27,
+               35
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 5,
+            "head": 4
+         },
+         {
+            "indices": [
+               36,
+               38
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 6,
+            "head": 5
+         },
+         {
+            "indices": [
+               39,
+               44
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 7,
+            "head": 10
+         },
+         {
+            "indices": [
+               45,
+               50
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 8,
+            "head": 10
+         },
+         {
+            "indices": [
+               51,
+               58
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 9,
+            "head": 10
+         },
+         {
+            "indices": [
+               59,
+               73
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 10,
+            "head": 6
+         },
+         {
+            "indices": [
+               74,
+               77
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 11,
+            "head": 10
+         },
+         {
+            "indices": [
+               78,
+               81
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 12,
+            "head": 13
+         },
+         {
+            "indices": [
+               82,
+               93
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 13,
+            "head": 11
+         },
+         {
+            "indices": [
+               94,
+               96
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 14,
+            "head": 13
+         },
+         {
+            "indices": [
+               97,
+               100
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 15,
+            "head": 16
+         },
+         {
+            "indices": [
+               101,
+               103
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 16,
+            "head": 14
+         },
+         {
+            "indices": [
+               103,
+               104
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 17,
+            "head": 16
+         },
+         {
+            "indices": [
+               105,
+               106
+            ],
+            "category": "CD",
+            "kind": "nummod",
+            "id": 18,
+            "head": 19
+         },
+         {
+            "indices": [
+               107,
+               109
+            ],
+            "category": "NNS",
+            "kind": "conj",
+            "id": 19,
+            "head": 16
+         },
+         {
+            "indices": [
+               110,
+               113
+            ],
+            "category": "CC",
+            "kind": "cc",
+            "id": 20,
+            "head": 19
+         },
+         {
+            "indices": [
+               114,
+               116
+            ],
+            "category": "CD",
+            "kind": "conj",
+            "id": 21,
+            "head": 19
+         },
+         {
+            "indices": [
+               117,
+               119
+            ],
+            "category": "NNS",
+            "kind": "quantmod",
+            "id": 22,
+            "head": 21
+         },
+         {
+            "indices": [
+               120,
+               125
+            ],
+            "category": "NNP",
+            "kind": "conj",
+            "id": 23,
+            "head": 19
+         },
+         {
+            "indices": [
+               125,
+               126
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 24,
+            "head": 0
+         }
+      ],
+      "QUANTITY": [
+         {
+            "indices": [
+               97,
+               103
+            ]
+         },
+         {
+            "indices": [
+               105,
+               109
+            ]
+         },
+         {
+            "indices": [
+               114,
+               119
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "Effect",
+               "Effect"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               0,
+               6
+            ]
+         },
+         {
+            "args": [
+               "Effect",
+               "of"
+            ],
+            "kind": "prep",
+            "indices": [
+               0,
+               9
+            ]
+         },
+         {
+            "args": [
+               "inventory",
+               "bed"
+            ],
+            "kind": "compound",
+            "indices": [
+               10,
+               23
+            ]
+         },
+         {
+            "args": [
+               "of",
+               "inventory"
+            ],
+            "kind": "pobj",
+            "indices": [
+               7,
+               23
+            ]
+         },
+         {
+            "args": [
+               "Effect",
+               "on"
+            ],
+            "kind": "prep",
+            "indices": [
+               0,
+               26
+            ]
+         },
+         {
+            "args": [
+               "on",
+               "increase"
+            ],
+            "kind": "pobj",
+            "indices": [
+               24,
+               35
+            ]
+         },
+         {
+            "args": [
+               "increase",
+               "of"
+            ],
+            "kind": "prep",
+            "indices": [
+               27,
+               38
+            ]
+         },
+         {
+            "args": [
+               "concentrations",
+               "solid"
+            ],
+            "kind": "amod",
+            "indices": [
+               39,
+               73
+            ]
+         },
+         {
+            "args": [
+               "concentrations",
+               "minor"
+            ],
+            "kind": "amod",
+            "indices": [
+               45,
+               73
+            ]
+         },
+         {
+            "args": [
+               "concentrations",
+               "element"
+            ],
+            "kind": "compound",
+            "indices": [
+               51,
+               73
+            ]
+         },
+         {
+            "args": [
+               "of",
+               "concentrations"
+            ],
+            "kind": "pobj",
+            "indices": [
+               36,
+               73
+            ]
+         },
+         {
+            "args": [
+               "concentrations",
+               "for"
+            ],
+            "kind": "prep",
+            "indices": [
+               59,
+               77
+            ]
+         },
+         {
+            "args": [
+               "inventories",
+               "bed"
+            ],
+            "kind": "compound",
+            "indices": [
+               78,
+               93
+            ]
+         },
+         {
+            "args": [
+               "for",
+               "inventories"
+            ],
+            "kind": "pobj",
+            "indices": [
+               74,
+               93
+            ]
+         },
+         {
+            "args": [
+               "inventories",
+               "of"
+            ],
+            "kind": "prep",
+            "indices": [
+               82,
+               96
+            ]
+         },
+         {
+            "args": [
+               "kg",
+               "4.5"
+            ],
+            "kind": "nummod",
+            "indices": [
+               97,
+               103
+            ]
+         },
+         {
+            "args": [
+               "of",
+               "kg"
+            ],
+            "kind": "pobj",
+            "indices": [
+               94,
+               103
+            ]
+         },
+         {
+            "args": [
+               "kg",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               101,
+               104
+            ]
+         },
+         {
+            "args": [
+               "kg",
+               "6"
+            ],
+            "kind": "nummod",
+            "indices": [
+               105,
+               109
+            ]
+         },
+         {
+            "args": [
+               "kg",
+               "kg"
+            ],
+            "kind": "conj",
+            "indices": [
+               101,
+               109
+            ]
+         },
+         {
+            "args": [
+               "kg",
+               "and"
+            ],
+            "kind": "cc",
+            "indices": [
+               107,
+               113
+            ]
+         },
+         {
+            "args": [
+               "kg",
+               "13"
+            ],
+            "kind": "conj",
+            "indices": [
+               107,
+               116
+            ]
+         },
+         {
+            "args": [
+               "13",
+               "kg"
+            ],
+            "kind": "quantmod",
+            "indices": [
+               114,
+               119
+            ]
+         },
+         {
+            "args": [
+               "kg",
+               "CaCO3"
+            ],
+            "kind": "conj",
+            "indices": [
+               107,
+               125
+            ]
+         },
+         {
+            "args": [
+               "Effect",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               0,
+               126
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               126
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               97,
+               119
+            ],
+            "annotSet": 1,
+            "annotId": "T3",
+            "text": "4.5 kg, 6 kg and 13 kg",
+            "other": "{mods: [IsList], unit: kg}"
+         }
+      ],
+      "MEval-MeasuredProperty": [
+         {
+            "indices": [
+               120,
+               125
+            ],
+            "annotSet": 1,
+            "annotId": "T5",
+            "text": "CaCO3",
+            "other": "{HasQuantity: T3}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               78,
+               93
+            ],
+            "annotSet": 1,
+            "annotId": "T4",
+            "text": "bed inventories",
+            "other": "{HasProperty: T5}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               97,
+               100
+            ],
+            "text": "4.5"
+         },
+         {
+            "indices": [
+               101,
+               103
+            ],
+            "text": "kg"
+         },
+         {
+            "indices": [
+               105,
+               106
+            ],
+            "text": "6"
+         },
+         {
+            "indices": [
+               107,
+               109
+            ],
+            "text": "kg"
+         },
+         {
+            "indices": [
+               114,
+               116
+            ],
+            "text": "13"
+         },
+         {
+            "indices": [
+               117,
+               119
+            ],
+            "text": "kg"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               101,
+               103
+            ],
+            "text": "kg"
+         },
+         {
+            "indices": [
+               94,
+               96
+            ],
+            "text": "of"
+         },
+         {
+            "indices": [
+               107,
+               109
+            ],
+            "text": "kg"
+         },
+         {
+            "indices": [
+               101,
+               103
+            ],
+            "text": "kg"
+         },
+         {
+            "indices": [
+               107,
+               109
+            ],
+            "text": "kg"
+         },
+         {
+            "indices": [
+               114,
+               116
+            ],
+            "text": "13"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               82,
+               93
+            ],
+            "text": "inventories"
+         },
+         {
+            "indices": [
+               82,
+               93
+            ],
+            "text": "inventories"
+         },
+         {
+            "indices": [
+               101,
+               103
+            ],
+            "text": "kg"
+         },
+         {
+            "indices": [
+               82,
+               93
+            ],
+            "text": "inventories"
+         },
+         {
+            "indices": [
+               101,
+               103
+            ],
+            "text": "kg"
+         },
+         {
+            "indices": [
+               107,
+               109
+            ],
+            "text": "kg"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               97,
+               100
+            ],
+            "text": "4.5"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               101,
+               103
+            ],
+            "text": "kg"
+         }
+      ],
+      "h0MeasuredEntityTP": [
+         {
+            "indices": [
+               97,
+               100
+            ],
+            "text": "4.5"
+         }
+      ]
+   }
+}

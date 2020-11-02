@@ -1,0 +1,573 @@
+{
+   "text": "SEM\u2013EDS analysis of sorbent for reactions undertaken with different SO2 concentrations, showing error bars of +1%.",
+   "entities": {
+      "Token": [
+         {
+            "indices": [
+               0,
+               3
+            ],
+            "category": "NNP",
+            "kind": "ROOT",
+            "id": 0,
+            "head": 0
+         },
+         {
+            "indices": [
+               3,
+               4
+            ],
+            "category": ":",
+            "kind": "punct",
+            "id": 1,
+            "head": 0
+         },
+         {
+            "indices": [
+               4,
+               7
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 2,
+            "head": 3
+         },
+         {
+            "indices": [
+               8,
+               16
+            ],
+            "category": "NN",
+            "kind": "appos",
+            "id": 3,
+            "head": 0
+         },
+         {
+            "indices": [
+               17,
+               19
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 4,
+            "head": 3
+         },
+         {
+            "indices": [
+               20,
+               27
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 5,
+            "head": 4
+         },
+         {
+            "indices": [
+               28,
+               31
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 6,
+            "head": 3
+         },
+         {
+            "indices": [
+               32,
+               41
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 7,
+            "head": 6
+         },
+         {
+            "indices": [
+               42,
+               52
+            ],
+            "category": "VBN",
+            "kind": "acl",
+            "id": 8,
+            "head": 7
+         },
+         {
+            "indices": [
+               53,
+               57
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 9,
+            "head": 8
+         },
+         {
+            "indices": [
+               58,
+               67
+            ],
+            "category": "JJ",
+            "kind": "amod",
+            "id": 10,
+            "head": 12
+         },
+         {
+            "indices": [
+               68,
+               71
+            ],
+            "category": "NNP",
+            "kind": "compound",
+            "id": 11,
+            "head": 12
+         },
+         {
+            "indices": [
+               72,
+               86
+            ],
+            "category": "NNS",
+            "kind": "pobj",
+            "id": 12,
+            "head": 9
+         },
+         {
+            "indices": [
+               86,
+               87
+            ],
+            "category": ",",
+            "kind": "punct",
+            "id": 13,
+            "head": 0
+         },
+         {
+            "indices": [
+               88,
+               95
+            ],
+            "category": "VBG",
+            "kind": "advcl",
+            "id": 14,
+            "head": 0
+         },
+         {
+            "indices": [
+               96,
+               101
+            ],
+            "category": "NN",
+            "kind": "compound",
+            "id": 15,
+            "head": 16
+         },
+         {
+            "indices": [
+               102,
+               106
+            ],
+            "category": "NNS",
+            "kind": "dobj",
+            "id": 16,
+            "head": 14
+         },
+         {
+            "indices": [
+               107,
+               109
+            ],
+            "category": "IN",
+            "kind": "prep",
+            "id": 17,
+            "head": 16
+         },
+         {
+            "indices": [
+               110,
+               112
+            ],
+            "category": "NNS",
+            "kind": "nummod",
+            "id": 18,
+            "head": 19
+         },
+         {
+            "indices": [
+               112,
+               113
+            ],
+            "category": "NN",
+            "kind": "pobj",
+            "id": 19,
+            "head": 17
+         },
+         {
+            "indices": [
+               113,
+               114
+            ],
+            "category": ".",
+            "kind": "punct",
+            "id": 20,
+            "head": 0
+         }
+      ],
+      "ORG": [
+         {
+            "indices": [
+               4,
+               7
+            ]
+         }
+      ],
+      "PERCENT": [
+         {
+            "indices": [
+               110,
+               113
+            ]
+         }
+      ],
+      "NickDependency": [
+         {
+            "args": [
+               "SEM",
+               "SEM"
+            ],
+            "kind": "ROOT",
+            "indices": [
+               0,
+               3
+            ]
+         },
+         {
+            "args": [
+               "SEM",
+               "\u2013"
+            ],
+            "kind": "punct",
+            "indices": [
+               0,
+               4
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "EDS"
+            ],
+            "kind": "compound",
+            "indices": [
+               4,
+               16
+            ]
+         },
+         {
+            "args": [
+               "SEM",
+               "analysis"
+            ],
+            "kind": "appos",
+            "indices": [
+               0,
+               16
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "of"
+            ],
+            "kind": "prep",
+            "indices": [
+               8,
+               19
+            ]
+         },
+         {
+            "args": [
+               "of",
+               "sorbent"
+            ],
+            "kind": "pobj",
+            "indices": [
+               17,
+               27
+            ]
+         },
+         {
+            "args": [
+               "analysis",
+               "for"
+            ],
+            "kind": "prep",
+            "indices": [
+               8,
+               31
+            ]
+         },
+         {
+            "args": [
+               "for",
+               "reactions"
+            ],
+            "kind": "pobj",
+            "indices": [
+               28,
+               41
+            ]
+         },
+         {
+            "args": [
+               "reactions",
+               "undertaken"
+            ],
+            "kind": "acl",
+            "indices": [
+               32,
+               52
+            ]
+         },
+         {
+            "args": [
+               "undertaken",
+               "with"
+            ],
+            "kind": "prep",
+            "indices": [
+               42,
+               57
+            ]
+         },
+         {
+            "args": [
+               "concentrations",
+               "different"
+            ],
+            "kind": "amod",
+            "indices": [
+               58,
+               86
+            ]
+         },
+         {
+            "args": [
+               "concentrations",
+               "SO2"
+            ],
+            "kind": "compound",
+            "indices": [
+               68,
+               86
+            ]
+         },
+         {
+            "args": [
+               "with",
+               "concentrations"
+            ],
+            "kind": "pobj",
+            "indices": [
+               53,
+               86
+            ]
+         },
+         {
+            "args": [
+               "SEM",
+               ","
+            ],
+            "kind": "punct",
+            "indices": [
+               0,
+               87
+            ]
+         },
+         {
+            "args": [
+               "SEM",
+               "showing"
+            ],
+            "kind": "advcl",
+            "indices": [
+               0,
+               95
+            ]
+         },
+         {
+            "args": [
+               "bars",
+               "error"
+            ],
+            "kind": "compound",
+            "indices": [
+               96,
+               106
+            ]
+         },
+         {
+            "args": [
+               "showing",
+               "bars"
+            ],
+            "kind": "dobj",
+            "indices": [
+               88,
+               106
+            ]
+         },
+         {
+            "args": [
+               "bars",
+               "of"
+            ],
+            "kind": "prep",
+            "indices": [
+               102,
+               109
+            ]
+         },
+         {
+            "args": [
+               "%",
+               "+1"
+            ],
+            "kind": "nummod",
+            "indices": [
+               110,
+               113
+            ]
+         },
+         {
+            "args": [
+               "of",
+               "%"
+            ],
+            "kind": "pobj",
+            "indices": [
+               107,
+               113
+            ]
+         },
+         {
+            "args": [
+               "SEM",
+               "."
+            ],
+            "kind": "punct",
+            "indices": [
+               0,
+               114
+            ]
+         }
+      ],
+      "sentence": [
+         {
+            "indices": [
+               0,
+               114
+            ]
+         }
+      ],
+      "MEval-Quantity": [
+         {
+            "indices": [
+               110,
+               113
+            ],
+            "annotSet": 1,
+            "annotId": "T1-1",
+            "text": "+1%",
+            "other": "{\"unit\": \"%\"}"
+         }
+      ],
+      "MEval-MeasuredEntity": [
+         {
+            "indices": [
+               96,
+               106
+            ],
+            "annotSet": 1,
+            "annotId": "T2-1",
+            "text": "error bars",
+            "other": "{\"HasQuantity\": \"T1-1\"}"
+         }
+      ],
+      "h0Number": [
+         {
+            "indices": [
+               110,
+               112
+            ],
+            "text": "+1"
+         },
+         {
+            "indices": [
+               112,
+               113
+            ],
+            "text": "%"
+         }
+      ],
+      "h0Unit": [
+         {
+            "indices": [
+               112,
+               113
+            ],
+            "text": "%"
+         },
+         {
+            "indices": [
+               107,
+               109
+            ],
+            "text": "of"
+         }
+      ],
+      "h0MeasuredEntity": [
+         {
+            "indices": [
+               102,
+               106
+            ],
+            "text": "bars"
+         },
+         {
+            "indices": [
+               102,
+               106
+            ],
+            "text": "bars"
+         }
+      ],
+      "h0NumberTP": [
+         {
+            "indices": [
+               110,
+               112
+            ],
+            "text": "+1"
+         }
+      ],
+      "h0UnitTP": [
+         {
+            "indices": [
+               112,
+               113
+            ],
+            "text": "%"
+         }
+      ],
+      "h0MeasuredEntityTP": [
+         {
+            "indices": [
+               110,
+               112
+            ],
+            "text": "+1"
+         }
+      ]
+   }
+}

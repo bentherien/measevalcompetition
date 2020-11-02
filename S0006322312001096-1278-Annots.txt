@@ -1,0 +1,235 @@
+Document S0006322312001096-1278:
+
+These results suggest that public health measures to improve vascular status will influence the incidence of later-life depression, primarily via reduced rates of manifest vascular disease. Our findings on diagnosed vascular disease support current clinical guidelines to screen patients with coronary heart disease or stroke for depressive symptoms. However, although the stroke risk score was associated with depressive symptoms before the age of 65, we found little evidence to suggest that standard clinical information on preclinical vascular risk status would be helpful in the prediction of depressive symptoms after the age of 65 years. Thus, extending screening of incident later-life depression to include those identified as having a high risk of developing vascular disease was not supported by this study.
+
+Gold Annotations:
+
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1278	1	Quantity	449	451	T2-1	65	{"mods": ["IsRange"]}
+S0006322312001096-1278	1	MeasuredProperty	442	445	T3-1	age	{"HasQuantity": "T2-1"}
+S0006322312001096-1278	1	MeasuredEntity	411	430	T1-1	depressive symptoms	{"HasProperty": "T3-1"}
+S0006322312001096-1278	1	Qualifier	431	437	T4-1	before	{"Qualifies": "T2-1"}
+S0006322312001096-1278	1	Qualifier	373	405	T5-1	stroke risk score was associated	{"Qualifies": "T1-1"}
+S0006322312001096-1278	2	Quantity	635	643	T11-2	65 years	{"mods": ["IsRange"], "unit": "years"}
+S0006322312001096-1278	2	MeasuredEntity	598	617	T4-2	depressive symptoms	{"HasQuantity": "T11-2"}
+S0006322312001096-1278	2	Qualifier	618	623	T2-2	after	{"Qualifies": "T11-2"}
+S0006322312001096-1278	2	Qualifier	462	594	T5-2	little evidence to suggest that standard clinical information on preclinical vascular risk status would be helpful in the prediction	{"Qualifies": "T4-2"}
+
+
+Hypothesis 0 annotations:
+
+Measurement1
+Number          - startOffset:438, endOffset:441, text:the
+unit            - startOffset:442, endOffset:445, text:age
+Measured Entity - startOffset:431, endOffset:437, text:before
+
+Measurement2
+Number          - startOffset:442, endOffset:445, text:age
+unit            - startOffset:431, endOffset:437, text:before
+Measured Entity - startOffset:422, endOffset:430, text:symptoms
+
+Measurement3
+Number          - startOffset:446, endOffset:448, text:of
+unit            - startOffset:442, endOffset:445, text:age
+Measured Entity - startOffset:431, endOffset:437, text:before
+
+Measurement4
+Number          - startOffset:449, endOffset:451, text:65
+unit            - startOffset:446, endOffset:448, text:of
+Measured Entity - startOffset:442, endOffset:445, text:age
+
+Measurement5
+Number          - startOffset:624, endOffset:627, text:the
+unit            - startOffset:628, endOffset:631, text:age
+Measured Entity - startOffset:618, endOffset:623, text:after
+
+Measurement6
+Number          - startOffset:628, endOffset:631, text:age
+unit            - startOffset:618, endOffset:623, text:after
+Measured Entity - startOffset:609, endOffset:617, text:symptoms
+
+Measurement7
+Number          - startOffset:632, endOffset:634, text:of
+unit            - startOffset:628, endOffset:631, text:age
+Measured Entity - startOffset:618, endOffset:623, text:after
+
+Measurement8
+Number          - startOffset:635, endOffset:637, text:65
+unit            - startOffset:638, endOffset:643, text:years
+Measured Entity - startOffset:632, endOffset:634, text:of
+
+Measurement9
+Number          - startOffset:638, endOffset:643, text:years
+unit            - startOffset:632, endOffset:634, text:of
+Measured Entity - startOffset:628, endOffset:631, text:age
+
+
+Dependencies:
+Sentence 1: 
+
+ These results suggest that public health measures to improve vascular status will influence the incidence of later-life depression, primarily via reduced rates of manifest vascular disease. 
+
+governor        dependency      token          
+-----------------------------------------
+results         det             These          
+suggest         nsubj           results        
+suggest         ROOT            suggest        
+influence       mark            that           
+measures        amod            public         
+measures        compound        health         
+influence       nsubj           measures       
+improve         aux             to             
+measures        relcl           improve        
+status          amod            vascular       
+improve         dobj            status         
+influence       aux             will           
+suggest         ccomp           influence      
+incidence       det             the            
+influence       dobj            incidence      
+incidence       prep            of             
+life            amod            later          
+life            punct           -              
+depression      compound        life           
+of              pobj            depression     
+influence       punct           ,              
+via             advmod          primarily      
+influence       prep            via            
+rates           amod            reduced        
+via             pobj            rates          
+rates           prep            of             
+disease         amod            manifest       
+disease         amod            vascular       
+of              pobj            disease        
+suggest         punct           .              
+
+
+
+Sentence 2: 
+
+ Our findings on diagnosed vascular disease support current clinical guidelines to screen patients with coronary heart disease or stroke for depressive symptoms. 
+
+governor        dependency      token          
+-----------------------------------------
+findings        poss            Our            
+support         nsubj           findings       
+findings        prep            on             
+disease         amod            diagnosed      
+disease         amod            vascular       
+on              pobj            disease        
+support         ROOT            support        
+guidelines      amod            current        
+guidelines      amod            clinical       
+support         dobj            guidelines     
+screen          aux             to             
+support         advcl           screen         
+screen          dobj            patients       
+patients        prep            with           
+disease         amod            coronary       
+disease         compound        heart          
+with            pobj            disease        
+disease         cc              or             
+disease         conj            stroke         
+disease         prep            for            
+symptoms        amod            depressive     
+for             pobj            symptoms       
+support         punct           .              
+
+
+
+Sentence 3: 
+
+ However, although the stroke risk score was associated with depressive symptoms before the age of 65, we found little evidence to suggest that standard clinical information on preclinical vascular risk status would be helpful in the prediction of depressive symptoms after the age of 65 years. 
+
+governor        dependency      token          
+-----------------------------------------
+found           advmod          However        
+found           punct           ,              
+associated      mark            although       
+score           det             the            
+score           compound        stroke         
+score           compound        risk           
+associated      nsubjpass       score          
+associated      auxpass         was            
+found           advcl           associated     
+associated      prep            with           
+symptoms        amod            depressive     
+with            pobj            symptoms       
+symptoms        prep            before         
+age             det             the            
+before          pobj            age            
+age             prep            of             
+of              pobj            65             
+found           punct           ,              
+found           nsubj           we             
+found           ROOT            found          
+evidence        amod            little         
+found           dobj            evidence       
+suggest         aux             to             
+evidence        relcl           suggest        
+be              mark            that           
+information     amod            standard       
+information     amod            clinical       
+be              nsubj           information    
+information     prep            on             
+status          amod            preclinical    
+risk            amod            vascular       
+status          compound        risk           
+on              pobj            status         
+be              aux             would          
+suggest         ccomp           be             
+be              acomp           helpful        
+be              prep            in             
+prediction      det             the            
+in              pobj            prediction     
+prediction      prep            of             
+symptoms        amod            depressive     
+of              pobj            symptoms       
+symptoms        prep            after          
+age             det             the            
+after           pobj            age            
+age             prep            of             
+years           nummod          65             
+of              pobj            years          
+found           punct           .              
+
+
+
+Sentence 4: 
+
+ Thus, extending screening of incident later-life depression to include those identified as having a high risk of developing vascular disease was not supported by this study. 
+
+governor        dependency      token          
+-----------------------------------------
+include         advmod          Thus           
+include         punct           ,              
+include         csubj           extending      
+extending       dobj            screening      
+screening       prep            of             
+depression      compound        incident       
+life            amod            later          
+life            punct           -              
+depression      compound        life           
+of              pobj            depression     
+include         aux             to             
+include         ROOT            include        
+supported       nsubjpass       those          
+those           acl             identified     
+identified      prep            as             
+as              pcomp           having         
+risk            det             a              
+risk            amod            high           
+having          dobj            risk           
+risk            prep            of             
+of              pcomp           developing     
+disease         amod            vascular       
+developing      dobj            disease        
+supported       auxpass         was            
+supported       neg             not            
+include         ccomp           supported      
+supported       agent           by             
+study           det             this           
+by              pobj            study          
+include         punct           .              
+
+
+
