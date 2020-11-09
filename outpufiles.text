@@ -1,0 +1,28 @@
+benjamin@ben:~/Documents/github/self-attentive-parser$ python src/main.py test --model-path-base models/'en_elmo_dev=91.79.pt' --test-path data/alltreebank.tree
+test-fscore (Recall=80.84, Precision=74.61, FScore=77.60, CompleteMatch=9.10) test-elapsed 0h00m14s
+
+
+
+benjamin@ben:~/Documents/github/self-attentive-parser$ python src/main.py test --model-path-base models/modelepoch6.pt --test-path data/alltreebank.tree
+test-fscore (Recall=73.07, Precision=67.07, FScore=69.94, CompleteMatch=0.00) test-elapsed 0h00m13s
+
+
+
+benjamin@ben:~/Documents/github/self-attentive-parser$ python src/main.py test --model-path-base models/modelepoch12.pt --test-path data/alltreebank.tree
+test-fscore (Recall=76.71, Precision=70.43, FScore=73.43, Comp
+
+
+
+benjamin@ben:~/Documents/github/self-attentive-parser$ python src/main.py test --model-path-base models/modelepoch18.pt --test-path data/alltreebank.tree
+test-fscore (Recall=77.92, Precision=71.84, FScore=74.76, CompleteMatch=0.00) test-elapsed 0h00m13s
+
+
+benjamin@ben:~/Documents/github/self-attentive-parser$ python src/main.py test --model-path-base models/'onlygeniadata_dev=88.77.pt' --test-path data/alltreebank.tree
+test-fscore (Recall=78.07, Precision=72.24, FScore=75.04, CompleteMatch=0.36) test-elapsed 0h00m13s
+benjamin@ben:~/Documents/github/self-attentive-parser$ 
+
+
+
+benjamin@ben:~/Documents/github/self-attentive-parser$ python src/main.py test --model-path-base models/'onlygeniadata_dev=88.77.pt' --test-path data/alltreebank.tree
+test-fscore (Recall=78.07, Precision=72.24, FScore=75.04, CompleteMatch=0.36) test-elapsed 0h00m13s
+benjamin@ben:~/Documents/github/self-attentive-parser$ 
