@@ -1,4 +1,4 @@
-from src.lib.componentsExternSpacy import annotationCreation, evaluate
+from src.lib.componentsExternSpacy import annotationCreation, evaluate, getSplit, getCRFSplit
 from src.lib.helpers import intersectSpan
 import json
 import src.common as common
@@ -30,6 +30,8 @@ class Exerpt:
         self.annotationsToDict()
         annotationCreation(self.doc,self.tsv)
         evaluate(self)
+        getSplit(self)
+        getCRFSplit(self)
         
     def getContext(self, count = 3):
         if self.context == False: 

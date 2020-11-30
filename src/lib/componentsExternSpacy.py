@@ -6,9 +6,11 @@ cannot be added to the pipeline while following desirable SE principles
 """
 
 
-from src.lib.helpers import findOffset, intersectSpan, getSentences, intersectSpanNum
+from src.lib.helpers import findOffset, intersectSpan, getSentences, intersectSpanNum, intersectSpanSpan
 from spacy.tokens import Doc
 import math
+import logging
+import src.common as common
 
 def annotationCreation(doc,tsv):
     try:
@@ -48,9 +50,9 @@ def annotationCreation(doc,tsv):
         except KeyError:
             doc._.meAnnots[f"Annotation{count}"] = {}
         
-        tempSpan = None
 
         def getClosestMatch(start,end,lookup):
+            print("in getClosestMatch(start,end,lookup)")
             newStart = None
             newEnd = None
             for x in lookup.keys():
@@ -59,36 +61,118 @@ def annotationCreation(doc,tsv):
                 if x > end and newEnd == None: 
                     newEnd = x
                     return newStart, newEnd
+
+            print(f"Error, nothing found for start:{start}, end:{end}, \nlookup:{lookup}")
             
             if newStart ==None and newEnd == None:
-                print("error occured in file componentsExternSpacy.py getClosestMatch(start,end,lookup) returning {},{}".format(0,list(lookup.keys())[-1]))
                 return 0,list(lookup.keys())[-1]
-            elif newStart == None and newEnd  != None: 
-                print("error occured in file componentsExternSpacy.py getClosestMatch(start,end,lookup) returning {},{}".format(0,newEnd))
+            elif newStart == None and newEnd  != None:     
                 return 0,newEnd
             elif newStart != None and newEnd  == None: 
-                print("error occured in file componentsExternSpacy.py getClosestMatch(start,end,lookup) returning {},{}".format(newStart,list(lookup.keys())[-1]))
                 return newStart,list(lookup.keys())[-1]
             else:
                 print("error occured in file execution should not have reached this point, componentsExternSpacy.py getClosestMatch(start,end,lookup)")
 
             return newStart, newEnd 
 
+        error = False
+
+        tempStart = row["startOffset"]
+        lookupStart = None
         try:
-            tempSpan = doc[lookup[findOffset(row["startOffset"],doc.text)]:lookup[findOffset(row["endOffset"],doc.text)]]
+            lookupStart = lookup[tempStart]
         except KeyError:
-            newStart, newEnd = getClosestMatch(row["startOffset"],row["endOffset"],lookup)
-            print("new start {}, {}".format(newStart,newEnd))
-            tempSpan = doc[lookup[newStart]:lookup[newEnd]]
+            try:
+                tempStart = findOffset(row["startOffset"],doc.text)
+                lookupStart = lookup[tempStart]
+            except KeyError:
+                tempStart, _ = getClosestMatch(row["startOffset"],row["endOffset"],lookup)
+                lookupStart = lookup[tempStart]
+                error = True
+                    
+                    
+
+        tempEnd = row["endOffset"]
+        lookupEnd = None
+        try:
+            lookupEnd = lookup[tempEnd]
+        except KeyError:
+            try:
+                if(findOffset(row["endOffset"],doc.text) > list(lookup.keys())[-1]):
+                    tempEnd = list(lookup.keys())[-1]
+                    lookupEnd = lookup[tempEnd]+1
+                else:
+                    tempEnd = findOffset(row["endOffset"],doc.text)
+                    lookupEnd = lookup[tempEnd]
+            except KeyError:
+
+                _, tempEnd = getClosestMatch(row["startOffset"],row["endOffset"],lookup)
+                lookupEnd = lookup[tempEnd]
+                error = True
+
+
+        tempSpan = None
+        if tempStart <= tempEnd:
+            tempSpan = doc[lookupStart:lookupEnd]
+            if len(tempSpan) > 25:
+                print(row["annotType"])
+                print(tempSpan)
+        else:
+            print("ERROR tempstart greater than temp end")
+
+        if error:
+            common.count+=1
             print("FindOffset method has created a key error ")
-            print("Text + 5 on each side: \"{}\"".format(doc.text[max(0,row["startOffset"]-5):min(len(doc.text),row["endOffset"]+5)]))
-            print("Gold text            : \"{}\"".format(row["text"]))
-            print("new start {}, {}".format(newStart,newEnd))
-            print("compromise           : \"{}\"".format(doc.text[int(newStart):int(newEnd)]))
-            print("origrange: (",row["startOffset"],",",row["endOffset"],")")
-            print("range: (",findOffset(row["startOffset"],doc.text),",",findOffset(row["endOffset"],doc.text),")")
-            print({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-5 and k < row["endOffset"]+5)})
+            print("Annotation Type: {}".format(row["annotType"]))
+            print("Text + 10 on each side: \"{}\"".format(doc.text[max(0,row["startOffset"]-10):min(len(doc.text),row["endOffset"]+10)]))
+            print("Gold text            : \"{}\"".format(row["text"]).encode().decode())
+            print("Gold text from doc   : \"{}\"".format(doc.text[row["startOffset"]:row["endOffset"]]))
+            print("compromise           : \"{}\"".format(doc.text[int(tempStart):int(tempEnd)]))
+            print("corrected range     : ("+str(findOffset(row["startOffset"],doc.text))+","+str(findOffset(row["endOffset"],doc.text))+")")
+            print("origrange: ("+str(row["startOffset"])+","+str(row["endOffset"])+")")
+            print("TextSize: (0,"+str(len(doc.text))+")")
+            print("Compromise range: ("+str(tempStart)+","+str(tempEnd)+")")
+            print({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-10 and k < row["endOffset"]+10)})
+
+
+        """
+
+        try:
+            tempSpan = doc[lookup[row["startOffset"]]:lookup[row["endOffset"]]]
+        except KeyError:
+            try:
+                #prevent case where we cant retrieve the second token index because end of text
+                if(findOffset(row["endOffset"],doc.text) > list(lookup.keys())[-1]):
+                    tempSpan = doc[lookup[findOffset(row["startOffset"],doc.text)]:lookup[list(lookup.keys())[-1]]+1]
+                else:
+                    tempSpan = doc[lookup[findOffset(row["startOffset"],doc.text)]:lookup[findOffset(row["endOffset"],doc.text)]]
+            except KeyError:
+                newStart, newEnd = getClosestMatch(row["startOffset"],row["endOffset"],lookup)
+                common.count+=1
+                #print("unhandled token:",doc.text[row["startOffset"]:row["endOffset"]])
+                tempSpan = doc[lookup[newStart]:lookup[newEnd]]
+                try:
+                    logging.debug("FindOffset method has created a key error ")
+                    logging.debug("Text + 5 on each side: \"{}\"".format(doc.text[max(0,row["startOffset"]-5):min(len(doc.text),row["endOffset"]+5)]).encode())
+                    logging.debug("Gold text            : \"{}\"".format(row["text"]).encode())
+                    logging.debug("compromise           : \"{}\"".format(doc.text[int(newStart):int(newEnd)]).encode())
+                    logging.debug("origrange: ("+str(row["startOffset"])+","+str(row["endOffset"])+")")
+                    logging.debug("Compromise range: ("+str(newStart)+","+str(newEnd)+")")
+                    logging.debug({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-5 and k < row["endOffset"]+5)})
+                    print("FindOffset method has created a key error ")
+                    print("Annotation Type: {}".format(row["annotType"]))
+                    print("Text + 10 on each side: \"{}\"".format(doc.text[max(0,row["startOffset"]-10):min(len(doc.text),row["endOffset"]+10)]))
+                    print("Gold text            : \"{}\"".format(row["text"]).encode().decode())
+                    print("compromise           : \"{}\"".format(doc.text[int(newStart):int(newEnd)]))
+                    print("corrected range: ("+str(findOffset(row["startOffset"],doc.text))+","+str(findOffset(row["endOffset"],doc.text))+")")
+                    print("origrange: ("+str(row["startOffset"])+","+str(row["endOffset"])+")")
+                    print("TextSize: (0,"+str(len(doc.text))+")")
+                    print("Compromise range: ("+str(newStart)+","+str(newEnd)+")")
+                    print({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-10 and k < row["endOffset"]+10)})
             
+                except Exception:
+                    logging.debug("could not encode previous debuge due to a UnicodeEncodeError")
+            """
             
             
             
@@ -136,9 +220,16 @@ def evaluate(exerpt):
         count = 0
         for m in tempMeas:
             try:
-                if(intersectSpan(num["span"],m["Quantity"]["startOffset"],m["Quantity"]["endOffset"]) and intersectSpan(unit["span"],m["Quantity"]["startOffset"],m["Quantity"]["endOffset"])):
+
+                if intersectSpan(num["span"],m["Quantity"]["startOffset"],m["Quantity"]["endOffset"]):
                     exerpt.doc._.h0NumberTps.append(num)
+
+                if intersectSpan(unit["span"],m["Quantity"]["startOffset"],m["Quantity"]["endOffset"]):
                     exerpt.doc._.h0UnitTps.append(unit)
+
+
+                if(intersectSpan(num["span"],m["Quantity"]["startOffset"],m["Quantity"]["endOffset"]) and intersectSpan(unit["span"],m["Quantity"]["startOffset"],m["Quantity"]["endOffset"])):
+                    
                     if(intersectSpan(me["span"],m["MeasuredEntity"]["startOffset"],m["MeasuredEntity"]["endOffset"]) or
                     intersectSpanNum(me["start"],me["end"],m["MeasuredEntity"]["startOffset"],m["MeasuredEntity"]["endOffset"])):
                         exerpt.doc._.h0MeasuredEntityTps.append(num)
@@ -153,3 +244,85 @@ def evaluate(exerpt):
             except KeyError:
                 pass#print("No quantity")
             count+=1
+
+
+def getSplit(exerpt):
+    doc = exerpt.doc    
+
+    try:
+        doc._.meAnnotTest
+        doc._.meAnnotTrain
+    except Exception: 
+        Doc.set_extension("meAnnotTest", default = "def", force = True)
+        Doc.set_extension("meAnnotTrain", default = "def", force = True)
+
+    temp = list(exerpt.doc._.meAnnots.values())
+
+    exerpt.doc._.meAnnotTest = [temp[0]]
+    if len(temp) > 1:
+        exerpt.doc._.meAnnotTrain = temp[1:]
+    else: 
+        exerpt.doc._.meAnnotTrain = []
+
+
+def getCRFSplit(exerpt):
+    doc = exerpt.doc    
+
+    try:
+        doc._.crfTest 
+        doc._.crfTrain
+    except Exception: 
+        Doc.set_extension("crfTest", default = "def", force = True)
+        Doc.set_extension("crfTrain", default = "def", force = True)
+
+    doc._.crfTest = {"raw": [], "obj": []}
+    doc._.crfTrain = {"raw": [], "obj": []}
+
+    for x in doc._.meAnnotTest:
+        quant = x["Quantity"]
+        for sent in x["sentences"]:
+            if intersectSpanSpan(quant,sent):
+                rawSent = []
+                objSent = [] 
+                quantIds = [y.i for y in quant]
+                for token in sent:
+                    if token.i in quantIds:
+                        rawSent.append((token.text, token.tag_,"Q"))
+                        objSent.append((token, token.tag_,"Q"))
+                    else:
+                        rawSent.append((token.text, token.tag_,"O"))
+                        objSent.append((token, token.tag_,"O"))
+
+
+                doc._.crfTest["raw"].append(rawSent)  
+                doc._.crfTest["obj"].append(objSent)
+
+
+    for x in doc._.meAnnotTrain:
+        quant = x["Quantity"]
+        for sent in x["sentences"]:
+            if intersectSpanSpan(quant,sent):
+                rawSent = []
+                objSent = [] 
+                quantIds = [y.i for y in quant]
+                for token in sent:
+                    if token.i in quantIds:
+                        rawSent.append((token.text, token.tag_,"Q"))
+                        objSent.append((token, token.tag_,"Q"))
+                    else:
+                        rawSent.append((token.text, token.tag_,"O"))
+                        objSent.append((token, token.tag_,"O"))
+
+
+                doc._.crfTrain["raw"].append(rawSent)  
+                doc._.crfTrain["obj"].append(objSent)
+
+
+
+
+
+
+    
+
+    
+

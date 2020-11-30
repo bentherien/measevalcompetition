@@ -1,15 +1,21 @@
 import spacy
-
+import src.common as common
 
 def findOffset(offset, text):
     '''
     Corrects annotations whose offsets are not correct
     '''
+    #check for end of document
+    if offset == len(text):
+        return offset
+
     try:
         #find correct start offset
-        if(text[offset] != " " and text[offset+1] != " "):
+        if(text[offset] != " " and text[offset+1] != " "  and text[offset-1] == " "):
             return offset
             #no change
+        elif(text[offset] != " " and text[offset+1] == "."):
+            return offset
         elif(text[offset] != " " and text[offset+1] == " "):
             if(text[offset-1] == " "):
             #case where the word is one char
@@ -18,12 +24,17 @@ def findOffset(offset, text):
             else:
                 return offset+2
                 #skip ahead 2
+        elif(text[offset] != " " and text[offset-2] == " "):
+            return offset-1
+        elif(text[offset] != " " and text[offset-3] == " "):
+            return offset-2
         elif(text[offset] == " "):
             return offset + 1
         else:
             print("error, unhandled case in findOffset()")
             print("offset", offset)
-            print("text", text)
+            print("offset", text[offset])
+            print("offset +-10:", text[max(0, offset-10):min(len(text),offset+10)])
             return offset
     except IndexError: 
         return offset
@@ -61,6 +72,14 @@ def intersectSpan(span1,s2,e2):
 (s2 <= s1 and e1 <= e2) or\
 (s1 <= s2 and e2 <= e1)
 
+def preprocessForXML(token):
+    token = str(token)
+    token = token.replace("'","&apos;")
+    token = token.replace("\"","&quot;")
+    token = token.replace("&","&amp;")
+    token = token.replace("<","&lt;")
+    token = token.replace(">","&gt;")
+    return token
 
 def getSentences(omin,omax,doc):
     sents = []
@@ -77,15 +96,10 @@ def createAnnotation(ID, tpe, start, end, features, file):
     file.write("</Annotation>\n")
     
 def createNode(token,doc,offset,file,prevEnd):
-    txt = token.text
-    txt = txt.replace("'","&apos;")
-    txt = txt.replace("\"","&quot;")
-    txt = txt.replace("&","&amp;")
-    txt = txt.replace("<","&lt;")
-    txt = txt.replace(">","&gt;")
+    txt = preprocessForXML(token.text)
     
-    start = doc[token.i:token.i+1].start_char+offset
-    end = offset+doc[token.i:token.i+1].end_char
+    start = offset + doc[token.i:token.i+1].start_char
+    end = offset + doc[token.i:token.i+1].end_char
     
     if(start == prevEnd):
         file.write("{}<Node id=\"{}\"/>".format(txt,end))
@@ -100,8 +114,20 @@ def createNode(token,doc,offset,file,prevEnd):
 
 
 def createFeature(key, value, file):
+    key = preprocessForXML(key)
+    value = preprocessForXML(value)
     file.write(f"""<Feature>
   <Name className="java.lang.String">{key}</Name>
   <Value className="java.lang.String">{value}</Value>
 </Feature>\n""")
+
+
+def setupNLP():
+    infixes = common.nlp.Defaults.infixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',)
+    infix_regex = spacy.util.compile_infix_regex(infixes)
+    common.nlp.tokenizer.infix_finditer = infix_regex.finditer
+
+    prefixes =common.nlp.Defaults.prefixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',)
+    prefix_regex = spacy.util.compile_prefix_regex(prefixes)
+    common.nlp.tokenizer.prefix_search = prefix_regex.search
 

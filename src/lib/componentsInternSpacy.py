@@ -1,6 +1,7 @@
 from spacy.matcher import Matcher
 from spacy.tokens import Doc
 import src.common as common
+from spacy.pipeline.pipes import DependencyParser
 
 
 
@@ -72,7 +73,7 @@ def h0(doc):
         Doc.set_extension("h0MeasuredEntity", default = "def", force = True)
         Doc.set_extension("h0Measurements", default = "def", force = True)
 
-    def numberMatcher():
+    def numberMatcher(ents):
         """
         Description: matcher giving the most recall so far
         """
@@ -87,7 +88,7 @@ def h0(doc):
 
     ents = ["CARDINAL", "MONEY", "PERCENT", "DATE", "TIME", "QUANTITY"]
 
-    matcher = numberMatcher()
+    matcher = numberMatcher(ents)
     matches = matcher(doc)
     doc._.h0Number = []
     doc._.h0Unit = []
@@ -153,4 +154,68 @@ def h0(doc):
         
         
     return doc
+
+
+def fixSentences(doc):
+    for token in doc: 
+        if token.text == ".":
+            doc[token.i].is_sent_start = False
+            if(doc[token.i-1].text.lower() in ["fig", "figs","spp","al"]):
+                try:
+                    doc[token.i+1].is_sent_start = False
+                except IndexError:
+                    continue
+        elif token.text == ",":
+            doc[token.i].is_sent_start = False
+            try:
+                doc[token.i+1].is_sent_start = False
+            except IndexError:
+                continue
+        elif token.text == ";":
+            doc[token.i].is_sent_start = False
+            try:
+                doc[token.i+1].is_sent_start = False
+            except IndexError:
+                continue
+        elif token.text == "/":
+            doc[token.i].is_sent_start = False
+            try:
+                doc[token.i+1].is_sent_start = False
+            except IndexError:
+                continue
+        elif token.text == "(":
+            doc[token.i].is_sent_start = False
+            try:
+                doc[token.i+1].is_sent_start = False
+            except IndexError:
+                continue
+        elif not token.text.isalnum():
+            doc[token.i].is_sent_start = False
+        
+        elif(token.text[0].islower()):
+            try:
+                doc[token.i].is_sent_start = False
+            except IndexError:
+                continue
+        
+        try:
+            if doc[token.i-1].text != ".":
+                doc[token.i].is_sent_start = False
+            elif doc[token.i-1].text == "and":
+                doc[token.i].is_sent_start = False
+        except IndexError:
+                continue
+    return doc
+
+
+
+class CustomParser(DependencyParser):
+
+    def __call__(self, doc):
+        super(CustomParser, self).__call__(doc)
+        fixSentences(doc)
+
+
+
+
 
