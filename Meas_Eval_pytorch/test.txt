@@ -1,0 +1,25 @@
+\begin{table}[!ht] 
+\centering
+\caption{def caption}\label{def label}
+\begin{tabularx}{300pt}{|x|x|x|X|x|}
+\hline
+&precision&recall&f1-score&support\\
+\hline
+ME&0.00&0.00&0.00&215\\
+\hline
+MP&0.29&0.35&0.32&130\\
+\hline
+QA&0.83&0.82&0.82&358\\
+\hline
+QL&0.00&0.00&0.00&36\\
+\hline
+o&0.94&0.98&0.96&4974\\
+\hline
+&&accuracy&0.91&5713\\
+\hline
+macro avg&0.41&0.43&0.42&5713\\
+\hline
+weighted avg&0.88&0.91&0.89&5713\\
+\hline
+\end{tabularx}
+\end{table}
