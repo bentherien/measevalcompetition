@@ -6,6 +6,8 @@ import math
 import common
 import os 
 import numpy as np
+import random
+
 from load_util import load_sample
 from tqdm import tqdm
 from math import floor
@@ -19,52 +21,47 @@ from allennlp.modules.elmo import Elmo,batch_to_ids
 import torch.nn.functional as F
 from torch.autograd import Variable
 
-
-
-
-
-
 CUDA = True
 
-
 def Var(v):
+    """
+    Checks if program is set to run as cuda 
+    """
     if CUDA:
         return Variable(v.cuda())
     else:
         return Variable(v)
 
-
-
-
 def id_to_tag(seq,to_tag):
-    res=list()
+    """
+    res = []
 
     for ele in seq:
         res.append(to_tag[ele])
 
     return res
+    """
+    return [to_tag[e] for e in seq]
 
 def get_inv(my_map):
     """
+    Inverts the keys and values in a given dicitonary
     """
-    inv_map = {v: k for k, v in my_map.items()}
-
-    return inv_map
-
+    return {v: k for k, v in my_map.items()}
 
 def get_set(all,perm):
     """
+
     """
-    new_set=list()
+    new_set = list()
     for i in range(len(all)):
         if i in perm:
             new_set.append(all[i])
     return new_set
 
-
-
-
 def convert_2_tensor(seq, to_ix, dt):
+    """
+    """
     if to_ix == None:
         return Var(torch.tensor(seq, dtype=dt))
     else:
@@ -73,7 +70,6 @@ def convert_2_tensor(seq, to_ix, dt):
             if w in to_ix:
                 idxs.append(to_ix[w])
         return Var(torch.tensor(idxs, dtype=dt))
-
 
 def predict_class(class_score, CUDA):
     if CUDA:
@@ -84,7 +80,6 @@ def predict_class(class_score, CUDA):
     for seq in class_score:
         classes.append(np.argmax(seq))
     return classes
-
 
 def test(fileObj,test,testSize,trainSize,epoch,avgLoss,fold,silent=True):
     inv_dic=get_inv(tag_to_ix)
@@ -97,8 +92,6 @@ def test(fileObj,test,testSize,trainSize,epoch,avgLoss,fold,silent=True):
             input = sample.tokens
             #input = convert_2_tensor(input, word_to_ix, torch.long)
             input = [input]
-
-
 
             output = model(input)
             pred = predict_class(output, CUDA)
@@ -135,9 +128,6 @@ def test(fileObj,test,testSize,trainSize,epoch,avgLoss,fold,silent=True):
         fileObj.flush()
         fileObj.write("\n")
 
-
-
-
 def main():
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers()
@@ -152,25 +142,8 @@ def main():
     args = parser.parse_args()
     return args
 
-
-
-
-args = main()
-
-tempFile = os.path.join("output",args.model_name)
-
-if os.path.isfile(tempFile):
-    common.f = open(tempFile, "a", encoding="utf-8")
-else:
-    common.f = open(tempFile, "a", encoding="utf-8")
-    latex.tableStart(label="SummaryTable-{}".format(args.model_name), caption="SummaryTable-{}".format(args.model_name), arrangement="|X|X|X|X|X|X|X|", size="325pt")
-
-
-
-
-
 class Sequence_Tagger(nn.Module):
-    def __init__(self, word_to_idx,  tag_to_ix,pretrained_emb, emb_dim,d_model):
+    def __init__(self, word_to_idx,tag_to_ix,pretrained_emb, emb_dim,d_model):
         super().__init__()
 
         #self.emb=Embedding(emb_dim,len(word_to_idx),pretrained_emb,word_to_idx)
@@ -179,8 +152,6 @@ class Sequence_Tagger(nn.Module):
 
         self.elmo = Elmo(options_file,weight_file,1,dropout=0)
         self.tagger = LSTMTagger(emb_dim,d_model,len(tag_to_ix),True)
-
-
 
     def forward(self, input):
 
@@ -195,13 +166,20 @@ class Sequence_Tagger(nn.Module):
         return predictions
 
 
+args = main()
+
+tempFile = os.path.join("output",args.model_name)
+
+if os.path.isfile(tempFile):
+    common.f = open(tempFile, "a", encoding="utf-8")
+else:
+    common.f = open(tempFile, "a", encoding="utf-8")
+    latex.tableStart(label="SummaryTable-{}".format(args.model_name), caption="SummaryTable-{}".format(args.model_name), arrangement="|X|X|X|X|X|X|X|", size="325pt")
 
 all_data = load_sample(args.data_path)
 
-
 word_to_ix = {}
 tag_to_ix = {}
-
 
 for sample in all_data:
     for token in sample.tokens:
@@ -211,10 +189,6 @@ for sample in all_data:
     for tag in sample.target:
         if tag not in tag_to_ix:
             tag_to_ix[tag] = len(tag_to_ix)
-
-
-
-
 
 #pretrained_emb = pickle.load(open('glove_wiki.p', 'rb'))
 
@@ -244,7 +218,6 @@ def getFolds(fold, data, div = 8):
 
     
 
-import random
 
 def getSizeData(data):
     last = ""
@@ -325,38 +298,3 @@ common.f.close()
 statFile.close()
 
 
-
-
-
-
-
-
-
-
-
-
-
-"""inv_dic=get_inv(tag_to_ix)
-with torch.no_grad():
-    all_predictions = list()
-    all_gold = list()
-    for sample in all_data[int(3.5*floor(len(all_data)/4)):]:
-
-        input= sample.tokens
-        #input = convert_2_tensor(input, word_to_ix, torch.long)
-        input = [input]
-
-
-
-        output = model(input)
-        pred = predict_class(output, CUDA)
-
-        pred=id_to_tag(pred,inv_dic)
-
-        all_predictions.append(pred)
-        all_gold.append(sample.target)
-
-    print(flat_classification_report(all_gold,all_predictions))
-    print("\n\n=====================================================================\n\n", file = statFile)
-    print("Test set results:", file = statFile)
-    print(flat_classification_report(all_gold,all_predictions), file = statFile)"""
