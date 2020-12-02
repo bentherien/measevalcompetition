@@ -1,77 +1,28 @@
-import torch.nn as nn
-import torch
-from pytorch_util import Embedding, LSTMTagger
-from torch import optim
-import numpy as np
-from load_util import load_sample
-from tqdm import tqdm
 import pickle
-from math import floor
 import argparse
 import json
 import latex
 import math 
 import common
 import os 
-
+import numpy as np
+from load_util import load_sample
+from tqdm import tqdm
+from math import floor
 from sklearn_crfsuite.metrics import flat_classification_report
 
-
+import torch
+import torch.nn as nn
+from pytorch_util import Embedding, LSTMTagger
+from torch import optim
 from allennlp.modules.elmo import Elmo,batch_to_ids
-
-
-
-
-
-def main():
-    parser = argparse.ArgumentParser()
-    subparsers = parser.add_subparsers()
-
-    subparser = subparsers.add_parser("run")
-    subparser.add_argument("--output-path", "-o", default="data/22.auto.clean")
-    subparser.add_argument("--data-path", "-d", default="samples_test.tsv")
-    subparser.add_argument("--model-name", "-n", required=True)
-    subparser.add_argument("--epoch-num", "-e", required=True)
-    subparser.add_argument("--fold", "-f", type=int,required=True)
-
-    args = parser.parse_args()
-    return args
-
-
-
-
-args = main()
-
-tempFile = os.path.join("output",args.model_name)
-
-if os.path.isfile(tempFile):
-    common.f = open(tempFile, "a", encoding="utf-8")
-else:
-    common.f = open(tempFile, "a", encoding="utf-8")
-    latex.tableStart(label="SummaryTable-{}".format(args.model_name), caption="SummaryTable-{}".format(args.model_name), arrangement="|X|X|X|X|X|X|X|", size="325pt")
-
-
-
-
-
-def get_inv(my_map):
-    inv_map = {v: k for k, v in my_map.items()}
-
-    return inv_map
-
-
-def get_set(all,perm):
-    new_set=list()
-    for i in range(len(all)):
-        if i in perm:
-            new_set.append(all[i])
-    return new_set
-
-
-
 import torch.nn.functional as F
-
 from torch.autograd import Variable
+
+
+
+
+
 
 CUDA = True
 
@@ -92,6 +43,23 @@ def id_to_tag(seq,to_tag):
         res.append(to_tag[ele])
 
     return res
+
+def get_inv(my_map):
+    """
+    """
+    inv_map = {v: k for k, v in my_map.items()}
+
+    return inv_map
+
+
+def get_set(all,perm):
+    """
+    """
+    new_set=list()
+    for i in range(len(all)):
+        if i in perm:
+            new_set.append(all[i])
+    return new_set
 
 
 
@@ -166,6 +134,38 @@ def test(fileObj,test,testSize,trainSize,epoch,avgLoss,fold,silent=True):
         )
         fileObj.flush()
         fileObj.write("\n")
+
+
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    subparsers = parser.add_subparsers()
+
+    subparser = subparsers.add_parser("run")
+    subparser.add_argument("--output-path", "-o", default="data/22.auto.clean")
+    subparser.add_argument("--data-path", "-d", default="samples_test.tsv")
+    subparser.add_argument("--model-name", "-n", required=True)
+    subparser.add_argument("--epoch-num", "-e", required=True)
+    subparser.add_argument("--fold", "-f", type=int,required=True)
+
+    args = parser.parse_args()
+    return args
+
+
+
+
+args = main()
+
+tempFile = os.path.join("output",args.model_name)
+
+if os.path.isfile(tempFile):
+    common.f = open(tempFile, "a", encoding="utf-8")
+else:
+    common.f = open(tempFile, "a", encoding="utf-8")
+    latex.tableStart(label="SummaryTable-{}".format(args.model_name), caption="SummaryTable-{}".format(args.model_name), arrangement="|X|X|X|X|X|X|X|", size="325pt")
+
+
 
 
 
