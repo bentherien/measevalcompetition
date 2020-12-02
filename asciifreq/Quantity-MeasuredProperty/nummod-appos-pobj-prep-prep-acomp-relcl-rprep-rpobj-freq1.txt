@@ -1,0 +1,68 @@
+Frequency: 1
+Path: ('nummod', 'appos', 'pobj', 'prep', 'prep', 'acomp', 'relcl', 'rprep', 'rpobj')
+Type: Quantity-MeasuredProperty
+
+The advantage of that non-rotating mode is the time resolution of the instrument which is 16 times better than in the rotating mode (5.65 s) for the rate channels or 0.66 s for the priority channels instead of 86 s for a given pointing/pitch angle).
+Quantity: 5.65
+MeasuredProperty: instrument
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+advantage       det             The            
+is              nsubj           advantage      
+advantage       prep            of             
+mode            det             that           
+-               dep             non            
+rotating        dep             -              
+mode            amod            rotating       
+of              pobj            mode           
+is              ROOT            is             
+resolution      det             the            
+resolution      compound        time           
+is              attr            resolution     
+resolution      prep            of             
+instrument      det             the            
+of              pobj            instrument     
+is              nsubj           which          
+resolution      relcl           is             
+times           nummod          16             
+better          npadvmod        times          
+is              acomp           better         
+better          prep            than           
+than            prep            in             
+mode            det             the            
+mode            amod            rotating       
+in              pobj            mode           
+mode            punct           (              
+s               nummod          5.65           
+mode            appos           s              
+mode            punct           )              
+is              prep            for            
+channels        det             the            
+channels        compound        rate           
+for             pobj            channels       
+channels        cc              or             
+s               nummod          0.66           
+channels        conj            s              
+channels        prep            for            
+channels        det             the            
+channels        compound        priority       
+for             pobj            channels       
+of              advmod          instead        
+channels        prep            of             
+s               nummod          86             
+channels        conj            s              
+channels        prep            for            
+angle           det             a              
+pitch           amod            given          
+pitch           amod            pointing       
+pitch           punct           /              
+angle           compound        pitch          
+for             pobj            angle          
+is              punct           )              
+is              punct           .              
+
+
+

@@ -80,11 +80,11 @@ class ExerptController:
 
         for x in self.data.values():
             for token in x.doc:
-                allP.write(token.text+"\t"+token._.all+"\n")
-                quantP.write(token.text+"\t"+token._.quant+"\n")
-                qualP.write(token.text+"\t"+token._.qual+"\n")
-                meP.write(token.text+"\t"+token._.me+"\n")
-                mpP.write(token.text+"\t"+token._.mp+"\n")
+                allP.write(token.text+"\t"+token._.all+"\t"+token.tag_+"\n")
+                quantP.write(token.text+"\t"+token._.quant+"\t"+token.tag_+"\n")
+                qualP.write(token.text+"\t"+token._.qual+"\t"+token.tag_+"\n")
+                meP.write(token.text+"\t"+token._.me+"\t"+token.tag_+"\n")
+                mpP.write(token.text+"\t"+token._.mp+"\t"+token.tag_+"\n")
             allP.write("\n")
             quantP.write("\n")
             qualP.write("\n")
@@ -107,11 +107,11 @@ class ExerptController:
 
             for sent in x.doc.sents:
                 for token in sent:
-                    allS.write(token.text+"\t"+token._.all+"\n")
-                    quantS.write(token.text+"\t"+token._.quant+"\n")
-                    qualS.write(token.text+"\t"+token._.qual+"\n")
-                    meS.write(token.text+"\t"+token._.me+"\n")
-                    mpS.write(token.text+"\t"+token._.mp+"\n")
+                    allS.write(token.text+"\t"+token._.all+"\t"+token.tag_+"\n")
+                    quantS.write(token.text+"\t"+token._.quant+"\t"+token.tag_+"\n")
+                    qualS.write(token.text+"\t"+token._.qual+"\t"+token.tag_+"\n")
+                    meS.write(token.text+"\t"+token._.me+"\t"+token.tag_+"\n")
+                    mpS.write(token.text+"\t"+token._.mp+"\t"+token.tag_+"\n")
 
                 allS.write("\n")
                 quantS.write("\n")

@@ -1,0 +1,69 @@
+Frequency: 1
+Path: ('nummod', 'conj', 'appos', 'pobj', 'prep')
+Type: Quantity-MeasuredProperty
+
+Ti shows the same trend for these tests as for single column tests, with 1000 ppm SO2 showing higher concentrations of Ti (135 ppm for single column, 407 ppm for looping test) compared to 0 and 2000 ppm SO2 at values close to 10 ppm Ti in both tests.
+Quantity: 407
+MeasuredProperty: concentrations
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+shows           nsubj           Ti             
+shows           ROOT            shows          
+trend           det             the            
+trend           amod            same           
+shows           dobj            trend          
+trend           prep            for            
+tests           det             these          
+for             pobj            tests          
+shows           prep            as             
+as              prep            for            
+tests           amod            single         
+tests           compound        column         
+for             pobj            tests          
+shows           punct           ,              
+shows           prep            with           
+SO2             nummod          1000           
+SO2             compound        ppm            
+with            pobj            SO2            
+SO2             acl             showing        
+concentrations  amod            higher         
+showing         dobj            concentrations 
+concentrations  prep            of             
+of              pobj            Ti             
+Ti              punct           (              
+ppm             nummod          135            
+Ti              appos           ppm            
+ppm             prep            for            
+column          amod            single         
+for             pobj            column         
+ppm             punct           ,              
+ppm             nummod          407            
+ppm             conj            ppm            
+ppm             prep            for            
+test            compound        looping        
+for             pobj            test           
+Ti              punct           )              
+showing         prep            compared       
+compared        prep            to             
+SO2             nummod          0              
+0               cc              and            
+0               conj            2000           
+SO2             compound        ppm            
+to              pobj            SO2            
+SO2             prep            at             
+at              pobj            values         
+values          amod            close          
+10              quantmod        to             
+ppm             nummod          10             
+Ti              compound        ppm            
+close           dobj            Ti             
+Ti              prep            in             
+tests           det             both           
+in              pobj            tests          
+shows           punct           .              
+
+
+

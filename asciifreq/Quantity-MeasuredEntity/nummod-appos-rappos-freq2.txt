@@ -1,0 +1,149 @@
+Frequency: 2
+Path: ('nummod', 'appos', 'rappos')
+Type: Quantity-MeasuredEntity
+
+The Eocene–Oligocene Transition (EOT) marks the onset of modern icehouse conditions when continental-scale ice sheets enveloped Antarctica (‘Oi1,’ ∼33.7 Ma, Coxall et al., 2005; Ehrmann and Mackensen, 1992).
+Quantity: 33.7
+MeasuredEntity: Oi1
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+marks           det             The            
+Transition      nmod            Eocene         
+Eocene          punct           –              
+Transition      compound        Oligocene      
+marks           nmod            Transition     
+EOT             punct           (              
+Transition      appos           EOT            
+marks           punct           )              
+marks           ROOT            marks          
+onset           det             the            
+marks           dobj            onset          
+onset           prep            of             
+conditions      amod            modern         
+conditions      compound        icehouse       
+of              pobj            conditions     
+enveloped       advmod          when           
+scale           amod            continental    
+scale           punct           -              
+sheets          compound        scale          
+sheets          compound        ice            
+enveloped       nsubj           sheets         
+marks           advcl           enveloped      
+enveloped       dobj            Antarctica     
+Antarctica      punct           (              
+Oi1             punct           ‘              
+Antarctica      appos           Oi1            
+Antarctica      punct           ,              
+Antarctica      punct           ’              
+Antarctica      appos           ∼              
+Ma              nummod          33.7           
+Antarctica      appos           Ma             
+Ma              punct           ,              
+al              compound        Coxall         
+al              compound        et             
+.               dep             al             
+marks           punct           .              
+2005            dep             ,              
+;               dep             2005           
+marks           punct           ;              
+;               pobj            Ehrmann        
+Ehrmann         cc              and            
+Ehrmann         conj            Mackensen      
+Ehrmann         punct           ,              
+Ehrmann         appos           1992           
+Ehrmann         punct           )              
+marks           punct           .              
+
+
+
+
+This flexibility included choosing from 2 systems, the “nutrient sufficiency recommendation system” which is developed to provide a 90–95% maximum yield for the year, and the “build maintenance fertility program” based soil test values over a planned period of time, usually 4–8 years, for both immediate crop needs and build up levels to a non-limiting value (Leikam et al., 2003).
+Quantity: 4–8
+MeasuredEntity: values
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+flexibility     det             This           
+included        nsubj           flexibility    
+included        ROOT            included       
+included        xcomp           choosing       
+choosing        prep            from           
+systems         nummod          2              
+from            pobj            systems        
+systems         punct           ,              
+system          det             the            
+system          punct           “              
+system          compound        nutrient       
+system          compound        sufficiency    
+system          compound        recommendation 
+systems         appos           system         
+system          punct           ”              
+developed       nsubjpass       which          
+developed       auxpass         is             
+system          relcl           developed      
+provide         aux             to             
+developed       xcomp           provide        
+yield           det             a              
+%               nmod            90–95          
+yield           nmod            %              
+yield           amod            maximum        
+provide         dobj            yield          
+yield           prep            for            
+year            det             the            
+for             pobj            year           
+system          punct           ,              
+system          cc              and            
+program         det             the            
+program         punct           “              
+program         amod            build          
+fertility       compound        maintenance    
+program         compound        fertility      
+system          conj            program        
+program         punct           ”              
+values          amod            based          
+values          compound        soil           
+values          compound        test           
+program         appos           values         
+program         prep            over           
+period          det             a              
+period          amod            planned        
+over            pobj            period         
+period          prep            of             
+of              pobj            time           
+program         punct           ,              
+program         advmod          usually        
+years           nummod          4–8            
+program         appos           years          
+program         punct           ,              
+program         prep            for            
+crop            det             both           
+crop            amod            immediate      
+needs           nsubj           crop           
+for             pobj            needs          
+included        cc              and            
+included        conj            build          
+build           prt             up             
+build           dobj            levels         
+build           prep            to             
+value           det             a              
+-               dep             non            
+limiting        dep             -              
+value           amod            limiting       
+to              pobj            value          
+value           punct           (              
+al              compound        Leikam         
+al              compound        et             
+.               dep             al             
+value           appos           .              
+value           punct           ,              
+value           npadvmod        2003           
+value           punct           )              
+included        punct           .              
+
+
+

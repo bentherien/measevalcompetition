@@ -1,0 +1,97 @@
+Frequency: 2
+Path: ('nummod', 'pobj', 'prep', 'pobj', 'prep', 'rappos', 'appos')
+Type: Quantity-MeasuredEntity
+
+Crystallite sizes were determined by a scanning electron microscope (LEO 1525 field emission scanning electron microscope, with a nominal resolution of 1.5 nm at 20 kV) equipped with a backscattering detector.
+Quantity: 1.5
+MeasuredEntity: microscope
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+sizes           amod            Crystallite    
+determined      nsubjpass       sizes          
+determined      auxpass         were           
+determined      ROOT            determined     
+determined      agent           by             
+microscope      det             a              
+microscope      compound        scanning       
+microscope      compound        electron       
+by              pobj            microscope     
+microscope      punct           (              
+microscope      appos           LEO            
+microscope      nummod          1525           
+emission        compound        field          
+scanning        compound        emission       
+microscope      compound        scanning       
+microscope      compound        electron       
+LEO             appos           microscope     
+microscope      punct           ,              
+microscope      prep            with           
+resolution      det             a              
+resolution      amod            nominal        
+with            pobj            resolution     
+resolution      prep            of             
+nm              nummod          1.5            
+of              pobj            nm             
+resolution      prep            at             
+kV              nummod          20             
+at              pobj            kV             
+resolution      punct           )              
+microscope      acl             equipped       
+equipped        prep            with           
+detector        det             a              
+detector        amod            backscattering 
+with            pobj            detector       
+determined      punct           .              
+
+
+
+
+Crystallite sizes were determined by a scanning electron microscope (LEO 1525 field emission scanning electron microscope, with a nominal resolution of 1.5 nm at 20 kV) equipped with a backscattering detector.
+Quantity: 20
+MeasuredEntity: microscope
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+sizes           amod            Crystallite    
+determined      nsubjpass       sizes          
+determined      auxpass         were           
+determined      ROOT            determined     
+determined      agent           by             
+microscope      det             a              
+microscope      compound        scanning       
+microscope      compound        electron       
+by              pobj            microscope     
+microscope      punct           (              
+microscope      appos           LEO            
+microscope      nummod          1525           
+emission        compound        field          
+scanning        compound        emission       
+microscope      compound        scanning       
+microscope      compound        electron       
+LEO             appos           microscope     
+microscope      punct           ,              
+microscope      prep            with           
+resolution      det             a              
+resolution      amod            nominal        
+with            pobj            resolution     
+resolution      prep            of             
+nm              nummod          1.5            
+of              pobj            nm             
+resolution      prep            at             
+kV              nummod          20             
+at              pobj            kV             
+resolution      punct           )              
+microscope      acl             equipped       
+equipped        prep            with           
+detector        det             a              
+detector        amod            backscattering 
+with            pobj            detector       
+determined      punct           .              
+
+
+

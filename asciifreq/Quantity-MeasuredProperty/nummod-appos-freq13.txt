@@ -1,0 +1,783 @@
+Frequency: 13
+Path: ('nummod', 'appos')
+Type: Quantity-MeasuredProperty
+
+The GHQ has also been validated at baseline against a clinical interview schedule in the Whitehall II study, with acceptable sensitivity (73%) and specificity (78%) (27).
+Quantity: 73
+MeasuredProperty: sensitivity
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+GHQ             det             The            
+validated       nsubjpass       GHQ            
+validated       aux             has            
+validated       advmod          also           
+validated       auxpass         been           
+validated       ROOT            validated      
+validated       prep            at             
+at              pobj            baseline       
+baseline        prep            against        
+schedule        det             a              
+schedule        amod            clinical       
+schedule        compound        interview      
+against         pobj            schedule       
+schedule        prep            in             
+study           det             the            
+II              compound        Whitehall      
+study           compound        II             
+in              pobj            study          
+validated       punct           ,              
+validated       prep            with           
+sensitivity     amod            acceptable     
+with            pobj            sensitivity    
+sensitivity     punct           (              
+%               nummod          73             
+sensitivity     appos           %              
+sensitivity     punct           )              
+sensitivity     cc              and            
+sensitivity     conj            specificity    
+specificity     punct           (              
+%               nummod          78             
+specificity     appos           %              
+specificity     punct           )              
+sensitivity     punct           (              
+sensitivity     appos           27             
+sensitivity     punct           )              
+validated       punct           .              
+
+
+
+
+However, basalts can have variable Os abundances (1 to 600 ppt; Martin, 1991; Crocket and Paul, 2008); typical values range from 1 to 30 ppt (e.g., Shirey and Walker, 1998; Allegre et al., 1999; Dale et al., 2008).
+Quantity: 600
+MeasuredProperty: abundances
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+have            advmod          However        
+have            punct           ,              
+have            nsubj           basalts        
+have            aux             can            
+range           ccomp           have           
+abundances      amod            variable       
+abundances      compound        Os             
+have            dobj            abundances     
+abundances      punct           (              
+600             quantmod        1              
+600             quantmod        to             
+ppt             nummod          600            
+abundances      appos           ppt            
+have            punct           ;              
+have            npadvmod        Martin         
+Martin          punct           ,              
+Martin          appos           1991           
+Martin          punct           ;              
+Martin          conj            Crocket        
+Crocket         cc              and            
+Crocket         conj            Paul           
+Crocket         punct           ,              
+Crocket         appos           2008           
+Martin          punct           )              
+range           punct           ;              
+values          amod            typical        
+range           nsubj           values         
+range           ROOT            range          
+range           prep            from           
+30              quantmod        1              
+30              quantmod        to             
+ppt             nummod          30             
+from            pobj            ppt            
+ppt             punct           (              
+ppt             appos           e.g.           
+e.g.            punct           ,              
+e.g.            conj            Shirey         
+Shirey          cc              and            
+Shirey          conj            Walker         
+ppt             punct           ,              
+ppt             appos           1998           
+range           punct           ;              
+al              compound        Allegre        
+al              compound        et             
+.               dep             al             
+range           punct           .              
+1999            dep             ,              
+;               dep             1999           
+range           punct           ;              
+al              compound        Dale           
+al              compound        et             
+.               dep             al             
+range           punct           .              
+2008            dep             ,              
+)               dep             2008           
+range           punct           )              
+range           punct           .              
+
+
+
+
+The GHQ has also been validated at baseline against a clinical interview schedule in the Whitehall II study, with acceptable sensitivity (73%) and specificity (78%) (27).
+Quantity: 78
+MeasuredProperty: specificity
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+GHQ             det             The            
+validated       nsubjpass       GHQ            
+validated       aux             has            
+validated       advmod          also           
+validated       auxpass         been           
+validated       ROOT            validated      
+validated       prep            at             
+at              pobj            baseline       
+baseline        prep            against        
+schedule        det             a              
+schedule        amod            clinical       
+schedule        compound        interview      
+against         pobj            schedule       
+schedule        prep            in             
+study           det             the            
+II              compound        Whitehall      
+study           compound        II             
+in              pobj            study          
+validated       punct           ,              
+validated       prep            with           
+sensitivity     amod            acceptable     
+with            pobj            sensitivity    
+sensitivity     punct           (              
+%               nummod          73             
+sensitivity     appos           %              
+sensitivity     punct           )              
+sensitivity     cc              and            
+sensitivity     conj            specificity    
+specificity     punct           (              
+%               nummod          78             
+specificity     appos           %              
+specificity     punct           )              
+sensitivity     punct           (              
+sensitivity     appos           27             
+sensitivity     punct           )              
+validated       punct           .              
+
+
+
+
+Considerably less Os input from the LIP (25%) is needed if the LIP basalts possess higher Os abundances (100 ppt) and if the Os contribution to seawater also occurred through the addition of gas known to be enriched 20 times that of the basalt (e.g., Yudovskya et al., 2008).
+Quantity: 25
+MeasuredProperty: LIP
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+less            advmod          Considerably   
+input           amod            less           
+input           compound        Os             
+needed          nsubjpass       input          
+input           prep            from           
+LIP             det             the            
+from            pobj            LIP            
+LIP             punct           (              
+%               nummod          25             
+LIP             appos           %              
+LIP             punct           )              
+needed          auxpass         is             
+needed          ROOT            needed         
+possess         mark            if             
+basalts         det             the            
+basalts         compound        LIP            
+possess         nsubj           basalts        
+needed          advcl           possess        
+abundances      amod            higher         
+abundances      compound        Os             
+possess         dobj            abundances     
+abundances      punct           (              
+ppt             nummod          100            
+abundances      appos           ppt            
+possess         punct           )              
+possess         cc              and            
+occurred        mark            if             
+contribution    det             the            
+contribution    compound        Os             
+occurred        nsubj           contribution   
+contribution    prep            to             
+to              pobj            seawater       
+occurred        advmod          also           
+possess         conj            occurred       
+occurred        prep            through        
+addition        det             the            
+through         pobj            addition       
+addition        prep            of             
+of              pobj            gas            
+gas             acl             known          
+enriched        aux             to             
+enriched        auxpass         be             
+known           xcomp           enriched       
+occurred        dobj            20             
+20              quantmod        times          
+20              det             that           
+occurred        prep            of             
+basalt          det             the            
+of              pobj            basalt         
+basalt          punct           (              
+basalt          appos           e.g.           
+al              punct           ,              
+al              compound        Yudovskya      
+al              compound        et             
+.               dep             al             
+basalt          appos           .              
+basalt          punct           ,              
+basalt          npadvmod        2008           
+basalt          punct           )              
+needed          punct           .              
+
+
+
+
+The cells were maintained in Dulbecco's modified Eagle's medium supplemented with 10% fetal bovine serum, 1X nonessential amino acids, and penicillin/streptomycin (100 U/ml). iPSCs were generated as described previously (Takahashi et al., 2007).
+Quantity: 100
+MeasuredProperty: streptomycin
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+cells           det             The            
+maintained      nsubjpass       cells          
+maintained      auxpass         were           
+maintained      ROOT            maintained     
+maintained      prep            in             
+Eagle           poss            Dulbecco       
+Dulbecco        case            's             
+Eagle           amod            modified       
+medium          poss            Eagle          
+Eagle           case            's             
+supplemented    dep             medium         
+maintained      advcl           supplemented   
+supplemented    prep            with           
+%               nummod          10             
+serum           nmod            %              
+serum           amod            fetal          
+serum           compound        bovine         
+with            pobj            serum          
+serum           punct           ,              
+acids           amod            1X             
+acids           amod            nonessential   
+acids           compound        amino          
+serum           conj            acids          
+acids           punct           ,              
+acids           cc              and            
+streptomycin    nmod            penicillin     
+streptomycin    punct           /              
+acids           conj            streptomycin   
+ml              punct           (              
+ml              nummod          100            
+ml              nmod            U              
+ml              punct           /              
+streptomycin    appos           ml             
+streptomycin    punct           )              
+maintained      punct           .              
+generated       nsubjpass       iPSCs          
+generated       auxpass         were           
+maintained      advcl           generated      
+described       mark            as             
+generated       advcl           described      
+described       advmod          previously     
+al              punct           (              
+al              compound        Takahashi      
+al              compound        et             
+.               dep             al             
+described       npadvmod        .              
+2007            dep             ,              
+)               dep             2007           
+generated       punct           )              
+maintained      punct           .              
+
+
+
+
+As ηnet ranges from 0.1 to 1 (with the average solar flux), the velocity at the upper boundary increases from 2.6 km s−1 to 25 km s−1.
+Quantity: 25
+MeasuredProperty: velocity
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+ranges          mark            As             
+ranges          nsubj           ηnet           
+velocity        advcl           ranges         
+ranges          prep            from           
+from            pobj            0.1            
+from            prep            to             
+to              pobj            1              
+with            punct           (              
+ranges          prep            with           
+flux            det             the            
+flux            amod            average        
+flux            amod            solar          
+with            pobj            flux           
+with            punct           )              
+velocity        punct           ,              
+velocity        det             the            
+velocity        ROOT            velocity       
+velocity        prep            at             
+increases       det             the            
+boundary        amod            upper          
+increases       compound        boundary       
+at              pobj            increases      
+increases       prep            from           
+km              nummod          2.6            
+from            pobj            km             
+25              quantmod        s−1            
+25              quantmod        to             
+km              nummod          25             
+velocity        appos           km             
+velocity        npadvmod        s−1            
+velocity        punct           .              
+
+
+
+
+Considerably less Os input from the LIP (25%) is needed if the LIP basalts possess higher Os abundances (100 ppt) and if the Os contribution to seawater also occurred through the addition of gas known to be enriched 20 times that of the basalt (e.g., Yudovskya et al., 2008).
+Quantity: 100
+MeasuredProperty: abundances
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+less            advmod          Considerably   
+input           amod            less           
+input           compound        Os             
+needed          nsubjpass       input          
+input           prep            from           
+LIP             det             the            
+from            pobj            LIP            
+LIP             punct           (              
+%               nummod          25             
+LIP             appos           %              
+LIP             punct           )              
+needed          auxpass         is             
+needed          ROOT            needed         
+possess         mark            if             
+basalts         det             the            
+basalts         compound        LIP            
+possess         nsubj           basalts        
+needed          advcl           possess        
+abundances      amod            higher         
+abundances      compound        Os             
+possess         dobj            abundances     
+abundances      punct           (              
+ppt             nummod          100            
+abundances      appos           ppt            
+possess         punct           )              
+possess         cc              and            
+occurred        mark            if             
+contribution    det             the            
+contribution    compound        Os             
+occurred        nsubj           contribution   
+contribution    prep            to             
+to              pobj            seawater       
+occurred        advmod          also           
+possess         conj            occurred       
+occurred        prep            through        
+addition        det             the            
+through         pobj            addition       
+addition        prep            of             
+of              pobj            gas            
+gas             acl             known          
+enriched        aux             to             
+enriched        auxpass         be             
+known           xcomp           enriched       
+occurred        dobj            20             
+20              quantmod        times          
+20              det             that           
+occurred        prep            of             
+basalt          det             the            
+of              pobj            basalt         
+basalt          punct           (              
+basalt          appos           e.g.           
+al              punct           ,              
+al              compound        Yudovskya      
+al              compound        et             
+.               dep             al             
+basalt          appos           .              
+basalt          punct           ,              
+basalt          npadvmod        2008           
+basalt          punct           )              
+needed          punct           .              
+
+
+
+
+In the extreme case where faults are distributed uniformly and independently at random with a constant probability, say, 10%, of a node being faulty, node degrees of Δ∈O(clogn) would suffice to guarantee (at a given point in time) that the probability that more than Δ/9 neighbors of any node are faulty, is at most 1−1/nc.
+Quantity: 10
+MeasuredProperty: probability
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+suffice         prep            In             
+case            det             the            
+case            amod            extreme        
+In              pobj            case           
+distributed     advmod          where          
+distributed     nsubjpass       faults         
+distributed     auxpass         are            
+case            relcl           distributed    
+distributed     advmod          uniformly      
+uniformly       cc              and            
+uniformly       conj            independently  
+distributed     prep            at             
+at              pobj            random         
+distributed     prep            with           
+probability     det             a              
+probability     amod            constant       
+with            pobj            probability    
+probability     punct           ,              
+probability     intj            say            
+probability     punct           ,              
+%               nummod          10             
+probability     appos           %              
+%               punct           ,              
+%               prep            of             
+node            det             a              
+of              pobj            node           
+node            acl             being          
+being           acomp           faulty         
+suffice         punct           ,              
+degrees         amod            node           
+suffice         nsubj           degrees        
+degrees         prep            of             
+of              pobj            Δ∈O(clogn      
+degrees         punct           )              
+suffice         aux             would          
+suffice         ROOT            suffice        
+guarantee       aux             to             
+suffice         advcl           guarantee      
+guarantee       punct           (              
+guarantee       prep            at             
+point           det             a              
+point           amod            given          
+at              pobj            point          
+point           prep            in             
+in              pobj            time           
+guarantee       punct           )              
+is              mark            that           
+probability     det             the            
+is              nsubj           probability    
+are             mark            that           
+neighbors       amod            more           
+more            prep            than           
+neighbors       compound        Δ/9            
+are             nsubj           neighbors      
+neighbors       prep            of             
+node            det             any            
+of              pobj            node           
+probability     relcl           are            
+are             acomp           faulty         
+is              punct           ,              
+suffice         advcl           is             
+is              prep            at             
+nc              amod            most           
+nc              nummod          1−1            
+nc              punct           /              
+at              pobj            nc             
+suffice         punct           .              
+
+
+
+
+The simulation time consisted of one P = 12 h sinusoidal period with a time step of Δt = 864 s. No spin up phase was applied, as its effect is assumed to be small due to the relatively short extent of the domain.
+Quantity: 864
+MeasuredProperty: Δt
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+time            det             The            
+time            compound        simulation     
+applied         nsubjpass       time           
+time            acl             consisted      
+consisted       prep            of             
+P               nummod          one            
+of              pobj            P              
+P               punct           =              
+h               nummod          12             
+period          compound        h              
+period          compound        sinusoidal     
+consisted       dobj            period         
+period          prep            with           
+step            det             a              
+step            compound        time           
+with            pobj            step           
+step            prep            of             
+of              pobj            Δt             
+s.              punct           =              
+s.              nummod          864            
+Δt              appos           s.             
+spin            det             No             
+applied         nsubjpass       spin           
+spin            prt             up             
+spin            conj            phase          
+applied         auxpass         was            
+applied         ROOT            applied        
+applied         punct           ,              
+assumed         mark            as             
+effect          poss            its            
+assumed         nsubjpass       effect         
+assumed         auxpass         is             
+applied         advcl           assumed        
+be              aux             to             
+assumed         xcomp           be             
+be              acomp           small          
+be              prep            due            
+due             pcomp           to             
+extent          det             the            
+short           advmod          relatively     
+extent          amod            short          
+due             pobj            extent         
+extent          prep            of             
+domain          det             the            
+of              pobj            domain         
+applied         punct           .              
+
+
+
+
+Scale bars: 200 μm in (A)–(H), 50 μm in insets of (C)–(F), 100 μm in (J)–(M) and (Q).
+Quantity: 200
+MeasuredProperty: bars
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+bars            nsubj           Scale          
+bars            ROOT            bars           
+bars            punct           :              
+μm              nummod          200            
+bars            appos           μm             
+μm              prep            in             
+A)–(H           punct           (              
+in              pobj            A)–(H          
+μm              punct           )              
+μm              punct           ,              
+μm              nummod          50             
+μm              conj            μm             
+μm              prep            in             
+in              pobj            insets         
+insets          prep            of             
+C)–(F           punct           (              
+of              pobj            C)–(F          
+C)–(F           punct           )              
+μm              punct           ,              
+μm              nummod          100            
+μm              conj            μm             
+μm              prep            in             
+in              punct           (              
+in              pobj            J)–(M          
+J)–(M           punct           )              
+μm              cc              and            
+Q               punct           (              
+μm              conj            Q              
+Q               punct           )              
+bars            punct           .              
+
+
+
+
+A series of initial experiments indicated that BHJ with 80 vol% of C60 and a thickness of 70 nm lead to device characteristics comparable to the previously reported planar heterojunction devices (Jsc∼2–3 mA/cm2 and Voc∼0.40–0.45 V) [37].
+Quantity: ∼
+MeasuredProperty: Voc
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+series          det             A              
+indicated       nsubj           series         
+series          prep            of             
+experiments     amod            initial        
+of              pobj            experiments    
+indicated       ROOT            indicated      
+indicated       dobj            that           
+that            pobj            BHJ            
+BHJ             prep            with           
+vol%            nummod          80             
+with            pobj            vol%           
+vol%            prep            of             
+of              pobj            C60            
+vol%            cc              and            
+thickness       det             a              
+vol%            conj            thickness      
+thickness       prep            of             
+lead            nummod          70             
+lead            compound        nm             
+of              pobj            lead           
+lead            prep            to             
+characteristics compound        device         
+to              pobj            characteristics
+characteristics amod            comparable     
+comparable      prep            to             
+devices         det             the            
+reported        advmod          previously     
+devices         amod            reported       
+heterojunction  compound        planar         
+devices         compound        heterojunction 
+to              pobj            devices        
+cm2             punct           (              
+cm2             nmod            Jsc            
+Jsc             nummod          ∼              
+cm2             nummod          2–3            
+cm2             nmod            mA             
+cm2             punct           /              
+devices         appos           cm2            
+cm2             cc              and            
+cm2             conj            Voc            
+V               nummod          ∼              
+V               compound        0.40–0.45      
+Voc             appos           V              
+devices         punct           )              
+37              punct           [              
+devices         appos           37             
+37              punct           ]              
+indicated       punct           .              
+
+
+
+
+The δ13Corg record has a narrow variation in background values prior to OAE 2, ∼−25.9 to −26.5‰. The characteristic positive excursion in δ13Corg is a 4‰ shift, −27.2 to −23.1‰, occurring within <0.5 m (Fig. 2; Supplementary Material, Table 1e).
+Quantity: ∼
+MeasuredProperty: OAE
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+record          det             The            
+record          amod            δ13Corg        
+has             nsubj           record         
+is              ccomp           has            
+variation       det             a              
+variation       amod            narrow         
+has             dobj            variation      
+variation       prep            in             
+values          compound        background     
+in              pobj            values         
+has             advmod          prior          
+prior           prep            to             
+to              pobj            OAE            
+OAE             nummod          2              
+OAE             punct           ,              
+−25.9           nummod          ∼              
+OAE             appos           −25.9          
+has             prep            to             
+to              pobj            −26.5‰.        
+excursion       det             The            
+excursion       amod            characteristic 
+excursion       amod            positive       
+is              nsubj           excursion      
+excursion       prep            in             
+in              pobj            δ13Corg        
+is              ROOT            is             
+shift           det             a              
+shift           compound        4‰             
+is              attr            shift          
+shift           punct           ,              
+is              conj            −27.2          
+−27.2           prep            to             
+to              pobj            −23.1‰         
+−27.2           punct           ,              
+−27.2           advcl           occurring      
+occurring       prep            within         
+m               nmod            <              
+m               nummod          0.5            
+within          pobj            m              
+m               punct           (              
+.               dep             Fig            
+m               appos           .              
+;               dep             2              
+m               punct           ;              
+Material        compound        Supplementary  
+m               conj            Material       
+Material        punct           ,              
+1e              compound        Table          
+Material        appos           1e             
+m               punct           )              
+is              punct           .              
+
+
+
+
+The mass loss rate in our models is Ṁ>107kgs-1 and thus O is dragged along to high altitudes by H. On the other hand, collisions with H+ dominate the transport of heavy ions such as Si+ as long as the ratio [H+]/[H] ≳ 10−4 (Paper II).
+Quantity: 10−4
+MeasuredProperty: ratio
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+rate            det             The            
+rate            amod            mass           
+rate            compound        loss           
+is              nsubj           rate           
+rate            prep            in             
+models          poss            our            
+in              pobj            models         
+is              ROOT            is             
+is              attr            Ṁ>107kgs-1    
+is              cc              and            
+dragged         advmod          thus           
+dragged         intj            O              
+dragged         auxpass         is             
+is              conj            dragged        
+dragged         advmod          along          
+along           prep            to             
+altitudes       amod            high           
+to              pobj            altitudes      
+altitudes       prep            by             
+by              pobj            H.             
+dominate        prep            On             
+hand            det             the            
+hand            amod            other          
+On              pobj            hand           
+dominate        punct           ,              
+dominate        nsubj           collisions     
+collisions      prep            with           
+with            pobj            H+             
+is              conj            dominate       
+transport       det             the            
+dominate        dobj            transport      
+transport       prep            of             
+ions            amod            heavy          
+of              pobj            ions           
+as              amod            such           
+ions            prep            as             
+as              pobj            Si+            
+long            advmod          as             
+dominate        advmod          long           
+long            prep            as             
+ratio           det             the            
+as              pobj            ratio          
+≳               punct           [              
+≳               nmod            H+]/[H         
+≳               punct           ]              
+ratio           appos           ≳              
+≳               nummod          10−4           
+ratio           punct           (              
+II              compound        Paper          
+ratio           appos           II             
+ratio           punct           )              
+dominate        punct           .              
+
+
+

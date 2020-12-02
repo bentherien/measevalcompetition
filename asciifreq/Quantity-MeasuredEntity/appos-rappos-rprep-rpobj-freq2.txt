@@ -1,0 +1,87 @@
+Frequency: 2
+Path: ('appos', 'rappos', 'rprep', 'rpobj')
+Type: Quantity-MeasuredEntity
+
+Of participants with GHQ symptoms, 47.4% also had CES-D depressive symptoms (Pearson correlation at phase 7 r = .64, p < .001).
+Quantity: .64
+MeasuredEntity: phase
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+had             prep            Of             
+Of              pobj            participants   
+participants    prep            with           
+symptoms        compound        GHQ            
+with            pobj            symptoms       
+had             punct           ,              
+%               nummod          47.4           
+had             nsubj           %              
+had             advmod          also           
+had             ROOT            had            
+D               compound        CES            
+D               punct           -              
+symptoms        amod            D              
+symptoms        amod            depressive     
+had             dobj            symptoms       
+symptoms        punct           (              
+correlation     compound        Pearson        
+symptoms        appos           correlation    
+correlation     prep            at             
+at              pobj            phase          
+r               nummod          7              
+correlation     appos           r              
+.64             punct           =              
+symptoms        appos           .64            
+symptoms        punct           ,              
+symptoms        appos           p              
+.001            nmod            <              
+symptoms        appos           .001           
+symptoms        punct           )              
+had             punct           .              
+
+
+
+
+Of participants with GHQ symptoms, 47.4% also had CES-D depressive symptoms (Pearson correlation at phase 7 r = .64, p < .001).
+Quantity: .001
+MeasuredEntity: phase
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+had             prep            Of             
+Of              pobj            participants   
+participants    prep            with           
+symptoms        compound        GHQ            
+with            pobj            symptoms       
+had             punct           ,              
+%               nummod          47.4           
+had             nsubj           %              
+had             advmod          also           
+had             ROOT            had            
+D               compound        CES            
+D               punct           -              
+symptoms        amod            D              
+symptoms        amod            depressive     
+had             dobj            symptoms       
+symptoms        punct           (              
+correlation     compound        Pearson        
+symptoms        appos           correlation    
+correlation     prep            at             
+at              pobj            phase          
+r               nummod          7              
+correlation     appos           r              
+.64             punct           =              
+symptoms        appos           .64            
+symptoms        punct           ,              
+symptoms        appos           p              
+.001            nmod            <              
+symptoms        appos           .001           
+symptoms        punct           )              
+had             punct           .              
+
+
+

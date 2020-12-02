@@ -1,0 +1,198 @@
+Frequency: 4
+Path: ('nummod', 'appos', 'rprep', 'rpobj')
+Type: Quantity-MeasuredEntity
+
+The individual inocula resulted in similar levels of colonisation (9.9%–16.2%; LSD = 7.01) irrespective of species, therefore valid comparisons with and between the mixed species could be made.
+Quantity: 9.9%–16.2
+MeasuredEntity: colonisation
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+inocula         det             The            
+inocula         amod            individual     
+resulted        nsubj           inocula        
+resulted        ROOT            resulted       
+resulted        prep            in             
+levels          amod            similar        
+in              pobj            levels         
+levels          prep            of             
+of              pobj            colonisation   
+levels          punct           (              
+%               nummod          9.9%–16.2      
+levels          appos           %              
+resulted        punct           ;              
+made            nsubjpass       LSD            
+LSD             punct           =              
+LSD             appos           7.01           
+LSD             punct           )              
+LSD             amod            irrespective   
+irrespective    prep            of             
+of              pobj            species        
+LSD             punct           ,              
+comparisons     advmod          therefore      
+comparisons     amod            valid          
+LSD             appos           comparisons    
+comparisons     prep            with           
+with            cc              and            
+with            conj            between        
+species         det             the            
+species         amod            mixed          
+between         pobj            species        
+made            aux             could          
+made            auxpass         be             
+resulted        conj            made           
+made            punct           .              
+
+
+
+
+Majority (55%) of OTUs in healthy soils were stimulated (encouraged) by a certain set of soil variables but the majorities (63%) in diseased soils were inhibited (discouraged) (Table 1).
+Quantity: 55
+MeasuredEntity: soils
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+stimulated      nsubjpass       Majority       
+Majority        punct           (              
+%               nummod          55             
+Majority        appos           %              
+Majority        punct           )              
+Majority        prep            of             
+of              pobj            OTUs           
+Majority        prep            in             
+soils           amod            healthy        
+in              pobj            soils          
+stimulated      auxpass         were           
+stimulated      ROOT            stimulated     
+encouraged      punct           (              
+stimulated      parataxis       encouraged     
+encouraged      punct           )              
+stimulated      agent           by             
+set             det             a              
+set             amod            certain        
+by              pobj            set            
+set             prep            of             
+variables       compound        soil           
+of              pobj            variables      
+set             cc              but            
+majorities      det             the            
+inhibited       nsubjpass       majorities     
+majorities      punct           (              
+%               nummod          63             
+majorities      appos           %              
+majorities      punct           )              
+majorities      prep            in             
+soils           amod            diseased       
+in              pobj            soils          
+inhibited       auxpass         were           
+stimulated      conj            inhibited      
+discouraged     punct           (              
+inhibited       parataxis       discouraged    
+discouraged     punct           )              
+inhibited       punct           (              
+inhibited       npadvmod        Table          
+Table           nummod          1              
+Table           punct           )              
+inhibited       punct           .              
+
+
+
+
+Colonisation was markedly reduced when G. mosseae and G. intraradices were paired (7.5%), particularly compared to the performance of G. intraradices individually (14.2%).
+Quantity: 14.2
+MeasuredEntity: intraradices
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+reduced         nsubjpass       Colonisation   
+reduced         auxpass         was            
+reduced         advmod          markedly       
+reduced         ROOT            reduced        
+paired          advmod          when           
+mosseae         compound        G.             
+paired          nsubjpass       mosseae        
+mosseae         cc              and            
+intraradices    compound        G.             
+mosseae         conj            intraradices   
+paired          auxpass         were           
+reduced         advcl           paired         
+paired          punct           (              
+%               nummod          7.5            
+paired          appos           %              
+paired          punct           )              
+paired          punct           ,              
+compared        advmod          particularly   
+paired          prep            compared       
+compared        prep            to             
+performance     det             the            
+to              pobj            performance    
+performance     prep            of             
+intraradices    compound        G.             
+of              pobj            intraradices   
+performance     advmod          individually   
+performance     punct           (              
+%               nummod          14.2           
+performance     appos           %              
+performance     punct           )              
+reduced         punct           .              
+
+
+
+
+They found that the variability ranges between 1% and 37% during one period of solar rotation (27 days), and the average variability during one solar rotation was found to be 9 ± 6%.
+Quantity: 27
+MeasuredEntity: rotation
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+found           nsubj           They           
+found           ROOT            found          
+ranges          mark            that           
+variability     det             the            
+ranges          nsubj           variability    
+found           ccomp           ranges         
+ranges          prep            between        
+between         pobj            1              
+1               quantmod        %              
+1               cc              and            
+1               conj            37             
+37              quantmod        %              
+ranges          prep            during         
+period          nummod          one            
+during          pobj            period         
+period          prep            of             
+rotation        amod            solar          
+of              pobj            rotation       
+rotation        punct           (              
+days            nummod          27             
+period          appos           days           
+ranges          punct           )              
+found           punct           ,              
+found           cc              and            
+variability     det             the            
+variability     amod            average        
+found           nsubjpass       variability    
+variability     prep            during         
+rotation        nummod          one            
+rotation        amod            solar          
+during          pobj            rotation       
+found           auxpass         was            
+found           conj            found          
+be              aux             to             
+found           xcomp           be             
+6               quantmod        9              
+6               punct           ±              
+%               nummod          6              
+be              attr            %              
+found           punct           .              
+
+
+

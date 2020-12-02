@@ -1,0 +1,88 @@
+Frequency: 2
+Path: ('appos', 'rappos')
+Type: Quantity-MeasuredProperty
+
+Further, there was a positive correlation between the mass of organic fertiliser inputs and changes in 0–10 cm depth SOC (r2 = 0.18, p < 0.01).
+Quantity: 0.18
+MeasuredProperty: r2
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+was             advmod          Further        
+was             punct           ,              
+was             expl            there          
+was             ROOT            was            
+correlation     det             a              
+correlation     amod            positive       
+was             attr            correlation    
+correlation     prep            between        
+mass            det             the            
+between         pobj            mass           
+mass            prep            of             
+inputs          amod            organic        
+inputs          compound        fertiliser     
+of              pobj            inputs         
+inputs          cc              and            
+inputs          conj            changes        
+changes         prep            in             
+SOC             nummod          0–10           
+depth           compound        cm             
+SOC             compound        depth          
+in              pobj            SOC            
+SOC             punct           (              
+SOC             appos           r2             
+SOC             punct           =              
+SOC             appos           0.18           
+SOC             punct           ,              
+SOC             appos           p              
+0.01            nmod            <              
+p               pobj            0.01           
+SOC             punct           )              
+was             punct           .              
+
+
+
+
+Of participants with GHQ symptoms, 47.4% also had CES-D depressive symptoms (Pearson correlation at phase 7 r = .64, p < .001).
+Quantity: .001
+MeasuredProperty: p
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+had             prep            Of             
+Of              pobj            participants   
+participants    prep            with           
+symptoms        compound        GHQ            
+with            pobj            symptoms       
+had             punct           ,              
+%               nummod          47.4           
+had             nsubj           %              
+had             advmod          also           
+had             ROOT            had            
+D               compound        CES            
+D               punct           -              
+symptoms        amod            D              
+symptoms        amod            depressive     
+had             dobj            symptoms       
+symptoms        punct           (              
+correlation     compound        Pearson        
+symptoms        appos           correlation    
+correlation     prep            at             
+at              pobj            phase          
+r               nummod          7              
+correlation     appos           r              
+.64             punct           =              
+symptoms        appos           .64            
+symptoms        punct           ,              
+symptoms        appos           p              
+.001            nmod            <              
+symptoms        appos           .001           
+symptoms        punct           )              
+had             punct           .              
+
+
+

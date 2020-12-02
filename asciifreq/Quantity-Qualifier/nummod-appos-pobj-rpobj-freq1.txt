@@ -1,0 +1,68 @@
+Frequency: 1
+Path: ('nummod', 'appos', 'pobj', 'rpobj')
+Type: Quantity-Qualifier
+
+Hydrogeological studies at the Ketzin site (Norden et al., 2010) have shown that a 2D radially symmetric model of the upper part (33 m) of the Stuttgart Formation can be used to interpret the 3D data acquired near the injection well (Fig. 7).
+Quantity: 33
+Qualifier: Formation
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+studies         amod            Hydrogeological
+shown           nsubj           studies        
+studies         prep            at             
+site            det             the            
+site            compound        Ketzin         
+at              pobj            site           
+site            punct           (              
+al              compound        Norden         
+al              compound        et             
+.               dep             al             
+site            appos           .              
+2010            dep             ,              
+)               dep             2010           
+site            punct           )              
+shown           aux             have           
+shown           ROOT            shown          
+used            mark            that           
+model           det             a              
+model           nmod            2D             
+symmetric       advmod          radially       
+model           compound        symmetric      
+used            nsubjpass       model          
+model           prep            of             
+part            det             the            
+part            amod            upper          
+of              pobj            part           
+part            punct           (              
+m               nummod          33             
+part            appos           m              
+part            punct           )              
+part            prep            of             
+Formation       det             the            
+Formation       compound        Stuttgart      
+of              pobj            Formation      
+used            aux             can            
+used            auxpass         be             
+shown           ccomp           used           
+interpret       aux             to             
+used            xcomp           interpret      
+data            det             the            
+data            amod            3D             
+interpret       dobj            data           
+data            acl             acquired       
+acquired        prep            near           
+injection       det             the            
+near            pobj            injection      
+acquired        advmod          well           
+well            punct           (              
+well            npadvmod        Fig            
+shown           punct           .              
+shown           dobj            7              
+shown           punct           )              
+shown           punct           .              
+
+
+

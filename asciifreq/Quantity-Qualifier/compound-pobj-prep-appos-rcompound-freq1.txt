@@ -1,0 +1,56 @@
+Frequency: 1
+Path: ('compound', 'pobj', 'prep', 'appos', 'rcompound')
+Type: Quantity-Qualifier
+
+Also, the concentrations are far below what would be inferred from observations of perchlorate:nitrate ratios ∼1:60 measured in EETA79001 (Kounaves et al., 2014) and the Atacama perchlorate:nitrate of ∼1:1000.
+Quantity: ∼
+Qualifier: Atacama
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+are             advmod          Also           
+are             punct           ,              
+concentrations  det             the            
+are             nsubj           concentrations 
+ratios          ccomp           are            
+below           advmod          far            
+are             prep            below          
+inferred        nsubjpass       what           
+inferred        aux             would          
+inferred        auxpass         be             
+below           pcomp           inferred       
+inferred        prep            from           
+from            pobj            observations   
+observations    prep            of             
+of              pobj            perchlorate    
+ratios          punct           :              
+ratios          nsubj           nitrate        
+ratios          ROOT            ratios         
+ratios          dobj            ∼              
+∼               nummod          1:60           
+1:60            acl             measured       
+measured        prep            in             
+in              pobj            EETA79001      
+ratios          punct           (              
+al              compound        Kounaves       
+al              compound        et             
+.               dep             al             
+ratios          punct           .              
+2014            dep             ,              
+)               dep             2014           
+ratios          punct           )              
+ratios          cc              and            
+perchlorate     det             the            
+perchlorate     compound        Atacama        
+ratios          conj            perchlorate    
+perchlorate     punct           :              
+perchlorate     appos           nitrate        
+nitrate         prep            of             
+1:1000          compound        ∼              
+of              pobj            1:1000         
+ratios          punct           .              
+
+
+

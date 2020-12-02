@@ -1,0 +1,143 @@
+Frequency: 2
+Path: ('appos', 'rprep', 'rpobj')
+Type: Quantity-MeasuredEntity
+
+The total number of CFUs was comparable or significantly larger (P = 0.0307, n = 3) than cells cultured in parallel in adhesion cultures (Fig. 5d).
+Quantity: 0.0307
+MeasuredEntity: CFUs
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+number          det             The            
+number          amod            total          
+was             nsubj           number         
+number          prep            of             
+of              pobj            CFUs           
+was             ROOT            was            
+was             acomp           comparable     
+comparable      cc              or             
+larger          advmod          significantly  
+comparable      conj            larger         
+0.0307          punct           (              
+0.0307          compound        P              
+0.0307          punct           =              
+number          appos           0.0307         
+0.0307          punct           ,              
+=               dep             n              
+3               punct           =              
+0.0307          appos           3              
+0.0307          punct           )              
+cultured        mark            than           
+cultured        nsubj           cells          
+was             advcl           cultured       
+cultured        prep            in             
+in              pobj            parallel       
+parallel        prep            in             
+cultures        compound        adhesion       
+in              pobj            cultures       
+cultures        punct           (              
+cultures        appos           Fig            
+was             punct           .              
+was             attr            5d             
+was             punct           )              
+was             punct           .              
+
+
+
+
+The validity of the Framingham risk scores as measures of vascular risk was supported in our study, as they strongly predicted incidence of subsequent (manifest) vascular disease. Age- and sex-adjusted odds ratio for 10% increment in risk was 2.84 (95% confidence interval [CI] 1.66–4.88) for the stroke risk score-incident stroke association and 2.25 (95% CI 1.92–2.65) for the CHD risk score-incident CHD association.
+Quantity: 1.66–4.88
+MeasuredEntity: association
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+validity        det             The            
+supported       nsubjpass       validity       
+validity        prep            of             
+scores          det             the            
+scores          compound        Framingham     
+scores          compound        risk           
+of              pobj            scores         
+validity        prep            as             
+as              pobj            measures       
+measures        prep            of             
+risk            amod            vascular       
+of              pobj            risk           
+supported       auxpass         was            
+supported       ROOT            supported      
+supported       prep            in             
+study           poss            our            
+in              pobj            study          
+supported       punct           ,              
+predicted       mark            as             
+predicted       nsubj           they           
+predicted       advmod          strongly       
+supported       advcl           predicted      
+predicted       dobj            incidence      
+incidence       prep            of             
+disease         amod            subsequent     
+manifest        punct           (              
+disease         nmod            manifest       
+manifest        punct           )              
+disease         amod            vascular       
+of              pobj            disease        
+supported       punct           .              
+ratio           nmod            Age-           
+Age-            cc              and            
+adjusted        npadvmod        sex            
+adjusted        punct           -              
+ratio           amod            adjusted       
+ratio           compound        odds           
+was             nsubj           ratio          
+ratio           prep            for            
+%               nummod          10             
+increment       compound        %              
+for             pobj            increment      
+increment       prep            in             
+in              pobj            risk           
+supported       conj            was            
+was             attr            2.84           
+2.84            punct           (              
+%               nummod          95             
+1.66–4.88       compound        %              
+interval        compound        confidence     
+1.66–4.88       nmod            interval       
+CI              punct           [              
+1.66–4.88       nmod            CI             
+1.66–4.88       punct           ]              
+2.84            appos           1.66–4.88      
+2.84            punct           )              
+2.84            prep            for            
+association     det             the            
+risk            compound        stroke         
+association     compound        risk           
+incident        compound        score          
+incident        punct           -              
+association     compound        incident       
+association     compound        stroke         
+for             pobj            association    
+association     cc              and            
+association     conj            2.25           
+%               punct           (              
+%               nummod          95             
+2.25            parataxis       %              
+1.92–2.65       compound        CI             
+2.25            conj            1.92–2.65      
+2.25            punct           )              
+2.84            prep            for            
+association     det             the            
+association     compound        CHD            
+association     compound        risk           
+incident        compound        score          
+incident        punct           -              
+association     compound        incident       
+association     compound        CHD            
+for             pobj            association    
+was             punct           .              
+
+
+

@@ -1,0 +1,208 @@
+Frequency: 3
+Path: ('appos', 'attr', 'rnsubj')
+Type: Quantity-MeasuredProperty
+
+The corresponding odds ratios for the associations of CVD risk score with stroke and CHD were 1.34 (95% CI 1.11–1.62) and 2.14 (95% CI 1.85–2.48), respectively.
+Quantity: 1.11–1.62
+MeasuredProperty: ratios
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+odds            det             The            
+odds            amod            corresponding  
+ratios          nsubj           odds           
+were            nsubj           ratios         
+ratios          prep            for            
+associations    det             the            
+for             pobj            associations   
+associations    prep            of             
+risk            compound        CVD            
+score           compound        risk           
+of              pobj            score          
+score           prep            with           
+with            pobj            stroke         
+stroke          cc              and            
+stroke          conj            CHD            
+were            ROOT            were           
+were            attr            1.34           
+%               punct           (              
+%               nummod          95             
+1.34            appos           %              
+1.11–1.62       compound        CI             
+1.34            appos           1.11–1.62      
+1.34            punct           )              
+1.34            cc              and            
+1.34            conj            2.14           
+2.14            punct           (              
+%               nummod          95             
+2.14            appos           %              
+1.34            prep            CI             
+CI              nummod          1.85–2.48      
+1.34            punct           )              
+were            punct           ,              
+were            advmod          respectively   
+were            punct           .              
+
+
+
+
+The North Sea Basin surrounding landmasses were within the northern rain belt (the southern boundary today is 40°N), which would have experienced elevated precipitation if the global hydrologic cycle became enhanced (Pagani et al., 2006b; Schmitz et al., 2001).
+Quantity: N
+MeasuredProperty: boundary
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+Basin           det             The            
+Sea             compound        North          
+Basin           compound        Sea            
+were            nsubj           Basin          
+landmasses      amod            surrounding    
+were            nsubj           landmasses     
+were            ROOT            were           
+were            prep            within         
+belt            det             the            
+belt            amod            northern       
+belt            compound        rain           
+within          pobj            belt           
+is              punct           (              
+boundary        det             the            
+boundary        amod            southern       
+is              nsubj           boundary       
+is              npadvmod        today          
+were            parataxis       is             
+is              attr            40             
+40              prep            °              
+40              appos           N              
+40              punct           )              
+is              punct           ,              
+experienced     nsubj           which          
+experienced     aux             would          
+experienced     aux             have           
+is              advcl           experienced    
+precipitation   amod            elevated       
+experienced     dobj            precipitation  
+became          mark            if             
+cycle           det             the            
+cycle           amod            global         
+cycle           amod            hydrologic     
+became          nsubj           cycle          
+experienced     advcl           became         
+.               amod            enhanced       
+al              punct           (              
+al              compound        Pagani         
+al              compound        et             
+.               dep             al             
+2006b           nmod            .              
+2006b           dep             ,              
+became          npadvmod        2006b          
+is              punct           ;              
+al              compound        Schmitz        
+al              compound        et             
+.               dep             al             
+were            punct           .              
+2001            dep             ,              
+)               dep             2001           
+were            punct           )              
+were            punct           .              
+
+
+
+
+The validity of the Framingham risk scores as measures of vascular risk was supported in our study, as they strongly predicted incidence of subsequent (manifest) vascular disease. Age- and sex-adjusted odds ratio for 10% increment in risk was 2.84 (95% confidence interval [CI] 1.66–4.88) for the stroke risk score-incident stroke association and 2.25 (95% CI 1.92–2.65) for the CHD risk score-incident CHD association.
+Quantity: 1.66–4.88
+MeasuredProperty: ratio
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+validity        det             The            
+supported       nsubjpass       validity       
+validity        prep            of             
+scores          det             the            
+scores          compound        Framingham     
+scores          compound        risk           
+of              pobj            scores         
+validity        prep            as             
+as              pobj            measures       
+measures        prep            of             
+risk            amod            vascular       
+of              pobj            risk           
+supported       auxpass         was            
+supported       ROOT            supported      
+supported       prep            in             
+study           poss            our            
+in              pobj            study          
+supported       punct           ,              
+predicted       mark            as             
+predicted       nsubj           they           
+predicted       advmod          strongly       
+supported       advcl           predicted      
+predicted       dobj            incidence      
+incidence       prep            of             
+disease         amod            subsequent     
+manifest        punct           (              
+disease         nmod            manifest       
+manifest        punct           )              
+disease         amod            vascular       
+of              pobj            disease        
+supported       punct           .              
+ratio           nmod            Age-           
+Age-            cc              and            
+adjusted        npadvmod        sex            
+adjusted        punct           -              
+ratio           amod            adjusted       
+ratio           compound        odds           
+was             nsubj           ratio          
+ratio           prep            for            
+%               nummod          10             
+increment       compound        %              
+for             pobj            increment      
+increment       prep            in             
+in              pobj            risk           
+supported       conj            was            
+was             attr            2.84           
+2.84            punct           (              
+%               nummod          95             
+1.66–4.88       compound        %              
+interval        compound        confidence     
+1.66–4.88       nmod            interval       
+CI              punct           [              
+1.66–4.88       nmod            CI             
+1.66–4.88       punct           ]              
+2.84            appos           1.66–4.88      
+2.84            punct           )              
+2.84            prep            for            
+association     det             the            
+risk            compound        stroke         
+association     compound        risk           
+incident        compound        score          
+incident        punct           -              
+association     compound        incident       
+association     compound        stroke         
+for             pobj            association    
+association     cc              and            
+association     conj            2.25           
+%               punct           (              
+%               nummod          95             
+2.25            parataxis       %              
+1.92–2.65       compound        CI             
+2.25            conj            1.92–2.65      
+2.25            punct           )              
+2.84            prep            for            
+association     det             the            
+association     compound        CHD            
+association     compound        risk           
+incident        compound        score          
+incident        punct           -              
+association     compound        incident       
+association     compound        CHD            
+for             pobj            association    
+was             punct           .              
+
+
+

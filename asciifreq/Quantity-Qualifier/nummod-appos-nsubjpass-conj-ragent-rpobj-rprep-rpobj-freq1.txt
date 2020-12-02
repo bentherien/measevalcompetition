@@ -1,0 +1,57 @@
+Frequency: 1
+Path: ('nummod', 'appos', 'nsubjpass', 'conj', 'ragent', 'rpobj', 'rprep', 'rpobj')
+Type: Quantity-Qualifier
+
+Majority (55%) of OTUs in healthy soils were stimulated (encouraged) by a certain set of soil variables but the majorities (63%) in diseased soils were inhibited (discouraged) (Table 1).
+Quantity: 63
+Qualifier: variables
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+stimulated      nsubjpass       Majority       
+Majority        punct           (              
+%               nummod          55             
+Majority        appos           %              
+Majority        punct           )              
+Majority        prep            of             
+of              pobj            OTUs           
+Majority        prep            in             
+soils           amod            healthy        
+in              pobj            soils          
+stimulated      auxpass         were           
+stimulated      ROOT            stimulated     
+encouraged      punct           (              
+stimulated      parataxis       encouraged     
+encouraged      punct           )              
+stimulated      agent           by             
+set             det             a              
+set             amod            certain        
+by              pobj            set            
+set             prep            of             
+variables       compound        soil           
+of              pobj            variables      
+set             cc              but            
+majorities      det             the            
+inhibited       nsubjpass       majorities     
+majorities      punct           (              
+%               nummod          63             
+majorities      appos           %              
+majorities      punct           )              
+majorities      prep            in             
+soils           amod            diseased       
+in              pobj            soils          
+inhibited       auxpass         were           
+stimulated      conj            inhibited      
+discouraged     punct           (              
+inhibited       parataxis       discouraged    
+discouraged     punct           )              
+inhibited       punct           (              
+inhibited       npadvmod        Table          
+Table           nummod          1              
+Table           punct           )              
+inhibited       punct           .              
+
+
+

@@ -1,0 +1,79 @@
+Frequency: 1
+Path: ('appos', 'rprep', 'rpobj')
+Type: Quantity-Qualifier
+
+Located within proximity to the North Atlantic igneous province (NAIP), the Kilda Basin, and the northern rain belt (paleolatitude 54 °N) during the PETM, this is a critical region for testing proposed triggers of atmospheric carbon release that may have caused the global negative carbon isotope excursion (CIE) in marine and terrestrial environments.
+Quantity: N
+Qualifier: PETM
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+is              advcl           Located        
+Located         prep            within         
+within          pobj            proximity      
+proximity       prep            to             
+province        det             the            
+Atlantic        nmod            North          
+province        nmod            Atlantic       
+province        amod            igneous        
+to              pobj            province       
+province        punct           (              
+province        appos           NAIP           
+province        punct           )              
+province        punct           ,              
+Basin           det             the            
+Basin           compound        Kilda          
+province        conj            Basin          
+Basin           punct           ,              
+Basin           cc              and            
+belt            det             the            
+belt            amod            northern       
+belt            compound        rain           
+Basin           conj            belt           
+paleolatitude   punct           (              
+is              advcl           paleolatitude  
+paleolatitude   nummod          54             
+paleolatitude   punct           °              
+paleolatitude   appos           N              
+paleolatitude   punct           )              
+paleolatitude   prep            during         
+PETM            det             the            
+during          pobj            PETM           
+is              punct           ,              
+is              nsubj           this           
+is              ROOT            is             
+region          det             a              
+region          amod            critical       
+is              attr            region         
+region          prep            for            
+for             pcomp           testing        
+triggers        amod            proposed       
+testing         dobj            triggers       
+triggers        prep            of             
+release         amod            atmospheric    
+release         compound        carbon         
+of              pobj            release        
+caused          nsubj           that           
+caused          aux             may            
+caused          aux             have           
+triggers        relcl           caused         
+excursion       det             the            
+excursion       amod            global         
+excursion       amod            negative       
+excursion       compound        carbon         
+excursion       compound        isotope        
+caused          dobj            excursion      
+CIE             punct           (              
+excursion       appos           CIE            
+CIE             punct           )              
+excursion       prep            in             
+environments    amod            marine         
+marine          cc              and            
+marine          conj            terrestrial    
+in              pobj            environments   
+is              punct           .              
+
+
+

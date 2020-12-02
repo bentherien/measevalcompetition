@@ -1,0 +1,144 @@
+Frequency: 2
+Path: ('nummod', 'appos', 'dobj', 'rnsubj')
+Type: Quantity-MeasuredEntity
+
+Considerably less Os input from the LIP (25%) is needed if the LIP basalts possess higher Os abundances (100 ppt) and if the Os contribution to seawater also occurred through the addition of gas known to be enriched 20 times that of the basalt (e.g., Yudovskya et al., 2008).
+Quantity: 100
+MeasuredEntity: basalts
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+less            advmod          Considerably   
+input           amod            less           
+input           compound        Os             
+needed          nsubjpass       input          
+input           prep            from           
+LIP             det             the            
+from            pobj            LIP            
+LIP             punct           (              
+%               nummod          25             
+LIP             appos           %              
+LIP             punct           )              
+needed          auxpass         is             
+needed          ROOT            needed         
+possess         mark            if             
+basalts         det             the            
+basalts         compound        LIP            
+possess         nsubj           basalts        
+needed          advcl           possess        
+abundances      amod            higher         
+abundances      compound        Os             
+possess         dobj            abundances     
+abundances      punct           (              
+ppt             nummod          100            
+abundances      appos           ppt            
+possess         punct           )              
+possess         cc              and            
+occurred        mark            if             
+contribution    det             the            
+contribution    compound        Os             
+occurred        nsubj           contribution   
+contribution    prep            to             
+to              pobj            seawater       
+occurred        advmod          also           
+possess         conj            occurred       
+occurred        prep            through        
+addition        det             the            
+through         pobj            addition       
+addition        prep            of             
+of              pobj            gas            
+gas             acl             known          
+enriched        aux             to             
+enriched        auxpass         be             
+known           xcomp           enriched       
+occurred        dobj            20             
+20              quantmod        times          
+20              det             that           
+occurred        prep            of             
+basalt          det             the            
+of              pobj            basalt         
+basalt          punct           (              
+basalt          appos           e.g.           
+al              punct           ,              
+al              compound        Yudovskya      
+al              compound        et             
+.               dep             al             
+basalt          appos           .              
+basalt          punct           ,              
+basalt          npadvmod        2008           
+basalt          punct           )              
+needed          punct           .              
+
+
+
+
+However, basalts can have variable Os abundances (1 to 600 ppt; Martin, 1991; Crocket and Paul, 2008); typical values range from 1 to 30 ppt (e.g., Shirey and Walker, 1998; Allegre et al., 1999; Dale et al., 2008).
+Quantity: 600
+MeasuredEntity: basalts
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+have            advmod          However        
+have            punct           ,              
+have            nsubj           basalts        
+have            aux             can            
+range           ccomp           have           
+abundances      amod            variable       
+abundances      compound        Os             
+have            dobj            abundances     
+abundances      punct           (              
+600             quantmod        1              
+600             quantmod        to             
+ppt             nummod          600            
+abundances      appos           ppt            
+have            punct           ;              
+have            npadvmod        Martin         
+Martin          punct           ,              
+Martin          appos           1991           
+Martin          punct           ;              
+Martin          conj            Crocket        
+Crocket         cc              and            
+Crocket         conj            Paul           
+Crocket         punct           ,              
+Crocket         appos           2008           
+Martin          punct           )              
+range           punct           ;              
+values          amod            typical        
+range           nsubj           values         
+range           ROOT            range          
+range           prep            from           
+30              quantmod        1              
+30              quantmod        to             
+ppt             nummod          30             
+from            pobj            ppt            
+ppt             punct           (              
+ppt             appos           e.g.           
+e.g.            punct           ,              
+e.g.            conj            Shirey         
+Shirey          cc              and            
+Shirey          conj            Walker         
+ppt             punct           ,              
+ppt             appos           1998           
+range           punct           ;              
+al              compound        Allegre        
+al              compound        et             
+.               dep             al             
+range           punct           .              
+1999            dep             ,              
+;               dep             1999           
+range           punct           ;              
+al              compound        Dale           
+al              compound        et             
+.               dep             al             
+range           punct           .              
+2008            dep             ,              
+)               dep             2008           
+range           punct           )              
+range           punct           .              
+
+
+

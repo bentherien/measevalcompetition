@@ -1,0 +1,83 @@
+Frequency: 1
+Path: ('appos', 'pobj', 'prep', 'nsubj', 'rprep', 'rpobj')
+Type: Quantity-MeasuredProperty
+
+Above the onset of OAE 2, samples were taken from Pont d'Issole, whereas below the onset some of the samples (n=4) came from Vergons (Supplementary Material, Table 2d), which is correlated with Pont d'Issole based on litho-, bio-, and stable-isotope stratigraphy and is undisturbed by faulting in the pre-OAE 2 interval.
+Quantity: 4
+MeasuredProperty: Vergons
+
+
+Dependencies:
+governor        dependency      token          
+-----------------------------------------
+taken           prep            Above          
+onset           det             the            
+Above           pobj            onset          
+onset           prep            of             
+of              pobj            OAE            
+OAE             nummod          2              
+taken           punct           ,              
+taken           nsubjpass       samples        
+taken           auxpass         were           
+taken           ROOT            taken          
+taken           prep            from           
+d'Issole        compound        Pont           
+from            pobj            d'Issole       
+taken           punct           ,              
+came            mark            whereas        
+came            prep            below          
+onset           det             the            
+below           pobj            onset          
+came            nsubj           some           
+some            prep            of             
+samples         det             the            
+of              pobj            samples        
+samples         punct           (              
+=               dep             n              
+4               punct           =              
+samples         appos           4              
+samples         punct           )              
+taken           advcl           came           
+came            prep            from           
+from            pobj            Vergons        
+Vergons         punct           (              
+Material        compound        Supplementary  
+Vergons         appos           Material       
+Material        punct           ,              
+2d              compound        Table          
+Material        npadvmod        2d             
+Material        punct           )              
+Vergons         punct           ,              
+correlated      nsubjpass       which          
+correlated      auxpass         is             
+Vergons         relcl           correlated     
+correlated      prep            with           
+d'Issole        compound        Pont           
+with            pobj            d'Issole       
+correlated      advcl           based          
+based           prep            on             
+bio-            dep             litho-         
+litho-          punct           ,              
+,               dep             bio-           
+and             dep             ,              
+correlated      cc              and            
+isotope         amod            stable         
+isotope         punct           -              
+stratigraphy    compound        isotope        
+correlated      conj            stratigraphy   
+correlated      cc              and            
+correlated      conj            is             
+is              acomp           undisturbed    
+is              prep            by             
+by              pcomp           faulting       
+faulting        prep            in             
+interval        det             the            
+-               dep             pre            
+OAE             dep             -              
+interval        amod            OAE            
+interval        nummod          2              
+in              pobj            interval       
+taken           punct           .              
+
+
+
