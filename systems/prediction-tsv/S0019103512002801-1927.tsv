@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1927	1	Quantity	152	169	T1	about 0.1–0.2 s−1	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0019103512002801-1927	1	MeasuredProperty	130	148	T2	linear growth rate	"{""HasQuantity"": ""T1""}"
+S0019103512002801-1927	1	MeasuredEntity	197	203	T3	growth	"{""HasProperty"": ""T2""}"
+S0019103512002801-1927	1	Qualifier	170	186	T4	just behind Rhea	"{""Qualifies"": ""T1""}"
+S0019103512002801-1927	2	Quantity	212	218	T5	5–10 s	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0019103512002801-1927	2	MeasuredProperty	204	208	T6	time	"{""HasQuantity"": ""T5""}"
+S0019103512002801-1927	3	Quantity	388	393	T7	10RRh	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0019103512002801-1927	3	MeasuredProperty	350	354	T8	rate	"{""HasQuantity"": ""T7""}"
+S0019103512002801-1927	3	Qualifier	394	404	T9	downstream	"{""Qualifies"": ""T7""}"

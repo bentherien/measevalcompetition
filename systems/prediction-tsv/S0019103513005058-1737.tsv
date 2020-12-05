@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-1737	1	Quantity	97	105	T1	1 g cm−3	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0019103513005058-1737	1	MeasuredProperty	0	14	T2	Concentrations	"{""HasQuantity"": ""T1""}"
+S0019103513005058-1737	1	MeasuredEntity	81	85	T3	soil	"{""HasProperty"": ""T2""}"
+S0019103513005058-1737	1	Qualifier	111	117	T4	mixing	"{""Qualifies"": ""T1""}"
+S0019103513005058-1737	2	Quantity	123	141	T5	range of 1.5–2.6 m	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0019103513005058-1737	2	MeasuredProperty	86	93	T6	density	"{""HasQuantity"": ""T5""}"
