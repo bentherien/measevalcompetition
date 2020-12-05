@@ -10,6 +10,7 @@ from src.lib.helpers import findOffset, intersectSpan, getSentences, intersectSp
 from spacy.tokens import Doc
 import math
 import logging
+import json
 import src.common as common
 
 def annotationCreation(doc,tsv):
@@ -132,51 +133,10 @@ def annotationCreation(doc,tsv):
             print("origrange: ("+str(row["startOffset"])+","+str(row["endOffset"])+")")
             print("TextSize: (0,"+str(len(doc.text))+")")
             print("Compromise range: ("+str(tempStart)+","+str(tempEnd)+")")
-            print({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-10 and k < row["endOffset"]+10)})
-
-
-        """
-
-        try:
-            tempSpan = doc[lookup[row["startOffset"]]:lookup[row["endOffset"]]]
-        except KeyError:
-            try:
-                #prevent case where we cant retrieve the second token index because end of text
-                if(findOffset(row["endOffset"],doc.text) > list(lookup.keys())[-1]):
-                    tempSpan = doc[lookup[findOffset(row["startOffset"],doc.text)]:lookup[list(lookup.keys())[-1]]+1]
-                else:
-                    tempSpan = doc[lookup[findOffset(row["startOffset"],doc.text)]:lookup[findOffset(row["endOffset"],doc.text)]]
-            except KeyError:
-                newStart, newEnd = getClosestMatch(row["startOffset"],row["endOffset"],lookup)
-                common.count+=1
-                #print("unhandled token:",doc.text[row["startOffset"]:row["endOffset"]])
-                tempSpan = doc[lookup[newStart]:lookup[newEnd]]
-                try:
-                    logging.debug("FindOffset method has created a key error ")
-                    logging.debug("Text + 5 on each side: \"{}\"".format(doc.text[max(0,row["startOffset"]-5):min(len(doc.text),row["endOffset"]+5)]).encode())
-                    logging.debug("Gold text            : \"{}\"".format(row["text"]).encode())
-                    logging.debug("compromise           : \"{}\"".format(doc.text[int(newStart):int(newEnd)]).encode())
-                    logging.debug("origrange: ("+str(row["startOffset"])+","+str(row["endOffset"])+")")
-                    logging.debug("Compromise range: ("+str(newStart)+","+str(newEnd)+")")
-                    logging.debug({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-5 and k < row["endOffset"]+5)})
-                    print("FindOffset method has created a key error ")
-                    print("Annotation Type: {}".format(row["annotType"]))
-                    print("Text + 10 on each side: \"{}\"".format(doc.text[max(0,row["startOffset"]-10):min(len(doc.text),row["endOffset"]+10)]))
-                    print("Gold text            : \"{}\"".format(row["text"]).encode().decode())
-                    print("compromise           : \"{}\"".format(doc.text[int(newStart):int(newEnd)]))
-                    print("corrected range: ("+str(findOffset(row["startOffset"],doc.text))+","+str(findOffset(row["endOffset"],doc.text))+")")
-                    print("origrange: ("+str(row["startOffset"])+","+str(row["endOffset"])+")")
-                    print("TextSize: (0,"+str(len(doc.text))+")")
-                    print("Compromise range: ("+str(newStart)+","+str(newEnd)+")")
-                    print({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-10 and k < row["endOffset"]+10)})
-            
-                except Exception:
-                    logging.debug("could not encode previous debuge due to a UnicodeEncodeError")
-            """
-            
-            
-            
-        doc._.meAnnots[f"Annotation{count}"][row["annotType"]] = tempSpan
+            print({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-10 and k < row["endOffset"]+10)})            
+        
+        other = (json.loads(str(row["other"])) if str(row["other"]) != "nan" else "")
+        doc._.meAnnots[f"Annotation{count}"][row["annotType"]] = {"span":tempSpan,"other":other}
       
     doc._.meAnnots[f"Annotation{count}"]["sentences"] = getSentences(annotminmax[f"offset{count}min"],annotminmax[f"offset{count}max"],doc)  
             

@@ -35,6 +35,7 @@ class ExerptController:
         Token.set_extension("qual", default="o", force=True)
         Token.set_extension("me", default="o", force=True)
         Token.set_extension("mp", default="o", force=True)
+        Token.set_extension("other", default="o", force=True)
         tempDict = {"MeasuredEntity":"ME","MeasuredProperty":"MP","Quantity":"QA","Qualifier":"QL"}
         for x in self.data.values():
             for annot in x.doc._.meAnnots.values():
@@ -43,7 +44,7 @@ class ExerptController:
                         tempSpanlen = len(annot[key])
                         count = -1
                         prefix = ""
-                        for token in annot[key]:
+                        for token in annot[key]["span"]:
                             if count == 0:
                                 prefix = "B_"
                             elif count > 0 and count < tempSpanlen-1:
@@ -54,7 +55,7 @@ class ExerptController:
                                 prefix = "E_"
 
                             
-
+                            token._.other = annot[key]["other"]
                             token._.all = prefix+tempDict[key]
                             if key == "MeasuredEntity":
                                 token._.me = prefix+tempDict[key]
@@ -590,6 +591,99 @@ class ExerptController:
 
         
         return list({k:1 for k in allmods}.keys()), list({k:1 for k in allunits}.keys())
+
+
+    def getFolds(self, fold, div = 8):
+        """
+        Splits the given data into a different fold based on input
+        """
+        if fold < 1  or fold > div:
+            print("Incorrect div to fold number encountered")
+            return None, None
+        data = list(self.data.keys())
+        testSize = math.floor(len(data)/div)
+        beforeTest = data[:(fold-1)*testSize]
+        test = data[(fold-1)*testSize:fold*testSize]
+        afterTest = data[fold*testSize:]
+        return test, beforeTest + afterTest
+
+
+    def getDataPos(self, fold, syspath, div = 8):
+        test, train = self.getFolds(fold, div)
+
+        with open(os.path.join(syspath,"train.txt"), "w", encoding="utf-8") as f:
+            for x in train:
+                f.write(x+"\n")
+
+        with open(os.path.join(syspath,"test.txt"), "w", encoding="utf-8") as f:
+            for x in test:
+                f.write(x+"\n")
+
+        datapath = os.path.join(syspath,"data")
+
+        if not os.path.isdir(datapath):
+            os.mkdir(datapath)
+        else:
+            starpath = os.path.join(datapath,"*") 
+            os.system(f"rm {starpath}")
+
+        train_allS = open(os.path.join(datapath, "train_allS.tsv"),"w",encoding="utf-8")
+        train_quantS = open(os.path.join(datapath, "train_quantS.tsv"),"w",encoding="utf-8")
+        train_qualS = open(os.path.join(datapath, "train_qualS.tsv"),"w",encoding="utf-8")
+        train_meS = open(os.path.join(datapath, "train_meS.tsv"),"w",encoding="utf-8")
+        train_mpS = open(os.path.join(datapath, "train_mpS.tsv"),"w",encoding="utf-8")
+
+        for i,x in enumerate(train):
+            for sent in self.data[x].doc.sents:
+                for token in sent:
+                    train_allS.write(token.text+"\t"+token._.all+"\t"+token.tag_+"\n")
+                    train_quantS.write(token.text+"\t"+token._.quant+"\t"+token.tag_+"\n")
+                    train_qualS.write(token.text+"\t"+token._.qual+"\t"+token.tag_+"\n")
+                    train_meS.write(token.text+"\t"+token._.me+"\t"+token.tag_+"\n")
+                    train_mpS.write(token.text+"\t"+token._.mp+"\t"+token.tag_+"\n")
+
+                if i != len(train) - 1:
+                    train_allS.write("\n")
+                    train_quantS.write("\n")
+                    train_qualS.write("\n")
+                    train_meS.write("\n")
+                    train_mpS.write("\n")
+
+        train_allS.close()
+        train_quantS.close()
+        train_qualS.close()
+        train_meS.close()
+        train_mpS.close()
+
+        test_allS = open(os.path.join(datapath, "test_allS.tsv"),"w",encoding="utf-8")
+        test_quantS = open(os.path.join(datapath, "test_quantS.tsv"),"w",encoding="utf-8")
+        test_qualS = open(os.path.join(datapath, "test_qualS.tsv"),"w",encoding="utf-8")
+        test_meS = open(os.path.join(datapath, "test_meS.tsv"),"w",encoding="utf-8")
+        test_mpS = open(os.path.join(datapath, "test_mpS.tsv"),"w",encoding="utf-8")
+
+        for i,x in enumerate(test):
+            for sent in self.data[x].doc.sents:
+                for token in sent:
+                    test_allS.write(token.text+"\t"+token._.all+"\t"+token.tag_+"\n")
+                    test_quantS.write(token.text+"\t"+token._.quant+"\t"+token.tag_+"\n")
+                    test_qualS.write(token.text+"\t"+token._.qual+"\t"+token.tag_+"\n")
+                    test_meS.write(token.text+"\t"+token._.me+"\t"+token.tag_+"\n")
+                    test_mpS.write(token.text+"\t"+token._.mp+"\t"+token.tag_+"\n")
+
+                if i != len(test) - 1:
+                    test_allS.write("\n")
+                    test_quantS.write("\n")
+                    test_qualS.write("\n")
+                    test_meS.write("\n")
+                    test_mpS.write("\n")
+
+        test_allS.close()
+        test_quantS.close()
+        test_qualS.close()
+        test_meS.close()
+        test_mpS.close()
+
+
         
     
 

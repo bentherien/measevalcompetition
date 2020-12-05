@@ -4,6 +4,7 @@ import json
 import src.common as common
 import math
 import os
+from src.model.load_util import Sample
 
 class Exerpt:
     """
@@ -424,3 +425,5 @@ class Exerpt:
 
 
         json.dump(twitjson, open(os.path.join(filepath,f'{self.name}.json'),"w"), indent=3)
+
+
