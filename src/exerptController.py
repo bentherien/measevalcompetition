@@ -642,12 +642,12 @@ class ExerptController:
                     train_meS.write(token.text+"\t"+token._.me+"\t"+token.tag_+"\n")
                     train_mpS.write(token.text+"\t"+token._.mp+"\t"+token.tag_+"\n")
 
-                if i != len(train) - 1:
-                    train_allS.write("\n")
-                    train_quantS.write("\n")
-                    train_qualS.write("\n")
-                    train_meS.write("\n")
-                    train_mpS.write("\n")
+
+                train_allS.write("\n")
+                train_quantS.write("\n")
+                train_qualS.write("\n")
+                train_meS.write("\n")
+                train_mpS.write("\n")
 
         train_allS.close()
         train_quantS.close()
@@ -670,12 +670,98 @@ class ExerptController:
                     test_meS.write(token.text+"\t"+token._.me+"\t"+token.tag_+"\n")
                     test_mpS.write(token.text+"\t"+token._.mp+"\t"+token.tag_+"\n")
 
-                if i != len(test) - 1:
-                    test_allS.write("\n")
-                    test_quantS.write("\n")
-                    test_qualS.write("\n")
-                    test_meS.write("\n")
-                    test_mpS.write("\n")
+                
+                test_allS.write("\n")
+                test_quantS.write("\n")
+                test_qualS.write("\n")
+                test_meS.write("\n")
+                test_mpS.write("\n")
+
+        test_allS.close()
+        test_quantS.close()
+        test_qualS.close()
+        test_meS.close()
+        test_mpS.close()
+
+
+    def getDataPosDep(self, fold, syspath, div = 8):
+        test, train = self.getFolds(fold, div)
+
+        with open(os.path.join(syspath,"train.txt"), "w", encoding="utf-8") as f:
+            for x in train:
+                f.write(x+"\n")
+
+        with open(os.path.join(syspath,"test.txt"), "w", encoding="utf-8") as f:
+            for x in test:
+                f.write(x+"\n")
+
+        datapath = os.path.join(syspath,"data")
+
+        if not os.path.isdir(datapath):
+            os.mkdir(datapath)
+        else:
+            starpath = os.path.join(datapath,"*") 
+            os.system(f"rm {starpath}")
+
+        train_allS = open(os.path.join(datapath, "train_allS.tsv"),"w",encoding="utf-8")
+        train_quantS = open(os.path.join(datapath, "train_quantS.tsv"),"w",encoding="utf-8")
+        train_qualS = open(os.path.join(datapath, "train_qualS.tsv"),"w",encoding="utf-8")
+        train_meS = open(os.path.join(datapath, "train_meS.tsv"),"w",encoding="utf-8")
+        train_mpS = open(os.path.join(datapath, "train_mpS.tsv"),"w",encoding="utf-8")
+        
+        for i,x in enumerate(train):
+            count=0
+            sOffset=0
+            for sent in self.data[x].doc.sents:
+                sOffset += count
+                count = 0
+                for token in sent:
+                    count += 1
+                    train_allS.write("\t".join([token.text,token._.all,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                    train_quantS.write("\t".join([token.text,token._.quant,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                    train_qualS.write("\t".join([token.text,token._.qual,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                    train_meS.write("\t".join([token.text,token._.me,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                    train_mpS.write("\t".join([token.text,token._.mp,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                
+
+                train_allS.write("\n")
+                train_quantS.write("\n")
+                train_qualS.write("\n")
+                train_meS.write("\n")
+                train_mpS.write("\n")
+
+        train_allS.close()
+        train_quantS.close()
+        train_qualS.close()
+        train_meS.close()
+        train_mpS.close()
+
+        test_allS = open(os.path.join(datapath, "test_allS.tsv"),"w",encoding="utf-8")
+        test_quantS = open(os.path.join(datapath, "test_quantS.tsv"),"w",encoding="utf-8")
+        test_qualS = open(os.path.join(datapath, "test_qualS.tsv"),"w",encoding="utf-8")
+        test_meS = open(os.path.join(datapath, "test_meS.tsv"),"w",encoding="utf-8")
+        test_mpS = open(os.path.join(datapath, "test_mpS.tsv"),"w",encoding="utf-8")
+
+        for i,x in enumerate(test):
+            count=0
+            sOffset=0
+            for sent in self.data[x].doc.sents:
+                sOffset += count
+                count = 0
+                for token in sent:
+                    count += 1
+                    test_allS.write("\t".join([token.text,token._.all,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                    test_quantS.write("\t".join([token.text,token._.quant,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                    test_qualS.write("\t".join([token.text,token._.qual,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                    test_meS.write("\t".join([token.text,token._.me,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+                    test_mpS.write("\t".join([token.text,token._.mp,token.tag_,str(token.i-sOffset),token.dep_,str(token.head.i-sOffset)])+"\n")
+
+                
+                test_allS.write("\n")
+                test_quantS.write("\n")
+                test_qualS.write("\n")
+                test_meS.write("\n")
+                test_mpS.write("\n")
 
         test_allS.close()
         test_quantS.close()

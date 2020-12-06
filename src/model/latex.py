@@ -88,22 +88,23 @@ def printFoldInfo():
     exit(0)
 
 
-def getSummary(epoch,fold,embeddingType,learningRate,report):
+def getSummary(epoch,fold,embeddingType,learningRate,report,title):
     temp = [ x.split(" ") for x in report.split("\n") if (x.split(" ")!=[""])]
     temp = [[y for y in z if y!=""] for z in temp]
     l = []
     for x in temp:
-        if x[0][2:].upper() in ["QL", "ME", "MP", "QA"]:
+        if x[0].upper() in ["QL", "ME", "MP", "QA"]:
             l.append({
+                "title":title,
                 "epoch":epoch,
-                "fold":fold,
-                "emb":embeddingType,
-                "lr":learningRate,
+                "annot":x[0],
                 "F1":x[3],
                 "precision":x[1],
                 "recall":x[2],
                 "support":x[4],
-                "annot":x[0]
+                "lr":learningRate,
+                "fold":fold,
+                "emb":embeddingType
                 })
     return l
 

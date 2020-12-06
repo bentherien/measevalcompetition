@@ -84,5 +84,8 @@ def getSizeData(data):
                     freq[y] += 1
                 except KeyError:
                     freq[y] = 1
-    del freq["o"]
+    try:
+        del freq["o"]
+    except KeyError:
+        print(data)
     return freq

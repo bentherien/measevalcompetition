@@ -4,7 +4,7 @@ import os
 import json
 import pandas as pd
 from spacy.tokens import Token
-from src.model.pytorch_util import Sequence_Tagger
+from src.model.pytorch_util import Sequence_Tagger,Sequence_Tagger_GCNN
 from src.model.load_util import *
 from src.model.helpers import *
 from src.lib.helpers import *
@@ -40,6 +40,8 @@ class System:
             print("Error in System predict(), the current system is not ready\
              for this task. Please load the system correctly")
              
+        gazetteer = open(os.path.join(self.path,"gazetteers/combined_measurements.lst"),"r",encoding="utf-8").read().split("\n")
+        gazetteer = {x.lower():1 for x in gazetteer}
 
         test = load_sample(os.path.join(self.path,"data","test_allS.tsv"))
         train = load_sample(os.path.join(self.path,"data","train_allS.tsv"))
@@ -66,9 +68,9 @@ class System:
                     pos_to_ix[pos] = len(pos_to_ix)
         
         if CUDA:
-            model = Sequence_Tagger(word_to_ix,tag_to_ix,pos_to_ix,pretrained_emb,1024,1024,emb,self.path).cuda()
+            model = Sequence_Tagger_GCNN(word_to_ix,tag_to_ix,pos_to_ix,pretrained_emb,1024,1024,emb,self.path).cuda()
         else:
-            model = Sequence_Tagger(word_to_ix,tag_to_ix,pos_to_ix,pretrained_emb,1024,1024,emb,self.path)
+            model = Sequence_Tagger_GCNN(word_to_ix,tag_to_ix,pos_to_ix,pretrained_emb,1024,1024,emb,self.path)
         
         model.load(os.path.join(self.path,self.modelname))
 
@@ -246,11 +248,28 @@ class System:
                                             break
                     return groups
 
+                def getUnit(quantity,unitMatchDict):
+                    for x in list(list(data.data.values())[0].doc._.meAnnots.values())[0]["Quantity"]["span"]:
+                        try:
+                            unitMatchDict[x.text.lower()] += 1 
+                            return x.text.lower()
+                        except KeyError: 
+                            continue
+                    return None
+
+
                 mapping = {"MeasuredEntity":"ME","MeasuredProperty":"MP","Quantity":"QA","Qualifier":"QL"}
                 df = None 
                 annotSet = 1
                 tid = 1 
                 for x in getGroupings(spans):
+                    unit = getUnit(x["QA"],gazetteer)
+                    other = None
+                    if unit == None:
+                        other = {'mods': ['IsCount']}
+                    else:
+                        other = {'mods': ['IsRange'], 'unit': unit}    
+
                     row = {
                         "docId":[e.name],
                         "annotSet": [annotSet],
@@ -259,7 +278,7 @@ class System:
                         "endOffset": [x["QA"].end_char], 
                         "annotId": [f"T{tid}"],
                         "text":[x["QA"].text],
-                        "other": [{'mods': ['IsRange'], 'unit': 'K'}]
+                        "other": [other]
                         }
                     if type(df) == type(None):
                         df = pd.DataFrame.from_dict(row, orient = "columns")

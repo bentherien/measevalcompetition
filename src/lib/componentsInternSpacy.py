@@ -183,13 +183,13 @@ def fixSentences(doc):
                 doc[token.i+1].is_sent_start = False
             except IndexError:
                 continue
-        elif token.text == "(":
+        elif token.text == "(" and doc[token.i-1].text != ".":
             doc[token.i].is_sent_start = False
             try:
                 doc[token.i+1].is_sent_start = False
             except IndexError:
                 continue
-        elif not token.text.isalnum():
+        elif not token.text.isalnum() and doc[token.i-1].text != ".":
             doc[token.i].is_sent_start = False
         
         elif(token.text[0].islower()):
