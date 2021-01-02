@@ -108,3 +108,10 @@ def getSummary(epoch,fold,embeddingType,learningRate,report,title):
                 })
     return l
 
+
+def toLatex(dictList):
+    print("\\hline")
+    print("&".join([str(x) for x in dictList[0].keys()])+"\\\\\n\\hline")
+    for x in dictList:
+        print("&".join([str(y) for y in x.values()])+"\\\\\n\\hline")
+

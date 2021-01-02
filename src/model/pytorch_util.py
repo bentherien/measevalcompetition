@@ -142,7 +142,7 @@ class Sequence_Tagger(nn.Module):
 
 
 class GCNNLayer(nn.Module):
-    def __init__(self,emb_dim,d_model):
+    def __init__(self,emb_dim,d_model,tagSize):
         super().__init__()
         self.emb_dim = emb_dim
         self.d_model = d_model
@@ -158,20 +158,23 @@ class GCNNLayer(nn.Module):
             self.depWeights = {}
             self.depBias = {}
             for x in self.deps: 
-                self.depWeights[x] = (torch.rand((self.emb_dim, self.d_model)) * np.sqrt(2/7)).cuda()
-                self.depBias[x] = torch.ones((1,self.emb_dim)).cuda()
-            self.weights = [(torch.rand((self.emb_dim, self.d_model)) * np.sqrt(2/7)).cuda() for x in range(MAXSIZE)]
-            self.bias = [torch.ones((1,self.emb_dim)).cuda() for x in range(MAXSIZE)]
+                self.depWeights[x] = (torch.rand((self.emb_dim, self.d_model),requires_grad=True) * np.sqrt(2/7)).cuda()
+                self.depBias[x] = torch.ones((1,self.emb_dim),requires_grad=True).cuda()
+            self.weight = (torch.rand((self.emb_dim, self.d_model),requires_grad=True) * np.sqrt(2/7)).cuda() 
+            self.bias = torch.ones((1,self.emb_dim),requires_grad=True).cuda() 
+
+            self.hidden2tag = nn.Linear(d_model , tagSize).cuda()
         else:
             #weight initialization
             max_, min_ = 0.1, 0
             self.depWeights = {}
             self.depBias = {}
             for x in self.deps: 
-                self.depWeights[x] =  torch.rand((self.emb_dim, self.d_model)) * np.sqrt(2/self.emb_dim)
-                self.depBias[x] =  torch.ones((1,self.emb_dim)) 
-            self.weights = [torch.rand((self.emb_dim, self.d_model)) * np.sqrt(2/self.emb_dim) for x in range(MAXSIZE)]
-            self.bias = [torch.ones((1,self.emb_dim)) for x in range(MAXSIZE)]
+                self.depWeights[x] =  torch.rand((self.emb_dim, self.d_model),requires_grad=True) * np.sqrt(2/self.emb_dim)
+                self.depBias[x] =  torch.ones((1,self.emb_dim),requires_grad=True) 
+            self.weight = torch.rand((self.emb_dim, self.d_model),requires_grad=True) * np.sqrt(2/self.emb_dim) 
+            self.bias = torch.ones((1,self.emb_dim),requires_grad=True) 
+            self.hidden2tag = nn.Linear(d_model , tagSize)
 
     def forward(self, input, dependencies, CUDA):
         """
@@ -181,24 +184,31 @@ class GCNNLayer(nn.Module):
         """
         #print(input.size(),(len(dependencies),self.emb_dim))
         assert input.size() == (len(dependencies),self.emb_dim)
-
+        selfOut = input @ self.weight + self.bias
         tensors = []
         for i,x in enumerate(dependencies):
             token = input[i].unsqueeze(0)
             assert token.size() == (1,1024)
             #print(token.size(),self.weights[i].size(),self.bias[i].size())
-            accum = token @ self.weights[i] + self.bias[i]
+            #accum = token @ self.weights[i] + self.bias[i]
+            
+            
+            accum = selfOut[i].unsqueeze(0)
             assert accum.size() == (1,1024)
+
             for dep in x:
                 accum += token @ self.depWeights[dep] + self.depBias[dep]
-                #print(accum.size())
                 assert accum.size() == (1,1024)
+
             tensors.append(accum)
         rel = torch.nn.ReLU()
         out = rel(torch.stack(tensors).squeeze(1))
-        #print(out.size(),input.size())
         assert out.size() == input.size()
-        return out
+
+        #tag_space = self.hidden2tag(lstm_tuple[0].view(len(lstm_tuple[0]), -1))
+        tag_space = self.hidden2tag(out)
+        tag_scores = F.log_softmax(tag_space, dim=1)
+        return (tag_scores,out)
     
 
     def load(self,filepath):
@@ -252,15 +262,20 @@ class Sequence_Tagger_GCNN(nn.Module):
         self.pos_to_ix = pos_to_ix
 
         self.elmo = Elmo(options_file,weight_file,1,dropout=0)
-        #self.gcnn1 = GCNNLayer(emb_dim,d_model)
+        self.gcnn1 = GCNNLayer(emb_dim,d_model,len(tag_to_ix))
+        self.gcnn2 = GCNNLayer(emb_dim,d_model,len(tag_to_ix))
+        self.gcnn3 = GCNNLayer(emb_dim,d_model,len(tag_to_ix))
+        
         #self.gcnn2 = GCNNLayer(emb_dim,d_model)
         #self.gcnn3 = GCNNLayer(emb_dim,d_model)
         
         #self.gcnn4 = GCNNLayer(emb_dim,d_model)
-        self.tagger = LSTMTagger(emb_dim,d_model,len(tag_to_ix),True)
+        #self.tagger = LSTMTagger(emb_dim,d_model,len(tag_to_ix),True)
         #self.tagger2 = LSTMTagger(emb_dim//4,d_model//4,len(tag_to_ix),True)
         #self.tagger3 = LSTMTagger(emb_dim//8,d_model//8,len(tag_to_ix),True)
         #self.tagger4 = LSTMTagger(emb_dim,d_model//16,len(tag_to_ix),True)
+
+        
 
 
 
@@ -268,13 +283,13 @@ class Sequence_Tagger_GCNN(nn.Module):
         tokens, dep = input
         x = self.elmo(Var(batch_to_ids([tokens]),CUDA))
         x = x["elmo_representations"][0]
-        #pass1 = self.gcnn1(x.squeeze(),dep,CUDA)
-        #pass2 = self.gcnn2(pass1.squeeze(),dep,CUDA)
-        #pass3 = self.gcnn3(pass2.squeeze(),dep,CUDA)
+        predictions,gcnn_out = self.gcnn1(x.squeeze(),dep,CUDA)
+        predictions,gcnn_out = self.gcnn2(gcnn_out.squeeze(),dep,CUDA)
+        predictions,gcnn_out = self.gcnn3(gcnn_out.squeeze(),dep,CUDA)
         #pass4 = self.gcnn4(pass3.squeeze(),dep,CUDA)
 
         #print("size x,x.squeeze:",x.size(),x.squeeze().size())
-        predictions, lstm_out = self.tagger(x.squeeze())
+        #predictions, lstm_out = self.tagger(pass1.squeeze())
 
         return predictions
     

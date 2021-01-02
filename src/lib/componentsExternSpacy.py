@@ -20,15 +20,17 @@ def annotationCreation(doc,tsv):
         Doc.set_extension("meAnnots", default = "def", force = True)
 
     doc._.meAnnots = {}
-    count = 0
+    count = common.count
     lookup = {tok.idx : tok.i for tok in doc}
     annotminmax={}
+    #print("start")
     for index, row in tsv.iterrows():
         if(row["annotType"] == "Quantity"):
-            count+=1
-            if count > 1:
+            count += 1
+            #print(count,">",common.count+1)
+            if count > common.count + 1:
                 #set sentence values for each
-                 doc._.meAnnots[f"Annotation{count-1}"]["sentences"] = getSentences(annotminmax[f"offset{count-1}min"],annotminmax[f"offset{count-1}max"],doc)
+                doc._.meAnnots[f"Annotation{count-1}"]["sentences"] = getSentences(annotminmax[f"offset{count-1}min"],annotminmax[f"offset{count-1}max"],doc)
         
         #get min and max offsets
         try:
@@ -122,7 +124,6 @@ def annotationCreation(doc,tsv):
             print("ERROR tempstart greater than temp end")
 
         if error:
-            common.count+=1
             print("FindOffset method has created a key error ")
             print("Annotation Type: {}".format(row["annotType"]))
             print("Text + 10 on each side: \"{}\"".format(doc.text[max(0,row["startOffset"]-10):min(len(doc.text),row["endOffset"]+10)]))
@@ -135,11 +136,12 @@ def annotationCreation(doc,tsv):
             print("Compromise range: ("+str(tempStart)+","+str(tempEnd)+")")
             print({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-10 and k < row["endOffset"]+10)})            
         
-        other = (json.loads(str(row["other"])) if str(row["other"]) != "nan" else "")
+        other = (json.loads(str(row["other"])) if str(row["other"]) != "nan" else {})
+        other["annotID"] = count
         doc._.meAnnots[f"Annotation{count}"][row["annotType"]] = {"span":tempSpan,"other":other}
       
-    doc._.meAnnots[f"Annotation{count}"]["sentences"] = getSentences(annotminmax[f"offset{count}min"],annotminmax[f"offset{count}max"],doc)  
-            
+    doc._.meAnnots[f"Annotation{count}"]["sentences"] = getSentences(annotminmax[f"offset{count}min"],annotminmax[f"offset{count}max"],doc)
+    common.count = count
     return doc   
 
 

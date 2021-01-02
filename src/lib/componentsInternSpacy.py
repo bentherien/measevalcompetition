@@ -160,7 +160,7 @@ def fixSentences(doc):
     for token in doc: 
         if token.text == ".":
             doc[token.i].is_sent_start = False
-            if(doc[token.i-1].text.lower() in ["fig", "figs","spp","al"]):
+            if(doc[token.i-1].text.lower() in ["fig", "figs","spp","al","ca"]):
                 try:
                     doc[token.i+1].is_sent_start = False
                 except IndexError:
@@ -171,6 +171,8 @@ def fixSentences(doc):
                 doc[token.i+1].is_sent_start = False
             except IndexError:
                 continue
+        elif token.text == "%":
+            doc[token.i].is_sent_start = False
         elif token.text == ";":
             doc[token.i].is_sent_start = False
             try:

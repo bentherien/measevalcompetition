@@ -122,10 +122,13 @@ def run_train(args):
             output_task = model(input, CUDA)
 
             loss = loss_function(output_task, target)
-            loss.backward()
+            loss.backward(retain_graph = True)
             optimizer.step()
 
             all_loss.append(loss.cpu().detach().numpy())
+
+        if epoch % 1 != 0:
+            optimizer.lr = optimizer.lr/2
 
 
 
@@ -137,7 +140,8 @@ def run_train(args):
     savePath = os.path.join(args.sys_path,f"{args.model_name}.pt")
     torch.save(model.state_dict(),savePath)
 
-    print(accum)
+    
+    
 
     if not os.path.isfile("run_logs.json"):
         json.dump([accum],open("run_logs.json","w",encoding="utf-8"),indent=3)
@@ -148,6 +152,8 @@ def run_train(args):
             json.dump(read,open("run_logs.json","w",encoding="utf-8"),indent=3)
         except json.decoder.JSONDecodeError:
             json.dump(accum,open("run_logs.json","w",encoding="utf-8"),indent=3)
+
+    latex.toLatex(accum)
 
     exit(0)
 

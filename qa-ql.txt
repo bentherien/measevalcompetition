@@ -1,0 +1,518 @@
+QA --> QL , total paths evaluated: 165
+
+frequency:11 path:rnummod,prep,pobj pathlength:3
+
+(135,CD,QA)-->rnummod-->(ppm,NNP,QA)-->prep-->(for,IN,QL)-->pobj-->(column,NN,QL)
+(3,CD,QA)-->rnummod-->(months,NNS,QA)-->prep-->(after,IN,QL)-->pobj-->(transplant,NN,QL)
+(6,CD,QA)-->rnummod-->(months,NNS,QA)-->prep-->(of,IN,o)-->pobj-->(age,NN,QL)
+(48,CD,QA)-->rnummod-->(regions,NNS,ME)-->prep-->(in,IN,QL)-->pobj-->(hemisphere,NN,QL)
+(3.5–4,CD,QA)-->rnummod-->(months,NNS,QA)-->prep-->(after,IN,QL)-->pobj-->(transplant,NN,QL)
+(90,CD,QA)-->rnummod-->(%,NN,QA)-->prep-->(for,IN,QL)-->pobj-->(symptoms,NNS,QL)
+(95.81,CD,QA)-->rnummod-->(%,NN,QA)-->prep-->(for,IN,o)-->pobj-->(HC,NNP,QL)
+(96.24,CD,QA)-->rnummod-->(%,NN,QA)-->prep-->(for,IN,o)-->pobj-->(HC,NNP,QL)
+(1.5,CD,QA)-->rnummod-->(decline,NN,MP)-->prep-->(at,IN,QL)-->pobj-->(site,NN,QL)
+(4,CD,QA)-->rnummod-->(weeks,NNS,QA)-->prep-->(in,IN,o)-->pobj-->(culture,NN,QL)
+(48,CD,QA)-->rnummod-->(inoculation,NN,QL)-->prep-->(in,IN,QL)-->pobj-->(plates,NNS,QL)
+
+frequency:7 path:rnummod,rpobj pathlength:2
+
+(13,CD,QA)-->rnummod-->(kg,NN,QA)-->rpobj-->(for,IN,QL)
+(10,CD,QA)-->rnummod-->(min,NN,QA)-->rpobj-->(after,IN,QL)
+(one,CD,QA)-->rnummod-->(period,NN,ME)-->rpobj-->(during,IN,QL)
+(63,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(to,TO,QL)
+(1,CD,QA)-->rnummod-->(level,NN,o)-->rpobj-->(near,IN,QL)
+(65,CD,QA)-->rnummod-->(Age,NN,MP)-->rpobj-->(After,IN,QL)
+(6,CD,QA)-->rnummod-->(months,NNS,QA)-->rpobj-->(after,IN,QL)
+
+frequency:7 path:rnummod,rpobj,rprep pathlength:3
+
+(210,CD,QA)-->rnummod-->(MPa,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(tip,NN,QL)
+(22,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(by,IN,o)-->rprep-->(increased,VBN,QL)
+(700,CD,QA)-->rnummod-->(m2,NN,QA)-->rpobj-->(to,TO,o)-->rprep-->(corrected,VBN,QL)
+(2,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(by,IN,o)-->rprep-->(reduce,VB,QL)
+(35,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(by,IN,o)-->rprep-->(increasing,VBG,QL)
+(0.5,CD,QA)-->rnummod-->(m,NN,QA)-->rpobj-->(within,IN,QA)-->rprep-->(occurring,VBG,QL)
+(4.0,CD,QA)-->rnummod-->(V,NN,QA)-->rpobj-->(to,TO,o)-->rprep-->(charged,VBN,QL)
+
+frequency:6 path:rnummod,rpobj,rprep,prep,pobj pathlength:5
+
+(450,CD,QA)-->rnummod-->(K,NN,QA)-->rpobj-->(from,IN,o)-->rprep-->(decrease,VBP,o)-->prep-->(near,IN,QL)-->pobj-->(pole,NN,QL)
+(30,CD,QA)-->rnummod-->(degrees,NNS,QA)-->rpobj-->(at,IN,o)-->rprep-->(taken,VBN,o)-->prep-->(in,IN,o)-->pobj-->(mode,NN,QL)
+(12.4,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(by,IN,o)-->rprep-->(decreased,VBD,MP)-->prep-->(in,IN,o)-->pobj-->(Rica,NNP,QL)
+(48,CD,QA)-->rnummod-->(h,NN,QA)-->rpobj-->(to,TO,o)-->rprep-->(changed,VBN,MP)-->prep-->(before,IN,QL)-->pobj-->(assay,NN,QL)
+(six,CD,QA)-->rnummod-->(orders,NNS,QA)-->rpobj-->(by,IN,o)-->rprep-->(rate,NN,MP)-->prep-->(of,IN,o)-->pobj-->(increases,VBZ,QL)
+(115,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(response,NN,ME)-->prep-->(on,IN,o)-->pobj-->(basis,NN,QL)
+
+frequency:5 path:rnummod,rpobj,rprep,rpobj,rprep pathlength:5
+
+(2,CD,QA)-->rnummod-->(°,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(latitude,NN,MP)-->rpobj-->(in,IN,QL)-->rprep-->(spacing,NN,QL)
+(2,CD,QA)-->rnummod-->(m,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(depth,NN,MP)-->rpobj-->(to,TO,o)-->rprep-->(perturbations,NNS,QL)
+(2,CD,QA)-->rnummod-->(m,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(depth,NN,MP)-->rpobj-->(to,TO,o)-->rprep-->(mixed,VBN,QL)
+(50,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(by,IN,o)-->rprep-->(beach,NN,ME)-->rpobj-->(for,IN,o)-->rprep-->(higher,JJR,QL)
+(5.16,CD,QA)-->rnummod-->(susceptibility,NN,o)-->rpobj-->(of,IN,o)-->rprep-->(depth,NN,MP)-->rpobj-->(at,IN,o)-->rprep-->(susceptibility,NN,QL)
+
+frequency:4 path:rnummod,rpobj,rprep,prep,pobj,prep,pobj pathlength:7
+
+(0.45,CD,QA)-->rnummod-->(m−2,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(flux,NN,ME)-->prep-->(at,IN,QL)-->pobj-->(position,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(HD209458b,NNP,QL)
+(2,CD,QA)-->rnummod-->(months,NNS,QA)-->rpobj-->(at,IN,o)-->rprep-->(increased,VBD,ME)-->prep-->(after,IN,QL)-->pobj-->(transplant,NN,QL)-->prep-->(in,IN,QL)-->pobj-->(animals,NNS,QL)
+(10–100,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(loss,NN,MP)-->prep-->(over,IN,QL)-->pobj-->(lifetime,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(system,NN,QL)
+(62,CD,QA)-->rnummod-->(mm,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(level,NN,MP)-->prep-->(in,IN,QL)-->pobj-->(front,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(beach,NN,QL)
+
+frequency:4 path:rnummod,rnpadvmod pathlength:2
+
+(10–11,CD,QA)-->rnummod-->(days,NNS,QA)-->rnpadvmod-->(estimated,VBN,QL)
+(One,CD,QA)-->rnummod-->(year,NN,QA)-->rnpadvmod-->(later,RB,QL)
+(24,CD,QA)-->rnummod-->(h,NN,QA)-->rnpadvmod-->(later,RB,QL)
+(7.5,CD,QA)-->rnummod-->(%,NN,QA)-->rnpadvmod-->(paired,VBN,QL)
+
+frequency:4 path:rnummod,amod pathlength:2
+
+(100,CD,QA)-->rnummod-->(m,NN,QA)-->amod-->(top,NN,QL)
+(20–30,CD,QA)-->rnummod-->(cm,NN,QA)-->amod-->(top,NN,QL)
+(20,CD,QA)-->rnummod-->(cm,NN,QA)-->amod-->(top,NN,QL)
+(two,CD,QA)-->rnummod-->(animals,NNS,ME)-->amod-->(other,JJ,QL)
+
+frequency:3 path:rnummod,rnpadvmod,pobj pathlength:3
+
+(25,CD,QA)-->rnummod-->(km,NN,QA)-->rnpadvmod-->(above,IN,QL)-->pobj-->(surface,NN,QL)
+(30,CD,QA)-->rnummod-->(min,NN,QA)-->rnpadvmod-->(after,IN,QL)-->pobj-->(BS1,CD,QL)
+(5,CD,QA)-->rnummod-->(hours,NNS,QA)-->rnpadvmod-->(after,IN,QL)-->pobj-->(breakfast,NN,QL)
+
+frequency:2 path:rnummod,rpobj,rprep,rprep pathlength:4
+
+(490,CD,QA)-->rnummod-->(K,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(from,IN,o)-->rprep-->(averaged,VBD,QL)
+(0.1,CD,QA)-->rnummod-->(ms,NNS,QA)-->rpobj-->(to,TO,QA)-->rprep-->(from,IN,QA)-->rprep-->(decreases,VBZ,QL)
+
+frequency:2 path:rnummod,rappos,rpobj,rprep pathlength:4
+
+(650,CD,QA)-->rnummod-->(K,NN,QA)-->rappos-->(Saturn,NNP,ME)-->rpobj-->(on,IN,o)-->rprep-->(observed,VBN,QL)
+(11,CD,QA)-->rnummod-->(%,NN,QA)-->rappos-->(being,VBG,o)-->rpobj-->(with,IN,o)-->rprep-->(clusters,NNS,QL)
+
+frequency:2 path:rnummod,prep pathlength:2
+
+(20,CD,QA)-->rnummod-->(%,NN,QA)-->prep-->(of,IN,QL)
+(1.5–2.6,CD,QA)-->rnummod-->(m,NN,QA)-->prep-->(of,IN,QL)
+
+frequency:2 path:rnummod pathlength:1
+
+(0.2,CD,QA)-->rnummod-->(inset,JJ,QL)
+(30–130,CD,QA)-->rnummod-->(stimulus,NN,QL)
+
+frequency:2 path:rnummod,rnpadvmod,nsubj pathlength:3
+
+(4,CD,QA)-->rnummod-->(weeks,NNS,QA)-->rnpadvmod-->(showed,VBD,o)-->nsubj-->(transplantation,NN,QL)
+(2,CD,QA)-->rnummod-->(days,NNS,QA)-->rnpadvmod-->(was,VBD,o)-->nsubj-->(transplantation,NN,QL)
+
+frequency:2 path:rnummod,rnmod,rpobj pathlength:3
+
+(297,CD,QA)-->rnummod-->(nm,NN,QA)-->rnmod-->(mdeg,NNP,QA)-->rpobj-->(at,IN,QL)
+(10,CD,QA)-->rnummod-->(%,NN,QA)-->rnmod-->(serum,NN,MP)-->rpobj-->(with,IN,QL)
+
+frequency:1 path:rnummod,punct pathlength:2
+
+(0.3,CD,QA)-->rnummod-->(nbar,NN,QA)-->punct-->(=,-LRB-,QL)
+
+frequency:1 path:rdobj,auxpass,nsubj,amod pathlength:4
+
+(0.8,CD,QA)-->rdobj-->(∼,CD,QA)-->auxpass-->(was,VBD,o)-->nsubj-->(seawater,NN,ME)-->amod-->(average,JJ,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,nsubj pathlength:4
+
+(30,CD,QA)-->rnummod-->(ppt,NN,QA)-->rpobj-->(from,IN,o)-->rprep-->(range,VBP,o)-->nsubj-->(values,NNS,QL)
+
+frequency:1 path:rdobj,prep,pobj pathlength:3
+
+(20,CD,QA)-->rdobj-->(enriched,VBN,o)-->prep-->(of,IN,QL)-->pobj-->(basalt,NN,QL)
+
+frequency:1 path:rnummod,rcompound,rdobj,prep pathlength:4
+
+(11,CD,QA)-->rnummod-->(km,NNS,QA)-->rcompound-->(s−1,RB,QA)-->rdobj-->(reaching,VBG,o)-->prep-->(by,IN,QL)
+
+frequency:1 path:rcompound,rnpadvmod,rpobj,rprep,prep,pobj pathlength:6
+
+(77.45,CD,QA)-->rcompound-->(°,NN,QA)-->rnpadvmod-->(away,RB,QL)-->rpobj-->(of,IN,o)-->rprep-->(angle,NN,MP)-->prep-->(towards,IN,QL)-->pobj-->(direction,NN,QL)
+
+frequency:1 path:rnummod,rnpadvmod,racomp,rrelcl,rpobj,rprep,rattr,nsubj,prep,pobj pathlength:10
+
+(16,CD,QA)-->rnummod-->(times,NNS,QA)-->rnpadvmod-->(better,JJR,o)-->racomp-->(is,VBZ,o)-->rrelcl-->(instrument,NN,MP)-->rpobj-->(of,IN,MP)-->rprep-->(resolution,NN,MP)-->rattr-->(is,VBZ,o)-->nsubj-->(advantage,NN,o)-->prep-->(of,IN,o)-->pobj-->(mode,NN,QL)
+
+frequency:1 path:rnummod,rnpadvmod,ramod,prep,pobj,amod pathlength:6
+
+(sixteen,CD,QA)-->rnummod-->(times,NNS,QA)-->rnpadvmod-->(higher,JJR,o)-->ramod-->(resolution,NN,MP)-->prep-->(than,IN,QL)-->pobj-->(resolution,NN,MP)-->amod-->(typical,JJ,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,nsubjpass,prep,pobj pathlength:6
+
+(3,CD,QA)-->rnummod-->(level,NN,ME)-->rpobj-->(above,IN,o)-->rprep-->(depleted,VBN,o)-->nsubjpass-->(abundance,NN,o)-->prep-->(in,IN,o)-->pobj-->(atmosphere,NN,QL)
+
+frequency:1 path:rnummod,rnpadvmod,prep,pcomp,acomp pathlength:5
+
+(10,CD,QA)-->rnummod-->(%,NN,QA)-->rnpadvmod-->(say,VB,o)-->prep-->(of,IN,o)-->pcomp-->(being,VBG,QL)-->acomp-->(faulty,JJ,QL)
+
+frequency:1 path:rcompound,rcompound,rpobj pathlength:3
+
+(82,CD,QA)-->rcompound-->(°,NN,QA)-->rcompound-->(latitude,NN,MP)-->rpobj-->(near,IN,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,prep,pobj,conj pathlength:6
+
+(93,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(efficiency,NN,MP)-->prep-->(at,IN,QL)-->pobj-->(altitudes,NNS,QL)-->conj-->(energies,NNS,QL)
+
+frequency:1 path:subtok pathlength:1
+
+(0.1,CD,QA)-->subtok-->(=,#,QL)
+
+frequency:1 path:rprep,rnummod,rnsubjpass,prep,pobj,prep,pobj pathlength:7
+
+(3,CD,QA)-->rprep-->(1,CD,QA)-->rnummod-->(ratios,NNS,MP)-->rnsubjpass-->(used,VBN,o)-->prep-->(in,IN,o)-->pobj-->(synthesis,NN,o)-->prep-->(of,IN,o)-->pobj-->(Mg3NF3,JJ,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,rdobj,nsubj pathlength:5
+
+(30,CD,QA)-->rnummod-->(K,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(temperature,NN,ME)-->rdobj-->(suggested,VBD,o)-->nsubj-->(Sco,NNP,QL)
+
+frequency:1 path:rpunct,rnsubj,prep,pobj pathlength:4
+
+(),-RRB-,QA)-->rpunct-->(some,DT,ME)-->rnsubj-->(came,VBD,QL)-->prep-->(from,IN,QL)-->pobj-->(Vergons,NNP,QL)
+
+frequency:1 path:rnummod,rnsubjpass,prep,pobj pathlength:4
+
+(30,CD,QA)-->rnummod-->(K,NN,QA)-->rnsubjpass-->(derived,VBN,QL)-->prep-->(from,IN,QL)-->pobj-->(observations,NNS,QL)
+
+frequency:1 path:rpunct,prep,pobj pathlength:3
+
+(±10,CD,QA)-->rpunct-->(is,VBZ,o)-->prep-->(around,IN,QL)-->pobj-->(approach,NN,QL)
+
+frequency:1 path:punct pathlength:1
+
+(1,CD,QA)-->punct-->(=,IN,QL)
+
+frequency:1 path:rcompound,rnpadvmod,prep,pobj pathlength:4
+
+(5–10,CD,QA)-->rcompound-->(times,NNS,QA)-->rnpadvmod-->(higher,JJR,QL)-->prep-->(than,IN,QL)-->pobj-->(flux,NN,QL)
+
+frequency:1 path:radvmod,prep,pobj,prep,pobj pathlength:5
+
+(twice,RB,QA)-->radvmod-->(fast,JJ,QL)-->prep-->(as,IN,QL)-->pobj-->(rate,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(Sun,NN,QL)
+
+frequency:1 path:rnummod,rappos pathlength:2
+
+(1.26±0.2,CD,QA)-->rnummod-->(‰,NN,QA)-->rappos-->(standard,NN,QL)
+
+frequency:1 path:rnummod,rdobj,rxcomp,advmod,prep,pobj,prep,pobj pathlength:8
+
+(2,CD,QA)-->rnummod-->(Ma,NN,QA)-->rdobj-->(∼,#,QA)-->rxcomp-->(began,VBD,MP)-->advmod-->(prior,RB,QL)-->prep-->(to,TO,QL)-->pobj-->(evidence,NN,QL)-->prep-->(for,IN,QL)-->pobj-->(glaciation,NN,QL)
+
+frequency:1 path:rprep,rnummod,racl,acl,prep,pobj pathlength:6
+
+(60,CD,QA)-->rprep-->(1,CD,QA)-->rnummod-->(∼,#,QA)-->racl-->(ratios,NNS,MP)-->acl-->(measured,VBN,QL)-->prep-->(in,IN,QL)-->pobj-->(EETA79001,CD,QL)
+
+frequency:1 path:rconj,rappos,rappos,rpobj,rprep,prep,prep,pobj pathlength:8
+
+(m,CD,QA)-->rconj-->(2617.44,CD,QA)-->rappos-->(2617.35,CD,QA)-->rappos-->(2619.60,CD,QA)-->rpobj-->(at,IN,o)-->rprep-->(samples,NNS,ME)-->prep-->(from,IN,o)-->prep-->(below,IN,QL)-->pobj-->(CIE,NNP,QL)
+
+frequency:1 path:rpobj,rprep,rpobj,rprep,prep,pobj pathlength:6
+
+(8.74Rs,NNS,QA)-->rpobj-->(of,IN,o)-->rprep-->(distance,NN,MP)-->rpobj-->(at,IN,o)-->rprep-->(orbits,VBZ,o)-->prep-->(from,IN,QL)-->pobj-->(center,NN,QL)
+
+frequency:1 path:rconj,rattr,nsubj,prep,pobj,prep,pobj pathlength:7
+
+(13,CD,QA)-->rconj-->(6,CD,QA)-->rattr-->(is,VBZ,o)-->nsubj-->(strength,NN,o)-->prep-->(with,IN,QL)-->pobj-->(respect,NN,QL)-->prep-->(to,TO,QL)-->pobj-->(background,NN,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,rattr,prep,pobj pathlength:6
+
+(40,CD,QA)-->rnummod-->(ppm,NN,QA)-->rpobj-->(from,IN,QA)-->rprep-->(increase,NN,o)-->rattr-->(was,VBD,o)-->prep-->(For,IN,o)-->pobj-->(coal,NNP,QL)
+
+frequency:1 path:rnummod,det pathlength:2
+
+(two,CD,QA)-->rnummod-->(coals,NNS,ME)-->det-->(the,DT,QL)
+
+frequency:1 path:rnummod,rdobj,rrelcl,prep,pobj,prep,pobj pathlength:7
+
+(550,CD,QA)-->rnummod-->(ppm,NN,QA)-->rdobj-->(∼,#,QA)-->rrelcl-->(increase,NN,o)-->prep-->(in,IN,o)-->pobj-->(results,NNS,o)-->prep-->(for,IN,o)-->pobj-->(coal,NN,QL)
+
+frequency:1 path:rnummod,rdobj,radvcl,prep,pobj pathlength:5
+
+(150,CD,QA)-->rnummod-->(ppm,NN,QA)-->rdobj-->(∼,#,QA)-->radvcl-->(cycled,VBN,QL)-->prep-->(over,IN,QL)-->pobj-->(cycles,NNS,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,amod pathlength:4
+
+(8250,CD,QA)-->rnummod-->(K,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(temperature,NN,MP)-->amod-->(mean,JJ,QL)
+
+frequency:1 path:rpobj pathlength:1
+
+(0,CD,QA)-->rpobj-->(of,IN,QL)
+
+frequency:1 path:rnummod,rappos,rnsubjpass,agent,pobj,prep,pobj pathlength:7
+
+(55,CD,QA)-->rnummod-->(%,NN,QA)-->rappos-->(Majority,NN,o)-->rnsubjpass-->(stimulated,VBN,MP)-->agent-->(by,IN,QL)-->pobj-->(set,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(variables,NNS,QL)
+
+frequency:1 path:rnummod,rnpadvmod,prep,pcomp,prep,pobj pathlength:6
+
+(13,CD,QA)-->rnummod-->(%,NN,QA)-->rnpadvmod-->(less,JJR,QL)-->prep-->(than,IN,QL)-->pcomp-->(expressing,VBG,QL)-->prep-->(from,IN,QL)-->pobj-->(Bt,NN,QL)
+
+frequency:1 path:rprep,nsubj,prep,pobj pathlength:4
+
+(−0.72,CD,QA)-->rprep-->(is,VBZ,o)-->nsubj-->(relative,JJ,QL)-->prep-->(to,TO,QL)-->pobj-->(AgCl,NNP,QL)
+
+frequency:1 path:rpobj,rprep,prep,prep,pobj pathlength:5
+
+(3–4,CD,QA)-->rpobj-->(on,IN,o)-->rprep-->(was,VBD,o)-->prep-->(compared,VBN,QL)-->prep-->(to,TO,QL)-->pobj-->(flybys,NNS,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,rnsubjpass,prep,pobj,prep,pobj pathlength:8
+
+(5,CD,QA)-->rnummod-->(‰,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(excursion,NN,MP)-->rnsubjpass-->(identified,VBN,o)-->prep-->(in,IN,o)-->pobj-->(section,NN,ME)-->prep-->(from,IN,QL)-->pobj-->(Basin,NNP,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,rconj,advcl,nsubj pathlength:6
+
+(4,CD,QA)-->rnummod-->(m,NN,QA)-->rpobj-->(from,IN,QA)-->rprep-->(input,NN,ME)-->rconj-->(stratification,NN,ME)-->advcl-->(indicate,VB,o)-->nsubj-->(CIE,NNP,QL)
+
+frequency:1 path:rnummod,rdobj,advmod pathlength:3
+
+(55.8,CD,QA)-->rnummod-->(Ma,NN,QA)-->rdobj-->(punctuated,VBD,o)-->advmod-->(ago,RB,QL)
+
+frequency:1 path:rcompound,rpobj,rprep,rdobj,rparataxis,prep,pobj,prep,pobj pathlength:9
+
+(20,CD,QA)-->rcompound-->(ka,NN,QA)-->rpobj-->(over,IN,QA)-->rprep-->(al,NNP,o)-->rdobj-->(see,VB,o)-->rparataxis-->(associated,VBN,o)-->prep-->(with,IN,o)-->pobj-->(injection,NN,MP)-->prep-->(into,IN,QL)-->pobj-->(system,NN,QL)
+
+frequency:1 path:rnummod,rappos,rdobj,prep,pobj,prep,pobj pathlength:7
+
+(4.35,CD,QA)-->rnummod-->(%,NN,QA)-->rappos-->(%,NN,QA)-->rdobj-->(contained,VBD,o)-->prep-->(on,IN,QL)-->pobj-->(day,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(differentiation,NN,QL)
+
+frequency:1 path:rnummod,prep,pobj,det pathlength:4
+
+(24,CD,QA)-->rnummod-->(h,NN,QA)-->prep-->(in,IN,QL)-->pobj-->(mixture,NN,ME)-->det-->(an,DT,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,rnmod,prep pathlength:5
+
+(8000,CD,QA)-->rnummod-->(K,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(limit,NN,o)-->rnmod-->(temperature,NN,MP)-->prep-->(below,IN,QL)
+
+frequency:1 path:rnummod,acl,prep,pobj pathlength:4
+
+(20,CD,QA)-->rnummod-->(degrees,NNS,QA)-->acl-->(centered,VBN,QL)-->prep-->(on,IN,QL)-->pobj-->(implant,NN,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,racl,rpobj,rprep,nsubj pathlength:7
+
+(20,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(from,IN,o)-->rprep-->(ranging,VBG,o)-->racl-->(prevalence,NN,MP)-->rpobj-->(with,IN,o)-->rprep-->(is,VBZ,o)-->nsubj-->(tinnitus,NN,QL)
+
+frequency:1 path:rnummod,rcompound pathlength:2
+
+(54,CD,QA)-->rnummod-->(%,NN,QA)-->rcompound-->(reduction,NN,QL)
+
+frequency:1 path:rnummod,rattr,nsubj,prep,pobj,prep,pobj pathlength:7
+
+(100,CD,QA)-->rnummod-->(km,NN,QA)-->rattr-->(is,VBZ,o)-->nsubj-->(gyroradius,NN,MP)-->prep-->(at,IN,QL)-->pobj-->(location,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(signature,NN,QL)
+
+frequency:1 path:rcompound,amod pathlength:2
+
+(2,CD,QA)-->rcompound-->(m.,.,QA)-->amod-->(mean,JJ,QL)
+
+frequency:1 path:rnummod,rpobj,rmark,nsubj pathlength:4
+
+(80,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(that,IN,o)-->rmark-->(showed,VBD,QL)-->nsubj-->(analyses,NNS,QL)
+
+frequency:1 path:rnummod,rappos,rauxpass,prep,pobj pathlength:5
+
+(54,CD,QA)-->rnummod-->(N,JJ,QA)-->rappos-->(paleolatitude,NN,MP)-->rauxpass-->(Located,VBN,o)-->prep-->(during,IN,QL)-->pobj-->(PETM,NNP,QL)
+
+frequency:1 path:rnummod,rattr,nsubj pathlength:3
+
+(5,CD,QA)-->rnummod-->(s,NNS,QA)-->rattr-->(is,VBZ,o)-->nsubj-->(difference,NN,QL)
+
+frequency:1 path:rnummod,rattr,ccomp,prep pathlength:4
+
+(1.20,CD,QA)-->rnummod-->(m3,NN,QA)-->rattr-->(be,VB,o)-->ccomp-->(measured,VBN,QL)-->prep-->(at,IN,QL)
+
+frequency:1 path:rpobj,rprep,rpobj,rprep,rpobj,rprep,nsubjpass pathlength:7
+
+(65,CD,QA)-->rpobj-->(of,IN,o)-->rprep-->(age,NN,MP)-->rpobj-->(before,IN,o)-->rprep-->(symptoms,NNS,ME)-->rpobj-->(with,IN,o)-->rprep-->(associated,VBN,QL)-->nsubjpass-->(score,NN,QL)
+
+frequency:1 path:rnummod,rnsubj,rpcomp,rprep,rdobj,xcomp,amod pathlength:7
+
+(one,CD,QA)-->rnummod-->(ear,NN,ME)-->rnsubj-->(being,VBG,o)-->rpcomp-->(of,IN,o)-->rprep-->(criteria,NNS,o)-->rdobj-->(using,VBG,o)-->xcomp-->(positive,JJ,QL)-->amod-->(confocal,NN,QL)
+
+frequency:1 path:rnummod,rnpadvmod,pobj,prep,pobj pathlength:5
+
+(two,CD,QA)-->rnummod-->(days,NNS,QA)-->rnpadvmod-->(before,IN,QL)-->pobj-->(approach,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(BS1,NN,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,rdobj,prep,pobj,prep,pobj pathlength:8
+
+(0.4,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(rate,NN,ME)-->rdobj-->(keep,VB,o)-->prep-->(at,IN,o)-->pobj-->(energy,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(pulse,NN,QL)
+
+frequency:1 path:rnsubjpass,prep,pobj pathlength:3
+
+(none,NN,QA)-->rnsubjpass-->(linked,VBN,QL)-->prep-->(with,IN,QL)-->pobj-->(depression,NN,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,rpobj,rprep,rpobj,rprep,rprep pathlength:8
+
+(5,CD,QA)-->rnummod-->(min,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(rate,NN,MP)-->rpobj-->(at,IN,o)-->rprep-->(temperatures,NNS,o)-->rpobj-->(to,TO,o)-->rprep-->(up,IN,o)-->rprep-->(annealed,VBN,QL)
+
+frequency:1 path:rnsubjpass,prep,pobj,det pathlength:4
+
+(85,CD,QA)-->rnsubjpass-->(observed,VBN,QL)-->prep-->(with,IN,QL)-->pobj-->(acceleration,NN,MP)-->det-->(a,DT,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,amod,prep,pobj pathlength:6
+
+(42–48,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(by,IN,o)-->rprep-->(photosynthesis,NN,MP)-->amod-->(relative,JJ,QL)-->prep-->(to,TO,QL)-->pobj-->(controls,NNS,QL)
+
+frequency:1 path:rnsubj,prep,pobj pathlength:3
+
+(50,CD,QA)-->rnsubj-->(μm,NNS,QA)-->prep-->(in,IN,o)-->pobj-->(insets,NNS,QL)
+
+frequency:1 path:rnummod,rdobj,advcl,dobj,prep,pobj,prep,pobj pathlength:8
+
+(1,CD,QA)-->rnummod-->(kg,NN,QA)-->rdobj-->(weigh,VBP,MP)-->advcl-->(expect,VB,o)-->dobj-->(seedlings,NNS,o)-->prep-->(from,IN,o)-->pobj-->(species,NNS,o)-->prep-->(like,IN,o)-->pobj-->(rowan,NN,QL)
+
+frequency:1 path:rnummod,rcompound,rdobj pathlength:3
+
+(25,CD,QA)-->rnummod-->(%,NN,QA)-->rcompound-->(variation,NN,MP)-->rdobj-->(causes,VBZ,QL)
+
+frequency:1 path:rnummod,radvmod,prep,pobj pathlength:4
+
+(12,CD,QA)-->rnummod-->(hr,NN,QA)-->radvmod-->(inspected,VBN,MP)-->prep-->(after,IN,QL)-->pobj-->(plating,VBG,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,rpobj,rprep,dobj pathlength:6
+
+(3.95,CD,QA)-->rnummod-->(RS,FW,QA)-->rpobj-->(of,IN,o)-->rprep-->(distance,NN,MP)-->rpobj-->(at,IN,o)-->rprep-->(orbits,VBZ,QL)-->dobj-->(planet,NN,QL)
+
+frequency:1 path:rnummod,rappos,rnmod,rappos pathlength:4
+
+(200,CD,QA)-->rnummod-->(nm,NN,QA)-->rappos-->(<,IN,QA)-->rnmod-->(film,NN,ME)-->rappos-->(ZnO,NNP,QL)
+
+frequency:1 path:rpobj,rintj,xcomp,ccomp,conj,acomp,prep,pobj,prep,pobj,amod,conj pathlength:12
+
+(0.4–1.0,CD,QA)-->rpobj-->(ca,CD,QA)-->rintj-->(is,VBZ,o)-->xcomp-->(note,VB,o)-->ccomp-->(has,VBZ,o)-->conj-->(is,VBZ,o)-->acomp-->(smaller,JJR,o)-->prep-->(than,IN,o)-->pobj-->(cavity,NN,MP)-->prep-->(of,IN,o)-->pobj-->(helix,NN,ME)-->amod-->(double,JJ,QL)-->conj-->(single,JJ,QL)
+
+frequency:1 path:rpobj,rprep,prep,pobj,prep,pobj pathlength:6
+
+(48,CD,QA)-->rpobj-->(for,IN,o)-->rprep-->(Incubation,NN,MP)-->prep-->(of,IN,o)-->pobj-->(cells,NNS,ME)-->prep-->(with,IN,QL)-->pobj-->(γ,NNP,QL)
+
+frequency:1 path:prep,npadvmod pathlength:2
+
+(2.5–10,CD,QA)-->prep-->(μm,NN,QA)-->npadvmod-->(PM10,NN,QL)
+
+frequency:1 path:rnummod,rcompound,rpobj,rprep pathlength:4
+
+(75,CD,QA)-->rnummod-->(g,NN,QA)-->rcompound-->(solution,NN,ME)-->rpobj-->(of,IN,QL)-->rprep-->(postadministration,NN,QL)
+
+frequency:1 path:rnummod,rpobj,prep,pobj pathlength:4
+
+(380,CD,QA)-->rnummod-->(m,NN,QA)-->rpobj-->(to,TO,QA)-->prep-->(above,IN,QL)-->pobj-->(level,NN,QL)
+
+frequency:1 path:rnummod,rattr,nsubj,compound,amod pathlength:5
+
+(1000,CD,QA)-->rnummod-->(stems,NNS,QA)-->rattr-->(were,VBD,o)-->nsubj-->(densities,NNS,MP)-->compound-->(regeneration,NN,MP)-->amod-->(Mean,JJ,QL)
+
+frequency:1 path:rnummod,rpobj,rpunct pathlength:3
+
+(30,CD,QA)-->rnummod-->(%,NN,QA)-->rpobj-->(~,IN,QA)-->rpunct-->(decreased,VBN,QL)
+
+frequency:1 path:rnummod,rnpadvmod,racomp,prep,pobj,prep,pobj pathlength:7
+
+(40,CD,QA)-->rnummod-->(%,NN,QA)-->rnpadvmod-->(taller,JJR,MP)-->racomp-->(were,VBD,o)-->prep-->(after,IN,QL)-->pobj-->(weeks,NNS,QL)-->prep-->(in,IN,QL)-->pobj-->(greenhouse,NN,QL)
+
+frequency:1 path:rnummod,rdobj,prep,pobj,det pathlength:5
+
+(220,CD,QA)-->rnummod-->(m,NN,QA)-->rdobj-->(migrated,VBN,MP)-->prep-->(from,IN,QL)-->pobj-->(point,NN,ME)-->det-->(the,DT,QL)
+
+frequency:1 path:rnpadvmod,prep,pobj pathlength:3
+
+(5–10,CD,QA)-->rnpadvmod-->(stronger,JJR,MP)-->prep-->(than,IN,QL)-->pobj-->(flux,NN,QL)
+
+frequency:1 path:rpobj,rprep,rnsubj,prep,pobj,acl,prep,pobj,compound pathlength:9
+
+(5,CD,QA)-->rpobj-->(of,IN,o)-->rprep-->(score,NN,MP)-->rnsubj-->(led,VBD,o)-->prep-->(to,TO,o)-->pobj-->(individuals,NNS,o)-->acl-->(defined,VBN,o)-->prep-->(as,IN,o)-->pobj-->(cases,NNS,ME)-->compound-->(symptom,NN,QL)
+
+frequency:1 path:rcompound,rpobj,rprep pathlength:3
+
+(5–13,CD,QA)-->rcompound-->(%,NN,QA)-->rpobj-->(by,IN,o)-->rprep-->(declined,VBN,QL)
+
+frequency:1 path:rnummod,rnpadvmod,prep,pobj pathlength:4
+
+(Two,CD,QA)-->rnummod-->(days,NNS,QA)-->rnpadvmod-->(after,IN,QL)-->prep-->(in,IN,QL)-->pobj-->(transplantation,NN,QL)
+
+frequency:1 path:rnummod,rattr,prep,pobj pathlength:4
+
+(89,CD,QA)-->rnummod-->(%,NN,QA)-->rattr-->(were,VBD,o)-->prep-->(for,IN,o)-->pobj-->(symptoms,NNS,QL)
+
+frequency:1 path:rnummod,rattr,nsubj,appos pathlength:4
+
+(100,CD,QA)-->rnummod-->(L,NN,QA)-->rattr-->(were,VBD,o)-->nsubj-->(AB,NNP,QL)-->appos-->(As(III,NNP,QL)
+
+frequency:1 path:rnummod,rpobj,rprep,racomp,prep,prep,pobj pathlength:7
+
+(1000,CD,QA)-->rnummod-->(K,NN,QA)-->rpobj-->(by,IN,o)-->rprep-->(cooler,JJ,o)-->racomp-->(is,VBZ,o)-->prep-->(Compared,VBN,QL)-->prep-->(to,TO,QL)-->pobj-->(model,NN,QL)
+
+frequency:1 path:rnummod,rcompound,prep,pobj pathlength:4
+
+(0.6,CD,QA)-->rnummod-->(‰,NN,QA)-->rcompound-->(rise,NN,MP)-->prep-->(At,IN,QL)-->pobj-->(site,NNP,QL)
+
+frequency:1 path:rcompound,rpobj,rprep,prep,pobj pathlength:5
+
+(5–6,CD,QA)-->rcompound-->(days,NNS,QA)-->rpobj-->(for,IN,o)-->rprep-->(bodies,NNS,MP)-->prep-->(without,IN,QL)-->pobj-->(factor,NN,QL)
+
+frequency:1 path:rnummod,rcompound,rnsubj,rconj,nsubj pathlength:5
+
+(500,CD,QA)-->rnummod-->(K.,.,QA)-->rcompound-->(We,PRP,o)-->rnsubj-->(implemented,VBD,o)-->rconj-->(raises,VBZ,QL)-->nsubj-->(heating,NN,QL)
+
+frequency:1 path:rnummod,rnmod,rcompound,rpobj,rprep,rpobj,rprep,amod pathlength:8
+
+(0.5,CD,QA)-->rnummod-->(∼,CD,QA)-->rnmod-->(wt.,NN,QA)-->rcompound-->(%,NN,QA)-->rpobj-->(of,IN,o)-->rprep-->(soil,NN,ME)-->rpobj-->(in,IN,o)-->rprep-->(concentration,NN,o)-->amod-->(inferred,VBN,QL)
+
+frequency:1 path:rnpadvmod,radvmod,prep,pobj pathlength:4
+
+(1000,CD,QA)-->rnpadvmod-->(more,RBR,QL)-->radvmod-->(sensitive,JJ,QL)-->prep-->(to,TO,QL)-->pobj-->(perchlorate,NN,QL)
+
+frequency:1 path:rcompound,rpobj,rpobj,rprep,dobj pathlength:5
+
+(−100,CD,QA)-->rcompound-->(C,NNP,QA)-->rpobj-->(about,IN,QA)-->rpobj-->(at,IN,o)-->rprep-->(toughened,VBD,MP)-->dobj-->(polymer,NN,QL)
+
+frequency:1 path:rnummod,rappos,rpobj,rprep,prep,pobj pathlength:6
+
+(33,CD,QA)-->rnummod-->(m,NN,QA)-->rappos-->(part,NN,ME)-->rpobj-->(of,IN,o)-->rprep-->(model,NN,o)-->prep-->(of,IN,o)-->pobj-->(Formation,NN,QL)
+
+frequency:1 path:nmod pathlength:1
+
+(1.66–4.88,CD,QA)-->nmod-->(CI,NNP,QL)
+
+frequency:1 path:compound pathlength:1
+
+(1.11–1.62,CD,QA)-->compound-->(CI,NNP,QL)
+
+frequency:1 path:rnummod,rconj,rattr,nsubj pathlength:4
+
+(0.05,CD,QA)-->rnummod-->(points,NNS,QA)-->rconj-->(−0.43,CD,QA)-->rattr-->(is,VBZ,o)-->nsubj-->(average,NN,QL)
+
+frequency:1 path:rpobj,rprep,prep,pobj pathlength:4
+
+(H,CD,QA)-->rpobj-->(at,IN,o)-->rprep-->(blown,VBN,o)-->prep-->(In,IN,o)-->pobj-->(snapshot,NN,QL)
+
+frequency:1 path:rcompound,rcompound,rattr,nsubj,amod pathlength:5
+
+(7.83,CD,QA)-->rcompound-->(m,NN,QA)-->rcompound-->(s−1,NN,QA)-->rattr-->(is,VBZ,o)-->nsubj-->(speed,NN,MP)-->amod-->(Median,JJ,QL)
+
+frequency:1 path:rpobj,rprep,nsubj,prep,pobj pathlength:5
+
+(1.4Rp,NNP,QA)-->rpobj-->(near,IN,QA)-->rprep-->(occurs,VBZ,o)-->nsubj-->(transition,NN,MP)-->prep-->(in,IN,o)-->pobj-->(model,NN,QL)
+
+frequency:1 path:rpobj,rprep,advmod pathlength:3
+
+(2–3Rp,NN,QA)-->rpobj-->(to,TO,o)-->rprep-->(moves,VBZ,QL)-->advmod-->(higher,RBR,QL)
+
+frequency:1 path:rnummod,rattr,nsubj,prep,pobj pathlength:5
+
+(3800,CD,QA)-->rnummod-->(K,NN,QA)-->rattr-->(is,VBZ,o)-->nsubj-->(temperature,NN,MP)-->prep-->(at,IN,o)-->pobj-->(level,NN,QL)
+
+frequency:1 path:rpobj,rprep pathlength:2
+
+(3.4Rp,NN,QA)-->rpobj-->(to,TO,o)-->rprep-->(up,RB,QL)
+
+frequency:1 path:ramod,prep,pobj,prep,pobj pathlength:5
+
+(2-min,JJ,QA)-->ramod-->(interval,NN,QL)-->prep-->(at,IN,QL)-->pobj-->(centre,NN,QL)-->prep-->(of,IN,QL)-->pobj-->(spectrogram,NN,QL)
+
+frequency:1 path:rnummod,nummod pathlength:2
+
+(13,CD,QA)-->rnummod-->(kg,NNS,QA)-->nummod-->(CaCO3,RB,QL)
+
+frequency:1 path:racomp,nsubj pathlength:2
+
+(Ṁ>107kgs-1,JJ,QA)-->racomp-->(is,VBZ,o)-->nsubj-->(rate,NN,QL)
+

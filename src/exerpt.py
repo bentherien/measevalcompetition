@@ -1,10 +1,13 @@
-from src.lib.componentsExternSpacy import annotationCreation, evaluate, getSplit, getCRFSplit
-from src.lib.helpers import intersectSpan
 import json
-import src.common as common
 import math
 import os
+import networkx as nx
+
+from src.graph import Graph
+import src.common as common
 from src.model.load_util import Sample
+from src.lib.componentsExternSpacy import annotationCreation, evaluate, getSplit, getCRFSplit
+from src.lib.helpers import intersectSpan,intersectSpanSpan
 
 class Exerpt:
     """
@@ -32,7 +35,27 @@ class Exerpt:
         annotationCreation(self.doc,self.tsv)
         evaluate(self)
         getSplit(self)
-        getCRFSplit(self)
+        #getCRFSplit(self)
+
+    def initGraphs(self):
+
+        allsents = []
+        for annot in self.doc._.meAnnots.values():
+            if len(annot["sentences"]) == 1 :
+                for sent in annot["sentences"]:
+                    append = True
+                    for s in allsents:
+                        if sent.start == s.start:
+                            append = False
+                    if append:
+                        allsents.append(sent)
+
+        self.graphs = []
+        for sentence in allsents:
+            self.graphs.append(Graph(sentence))
+    
+    
+
         
     def getContext(self, count = 3):
         if self.context == False: 

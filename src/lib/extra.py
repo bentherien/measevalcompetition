@@ -47,6 +47,8 @@ def getGraphPaths(sentences, sourceSpan, targetSpan, getSrc, getTrg, reverse=Fal
 
     source = (src.text, src, src.dep_,src.i)
     target = (trg.text, trg, trg.dep_,trg.i)
+
+    
     try:
         shortestPath = nx.shortest_path(graph, source=source, target=target)
     except nx.exception.NodeNotFound:
