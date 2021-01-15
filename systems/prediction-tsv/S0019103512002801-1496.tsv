@@ -1,6 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512002801-1496	1	Quantity	53	66	T1	sixteen times	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0019103512002801-1496	1	Quantity	53	66	T1	sixteen times	"{""mods"": [""IsRange""], ""unit"": ""%""}"
 S0019103512002801-1496	1	MeasuredProperty	74	93	T2	temporal resolution	"{""HasQuantity"": ""T1""}"
 S0019103512002801-1496	1	MeasuredEntity	103	110	T3	typical	"{""HasProperty"": ""T2""}"
-S0019103512002801-1496	2	Quantity	141	147	T4	∼5.7 s	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0019103512002801-1496	2	Quantity	141	147	T4	∼5.7 s	"{""mods"": [""IsRange""], ""unit"": ""%""}"
 S0019103512002801-1496	2	MeasuredProperty	111	139	T5	rate channel time resolution	"{""HasQuantity"": ""T4""}"

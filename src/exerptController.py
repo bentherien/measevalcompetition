@@ -38,6 +38,28 @@ class ExerptController:
     def initGraphs(self):
         for x in self.data.values():
             x.initGraphs()
+
+
+    def writeDataMods(self,syspath):
+        dat = [] 
+        for x in self.data.values(): 
+            for y in x.doc._.meAnnots.values():
+                try:
+                    dat.append({"span":[z.text for z in y["Quantity"]["span"]],"type":y["Quantity"]["other"]["mods"]})
+                except KeyError: 
+                    pass
+
+        datapath = os.path.join(syspath,"data-json")
+
+        if not os.path.isdir(datapath):
+            os.mkdir(datapath)
+        else:
+            starpath = os.path.join(datapath,"*") 
+            os.system(f"rm {starpath}")
+
+
+        json.dump(dat,open(os.path.join(datapath,"mod-data.json"),"w",encoding="utf-8"),indent=4)
+
         
 
     def annotateData(self):
@@ -122,7 +144,8 @@ class ExerptController:
                                 y._.relationDoc = (y.i, "HasPropety", propID)
                                 break
                     else:
-                        print("error no mesured entity, but property",e.name, annot)
+                        pass
+                        #print("error no mesured entity, but property",e.name, annot)
 
                 elif "MeasuredEntity" in annot:
                     e.doc._.ME.append((annot["MeasuredEntity"]["span"].start,annot["MeasuredEntity"]["span"].end- 1,))
@@ -163,7 +186,8 @@ class ExerptController:
                                     y._.relationSent = (y.i - ss, "HasPropety", propID - ss)
                                     break
                         else:
-                            print("error no mesured entity, but property",e.name, annot)
+                            pass
+                            #print("error no mesured entity, but property",e.name, annot)
                     elif "MeasuredEntity" in annot:
                         sent._.ME.append((annot["MeasuredEntity"]["span"].start - ss,annot["MeasuredEntity"]["span"].end - ss - 1,))
                         sent._.qa_me_rel.append((len(sent._.QA)-1,len(sent._.ME)-1))
@@ -194,7 +218,8 @@ class ExerptController:
                             ss = sent.start
                             sent._.ME.append((annot["MeasuredEntity"]["span"].start - ss,annot["MeasuredEntity"]["span"].end - ss - 1,))
                         else:
-                            print("error no mesured entity, but property",e.name, annot)
+                            pass
+                            #print("error no mesured entity, but property",e.name, annot)
 
                     elif "MeasuredEntity" in annot:
                         sent = doc[annot["MeasuredEntity"]["span"].start].sent

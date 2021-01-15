@@ -41,6 +41,14 @@ def convert_2_tensor(seq, to_ix, dt, CUDA):
                 idxs.append(to_ix[w])
         return Var(torch.tensor(idxs, dtype=dt),CUDA)
 
+def convert_2_class_tensor(target, to_ix, dt, CUDA):
+    if to_ix == None:
+        print("error occured in convert_2_class_tensor")
+    else:
+        idxs = [0 for x in to_ix]
+        idxs[to_ix[target]] = 1
+        return Var(torch.tensor([idxs], dtype=dt),CUDA)
+
 
 def predict_class(class_score, CUDA):
     if CUDA:
@@ -89,3 +97,58 @@ def getSizeData(data):
     except KeyError:
         print(data)
     return freq
+
+
+def expand_annotations(tokens,target,tokenizer):
+    i=-1
+    new_annotations=list()
+    for token in tokens:
+        i=i+1
+
+        tokenized=tokenizer.tokenize(token)
+
+        if len(tokenized)==1:
+            new_annotations.append(target[i])
+        else:
+            new_annotations=new_annotations+len(tokenized)*[target[i]]
+
+    return new_annotations
+
+
+
+def expand_tokens(tokens,tokenizer):
+    new_tokens=list()
+    for token in tokens:
+        new_tokens=new_tokens+tokenizer.tokenize(token)
+    return new_tokens
+
+
+
+def contract_annotations(tokens,target,tokenizer):
+
+    new_annotations=list()
+
+    for token in tokens:
+        cur_list=list()
+        tokenized=tokenizer.tokenize(token)
+
+        for i in range(len(tokenized)):
+            cur_list.append(target[0])
+            target.pop(0)
+        new_annotations.append(cur_list)
+    return new_annotations
+
+
+def merge_annotations(annotations):
+
+    new_annotations=list()
+
+    for li in annotations:
+        if len(li)==1:
+            new_annotations.append(li[0])
+        else:
+            most_frq=max(set(li), key = li.count)
+            new_annotations.append(most_frq)
+
+
+    return new_annotations

@@ -4,6 +4,7 @@ import numpy as np
 
 from helpers import *
 from allennlp.modules.elmo import Elmo,batch_to_ids
+from transformers import AutoModel, AutoTokenizer, AutoConfig
 
 import torch
 import torch.nn as nn
@@ -21,6 +22,9 @@ def predict_class(class_score,CUDA):
     for seq in class_score:
         classes.append(np.argmax(seq))
     return classes
+
+def get_inv(my_map):
+    return {v: k for k, v in my_map.items()}
 
 
 
@@ -323,5 +327,187 @@ class Sequence_Tagger_GCNN(nn.Module):
 
         return all_predictions
 
+class BERT_SequenceTagger(nn.Module):
+    def __init__(self,model_name,num_labels,tag_to_ix):
+        super().__init__()
+        self.tag_to_ix = tag_to_ix
+        self.num_labels=num_labels
+        self.bert_model=AutoModel.from_pretrained(model_name)
+        config=AutoConfig.from_pretrained(model_name)
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.classifier = nn.Linear(config.hidden_size, num_labels)
 
+
+    def forward(self, input,labels):
+
+        outputs=self.bert_model(input['input_ids'].cuda())
+
+        sequence_output = outputs[0]
+
+        sequence_output = self.dropout(sequence_output)
+        logits = self.classifier(sequence_output)
+
+        loss = None
+        if labels is not None:
+            loss_fct = CrossEntropyLoss()
+            # Only keep active parts of the loss
+            if input['attention_mask'] is not None:
+                active_loss = input['attention_mask'].view(-1).cuda() == 1
+                active_logits = logits.view(-1, self.num_labels)
+                active_labels = torch.where(
+                    active_loss, labels.view(-1), torch.tensor(loss_fct.ignore_index).type_as(labels)
+                )
+                loss = loss_fct(active_logits, active_labels)
+            else:
+                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+
+
+        output = (logits,) + outputs[2:]
+        return ((loss,) + output) if loss is not None else output
+
+    def load(self,filepath):
+        """
+        Load a cached model form a file
+        """
+        temp = torch.load(filepath)
+        self.tag_to_ix = temp["tag"]
+        self.load_state_dict(temp["state_dict"])
+
+
+    def predict(self,testData,CUDA):
+        """
+        Preditions of the model on testdata
+        """
+        tokenizer = AutoTokenizer.from_pretrained('allenai/scibert_scivocab_cased')
+
+        inv_dic = get_inv(self.tag_to_ix)
+
+        with torch.no_grad():
+            all_predictions = []
+            for tokenList in testData:
+
+                input= tokenList
+                input=tokenizer(input,return_tensors="pt",is_split_into_words=True,add_special_tokens=True)
+                prediction_logits=self(input,None)
+
+
+                pred = predict_class(torch.softmax(prediction_logits[0][0],1), CUDA)
+
+                pred=pred[1:-1]
+                pred=id_to_tag(pred,inv_dic)
+
+
+                pred=contract_annotations(tokenList,pred,tokenizer)
+                pred=merge_annotations(pred)
+
+                all_predictions.append(pred)
+
+        return all_predictions
+
+
+
+
+class Modifier_Tagger(nn.Module):
+
+    def loadElmo(self):
+        options_file = os.path.join(self.sys_path,"elmo_2x4096_512_2048cnn_2xhighway_options.json")
+        
+        if self.emb == "original":
+            weight_file = os.path.join(self.sys_path,"elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5")
+        else:
+            weight_file = os.path.join(self.sys_path,"elmo_2x4096_512_2048cnn_2xhighway_weights_PubMed_only.hdf5")
+
+        self.elmo = Elmo(options_file,weight_file,1,dropout=0)
+
+
+    def __init__(self,tag_to_ix,emb_dim,d_model,emb_type,sys_path):
+        super().__init__()
+        self.emb = emb_type
+        self.sys_path = sys_path
+        self.tag_to_ix = tag_to_ix
+        self.d_model = d_model
+
+        self.loadElmo()
+
+        self.lstm = nn.LSTM(emb_dim, d_model,dropout=0,bidirectional=False)
+        # self.linear_1 = nn.Linear(d_model,2*d_model)
+        # self.linear_2 = nn.Linear(2*d_model,d_model)
+        self.linear_3 = nn.Linear(d_model,int(d_model/2))
+        # self.linear_4 = nn.Linear(int(d_model/2),int(d_model/4))
+        self.out = nn.Linear(int(d_model/2),len(tag_to_ix))
+
+
+    
+
+
+
+    def forward(self, input, CUDA):
+        #print(input)
+        x = self.elmo(Var(batch_to_ids([input]),CUDA))
+        x = x["elmo_representations"][0]
+        
+        lstm_out = self.lstm(x)
+        if lstm_out[0].shape[1] == 1:
+            lstm_finalLayer = lstm_out[0].squeeze()
+            lstm_finalLayer = lstm_finalLayer.unsqueeze(0)
+            #print("one",lstm_finalLayer.shape)
+        else:
+            lstm_finalLayer = lstm_out[0].squeeze()[-1:,]
+            #print("larger",lstm_finalLayer.shape)
+
+        # linear_out = self.linear_1(lstm_finalLayer)
+        # linear_out = self.linear_2(linear_out)
+        linear_out = self.linear_3(lstm_finalLayer)
+        # linear_out = self.linear_4(linear_out)
+        linear_out = self.out(linear_out)
+
+        #print(linear_out.shape)
+        predictions = F.softmax(linear_out, dim=1)
+
+        return linear_out, predictions
+    
+
+    def load(self,filepath):
+        """
+        Load a cached model form a file
+        """
+        temp = torch.load(filepath)
+        self.tag_to_ix = temp["tag_to_ix"]
+        self.emb = temp["emb"]
+        self.sys_path = temp["sys_path"]
+        self.load_state_dict(temp["state_dict"])
+
+    def save(self,filepath):
+        """
+        save model to a binary file
+        """
+        temp = {
+            "tag_to_ix":self.tag_to_ix,
+            "emb":self.emb,
+            "sys_path":self.sys_path,
+            "state_dict": self.state_dict()
+        }
+        torch.save(temp,filepath)
+
+
+    def predict(self,testData,CUDA):
+        """
+        Preditions of the model on testdata
+        """
+        inv_dic = get_inv(self.tag_to_ix)
+
+        with torch.no_grad():
+            all_predictions = []
+            for tokenList in testData:
+
+                input = tokenList
+
+                _,prediction = self(input, CUDA)
+                pred = predict_class(prediction, CUDA)
+
+                pred = id_to_tag(pred,inv_dic)
+
+                all_predictions.append(pred)
+
+        return all_predictions
 

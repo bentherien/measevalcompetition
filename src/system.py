@@ -4,7 +4,7 @@ import os
 import json
 import pandas as pd
 from spacy.tokens import Token
-from src.model.pytorch_util import Sequence_Tagger,Sequence_Tagger_GCNN
+from src.model.pytorch_util import Sequence_Tagger,Sequence_Tagger_GCNN, BERT_SequenceTagger, Modifier_Tagger
 from src.model.load_util import *
 from src.model.helpers import *
 from src.lib.helpers import *
@@ -43,8 +43,8 @@ class System:
         gazetteer = open(os.path.join(self.path,"gazetteers/combined_measurements.lst"),"r",encoding="utf-8").read().split("\n")
         gazetteer = {x.lower():1 for x in gazetteer}
 
-        test = load_sample(os.path.join(self.path,"data","test_allS.tsv"))
-        train = load_sample(os.path.join(self.path,"data","train_allS.tsv"))
+        test = load_samples(os.path.join(self.path,"data","test_allS.tsv"))
+        train = load_samples(os.path.join(self.path,"data","train_allS.tsv"))
         all_data = test + train
 
         pretrained_emb = None
@@ -59,7 +59,7 @@ class System:
                 if token not in word_to_ix:
                     word_to_ix[token] = len(word_to_ix)
 
-            for tag in sample.target:
+            for tag in sample.targets:
                 if tag not in tag_to_ix:
                     tag_to_ix[tag] = len(tag_to_ix)
 
@@ -67,12 +67,47 @@ class System:
                 if pos not in pos_to_ix:
                     pos_to_ix[pos] = len(pos_to_ix)
         
+        """
         if CUDA:
-            model = Sequence_Tagger_GCNN(word_to_ix,tag_to_ix,pos_to_ix,pretrained_emb,1024,1024,emb,self.path).cuda()
+            model = Sequence_Tagger(word_to_ix,tag_to_ix,pos_to_ix,pretrained_emb,1024,1024,emb,self.path).cuda()
         else:
-            model = Sequence_Tagger_GCNN(word_to_ix,tag_to_ix,pos_to_ix,pretrained_emb,1024,1024,emb,self.path)
+            model = Sequence_Tagger(word_to_ix,tag_to_ix,pos_to_ix,pretrained_emb,1024,1024,emb,self.path)
+        """
+
+        
+
+        if CUDA:
+            model = BERT_SequenceTagger( 'allenai/scibert_scivocab_cased', len(tag_to_ix),tag_to_ix).cuda()
+        else:
+            model = BERT_SequenceTagger( 'allenai/scibert_scivocab_cased', len(tag_to_ix),tag_to_ix)
+
+
+        print(model.tag_to_ix)
         
         model.load(os.path.join(self.path,self.modelname))
+
+        print(model.tag_to_ix)
+
+        
+        #load model for quant class
+        all_data = json.load(open(os.path.join(self.path,"data-json","mod-data.json"),"r",encoding="utf-8"))
+
+        all_data = [(x["span"],x["type"][0],) for x in all_data]
+
+        tag_to_ix = {}
+
+        for sample in all_data:
+            try:
+                tag_to_ix[sample[1]]
+            except KeyError:
+                tag_to_ix[sample[1]] = len(tag_to_ix)
+
+        if CUDA:
+            model_ = Modifier_Tagger(tag_to_ix,1024,1024,"pubmed",self.path).cuda()
+        else:
+            model_ = Modifier_Tagger(tag_to_ix,1024,1024,"pubmed",self.path)
+
+        model_.load(os.path.join(self.path,"modifier-pred.pt"))
 
         
 
@@ -88,33 +123,74 @@ class System:
                 test = [[x.text for x in sent] for sent in e.doc.sents]
                 predictions = model.predict(test,CUDA)
 
-                count = 0
-                inspan = False
-                currentSpan = ""
-                spanI = -1
-                lastI = -1
-                for sent in predictions:
+
+                def fillInPredictions(predictions):
+                    count = 0
                     inspan = False
+                    currentSpan = ""
                     spanI = -1
                     lastI = -1
+                    
+                    for sent in predictions:
+                        inspan = False
+                        spanI = -1
+                        lastI = -1
+                        for pred in sent:
+                            e.doc[count]._.prediction = pred
+
+                            if pred != "o" and inspan == False:
+                                inspan = True
+                                currentSpan = pred
+                                spanI = count
+                                lastI = -1
+                            elif pred == "o":
+                                continue
+                            elif pred != "o" and pred != currentSpan:
+                                if lastI != -1:
+                                        for i in range(spanI+1,lastI+1):
+                                            e.doc[i]._.prediction = currentSpan
+                                inspan = False
+                                currentSpan = ""
+                                spanI = -1
+                                lastI = -1
+
+                            elif pred == "ME" and currentSpan == "ME"  and inspan:
+                                pass
+                            elif pred == "MP" and currentSpan == "MP"  and inspan:
+                                pass
+                            elif pred == "QA" and currentSpan == "QA"  and inspan:
+                                pass
+                            elif pred == "QL" and currentSpan == "QL"  and inspan:
+                                pass
+
+                            elif pred != "o" and inspan == True and pred == currentSpan:\
+                                #extend spans for no more than 4
+                                if count - spanI  < 4:
+                                    lastI = count
+                                else:
+                                    if lastI != -1:
+                                        for i in range(spanI+1,lastI+1):
+                                            e.doc[i]._.prediction = currentSpan
+                                    lastI = -1 
+                                    spanI = count
+                            elif pred != "o" and inspan == True and pred != currentSpan:  
+                                if(spanI != -1):
+                                    if lastI != -1:
+                                        for i in range(spanI+1,lastI+1):
+                                            e.doc[i]._.prediction = currentSpan
+                                currentSpan = pred
+                                spanI = count
+                                lastI = -1
+                            count+=1
+
+                        if spanI != -1 and lastI != -1:
+                            for i in range(spanI+1,lastI+1):
+                                            e.doc[i]._.prediction = currentSpan
+                
+                count=0
+                for sent in predictions:
                     for pred in sent:
                         e.doc[count]._.prediction = pred
-
-                        if pred[:2] == "B-" and inspan == False:
-                            inspan = True
-                            currentSpan = pred[2:]
-                            spanI = count
-                            lastI = -1
-                        elif pred[:2] == "B-" and inspan == True:
-                            if(spanI != -1):
-                                for i in range(spanI+1,lastI+1):
-                                    e.doc[i]._.prediction = "I-"+currentSpan
-                            inspan = True
-                            currentSpan = pred[2:]
-                            spanI = count
-                            lastI = -1
-                        elif pred[:2] == "I-" and inspan == True and currentSpan == pred[2:]:
-                            lastI = count
                         count+=1
 
                 spans = {"ME":[],"MP":[],"QL":[],"QA":[]}
@@ -152,7 +228,7 @@ class System:
                                 spanTpe = ""
                             else:
                                 continue
-                        elif token._.prediction[2:] == "ME":
+                        elif token._.prediction == "ME":
                             if inSpan == True and spanTpe != "ME":
                                 if end == -1:
                                     spans[spanTpe].append(e.doc[start:start+1])
@@ -160,14 +236,14 @@ class System:
                                     spans[spanTpe].append(e.doc[start:end+1])
                                 start = count
                                 end = -1
-                                spanTpe = token._.prediction[2:]
+                                spanTpe = token._.prediction
                             elif inSpan == True and spanTpe == "ME":
                                 end = count
                             else:
                                 inSpan = True
                                 start = count
-                                spanTpe = token._.prediction[2:]
-                        elif token._.prediction[2:] == "MP":
+                                spanTpe = token._.prediction
+                        elif token._.prediction == "MP":
                             if inSpan == True and spanTpe != "MP":
                                 if end == -1:
                                     spans[spanTpe].append(e.doc[start:start+1])
@@ -175,14 +251,14 @@ class System:
                                     spans[spanTpe].append(e.doc[start:end+1])
                                 start = count
                                 end = -1
-                                spanTpe = token._.prediction[2:]
+                                spanTpe = token._.prediction
                             elif inSpan == True and spanTpe == "MP":
                                 end = count
                             else:
                                 inSpan = True
                                 start = count
-                                spanTpe = token._.prediction[2:]
-                        elif token._.prediction[2:] == "QA":
+                                spanTpe = token._.prediction
+                        elif token._.prediction == "QA":
                             if inSpan == True and spanTpe != "QA":
                                 if end == -1:
                                     spans[spanTpe].append(e.doc[start:start+1])
@@ -190,14 +266,14 @@ class System:
                                     spans[spanTpe].append(e.doc[start:end+1])
                                 start = count
                                 end = -1
-                                spanTpe = token._.prediction[2:]
+                                spanTpe = token._.prediction
                             elif inSpan == True and spanTpe == "QA":
                                 end = count
                             else:
                                 inSpan = True
                                 start = count
-                                spanTpe = token._.prediction[2:]
-                        elif token._.prediction[2:] == "QL":
+                                spanTpe = token._.prediction
+                        elif token._.prediction == "QL":
                             if inSpan == True and spanTpe != "QL":
                                 if end == -1:
                                     spans[spanTpe].append(e.doc[start:start+1])
@@ -205,13 +281,13 @@ class System:
                                     spans[spanTpe].append(e.doc[start:end+1])
                                 start = count
                                 end = -1
-                                spanTpe = token._.prediction[2:]
+                                spanTpe = token._.prediction
                             elif inSpan == True and spanTpe == "QL":
                                 end = count
                             else:
                                 inSpan = True
                                 start = count
-                                spanTpe = token._.prediction[2:]
+                                spanTpe = token._.prediction
                 
                 
 
@@ -248,14 +324,27 @@ class System:
                                             break
                     return groups
 
-                def getUnit(quantity,unitMatchDict):
-                    for x in list(list(data.data.values())[0].doc._.meAnnots.values())[0]["Quantity"]["span"]:
-                        try:
-                            unitMatchDict[x.text.lower()] += 1 
-                            return x.text.lower()
-                        except KeyError: 
-                            continue
-                    return None
+
+                def getOther(model,quantSpan,quantText):
+                    """
+                    Uses statistical prediction and a heuristic method to determine the class of the quantity
+                    and its unit
+                    """
+                    prediction = model.predict([x.text for x in quantSpan],CUDA)[0][0]
+                    if prediction == "IsCount":
+                        return {'mods': ['IsCount']}
+                    
+                    other = None
+                    if(quantText.strip(" ")[-1].isnumeric()):
+                        return {'mods': ['IsCount']}
+                    else: 
+                        for i in reversed(range(len(x["QA"].text))):
+                            if str(quantText[i]).isnumeric():
+                                return {'mods': [prediction], 'unit':quantText[i+1:]}
+                                
+
+                    if other == None:
+                        return {'mods': ['IsCount']}
 
 
                 mapping = {"MeasuredEntity":"ME","MeasuredProperty":"MP","Quantity":"QA","Qualifier":"QL"}
@@ -263,12 +352,7 @@ class System:
                 annotSet = 1
                 tid = 1 
                 for x in getGroupings(spans):
-                    unit = getUnit(x["QA"],gazetteer)
-                    other = None
-                    if unit == None:
-                        other = {'mods': ['IsCount']}
-                    else:
-                        other = {'mods': ['IsRange'], 'unit': unit}    
+                    other = getOther(model_,x["QA"],x["QA"].text)
 
                     row = {
                         "docId":[e.name],
@@ -280,6 +364,7 @@ class System:
                         "text":[x["QA"].text],
                         "other": [other]
                         }
+
                     if type(df) == type(None):
                         df = pd.DataFrame.from_dict(row, orient = "columns")
                     else:
@@ -357,15 +442,41 @@ class System:
                 def func(x):
                     x[7] = json.dumps(x[7])
                     return x
-                df = df.apply(lambda x : func(x),axis=1)
 
+                if type(df) != type(None):
+                    df = df.apply(lambda x : func(x),axis=1)
+                    df.to_csv(open(os.path.join(self.path, "prediction-tsv",f"{e.name}.tsv"),"w",encoding="utf-8"),sep = "\t",header=True, index = False)
 
-                df.to_csv(open(os.path.join(self.path, "prediction-tsv",f"{e.name}.tsv"),"w",encoding="utf-8"),sep = "\t",header=True, index = False)
-
-                        
+                            
         
 
 
+""" Before stuff
+e.doc[count]._.prediction = pred
 
+                        for sent in predictions:
+                    inspan = False
+                    spanI = -1
+                    lastI = -1
+                    for pred in sent:
+                        e.doc[count]._.prediction = pred
+
+                        if pred[:2] == "B-" and inspan == False:
+                            inspan = True
+                            currentSpan = pred[2:]
+                            spanI = count
+                            lastI = -1
+                        elif pred[:2] == "B-" and inspan == True:
+                            if(spanI != -1):
+                                for i in range(spanI+1,lastI+1):
+                                    e.doc[i]._.prediction = "I-"+currentSpan
+                            inspan = True
+                            currentSpan = pred[2:]
+                            spanI = count
+                            lastI = -1
+                        elif pred[:2] == "I-" and inspan == True and currentSpan == pred[2:]:
+                            lastI = count
+                        count+=1
+"""
 
         

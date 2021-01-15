@@ -7,25 +7,165 @@ import pprint
 import numpy as np
 
 from helpers import *
-from load_util import load_sample,load_sample_dep
+from load_util import load_samples
 from tqdm import tqdm
 from math import floor
 from sklearn_crfsuite.metrics import flat_classification_report
+from sklearn.metrics import classification_report
 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from pytorch_util import Embedding, LSTMTagger, Sequence_Tagger, Sequence_Tagger_GCNN
+from pytorch_util import Embedding, LSTMTagger, Sequence_Tagger, Sequence_Tagger_GCNN, Modifier_Tagger
 from torch import optim
 CUDA = True
 
+
 def run_train(args):
+    if args.type == "modifier":
+        run_train_modifier(args)
+    else:
+        run_train_token(args)
+
+def run_train_modifier(args):
     global CUDA
 
     print(args)
 
-    test = load_sample_dep(os.path.join(args.sys_path,"data","test_"+args.data+".tsv"))
-    train = load_sample_dep(os.path.join(args.sys_path,"data","train_"+args.data+".tsv"))
+    all_data = json.load(open(os.path.join(args.sys_path,"data-json","mod-data.json"),"r",encoding="utf-8"))
+
+    all_data = [(x["span"],x["type"][0],) for x in all_data]
+
+    split = floor(len(all_data)/8)
+    test = all_data[:split]
+    train = all_data[split:]
+
+    tag_to_ix = {}
+
+    for sample in all_data:
+        try:
+            tag_to_ix[sample[1]]
+        except KeyError:
+            tag_to_ix[sample[1]] = len(tag_to_ix)
+
+
+    pretrained_emb=None
+
+    if CUDA:
+        model = Modifier_Tagger(tag_to_ix,1024,1024,args.embeddings,args.sys_path).cuda()
+    else:
+        model = Modifier_Tagger(tag_to_ix,1024,1024,args.embeddings,args.sys_path)
+
+
+    loss_function = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
+
+    accum = []
+
+    def check_test(test,epoch,avgLoss,fold,silent=True): 
+        global CUDA
+        nonlocal model 
+        nonlocal accum
+        nonlocal args
+
+
+        with torch.no_grad():
+            all_predictions = []
+            all_gold = []
+            for sample in test:
+                all_predictions.append(model.predict([sample[0]],CUDA)[0][0])
+                all_gold.append(sample[1])
+            print(len(all_predictions))
+            print(all_predictions)
+            
+            print(len(all_gold))
+            print(all_gold)
+
+            print(classification_report(all_gold,all_predictions))
+            
+            """
+            temp = latex.getSummary(
+                epoch=epoch,
+                fold=args.fold,
+                embeddingType=model.emb,
+                learningRate=args.learning_rate,
+                report = flat_classification_report(all_gold,all_predictions),
+                title = args.run_title)
+
+
+            if not silent:
+                pp = pprint.PrettyPrinter(indent = 4)
+                pp.pprint(temp)
+
+            accum += temp
+            """
+
+    model.load(os.path.join(os.path.join(args.sys_path,f"{args.model_name}.pt")))
+    check_test(test,epoch=1,avgLoss=0,fold=args.fold,silent=False)
+    exit(0)
+
+    for epoch in range(args.epoch_num):
+
+
+        all_loss = list()
+
+        print('Epoch: ' + str(epoch + 1))
+
+        for i in tqdm(range(len(train))):
+            model.zero_grad()
+
+            target = train[i][1]
+            target = convert_2_tensor([target], tag_to_ix, torch.long, CUDA)
+            #target = torch.unsqueeze(target,0)
+
+
+            input = train[i][0]
+            out, pred = model(input, CUDA)
+            #print(out.shape)
+            #print(target.shape)
+
+            loss = loss_function(out, target)
+            loss.backward(retain_graph = True)
+            optimizer.step()
+
+            all_loss.append(loss.cpu().detach().numpy())
+
+        if epoch % 1 != 0:
+            optimizer.lr = optimizer.lr/2
+
+
+
+        print('\n')
+        print('Average loss: ' + str(np.mean(all_loss)))
+
+        check_test(test,epoch=(epoch+1),avgLoss=np.mean(all_loss),fold=args.fold,silent=False)
+
+    savePath = os.path.join(args.sys_path,f"{args.model_name}.pt")
+    model.save(savePath)
+
+    
+    
+
+    if not os.path.isfile("run_logs.json"):
+        json.dump([accum],open("run_logs.json","w",encoding="utf-8"),indent=3)
+    else:
+        try:
+            read = json.load(open("run_logs.json","r",encoding="utf-8"))
+            read.append(accum)
+            json.dump(read,open("run_logs.json","w",encoding="utf-8"),indent=3)
+        except json.decoder.JSONDecodeError:
+            json.dump(accum,open("run_logs.json","w",encoding="utf-8"),indent=3)
+
+
+    exit(0)
+
+def run_train_token(args):
+    global CUDA
+
+    print(args)
+
+    test = load_samples(os.path.join(args.sys_path,"data","test_"+args.data+".tsv"))
+    train = load_samples(os.path.join(args.sys_path,"data","train_"+args.data+".tsv"))
     all_data = test + train
 
     word_to_ix = {}
@@ -260,6 +400,7 @@ def main():
     subparser.add_argument("--learning-rate", "-l", type=float, default= 0.00042)
     subparser.add_argument("--embeddings", "-emb", type=str, default="original")
     subparser.add_argument("--run-title", "-rt", type=str, default="original")
+    subparser.add_argument("--type", "-t", default="modifier")
 
     subparser = subparsers.add_parser("test")
     subparser.set_defaults(callback=run_test)

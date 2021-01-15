@@ -1,7 +1,7 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0016236113008041-913	1	Quantity	96	124	T1	0 ppm, 1000 ppm and 2000 ppm	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0016236113008041-913	1	Quantity	96	124	T1	0 ppm, 1000 ppm and 2000 ppm	"{""mods"": [""IsRange""], ""unit"": ""%""}"
 S0016236113008041-913	1	MeasuredProperty	78	92	T2	concentrations	"{""HasQuantity"": ""T1""}"
 S0016236113008041-913	1	MeasuredEntity	74	77	T3	SO2	"{""HasProperty"": ""T2""}"
 S0016236113008041-913	1	Qualifier	153	158	T4	CaCO3	"{""Qualifies"": ""T1""}"
-S0016236113008041-913	2	Quantity	147	152	T5	13 kg	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0016236113008041-913	2	Quantity	147	152	T5	13 kg	"{""mods"": [""IsRange""], ""unit"": ""%""}"
 S0016236113008041-913	2	MeasuredEntity	130	143	T6	bed inventory	"{""HasQuantity"": ""T5""}"

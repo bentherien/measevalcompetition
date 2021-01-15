@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-1969	1	Quantity	153	158	T1	10 μM	"{""mods"": [""IsList""], ""unit"": "" \u03bcM""}"
+S0021979713004438-1969	1	MeasuredEntity	165	173	T2	solution	"{""HasQuantity"": ""T1""}"
+S0021979713004438-1969	1	Qualifier	159	164	T3	FeCl3	"{""Qualifies"": ""T1""}"
+S0021979713004438-1969	2	Quantity	354	357	T4	10%	"{""mods"": [""IsList""], ""unit"": ""%""}"
+S0021979713004438-1969	2	MeasuredProperty	335	338	T5	pre	"{""HasQuantity"": ""T4""}"
+S0021979713004438-1969	2	MeasuredEntity	318	330	T6	iron surface	"{""HasProperty"": ""T5""}"
+S0021979713004438-1969	3	Quantity	454	461	T7	3.91 nm	"{""mods"": [""IsCount""]}"
+S0021979713004438-1969	3	MeasuredProperty	442	450	T8	Rq value	"{""HasQuantity"": ""T7""}"
+S0021979713004438-1969	3	MeasuredEntity	485	497	T9	scanned area	"{""HasProperty"": ""T8""}"
+S0021979713004438-1969	4	Quantity	469	484	T10	500 nm × 500 nm	"{""mods"": [""IsList""], ""unit"": "" nm""}"
+S0021979713004438-1969	4	MeasuredProperty	339	350	T11	conditioned	"{""HasQuantity"": ""T10""}"
+S0021979713004438-1969	4	MeasuredEntity	358	362	T12	NaOH	"{""HasProperty"": ""T11""}"

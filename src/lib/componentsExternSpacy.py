@@ -123,7 +123,7 @@ def annotationCreation(doc,tsv):
         else:
             print("ERROR tempstart greater than temp end")
 
-        if error:
+        if error and False:
             print("FindOffset method has created a key error ")
             print("Annotation Type: {}".format(row["annotType"]))
             print("Text + 10 on each side: \"{}\"".format(doc.text[max(0,row["startOffset"]-10):min(len(doc.text),row["endOffset"]+10)]))

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-4971	1	Quantity	242	255	T1	less than 6 K	"{""mods"": [""IsRange""], ""unit"": "" K""}"
+S0019103512003533-4971	1	MeasuredProperty	203	213	T2	variations	"{""HasQuantity"": ""T1""}"
+S0019103512003533-4971	1	MeasuredEntity	217	235	T3	polar temperatures	"{""HasProperty"": ""T2""}"
+S0019103512003533-4971	1	Qualifier	197	202	T4	daily	"{""Qualifies"": ""T1""}"

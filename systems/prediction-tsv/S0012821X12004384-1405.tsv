@@ -1,6 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0012821X12004384-1405	1	Quantity	615	628	T1	fewer than 20	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0012821X12004384-1405	1	Quantity	615	628	T1	fewer than 20	"{""mods"": [""IsRange""], ""unit"": ""%""}"
 S0012821X12004384-1405	1	MeasuredEntity	602	609	T2	Samples	"{""HasQuantity"": ""T1""}"
-S0012821X12004384-1405	2	Quantity	762	784	T3	ranging from 0% to 80%	"{""mods"": [""IsRange""], ""unit"": ""K""}"
+S0012821X12004384-1405	2	Quantity	762	784	T3	ranging from 0% to 80%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
 S0012821X12004384-1405	2	MeasuredProperty	703	718	T4	large variation	"{""HasQuantity"": ""T3""}"
 S0012821X12004384-1405	2	MeasuredEntity	629	638	T5	specimens	"{""HasProperty"": ""T4""}"

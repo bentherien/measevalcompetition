@@ -166,13 +166,7 @@ def setupNLP():
     common.nlp.tokenizer.infix_finditer = infix_regex.finditer
 
     prefixes =common.nlp.Defaults.prefixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',)
-    import pprint
-    pp = pprint.PrettyPrinter(indent=4)
-    for x in prefixes: 
-        print(len(x))
-        print(type(x))
-        pp.pprint(x)
-        print()
+   
     #prefixes = common.nlp.Defaults.prefixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',r'''[''',)
     prefix_regex = spacy.util.compile_prefix_regex(prefixes)
     common.nlp.tokenizer.prefix_search = prefix_regex.search

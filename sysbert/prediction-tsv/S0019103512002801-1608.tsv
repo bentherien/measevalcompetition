@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1608	1	Quantity	84	98	T1	about 5 km s−1	"{""mods"": [""IsCount""]}"
+S0019103512002801-1608	1	MeasuredProperty	57	80	T2	outward radial velocity	"{""HasQuantity"": ""T1""}"
+S0019103512002801-1608	1	MeasuredEntity	23	27	T3	time	"{""HasProperty"": ""T2""}"
+S0019103512002801-1608	2	Quantity	258	264	T4	factor	"{""mods"": [""IsCount""]}"
+S0019103512002801-1608	2	MeasuredProperty	231	252	T5	radial velocity value	"{""HasQuantity"": ""T4""}"
+S0019103512002801-1608	2	MeasuredEntity	222	230	T6	inferred	"{""HasProperty"": ""T5""}"
+S0019103512002801-1608	2	Qualifier	272	277	T7	lower	"{""Qualifies"": ""T4""}"
+S0019103512002801-1608	3	Quantity	268	271	T8	two	"{""mods"": [""IsCount""]}"
+S0019103512002801-1608	3	MeasuredEntity	38	44	T9	effect	"{""HasQuantity"": ""T8""}"
