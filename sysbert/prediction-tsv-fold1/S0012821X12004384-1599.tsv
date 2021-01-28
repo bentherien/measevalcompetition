@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1599	1	Quantity	76	88	T1	from 103 yrs	"{""mods"": [""IsRange""], ""unit"": ""yrs""}"
+S0012821X12004384-1599	1	MeasuredProperty	58	75	T2	became stratified	"{""HasQuantity"": ""T1""}"
+S0012821X12004384-1599	1	MeasuredEntity	48	57	T3	North Sea	"{""HasProperty"": ""T2""}"
+S0012821X12004384-1599	1	Qualifier	89	109	T4	before the CIE onset	"{""Qualifies"": ""T1""}"
+S0012821X12004384-1599	2	Quantity	111	123	T5	above 2618 m	"{""unit"": ""m""}"

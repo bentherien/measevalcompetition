@@ -16,7 +16,7 @@ class Graph:
         me, mp, ql, qa
         """
         annotIdList = node[1]._.other["annotID"]
-        print(annotIdList)
+        #print(annotIdList)
         annotType = node[1]._.all
         for annotId in annotIdList:
             try:
@@ -191,6 +191,20 @@ class Graph:
                 self.drawToFile(graph=g,edgeDict=e,dist=distance,filename='')
 
         return paths, nodePaths
+
+    def getNode(self,token):
+        return (token.text,token,token.dep_,token.i,)
+
+    def getShortestPath(self,source,target):
+        sp = nx.shortest_path(self.graph, source=source, target=target)
+        edgePath = [(sp[i],sp[i+1],) for i in range(0,len(sp)-1)]
+        return [self.edges[x] for x in edgePath]
+
+    def getShortestPathToken(self,source,target):
+        sp = nx.shortest_path(self.graph, source=source, target=target)
+        edgePath = [(sp[i],sp[i+1],) for i in range(0,len(sp)-1)]
+        e = ["start"] + [self.edges[x] for x in edgePath]
+        return [(e[i],sp[i][0]) for i in range(len(e))]
 
 
     def getPathVisualization(self, nodePath):

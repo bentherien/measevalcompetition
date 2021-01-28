@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-1751	1	Quantity	161	168	T1	1 m s−1	{}
+S0167610513001001-1751	1	MeasuredEntity	131	135	T2	data	"{""HasQuantity"": ""T1""}"
+S0167610513001001-1751	2	Quantity	355	378	T3	between 0 and 0.5 m s−1	{}
+S0167610513001001-1751	2	MeasuredProperty	322	340	T4	overestimating the	"{""HasQuantity"": ""T3""}"
+S0167610513001001-1751	2	MeasuredEntity	270	281	T5	instruments	"{""HasProperty"": ""T4""}"
+S0167610513001001-1751	3	Quantity	395	416	T6	greater than 20 m s−1	{}
+S0167610513001001-1751	3	MeasuredProperty	388	394	T7	speeds	"{""HasQuantity"": ""T6""}"
+S0167610513001001-1751	3	MeasuredEntity	383	387	T8	wind	"{""HasProperty"": ""T7""}"

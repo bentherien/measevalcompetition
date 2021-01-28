@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3348	1	Quantity	326	336	T1	2° and 10°	"{""unit"": ""\u00b0""}"
+S0019103512003533-3348	1	MeasuredProperty	297	308	T2	in latitude	"{""HasQuantity"": ""T1""}"
+S0019103512003533-3348	1	MeasuredEntity	252	263	T3	simulations	"{""HasProperty"": ""T2""}"
+S0019103512003533-3348	2	Quantity	381	398	T4	0.4 scale heights	"{""mods"": [""IsRange""], ""unit"": ""scale heights""}"
+S0019103512003533-3348	2	MeasuredProperty	313	322	T5	longitude	"{""HasQuantity"": ""T4""}"
+S0019103512003533-3348	2	MeasuredEntity	289	296	T6	spacing	"{""HasProperty"": ""T5""}"
+S0019103512003533-3348	3	Quantity	430	433	T7	5 s	"{""unit"": ""s""}"
+S0019103512003533-3348	3	MeasuredEntity	404	425	T8	time integration step	"{""HasQuantity"": ""T7""}"
+S0019103512003533-3348	4	Quantity	458	478	T9	500 Saturn rotations	"{""unit"": ""Saturn rotations""}"
+S0019103512003533-3348	4	MeasuredEntity	358	377	T10	vertical resolution	"{""HasQuantity"": ""T9""}"

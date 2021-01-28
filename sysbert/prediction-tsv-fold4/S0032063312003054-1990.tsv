@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-1990	1	Quantity	122	128	T1	12 min	"{""unit"": ""min""}"
+S0032063312003054-1990	1	MeasuredProperty	82	95	T2	time interval	"{""HasQuantity"": ""T1""}"
+S0032063312003054-1990	1	MeasuredEntity	103	118	T3	ELS spectrogram	"{""HasProperty"": ""T2""}"
+S0032063312003054-1990	1	Qualifier	193	225	T4	at the centre of the spectrogram	"{""Qualifies"": ""T1""}"
+S0032063312003054-1990	2	Quantity	178	183	T5	2-min	"{""unit"": ""-min""}"
+S0032063312003054-1990	2	MeasuredProperty	184	192	T6	interval	"{""HasQuantity"": ""T5""}"
+S0032063312003054-1990	2	MeasuredEntity	149	160	T7	inverted-V”	"{""HasProperty"": ""T6""}"
+S0032063312003054-1990	3	Quantity	332	352	T8	approximately 60 eV.	"{""unit"": ""eV.""}"
+S0032063312003054-1990	3	MeasuredEntity	235	241	T9	energy	"{""HasQuantity"": ""T8""}"

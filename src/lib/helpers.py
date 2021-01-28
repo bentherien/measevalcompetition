@@ -32,10 +32,12 @@ def findOffset(offset, text):
         elif(text[offset] == " "):
             return offset + 1
         else:
+            """
             print("error, unhandled case in findOffset()")
             print("offset", offset)
             print("offset", text[offset])
             print("offset +-10:", text[max(0, offset-10):min(len(text),offset+10)])
+            """
             return offset
     except IndexError: 
         return offset

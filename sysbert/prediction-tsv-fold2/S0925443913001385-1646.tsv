@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1646	1	Quantity	277	283	T1	10–30%	"{""mods"": [""IsList""], ""unit"": ""%""}"
+S0925443913001385-1646	1	MeasuredProperty	231	243	T2	fractionated	"{""HasQuantity"": ""T1""}"
+S0925443913001385-1646	1	MeasuredEntity	156	177	T3	mitochondrial lysates	"{""HasProperty"": ""T2""}"
+S0925443913001385-1646	2	Quantity	1438	1441	T4	63%	"{""unit"": ""%""}"
+S0925443913001385-1646	2	MeasuredProperty	1391	1397	T5	levels	"{""HasQuantity"": ""T4""}"
+S0925443913001385-1646	2	MeasuredEntity	1405	1419	T6	subject sample	"{""HasProperty"": ""T5""}"
+S0925443913001385-1646	2	Qualifier	1425	1434	T7	decreased	"{""Qualifies"": ""T4""}"

@@ -146,6 +146,8 @@ def merge_annotations(annotations):
     for li in annotations:
         if len(li)==1:
             new_annotations.append(li[0])
+        elif len(li) == 0:
+            new_annotations.append('o')
         else:
             most_frq=max(set(li), key = li.count)
             new_annotations.append(most_frq)

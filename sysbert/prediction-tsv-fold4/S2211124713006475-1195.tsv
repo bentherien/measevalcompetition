@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-1195	1	Quantity	285	290	T1	10–12	"{""mods"": [""IsRange""], ""unit"": """"}"
+S2211124713006475-1195	1	MeasuredProperty	275	284	T2	H&H stage	"{""HasQuantity"": ""T1""}"
+S2211124713006475-1195	2	Quantity	429	437	T3	Two days	{}
+S2211124713006475-1195	2	Qualifier	438	466	T4	after in ovo transplantation	"{""Qualifies"": ""T3""}"
+S2211124713006475-1195	3	Quantity	812	818	T5	2 days	"{""mods"": [""IsCount""]}"
+S2211124713006475-1195	3	MeasuredProperty	796	811	T6	fiber outgrowth	"{""HasQuantity"": ""T5""}"
+S2211124713006475-1195	3	MeasuredEntity	788	795	T7	in vivo	"{""HasProperty"": ""T6""}"
+S2211124713006475-1195	3	Qualifier	819	840	T8	after transplantation	"{""Qualifies"": ""T5""}"

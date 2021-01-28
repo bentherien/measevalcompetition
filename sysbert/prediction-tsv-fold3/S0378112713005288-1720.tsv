@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1720	1	Quantity	334	336	T1	15	{}
+S0378112713005288-1720	1	MeasuredProperty	351	360	T2	altitudes	"{""HasQuantity"": ""T1""}"
+S0378112713005288-1720	1	MeasuredEntity	337	349	T3	upland sites	"{""HasProperty"": ""T2""}"
+S0378112713005288-1720	1	Qualifier	389	394	T4	above	"{""Qualifies"": ""T1""}"
+S0378112713005288-1720	2	Quantity	369	388	T5	from 120 m to 380 m	"{""unit"": ""m""}"
+S0378112713005288-1720	2	MeasuredProperty	395	404	T6	sea level	"{""HasQuantity"": ""T5""}"
+S0378112713005288-1720	3	Quantity	669	695	T7	greater than 1000 stems/ha	"{""unit"": ""stems/ha""}"
+S0378112713005288-1720	3	MeasuredEntity	585	612	T8	Mean regeneration densities	"{""HasQuantity"": ""T7""}"
+S0378112713005288-1720	4	Quantity	799	801	T9	10	{}
+S0378112713005288-1720	4	MeasuredEntity	802	827	T10	native woody tree species	"{""HasQuantity"": ""T9""}"

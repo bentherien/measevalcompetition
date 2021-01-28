@@ -1,0 +1,18 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3171	1	Quantity	283	289	T1	4.5 kg	"{""mods"": [""IsRange""], ""unit"": ""kg""}"
+S0016236113008041-3171	1	MeasuredEntity	189	198	T2	Cu and Sn	"{""HasQuantity"": ""T1""}"
+S0016236113008041-3171	2	Quantity	325	327	T3	22	{}
+S0016236113008041-3171	2	MeasuredEntity	254	259	T4	blank	"{""HasQuantity"": ""T3""}"
+S0016236113008041-3171	3	Quantity	332	340	T5	0.22 ppm	"{""mods"": [""IsList""], ""unit"": ""ppm""}"
+S0016236113008041-3171	3	MeasuredEntity	266	279	T6	bed inventory	"{""HasQuantity"": ""T5""}"
+S0016236113008041-3171	4	Quantity	358	363	T7	13 kg	"{""unit"": ""kg""}"
+S0016236113008041-3171	5	Quantity	493	499	T8	<1 ppm	"{""unit"": ""ppm""}"
+S0016236113008041-3171	5	MeasuredEntity	445	465	T9	increasing inventory	"{""HasQuantity"": ""T8""}"
+S0016236113008041-3171	6	Quantity	626	642	T10	6 kg over 4.5 kg	"{""unit"": ""kg""}"
+S0016236113008041-3171	6	MeasuredProperty	596	604	T11	increase	"{""HasQuantity"": ""T10""}"
+S0016236113008041-3171	6	MeasuredEntity	540	558	T12	remaining elements	"{""HasProperty"": ""T11""}"
+S0016236113008041-3171	6	Qualifier	655	663	T13	decrease	"{""Qualifies"": ""T10""}"
+S0016236113008041-3171	7	Quantity	669	682	T14	6 kg to 13 kg	"{""unit"": ""kg""}"
+S0016236113008041-3171	7	MeasuredProperty	608	621	T15	concentration	"{""HasQuantity"": ""T14""}"
+S0016236113008041-3171	8	Quantity	731	739	T16	<0.1 ppm	"{""unit"": ""ppm""}"
+S0016236113008041-3171	8	MeasuredEntity	688	725	T17	minor element flue gas concentrations	"{""HasQuantity"": ""T16""}"

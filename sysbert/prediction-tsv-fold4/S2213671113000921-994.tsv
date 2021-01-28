@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000921-994	1	Quantity	369	371	T1	36	{}
+S2213671113000921-994	1	MeasuredProperty	537	545	T2	the SOX2	"{""HasQuantity"": ""T1""}"
+S2213671113000921-994	1	MeasuredEntity	372	378	T3	clones	"{""HasProperty"": ""T2""}"
+S2213671113000921-994	2	Quantity	484	491	T4	26 (72%	"{""unit"": ""%""}"
+S2213671113000921-994	2	MeasuredProperty	498	533	T5	found to carry the GFP-Neo cassette	"{""HasQuantity"": ""T4""}"
+S2213671113000921-994	2	MeasuredEntity	476	482	T6	clones	"{""HasProperty"": ""T5""}"
+S2213671113000921-994	3	Quantity	1470	1491	T7	more than 20 passages	"{""unit"": ""passages""}"
+S2213671113000921-994	3	MeasuredEntity	1443	1451	T8	hSOX2-23	"{""HasQuantity"": ""T7""}"
+S2213671113000921-994	4	Quantity	1550	1554	T9	100%	"{""unit"": ""%""}"
+S2213671113000921-994	4	MeasuredProperty	1569	1591	T10	expressed SOX2 protein	"{""HasQuantity"": ""T9""}"
+S2213671113000921-994	4	MeasuredEntity	1558	1568	T11	GFP+ cells	"{""HasProperty"": ""T10""}"

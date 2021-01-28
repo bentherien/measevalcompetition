@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-2148	1	Quantity	132	137	T1	10 μM	"{""unit"": ""\u03bcM""}"
+S0021979713004438-2148	1	MeasuredEntity	138	152	T2	FeCl3 solution	"{""HasQuantity"": ""T1""}"
+S0021979713004438-2148	2	Quantity	193	199	T3	15 min	"{""unit"": ""min""}"
+S0021979713004438-2148	2	MeasuredEntity	200	215	T4	Mefp-1 spectrum	"{""HasQuantity"": ""T3""}"
+S0021979713004438-2148	3	Quantity	888	892	T5	1540	{}
+S0021979713004438-2148	3	MeasuredEntity	893	902	T6	cm−1 peak	"{""HasQuantity"": ""T5""}"
+S0021979713004438-2148	4	Quantity	952	975	T7	1550 cm−1 and 1536 cm−1	{}
+S0021979713004438-2148	4	MeasuredEntity	934	948	T8	separate peaks	"{""HasQuantity"": ""T7""}"
+S0021979713004438-2148	5	Quantity	1049	1058	T9	1540 cm−1	{}
+S0021979713004438-2148	6	Quantity	1460	1469	T10	1485 cm−1	{}
+S0021979713004438-2148	7	Quantity	1474	1483	T11	1260 cm−1	{}
+S0021979713004438-2148	8	Quantity	1827	1836	T12	1423 cm−1	{}
+S0021979713004438-2148	8	MeasuredEntity	1815	1823	T13	shoulder	"{""HasQuantity"": ""T12""}"

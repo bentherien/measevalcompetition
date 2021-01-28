@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1221	1	Quantity	308	311	T1	10%	"{""unit"": ""%""}"
+S0006322312001096-1221	1	MeasuredEntity	254	267	T2	adjusted odds	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1221	2	Quantity	438	441	T3	90%	"{""unit"": ""%""}"
+S0006322312001096-1221	2	MeasuredProperty	442	447	T4	power	"{""HasQuantity"": ""T3""}"
+S0006322312001096-1221	2	MeasuredEntity	368	376	T5	analysis	"{""HasProperty"": ""T4""}"
+S0006322312001096-1221	2	Qualifier	512	523	T6	increase in	"{""Qualifies"": ""T3""}"
+S0006322312001096-1221	3	Quantity	475	478	T7	.05	{}
+S0006322312001096-1221	3	MeasuredProperty	466	471	T8	level	"{""HasQuantity"": ""T7""}"
+S0006322312001096-1221	3	MeasuredEntity	380	392	T9	GHQ symptoms	"{""HasProperty"": ""T8""}"
+S0006322312001096-1221	4	Quantity	497	501	T10	1.14	{}
+S0006322312001096-1221	4	MeasuredProperty	483	493	T11	odds ratio	"{""HasQuantity"": ""T10""}"
+S0006322312001096-1221	4	MeasuredEntity	398	404	T12	sample	"{""HasProperty"": ""T11""}"
+S0006322312001096-1221	5	Quantity	508	511	T13	10%	"{""unit"": ""%""}"
+S0006322312001096-1221	5	MeasuredEntity	453	465	T14	significance	"{""HasQuantity"": ""T13""}"
+S0006322312001096-1221	6	Quantity	662	666	T15	1.40	"{""mods"": [""IsList""], ""unit"": """"}"
+S0006322312001096-1221	6	MeasuredProperty	645	656	T16	odds ratios	"{""HasQuantity"": ""T15""}"
+S0006322312001096-1221	6	MeasuredEntity	559	578	T17	depressive symptoms	"{""HasProperty"": ""T16""}"
+S0006322312001096-1221	6	Qualifier	594	595	T18	D	"{""Qualifies"": ""T15""}"
+S0006322312001096-1221	7	Quantity	671	675	T19	1.24	{}
+S0006322312001096-1221	7	MeasuredEntity	528	553	T20	Framingham CVD risk score	"{""HasQuantity"": ""T19""}"

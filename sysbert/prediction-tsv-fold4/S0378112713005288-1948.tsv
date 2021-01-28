@@ -1,0 +1,18 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1948	1	Quantity	242	245	T1	8.9	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0378112713005288-1948	1	MeasuredProperty	254	255	T2	p	"{""HasQuantity"": ""T1""}"
+S0378112713005288-1948	1	MeasuredEntity	237	240	T3	F(3	"{""HasProperty"": ""T2""}"
+S0378112713005288-1948	2	Quantity	249	252	T4	4.1	{}
+S0378112713005288-1948	3	Quantity	258	262	T5	0.03	{}
+S0378112713005288-1948	3	MeasuredEntity	344	348	T6	site	"{""HasQuantity"": ""T5""}"
+S0378112713005288-1948	4	Quantity	265	268	T7	20%	"{""unit"": ""%""}"
+S0378112713005288-1948	4	MeasuredProperty	305	321	T8	due to variation	"{""HasQuantity"": ""T7""}"
+S0378112713005288-1948	4	MeasuredEntity	282	300	T9	observed variation	"{""HasProperty"": ""T8""}"
+S0378112713005288-1948	4	Qualifier	322	329	T10	between	"{""Qualifies"": ""T7""}"
+S0378112713005288-1948	5	Quantity	483	489	T11	< 0.01	{}
+S0378112713005288-1948	5	MeasuredProperty	481	482	T12	p	"{""HasQuantity"": ""T11""}"
+S0378112713005288-1948	5	Qualifier	454	479	T13	unplanted upland moorland	"{""Qualifies"": ""T11""}"
+S0378112713005288-1948	6	Quantity	758	762	T14	3.95	"{""mods"": [""IsCount""]}"
+S0378112713005288-1948	6	MeasuredEntity	719	730	T15	brown earth	"{""HasQuantity"": ""T14""}"
+S0378112713005288-1948	7	Quantity	766	770	T16	1.75	"{""mods"": [""IsCount""]}"
+S0378112713005288-1948	7	MeasuredEntity	735	751	T17	peaty gley soils	"{""HasQuantity"": ""T16""}"

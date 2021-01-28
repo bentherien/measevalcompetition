@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4007	1	Quantity	632	637	T1	1–5Rp	"{""unit"": ""Rp""}"
+S0019103512004009-4007	2	Quantity	776	779	T2	93%	"{""unit"": ""%""}"
+S0019103512004009-4007	2	MeasuredProperty	731	772	T3	constant photoelectron heating efficiency	"{""HasQuantity"": ""T2""}"
+S0019103512004009-4007	2	MeasuredEntity	939	941	T4	xe	"{""HasProperty"": ""T3""}"
+S0019103512004009-4007	3	Quantity	894	899	T5	50 eV	"{""unit"": ""eV""}"
+S0019103512004009-4007	3	MeasuredEntity	900	907	T6	photons	"{""HasQuantity"": ""T5""}"
+S0019103512004009-4007	4	Quantity	944	947	T7	0.1	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0019103512004009-4007	4	MeasuredEntity	914	935	T8	electron mixing ratio	"{""HasQuantity"": ""T7""}"

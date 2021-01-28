@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4775	1	Quantity	188	191	T1	two	{}
+S0168945213001805-4775	1	MeasuredEntity	192	202	T2	endogenous	"{""HasQuantity"": ""T1""}"
+S0168945213001805-4775	2	Quantity	536	539	T3	two	{}
+S0168945213001805-4775	2	MeasuredProperty	598	607	T4	withstand	"{""HasQuantity"": ""T3""}"
+S0168945213001805-4775	2	MeasuredEntity	540	554	T5	CBF/DREB genes	"{""HasProperty"": ""T4""}"
+S0168945213001805-4775	3	Quantity	628	642	T6	down to −18 °C	"{""unit"": ""\u00b0C""}"
+S0168945213001805-4775	3	MeasuredProperty	615	627	T7	temperatures	"{""HasQuantity"": ""T6""}"
+S0168945213001805-4775	3	MeasuredEntity	560	577	T8	Eucalyptus gunnii	"{""HasProperty"": ""T7""}"
+S0168945213001805-4775	4	Quantity	905	910	T9	−8 °C	"{""mods"": [""IsRange""], ""unit"": ""\u00b0C""}"
+S0168945213001805-4775	4	MeasuredEntity	608	614	T10	winter	"{""HasQuantity"": ""T9""}"

@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-907	1	Quantity	55	60	T1	50 μm	"{""unit"": ""\u03bcm""}"
+S2213671113001306-907	1	MeasuredProperty	50	53	T2	bar	"{""HasQuantity"": ""T1""}"
+S2213671113001306-907	1	MeasuredEntity	4	22	T3	Fetal hRPE stained	"{""HasProperty"": ""T2""}"
+S2213671113001306-907	2	Quantity	135	141	T4	200 μm	"{""mods"": [""IsList""], ""unit"": ""\u03bcm""}"
+S2213671113001306-907	2	MeasuredProperty	130	133	T5	bar	"{""HasQuantity"": ""T4""}"
+S2213671113001306-907	2	MeasuredEntity	27	42	T6	pan-cytokeratin	"{""HasProperty"": ""T5""}"

@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1088	1	Quantity	78	85	T1	0.072 m	"{""mods"": [""IsList""], ""unit"": ""m""}"
+S0378383911001669-1088	1	MeasuredEntity	41	63	T2	parallel velocity time	"{""HasQuantity"": ""T1""}"
+S0378383911001669-1088	2	Quantity	94	100	T3	1.3 mm	"{""mods"": [""IsRange""], ""unit"": ""mm""}"
+S0378383911001669-1088	2	MeasuredEntity	74	75	T4	x	"{""HasQuantity"": ""T3""}"
+S0378383911001669-1088	3	Quantity	132	134	T5	50	{}
+S0378383911001669-1088	3	MeasuredEntity	101	117	T6	sand-rough beach	"{""HasQuantity"": ""T5""}"

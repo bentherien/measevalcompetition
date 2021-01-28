@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-3964	1	Quantity	290	295	T1	51-bp	"{""unit"": ""-bp""}"
+S0168945213001805-3964	1	MeasuredProperty	299	313	T2	frame deletion	"{""HasQuantity"": ""T1""}"
+S0168945213001805-3964	2	Quantity	969	978	T3	about 40%	"{""unit"": ""%""}"
+S0168945213001805-3964	2	MeasuredProperty	979	985	T4	taller	"{""HasQuantity"": ""T3""}"
+S0168945213001805-3964	2	MeasuredEntity	900	914	T5	Hybrid aspen (	"{""HasProperty"": ""T4""}"
+S0168945213001805-3964	2	Qualifier	947	958	T6	-expressing	"{""Qualifies"": ""T3""}"
+S0168945213001805-3964	3	Quantity	1011	1021	T7	nine weeks	{}
+S0168945213001805-3964	3	MeasuredEntity	943	947	T8	over	"{""HasQuantity"": ""T7""}"
+S0168945213001805-3964	3	Qualifier	986	1010	T9	than the wild type after	"{""Qualifies"": ""T7""}"

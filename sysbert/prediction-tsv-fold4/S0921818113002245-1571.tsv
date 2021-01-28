@@ -1,0 +1,28 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0921818113002245-1571	1	Quantity	0	5	T1	Three	{}
+S0921818113002245-1571	1	MeasuredEntity	6	23	T2	different methods	"{""HasQuantity"": ""T1""}"
+S0921818113002245-1571	2	Quantity	73	84	T3	upper 0.8 m	"{""mods"": [""IsRange""], ""unit"": ""m""}"
+S0921818113002245-1571	2	MeasuredEntity	88	97	T4	sediments	"{""HasQuantity"": ""T3""}"
+S0921818113002245-1571	3	Quantity	201	219	T5	approximately 1 cm	"{""unit"": ""cm""}"
+S0921818113002245-1571	3	MeasuredEntity	179	183	T6	core	"{""HasQuantity"": ""T5""}"
+S0921818113002245-1571	4	Quantity	462	466	T7	Five	{}
+S0921818113002245-1571	4	MeasuredEntity	467	472	T8	cores	"{""HasQuantity"": ""T7""}"
+S0921818113002245-1571	5	Quantity	632	637	T9	4.8 m	"{""mods"": [""IsCount""]}"
+S0921818113002245-1571	5	MeasuredProperty	638	642	T10	long	"{""HasQuantity"": ""T9""}"
+S0921818113002245-1571	5	MeasuredEntity	643	660	T11	cores of sediment	"{""HasProperty"": ""T10""}"
+S0921818113002245-1571	6	Quantity	684	695	T12	60 or 63 mm	"{""unit"": ""mm""}"
+S0921818113002245-1571	6	MeasuredProperty	696	713	T13	internal diameter	"{""HasQuantity"": ""T12""}"
+S0921818113002245-1571	6	MeasuredEntity	664	673	T14	PVC tubes	"{""HasProperty"": ""T13""}"
+S0921818113002245-1571	7	Quantity	811	815	T15	four	{}
+S0921818113002245-1571	7	MeasuredProperty	873	887	T16	sediment depth	"{""HasQuantity"": ""T15""}"
+S0921818113002245-1571	7	MeasuredEntity	816	833	T17	overlapping cores	"{""HasProperty"": ""T16""}"
+S0921818113002245-1571	8	Quantity	891	894	T18	8 m	"{""mods"": [""IsCount""]}"
+S0921818113002245-1571	9	Quantity	1023	1034	T19	three metre	{}
+S0921818113002245-1571	9	MeasuredProperty	1035	1039	T20	long	"{""HasQuantity"": ""T19""}"
+S0921818113002245-1571	9	MeasuredEntity	983	984	T21	“	"{""HasProperty"": ""T20""}"
+S0921818113002245-1571	10	Quantity	1103	1123	T22	approximately 11.8 m	"{""unit"": ""m""}"
+S0921818113002245-1571	10	MeasuredProperty	1094	1099	T23	depth	"{""HasQuantity"": ""T22""}"
+S0921818113002245-1571	10	MeasuredEntity	998	1021	T24	percussion piston corer	"{""HasProperty"": ""T23""}"
+S0921818113002245-1571	11	Quantity	1224	1249	T25	between 11.8 m and 11.5 m	"{""unit"": ""m""}"
+S0921818113002245-1571	11	MeasuredProperty	1218	1223	T26	depth	"{""HasQuantity"": ""T25""}"
+S0921818113002245-1571	11	MeasuredEntity	1142	1156	T27	Sandy sediment	"{""HasProperty"": ""T26""}"

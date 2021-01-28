@@ -1,0 +1,23 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813003036-2011	1	Quantity	244	272	T1	range 1013 cm−3 to 1016 cm−3	{}
+S0927024813003036-2011	1	MeasuredEntity	151	166	T2	injection level	"{""HasQuantity"": ""T1""}"
+S0927024813003036-2011	2	Quantity	555	561	T3	10 min	"{""unit"": ""min""}"
+S0927024813003036-2011	2	MeasuredEntity	562	572	T4	pre-anneal	"{""HasQuantity"": ""T3""}"
+S0927024813003036-2011	3	Quantity	576	582	T5	200 °C	"{""unit"": ""\u00b0C""}"
+S0927024813003036-2011	4	Quantity	649	652	T6	∼50	{}
+S0927024813003036-2011	4	MeasuredProperty	653	669	T7	close-up flashes	"{""HasQuantity"": ""T6""}"
+S0927024813003036-2011	4	MeasuredEntity	623	630	T8	samples	"{""HasProperty"": ""T7""}"
+S0927024813003036-2011	5	Quantity	920	923	T9	<20	{}
+S0927024813003036-2011	5	MeasuredProperty	836	840	T10	time	"{""HasQuantity"": ""T9""}"
+S0927024813003036-2011	5	MeasuredEntity	812	835	T11	aggregated illumination	"{""HasProperty"": ""T10""}"
+S0927024813003036-2011	6	Quantity	925	927	T12	ms	{}
+S0927024813003036-2011	6	MeasuredEntity	848	864	T13	flashes of light	"{""HasQuantity"": ""T12""}"
+S0927024813003036-2011	7	Quantity	1051	1065	T14	more than 24 h	"{""unit"": ""h""}"
+S0927024813003036-2011	7	MeasuredProperty	1066	1071	T15	later	"{""HasQuantity"": ""T14""}"
+S0927024813003036-2011	7	MeasuredEntity	1014	1041	T16	second lifetime measurement	"{""HasProperty"": ""T15""}"
+S0927024813003036-2011	8	Quantity	1910	1915	T17	0.2p0	{}
+S0927024813003036-2011	8	MeasuredProperty	1895	1900	T18	level	"{""HasQuantity"": ""T17""}"
+S0927024813003036-2011	8	MeasuredEntity	1885	1894	T19	injection	"{""HasProperty"": ""T18""}"
+S0927024813003036-2011	9	Quantity	1990	2004	T20	≤1.5×1012 cm−3	"{""mods"": [""IsList""], ""unit"": """"}"
+S0927024813003036-2011	9	MeasuredProperty	1921	1925	T21	bulk	"{""HasQuantity"": ""T20""}"
+S0927024813003036-2011	9	MeasuredEntity	1926	1930	T22	iron	"{""HasProperty"": ""T21""}"

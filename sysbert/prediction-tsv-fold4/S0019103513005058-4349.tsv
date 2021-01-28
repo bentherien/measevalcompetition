@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4349	1	Quantity	194	197	T1	35%	"{""unit"": ""%""}"
+S0019103513005058-4349	1	MeasuredProperty	171	182	T2	temperature	"{""HasQuantity"": ""T1""}"
+S0019103513005058-4349	1	MeasuredEntity	110	115	T3	model	"{""HasProperty"": ""T2""}"
+S0019103513005058-4349	1	Qualifier	156	166	T4	increasing	"{""Qualifies"": ""T1""}"
+S0019103513005058-4349	2	Quantity	201	203	T5	5%	"{""unit"": ""%""}"
+S0019103513005058-4349	2	MeasuredProperty	204	214	T6	increments	"{""HasQuantity"": ""T5""}"
+S0019103513005058-4349	2	MeasuredEntity	183	190	T7	profile	"{""HasProperty"": ""T6""}"
+S0019103513005058-4349	3	Quantity	368	385	T8	around six orders	{}
+S0019103513005058-4349	3	MeasuredProperty	355	364	T9	increases	"{""HasQuantity"": ""T8""}"
+S0019103513005058-4349	3	MeasuredEntity	320	354	T10	deposition rate of perchloric acid	"{""HasProperty"": ""T9""}"
+S0019103513005058-4349	4	Quantity	389	398	T11	magnitude	{}

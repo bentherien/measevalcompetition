@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1849	1	Quantity	34	37	T1	350	{}
+S0019103512002801-1849	1	MeasuredProperty	53	61	T2	injected	"{""HasQuantity"": ""T1""}"
+S0019103512002801-1849	1	MeasuredEntity	38	47	T3	electrons	"{""HasProperty"": ""T2""}"
+S0019103512002801-1849	2	Quantity	127	129	T4	1%	"{""unit"": ""%""}"
+S0019103512002801-1849	2	MeasuredProperty	139	142	T5	Erk	"{""HasQuantity"": ""T4""}"
+S0019103512002801-1849	2	MeasuredEntity	110	119	T6	electrons	"{""HasProperty"": ""T5""}"
+S0019103512002801-1849	3	Quantity	144	149	T7	1 keV	"{""unit"": ""keV""}"

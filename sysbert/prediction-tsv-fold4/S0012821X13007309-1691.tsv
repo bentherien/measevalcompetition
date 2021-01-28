@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1691	1	Quantity	147	150	T1	1 m	"{""unit"": ""m""}"
+S0012821X13007309-1691	1	MeasuredProperty	151	156	T2	thick	"{""HasQuantity"": ""T1""}"
+S0012821X13007309-1691	1	MeasuredEntity	124	141	T3	Livello Bonarelli	"{""HasProperty"": ""T2""}"
+S0012821X13007309-1691	2	Quantity	333	343	T4	Up to 20 m	"{""unit"": ""m""}"
+S0012821X13007309-1691	2	MeasuredEntity	402	433	T5	scale organic-rich shale layers	"{""HasQuantity"": ""T4""}"
+S0012821X13007309-1691	2	Qualifier	344	371	T6	beneath the Bonarelli level	"{""Qualifies"": ""T4""}"
+S0012821X13007309-1691	3	Quantity	391	401	T7	centimetre	{}
+S0012821X13007309-1691	3	MeasuredEntity	157	238	T8	condensed interval of millimetre-laminated black shale and brown radiolarian sand	"{""HasQuantity"": ""T7""}"
+S0012821X13007309-1691	4	Quantity	537	553	T9	∼−25.9 to −26.5‰	"{""mods"": [""IsApproximate""], ""unit"": ""\u2030""}"
+S0012821X13007309-1691	4	MeasuredEntity	462	476	T10	δ13Corg record	"{""HasQuantity"": ""T9""}"
+S0012821X13007309-1691	4	Qualifier	527	535	T11	to OAE 2	"{""Qualifies"": ""T9""}"
+S0012821X13007309-1691	5	Quantity	609	611	T12	4‰	"{""mods"": [""IsCount""]}"
+S0012821X13007309-1691	5	MeasuredProperty	612	617	T13	shift	"{""HasQuantity"": ""T12""}"
+S0012821X13007309-1691	5	MeasuredEntity	596	603	T14	δ13Corg	"{""HasProperty"": ""T13""}"
+S0012821X13007309-1691	6	Quantity	619	634	T15	−27.2 to −23.1‰	"{""unit"": ""\u2030""}"
+S0012821X13007309-1691	7	Quantity	646	659	T16	within <0.5 m	"{""unit"": ""m""}"

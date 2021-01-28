@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113004989-3203	1	Quantity	438	444	T1	10 min	"{""unit"": ""min""}"
+S0960148113004989-3203	1	MeasuredProperty	548	557	T2	time step	"{""HasQuantity"": ""T1""}"
+S0960148113004989-3203	1	MeasuredEntity	403	415	T3	tidal period	"{""HasProperty"": ""T2""}"
+S0960148113004989-3203	2	Quantity	481	487	T4	±12 m.	"{""mods"": [""IsList""], ""unit"": ""m.""}"
+S0960148113004989-3203	2	MeasuredProperty	561	563	T5	Δt	"{""HasQuantity"": ""T4""}"
+S0960148113004989-3203	2	MeasuredEntity	434	435	T6	P	"{""HasProperty"": ""T5""}"
+S0960148113004989-3203	3	Quantity	519	522	T7	one	{}
+S0960148113004989-3203	3	MeasuredEntity	466	477	T8	tidal range	"{""HasQuantity"": ""T7""}"
+S0960148113004989-3203	4	Quantity	566	571	T9	12 s.	"{""unit"": ""s.""}"
+S0960148113004989-3203	4	MeasuredEntity	523	540	T10	full tidal period	"{""HasQuantity"": ""T9""}"

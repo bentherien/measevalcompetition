@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1271	1	Quantity	783	786	T1	274	{}
+S0006322312001096-1271	1	MeasuredProperty	825	836	T2	sensitivity	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1271	1	MeasuredEntity	763	779	T3	validation study	"{""HasProperty"": ""T2""}"
+S0006322312001096-1271	2	Quantity	978	988	T4	almost 90%	"{""unit"": ""%""}"
+S0006322312001096-1271	2	MeasuredProperty	841	852	T5	specificity	"{""HasQuantity"": ""T4""}"
+S0006322312001096-1271	2	MeasuredEntity	787	807	T6	elderly participants	"{""HasProperty"": ""T5""}"
+S0006322312001096-1271	3	Quantity	1023	1040	T7	approximately 80%	"{""unit"": ""%""}"
+S0006322312001096-1271	3	MeasuredEntity	860	882	T8	questionnaire measures	"{""HasQuantity"": ""T7""}"

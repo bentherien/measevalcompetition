@@ -1,0 +1,24 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-1910	1	Quantity	112	127	T1	four and a half	{}
+S0019103512003995-1910	1	MeasuredEntity	80	111	T2	satellite observations spanning	"{""HasQuantity"": ""T1""}"
+S0019103512003995-1910	2	Quantity	141	162	T3	between 1947 and 1999	{}
+S0019103512003995-1910	2	MeasuredEntity	128	140	T4	solar cycles	"{""HasQuantity"": ""T3""}"
+S0019103512003995-1910	3	Quantity	203	221	T5	between 1% and 37%	"{""unit"": ""%""}"
+S0019103512003995-1910	3	MeasuredProperty	277	296	T6	average variability	"{""HasQuantity"": ""T5""}"
+S0019103512003995-1910	3	MeasuredEntity	184	195	T7	variability	"{""HasProperty"": ""T6""}"
+S0019103512003995-1910	3	Qualifier	196	202	T8	ranges	"{""Qualifies"": ""T5""}"
+S0019103512003995-1910	4	Quantity	259	266	T9	27 days	"{""unit"": ""days""}"
+S0019103512003995-1910	4	MeasuredEntity	233	257	T10	period of solar rotation	"{""HasQuantity"": ""T9""}"
+S0019103512003995-1910	5	Quantity	339	345	T11	9 ± 6%	"{""unit"": ""%""}"
+S0019103512003995-1910	5	MeasuredEntity	308	322	T12	solar rotation	"{""HasQuantity"": ""T11""}"
+S0019103512003995-1910	6	Quantity	493	504	T13	∼10–11 days	"{""unit"": ""days""}"
+S0019103512003995-1910	6	MeasuredProperty	446	461	T14	rotation period	"{""HasQuantity"": ""T13""}"
+S0019103512003995-1910	6	MeasuredEntity	465	473	T15	HD209458	"{""HasProperty"": ""T14""}"
+S0019103512003995-1910	7	Quantity	557	562	T16	three	{}
+S0019103512003995-1910	7	MeasuredEntity	530	548	T17	G140M observations	"{""HasQuantity"": ""T16""}"
+S0019103512003995-1910	8	Quantity	604	622	T18	a month and a half	{}
+S0019103512003995-1910	8	MeasuredProperty	670	674	T19	time	"{""HasQuantity"": ""T18""}"
+S0019103512003995-1910	8	MeasuredEntity	563	581	T20	different transits	"{""HasProperty"": ""T19""}"
+S0019103512003995-1910	9	Quantity	649	666	T21	approximately 2 h	"{""unit"": ""h""}"
+S0019103512003995-1910	9	MeasuredProperty	641	648	T22	covered	"{""HasQuantity"": ""T21""}"
+S0019103512003995-1910	9	MeasuredEntity	629	640	T23	observation	"{""HasProperty"": ""T22""}"

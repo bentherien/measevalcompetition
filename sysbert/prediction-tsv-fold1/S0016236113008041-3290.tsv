@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3290	1	Quantity	139	145	T1	<1 ppm	"{""unit"": ""ppm""}"
+S0016236113008041-3290	1	MeasuredEntity	100	114	T2	Concentrations	"{""HasQuantity"": ""T1""}"
+S0016236113008041-3290	2	Quantity	203	220	T3	0.63 and 0.51 ppm	"{""mods"": [""IsList""], ""unit"": ""ppm""}"
+S0016236113008041-3290	2	MeasuredEntity	118	121	T4	all	"{""HasQuantity"": ""T3""}"
+S0016236113008041-3290	3	Quantity	257	265	T5	1000 ppm	"{""mods"": [""IsList""], ""unit"": ""ppm""}"
+S0016236113008041-3290	3	MeasuredEntity	266	269	T6	SO2	"{""HasQuantity"": ""T5""}"
+S0016236113008041-3290	4	Quantity	424	438	T7	0 and 2000 ppm	"{""unit"": ""ppm""}"
+S0016236113008041-3290	4	MeasuredEntity	439	442	T8	SO2	"{""HasQuantity"": ""T7""}"

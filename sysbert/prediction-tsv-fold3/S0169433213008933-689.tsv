@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0169433213008933-689	1	Quantity	257	271	T1	0.06–0.07 mBar	"{""unit"": ""mBar""}"
+S0169433213008933-689	1	MeasuredProperty	272	280	T2	pressure	"{""HasQuantity"": ""T1""}"
+S0169433213008933-689	1	MeasuredEntity	284	289	T3	Argon	"{""HasProperty"": ""T2""}"
+S0169433213008933-689	2	Quantity	323	328	T4	240 s	"{""unit"": ""s""}"
+S0169433213008933-689	2	MeasuredProperty	338	345	T5	current	"{""HasQuantity"": ""T4""}"
+S0169433213008933-689	2	MeasuredEntity	291	298	T6	Samples	"{""HasProperty"": ""T5""}"
+S0169433213008933-689	3	Quantity	332	337	T7	30 mA	"{""unit"": ""mA""}"
+S0169433213008933-689	3	MeasuredEntity	309	318	T8	processed	"{""HasQuantity"": ""T7""}"

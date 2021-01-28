@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-739	1	Quantity	52	57	T1	180 m	"{""unit"": ""m""}"
+S0167610513001001-739	1	MeasuredProperty	38	51	T2	gate midpoint	"{""HasQuantity"": ""T1""}"
+S0167610513001001-739	1	MeasuredEntity	21	36	T3	mean wind speed	"{""HasProperty"": ""T2""}"
+S0167610513001001-739	2	Quantity	81	91	T4	7.83 m s−1	{}
+S0167610513001001-739	2	MeasuredProperty	67	77	T5	wind speed	"{""HasQuantity"": ""T4""}"
+S0167610513001001-739	2	Qualifier	60	66	T6	Median	"{""Qualifies"": ""T4""}"

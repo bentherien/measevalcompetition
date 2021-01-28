@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513002729-1127	1	Quantity	22	25	T1	45°	"{""unit"": ""\u00b0""}"
+S0167610513002729-1127	1	MeasuredEntity	26	30	T2	case	"{""HasQuantity"": ""T1""}"
+S0167610513002729-1127	2	Quantity	148	154	T3	0.23 H	"{""unit"": ""H""}"
+S0167610513002729-1127	2	MeasuredProperty	146	147	T4	z	"{""HasQuantity"": ""T3""}"
+S0167610513002729-1127	3	Quantity	528	534	T5	0.52 H	"{""mods"": [""IsCount""]}"
+S0167610513002729-1127	3	MeasuredProperty	526	527	T6	z	"{""HasQuantity"": ""T5""}"
+S0167610513002729-1127	4	Quantity	696	702	T7	0.80 H	"{""unit"": ""H""}"
+S0167610513002729-1127	4	MeasuredProperty	694	695	T8	z	"{""HasQuantity"": ""T7""}"

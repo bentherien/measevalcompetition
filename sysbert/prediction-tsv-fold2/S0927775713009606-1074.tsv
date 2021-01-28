@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927775713009606-1074	1	Quantity	849	856	T1	> 10 nm	"{""unit"": ""nm""}"
+S0927775713009606-1074	1	MeasuredProperty	825	832	T2	volumes	"{""HasQuantity"": ""T1""}"
+S0927775713009606-1074	1	MeasuredEntity	774	781	T3	powders	"{""HasProperty"": ""T2""}"
+S0927775713009606-1074	2	Quantity	864	877	T4	> 0.5 cm3 g−1	{}
+S0927775713009606-1074	2	MeasuredProperty	839	848	T5	diameters	"{""HasQuantity"": ""T4""}"
+S0927775713009606-1074	2	MeasuredEntity	798	814	T6	mesopore domains	"{""HasProperty"": ""T5""}"
+S0927775713009606-1074	3	Quantity	903	915	T7	> 170 m2 g−1	{}
+S0927775713009606-1074	3	MeasuredProperty	858	863	T8	Vmeso	"{""HasQuantity"": ""T7""}"
+S0927775713009606-1074	3	MeasuredEntity	834	838	T9	pore	"{""HasProperty"": ""T8""}"
+S0927775713009606-1074	4	Quantity	1033	1040	T10	5–40 nm	"{""mods"": [""IsList""], ""unit"": ""nm""}"
+S0927775713009606-1074	4	MeasuredProperty	1041	1046	T11	range	"{""HasQuantity"": ""T10""}"
+S0927775713009606-1074	4	MeasuredEntity	977	1006	T12	synthesised CdS nanoparticles	"{""HasProperty"": ""T11""}"
+S0927775713009606-1074	5	Quantity	1201	1208	T13	1 (w/w)	"{""unit"": ""(w/w)""}"
+S0927775713009606-1074	5	MeasuredProperty	1193	1198	T14	ratio	"{""HasQuantity"": ""T13""}"
+S0927775713009606-1074	5	MeasuredEntity	1182	1192	T15	CdS/starch	"{""HasProperty"": ""T14""}"

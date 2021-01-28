@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0165587612003680-1078	1	Quantity	719	724	T1	three	{}
+S0165587612003680-1078	1	MeasuredProperty	702	710	T2	isolated	"{""HasQuantity"": ""T1""}"
+S0165587612003680-1078	1	MeasuredEntity	725	734	T3	occasions	"{""HasProperty"": ""T2""}"
+S0165587612003680-1078	2	Quantity	1025	1028	T4	60%	"{""unit"": ""%""}"
+S0165587612003680-1078	2	MeasuredEntity	1032	1058	T5	bacteria isolated from OME	"{""HasQuantity"": ""T4""}"

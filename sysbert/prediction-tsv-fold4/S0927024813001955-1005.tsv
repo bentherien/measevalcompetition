@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-1005	1	Quantity	623	629	T1	150 °C	"{""unit"": ""\u00b0C""}"
+S0927024813001955-1005	1	MeasuredProperty	591	605	T2	post-annealing	"{""HasQuantity"": ""T1""}"
+S0927024813001955-1005	1	MeasuredEntity	610	619	T3	ZnO films	"{""HasProperty"": ""T2""}"
+S0927024813001955-1005	2	Quantity	766	776	T4	up to 100%	"{""unit"": ""%""}"
+S0927024813001955-1005	2	MeasuredProperty	777	804	T5	visible light transmittance	"{""HasQuantity"": ""T4""}"

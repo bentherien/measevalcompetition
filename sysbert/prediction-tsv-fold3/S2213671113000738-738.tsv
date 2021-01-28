@@ -1,0 +1,22 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-738	1	Quantity	425	428	T1	two	{}
+S2213671113000738-738	1	MeasuredProperty	528	543	T2	withdrawn after	"{""HasQuantity"": ""T1""}"
+S2213671113000738-738	1	MeasuredEntity	429	457	T3	double-blind clinical trials	"{""HasProperty"": ""T2""}"
+S2213671113000738-738	2	Quantity	544	552	T4	6 months	"{""unit"": ""months""}"
+S2213671113000738-738	2	MeasuredEntity	459	482	T5	immunosuppressive drugs	"{""HasQuantity"": ""T4""}"
+S2213671113000738-738	3	Quantity	660	676	T6	more than 50,000	{}
+S2213671113000738-738	3	MeasuredProperty	691	699	T7	survived	"{""HasQuantity"": ""T6""}"
+S2213671113000738-738	3	MeasuredEntity	677	686	T8	TH+ cells	"{""HasProperty"": ""T7""}"
+S2213671113000738-738	3	Qualifier	700	705	T9	after	"{""Qualifies"": ""T6""}"
+S2213671113000738-738	4	Quantity	706	719	T10	several years	{}
+S2213671113000738-738	5	Quantity	867	871	T11	1/10	{}
+S2213671113000738-738	5	MeasuredProperty	840	856	T12	expression level	"{""HasQuantity"": ""T11""}"
+S2213671113000738-738	6	Quantity	1005	1013	T13	2 months	"{""unit"": ""months""}"
+S2213671113000738-738	6	MeasuredProperty	971	982	T14	serum level	"{""HasQuantity"": ""T13""}"
+S2213671113000738-738	6	MeasuredEntity	986	991	T15	IFN-γ	"{""HasProperty"": ""T14""}"
+S2213671113000738-738	6	Qualifier	1097	1117	T16	after the transplant	"{""Qualifies"": ""T13""}"
+S2213671113000738-738	7	Quantity	1084	1096	T17	3.5–4 months	"{""unit"": ""months""}"
+S2213671113000738-738	7	MeasuredProperty	992	1001	T18	increased	"{""HasQuantity"": ""T17""}"
+S2213671113000738-738	8	Quantity	1903	1908	T19	1/100	"{""mods"": [""IsList""], ""unit"": """"}"
+S2213671113000738-738	8	MeasuredProperty	1882	1898	T20	expression level	"{""HasQuantity"": ""T19""}"
+S2213671113000738-738	8	Qualifier	1948	1953	T21	blood	"{""Qualifies"": ""T19""}"

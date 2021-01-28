@@ -1,7 +1,0 @@
-docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103513005058-1737	1	Quantity	97	105	T1	1 g cm−3	"{""mods"": [""IsCount""]}"
-S0019103513005058-1737	1	MeasuredProperty	86	93	T2	density	"{""HasQuantity"": ""T1""}"
-S0019103513005058-1737	1	MeasuredEntity	81	85	T3	soil	"{""HasProperty"": ""T2""}"
-S0019103513005058-1737	2	Quantity	132	141	T4	1.5–2.6 m	"{""mods"": [""IsRange""], ""unit"": "" m""}"
-S0019103513005058-1737	2	MeasuredProperty	142	147	T5	depth	"{""HasQuantity"": ""T4""}"
-S0019103513005058-1737	2	MeasuredEntity	111	117	T6	mixing	"{""HasProperty"": ""T5""}"

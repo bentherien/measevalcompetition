@@ -1,0 +1,22 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-1231	1	Quantity	347	351	T1	∼−1‰	"{""unit"": ""\u2030""}"
+S0012821X13002185-1231	2	Quantity	598	607	T2	up to 40%	"{""unit"": ""%""}"
+S0012821X13002185-1231	2	MeasuredProperty	608	619	T3	differences	"{""HasQuantity"": ""T2""}"
+S0012821X13002185-1231	2	MeasuredEntity	570	584	T4	size fractions	"{""HasProperty"": ""T3""}"
+S0012821X13002185-1231	3	Quantity	749	755	T5	TAN127	{}
+S0012821X13002185-1231	3	MeasuredProperty	627	645	T6	abundance of these	"{""HasQuantity"": ""T5""}"
+S0012821X13002185-1231	3	MeasuredEntity	739	748	T7	core tops	"{""HasProperty"": ""T6""}"
+S0012821X13002185-1231	4	Quantity	759	762	T8	385	{}
+S0012821X13002185-1231	4	MeasuredEntity	857	865	T9	fraction	"{""HasQuantity"": ""T8""}"
+S0012821X13002185-1231	5	Quantity	848	856	T10	12–20 μm	"{""unit"": ""\u03bcm""}"
+S0012821X13002185-1231	5	MeasuredEntity	646	653	T11	diatoms	"{""HasQuantity"": ""T10""}"
+S0012821X13002185-1231	6	Quantity	1091	1102	T12	2 and 20 μm	"{""unit"": ""\u03bcm""}"
+S0012821X13002185-1231	6	MeasuredProperty	1131	1133	T13	r2	"{""HasQuantity"": ""T12""}"
+S0012821X13002185-1231	6	MeasuredEntity	1068	1082	T14	size fractions	"{""HasProperty"": ""T13""}"
+S0012821X13002185-1231	7	Quantity	1134	1138	T15	0.92	"{""mods"": [""IsList""], ""unit"": """"}"
+S0012821X13002185-1231	7	MeasuredProperty	1320	1323	T16	30ε	"{""HasQuantity"": ""T15""}"
+S0012821X13002185-1231	7	MeasuredEntity	1311	1319	T17	apparent	"{""HasProperty"": ""T16""}"
+S0012821X13002185-1231	8	Quantity	1327	1331	T18	∼–1‰	"{""unit"": ""\u2030""}"
+S0012821X13002185-1231	9	Quantity	1708	1715	T19	2–10 μm	"{""mods"": [""IsList""], ""unit"": ""\u03bcm""}"
+S0012821X13002185-1231	9	MeasuredProperty	1729	1733	T20	size	"{""HasQuantity"": ""T19""}"
+S0012821X13002185-1231	10	Quantity	1720	1728	T21	10–20 μm	"{""unit"": ""\u03bcm""}"

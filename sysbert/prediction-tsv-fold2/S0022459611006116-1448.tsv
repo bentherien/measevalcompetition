@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-1448	1	Quantity	141	157	T1	5×10−4 emu mol−1	"{""mods"": [""IsList""], ""unit"": """"}"
+S0022459611006116-1448	1	MeasuredProperty	67	74	T2	exhibit	"{""HasQuantity"": ""T1""}"
+S0022459611006116-1448	1	MeasuredEntity	0	31	T3	SQUID magnetometry measurements	"{""HasProperty"": ""T2""}"
+S0022459611006116-1448	2	Quantity	159	179	T4	between 5 and 300 K.	"{""mods"": [""IsList""], ""unit"": ""K.""}"
+S0022459611006116-1448	2	MeasuredProperty	138	140	T5	χM	"{""HasQuantity"": ""T4""}"
+S0022459611006116-1448	2	MeasuredEntity	51	66	T6	samples 1 and 2	"{""HasProperty"": ""T5""}"

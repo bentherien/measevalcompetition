@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-5066	1	Quantity	466	476	T1	78% to 95%	"{""unit"": ""%""}"
+S016412121300188X-5066	1	MeasuredProperty	419	428	T2	precision	"{""HasQuantity"": ""T1""}"
+S016412121300188X-5066	1	MeasuredEntity	441	460	T3	slice approximation	"{""HasProperty"": ""T2""}"
+S016412121300188X-5066	2	Quantity	624	626	T4	30	{}
+S016412121300188X-5066	2	MeasuredEntity	627	646	T5	production programs	"{""HasQuantity"": ""T4""}"

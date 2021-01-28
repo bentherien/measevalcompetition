@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113004989-3327	1	Quantity	59	62	T1	22%	"{""unit"": ""%""}"
+S0960148113004989-3327	1	MeasuredProperty	4	12	T2	averaged	"{""HasQuantity"": ""T1""}"
+S0960148113004989-3327	1	MeasuredEntity	13	18	T3	power	"{""HasProperty"": ""T2""}"
+S0960148113004989-3327	2	Quantity	68	86	T4	48.4 MW to 59.0 MW	"{""unit"": ""MW""}"
+S0960148113004989-3327	2	MeasuredProperty	19	39	T5	extracted during one	"{""HasQuantity"": ""T4""}"
+S0960148113004989-3327	2	MeasuredEntity	40	45	T6	cycle	"{""HasProperty"": ""T5""}"
+S0960148113004989-3327	3	Quantity	379	382	T7	two	{}
+S0960148113004989-3327	3	MeasuredEntity	383	401	T8	distorted ∨ shapes	"{""HasQuantity"": ""T7""}"

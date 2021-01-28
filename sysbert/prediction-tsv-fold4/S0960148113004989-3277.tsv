@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113004989-3277	1	Quantity	130	134	T1	12 h	"{""unit"": ""h""}"
+S0960148113004989-3277	1	MeasuredProperty	160	175	T2	time step of Δt	"{""HasQuantity"": ""T1""}"
+S0960148113004989-3277	1	MeasuredEntity	93	108	T3	simulation time	"{""HasProperty"": ""T2""}"
+S0960148113004989-3277	2	Quantity	178	184	T4	864 s.	"{""unit"": ""s.""}"
+S0960148113004989-3277	2	MeasuredEntity	126	127	T5	P	"{""HasQuantity"": ""T4""}"

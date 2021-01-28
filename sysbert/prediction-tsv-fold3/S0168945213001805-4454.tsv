@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4454	1	Quantity	346	356	T1	eight-year	{}
+S0168945213001805-4454	1	MeasuredProperty	400	406	T2	carbon	"{""HasQuantity"": ""T1""}"
+S0168945213001805-4454	1	MeasuredEntity	357	362	T3	study	"{""HasProperty"": ""T2""}"
+S0168945213001805-4454	1	Qualifier	466	477	T4	to controls	"{""Qualifies"": ""T1""}"
+S0168945213001805-4454	2	Quantity	450	456	T5	42–48%	"{""unit"": ""%""}"
+S0168945213001805-4454	2	MeasuredProperty	418	427	T6	increased	"{""HasQuantity"": ""T5""}"
+S0168945213001805-4454	2	MeasuredEntity	368	384	T7	deciduous forest	"{""HasProperty"": ""T6""}"
+S0168945213001805-4454	3	Quantity	578	584	T8	15–27%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S0168945213001805-4454	3	MeasuredProperty	495	514	T9	free-air enrichment	"{""HasQuantity"": ""T8""}"
+S0168945213001805-4454	3	MeasuredEntity	518	531	T10	supplementary	"{""HasProperty"": ""T9""}"
+S0168945213001805-4454	3	Qualifier	539	560	T11	field plots increased	"{""Qualifies"": ""T8""}"
+S0168945213001805-4454	4	Quantity	588	593	T12	three	{}
+S0168945213001805-4454	4	MeasuredProperty	532	535	T13	CO2	"{""HasQuantity"": ""T12""}"
+S0168945213001805-4454	4	MeasuredEntity	594	610	T14	poplar genotypes	"{""HasProperty"": ""T13""}"

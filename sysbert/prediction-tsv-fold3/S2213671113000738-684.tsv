@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-684	1	Quantity	108	116	T1	3 months	"{""unit"": ""months""}"
+S2213671113000738-684	1	MeasuredProperty	39	58	T2	increased uptake of	"{""HasQuantity"": ""T1""}"
+S2213671113000738-684	1	MeasuredEntity	79	88	T3	allograft	"{""HasProperty"": ""T2""}"
+S2213671113000738-684	2	Quantity	304	312	T4	2 months	"{""unit"": ""months""}"
+S2213671113000738-684	2	MeasuredProperty	264	269	T5	level	"{""HasQuantity"": ""T4""}"
+S2213671113000738-684	2	MeasuredEntity	258	263	T6	serum	"{""HasProperty"": ""T5""}"
+S2213671113000738-684	2	Qualifier	313	333	T7	after the transplant	"{""Qualifies"": ""T4""}"
+S2213671113000738-684	3	Quantity	337	342	T8	three	{}
+S2213671113000738-684	3	MeasuredProperty	279	300	T9	temporarily increased	"{""HasQuantity"": ""T8""}"
+S2213671113000738-684	3	MeasuredEntity	270	278	T10	of IFN-γ	"{""HasProperty"": ""T9""}"
+S2213671113000738-684	4	Quantity	405	417	T11	3.5–4 months	"{""unit"": ""months""}"
+S2213671113000738-684	4	MeasuredEntity	367	391	T12	immunofluorescence study	"{""HasQuantity"": ""T11""}"
+S2213671113000738-684	5	Quantity	1249	1252	T13	60%	"{""unit"": ""%""}"
+S2213671113000738-684	5	MeasuredProperty	1231	1243	T14	CD3+ T cells	"{""HasQuantity"": ""T13""}"
+S2213671113000738-684	5	MeasuredEntity	1214	1225	T15	CD45+ cells	"{""HasProperty"": ""T14""}"

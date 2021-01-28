@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1556	1	Quantity	65	80	T1	34 °C and 38 °C	"{""unit"": ""\u00b0C""}"
+S175058361300203X-1556	1	MeasuredProperty	32	43	T2	differences	"{""HasQuantity"": ""T1""}"
+S175058361300203X-1556	1	MeasuredEntity	14	31	T3	synthetic seismic	"{""HasProperty"": ""T2""}"
+S175058361300203X-1556	2	Quantity	628	643	T4	38 °C and 34 °C	"{""unit"": ""\u00b0C""}"
+S175058361300203X-1556	2	MeasuredProperty	594	615	T5	amplitude differences	"{""HasQuantity"": ""T4""}"
+S175058361300203X-1556	2	MeasuredEntity	644	653	T6	scenarios	"{""HasProperty"": ""T5""}"
+S175058361300203X-1556	3	Quantity	668	680	T7	less than 1%	"{""unit"": ""%""}"
+S175058361300203X-1556	3	MeasuredProperty	688	704	T8	amplitude values	"{""HasQuantity"": ""T7""}"
+S175058361300203X-1556	3	MeasuredEntity	712	720	T9	baseline	"{""HasProperty"": ""T8""}"
+S175058361300203X-1556	4	Quantity	818	834	T10	greater than 10%	"{""unit"": ""%""}"
+S175058361300203X-1556	4	MeasuredProperty	741	787	T11	normalized root mean square (NRMS) differences	"{""HasQuantity"": ""T10""}"
+S175058361300203X-1556	4	MeasuredEntity	795	813	T12	3D time-lapse data	"{""HasProperty"": ""T11""}"

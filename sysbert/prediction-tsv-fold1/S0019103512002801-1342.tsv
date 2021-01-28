@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1342	1	Quantity	50	56	T1	764 km	"{""unit"": ""km""}"
+S0019103512002801-1342	1	MeasuredProperty	35	41	T2	radius	"{""HasQuantity"": ""T1""}"
+S0019103512002801-1342	1	MeasuredEntity	0	4	T3	Rhea	"{""HasProperty"": ""T2""}"
+S0019103512002801-1342	2	Quantity	133	145	T4	about 8.74Rs	"{""unit"": ""Rs""}"
+S0019103512002801-1342	2	MeasuredProperty	101	109	T5	circular	"{""HasQuantity"": ""T4""}"
+S0019103512002801-1342	2	MeasuredEntity	69	79	T6	the planet	"{""HasProperty"": ""T5""}"
+S0019103512002801-1342	2	Qualifier	62	68	T7	orbits	"{""Qualifies"": ""T4""}"
+S0019103512002801-1342	3	Quantity	169	178	T8	60,268 km	"{""unit"": ""km""}"
+S0019103512002801-1342	3	MeasuredProperty	121	129	T9	distance	"{""HasQuantity"": ""T8""}"
+S0019103512002801-1342	3	MeasuredEntity	86	100	T10	equatorial and	"{""HasProperty"": ""T9""}"
+S0019103512002801-1342	3	Qualifier	146	161	T11	from its center	"{""Qualifies"": ""T8""}"

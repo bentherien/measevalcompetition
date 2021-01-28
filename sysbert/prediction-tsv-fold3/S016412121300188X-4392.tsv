@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4392	1	Quantity	97	101	T1	1.00	{}
+S016412121300188X-4392	1	MeasuredProperty	84	93	T2	precision	"{""HasQuantity"": ""T1""}"
+S016412121300188X-4392	1	MeasuredEntity	127	135	T3	function	"{""HasProperty"": ""T2""}"
+S016412121300188X-4392	1	Qualifier	108	110	T4	UH	"{""Qualifies"": ""T1""}"
+S016412121300188X-4392	2	Quantity	139	143	T5	100%	"{""unit"": ""%""}"
+S016412121300188X-4392	2	MeasuredProperty	144	152	T6	accurate	"{""HasQuantity"": ""T5""}"
+S016412121300188X-4392	3	Quantity	241	245	T7	1/US	"{""unit"": ""/US""}"
+S016412121300188X-4392	3	MeasuredProperty	228	237	T8	precision	"{""HasQuantity"": ""T7""}"

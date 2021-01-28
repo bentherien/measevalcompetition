@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S095741741101342X-2624	1	Quantity	86	89	T1	85%	"{""unit"": ""%""}"
+S095741741101342X-2624	1	MeasuredEntity	90	94	T2	good	"{""HasQuantity"": ""T1""}"
+S095741741101342X-2624	1	Qualifier	100	103	T3	bad	"{""Qualifies"": ""T1""}"
+S095741741101342X-2624	2	Quantity	96	99	T4	15%	"{""unit"": ""%""}"
+S095741741101342X-2624	2	MeasuredEntity	104	115	T5	class split	"{""HasQuantity"": ""T4""}"

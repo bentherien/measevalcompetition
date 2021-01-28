@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4158	1	Quantity	704	716	T1	0.51–0.85 m.	"{""unit"": ""m.""}"
+S0019103513005058-4158	1	MeasuredProperty	695	700	T2	depth	"{""HasQuantity"": ""T1""}"
+S0019103513005058-4158	1	MeasuredEntity	619	648	T3	small post-Noachian impactors	"{""HasProperty"": ""T2""}"
+S0019103513005058-4158	1	Qualifier	791	795	T4	mean	"{""Qualifies"": ""T1""}"
+S0019103513005058-4158	2	Quantity	724	729	T5	three	{}
+S0019103513005058-4158	2	MeasuredProperty	777	782	T6	depth	"{""HasQuantity"": ""T5""}"
+S0019103513005058-4158	2	MeasuredEntity	654	661	T7	churned	"{""HasProperty"": ""T6""}"
+S0019103513005058-4158	3	Quantity	767	776	T8	1.5–2.6 m	"{""unit"": ""m""}"
+S0019103513005058-4158	3	MeasuredProperty	847	854	T9	density	"{""HasQuantity"": ""T8""}"
+S0019103513005058-4158	3	MeasuredEntity	674	678	T10	Mars	"{""HasProperty"": ""T9""}"
+S0019103513005058-4158	4	Quantity	796	801	T11	∼2 m.	"{""mods"": [""IsApproximate""], ""unit"": ""m.""}"
+S0019103513005058-4158	4	MeasuredEntity	684	694	T12	1/e mixing	"{""HasQuantity"": ""T11""}"
+S0019103513005058-4158	5	Quantity	858	866	T13	1 g cm−3	{}
+S0019103513005058-4158	5	MeasuredEntity	730	746	T14	e-folding depths	"{""HasQuantity"": ""T13""}"

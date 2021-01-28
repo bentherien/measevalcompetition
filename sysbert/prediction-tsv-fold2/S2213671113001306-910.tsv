@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-910	1	Quantity	901	922	T1	10,500× magnification	"{""unit"": ""\u00d7 magnification""}"
+S2213671113001306-910	1	MeasuredProperty	1022	1030	T2	distance	"{""HasQuantity"": ""T1""}"
+S2213671113001306-910	1	MeasuredEntity	865	897	T3	Left images in (I) and (J) taken	"{""HasProperty"": ""T2""}"
+S2213671113001306-910	1	Qualifier	1035	1037	T4	I)	"{""Qualifies"": ""T1""}"
+S2213671113001306-910	2	Quantity	974	981	T5	25,000×	"{""unit"": ""\u00d7""}"
+S2213671113001306-910	2	MeasuredEntity	924	970	T6	right micrographs are rectangular zone in left	"{""HasQuantity"": ""T5""}"
+S2213671113001306-910	3	Quantity	1004	1021	T7	2 μm/inset 0.2 μm	"{""unit"": ""\u03bcm""}"
+S2213671113001306-910	3	MeasuredEntity	983	993	T8	scale bars	"{""HasQuantity"": ""T7""}"

@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359645413009816-2243	1	Quantity	152	158	T1	1.5 nm	"{""unit"": ""nm""}"
+S1359645413009816-2243	1	MeasuredProperty	130	148	T2	nominal resolution	"{""HasQuantity"": ""T1""}"
+S1359645413009816-2243	1	MeasuredEntity	93	101	T3	scanning	"{""HasProperty"": ""T2""}"
+S1359645413009816-2243	2	Quantity	162	167	T4	20 kV	"{""unit"": ""kV""}"
+S1359645413009816-2243	2	MeasuredProperty	561	572	T5	temperature	"{""HasQuantity"": ""T4""}"
+S1359645413009816-2243	2	MeasuredEntity	111	121	T6	microscope	"{""HasProperty"": ""T5""}"
+S1359645413009816-2243	3	Quantity	515	522	T7	5 K/min	"{""unit"": ""K/min""}"
+S1359645413009816-2243	3	MeasuredProperty	499	511	T8	heating rate	"{""HasQuantity"": ""T7""}"
+S1359645413009816-2243	3	Qualifier	470	480	T9	predefined	"{""Qualifies"": ""T7""}"
+S1359645413009816-2243	4	Quantity	586	600	T10	about 30 K/min	"{""unit"": ""K/min""}"
+S1359645413009816-2243	4	MeasuredProperty	536	549	T11	rapid cooling	"{""HasQuantity"": ""T10""}"
+S1359645413009816-2243	4	Qualifier	553	560	T12	ambient	"{""Qualifies"": ""T10""}"

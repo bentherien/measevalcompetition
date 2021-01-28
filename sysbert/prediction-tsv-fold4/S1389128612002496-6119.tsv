@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-6119	1	Quantity	210	225	T1	10 ms to 0.1 ms	"{""unit"": ""ms""}"
+S1389128612002496-6119	1	MeasuredProperty	191	193	T2	Tb	"{""HasQuantity"": ""T1""}"
+S1389128612002496-6119	1	MeasuredEntity	389	394	T3	flows	"{""HasProperty"": ""T2""}"
+S1389128612002496-6119	2	Quantity	320	333	T4	around 0.5 ms	"{""unit"": ""ms""}"
+S1389128612002496-6119	2	MeasuredProperty	314	316	T5	Tb	"{""HasQuantity"": ""T4""}"
+S1389128612002496-6119	2	MeasuredEntity	358	374	T6	normal TCP flows	"{""HasProperty"": ""T5""}"

@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1221	1	Quantity	662	685	T1	between 200 and >1000 m	"{""unit"": ""m""}"
+S0012821X12004384-1221	1	MeasuredProperty	686	697	T2	water depth	"{""HasQuantity"": ""T1""}"
+S0012821X12004384-1221	1	MeasuredEntity	593	613	T3	benthic foraminifera	"{""HasProperty"": ""T2""}"
+S0012821X12004384-1221	2	Quantity	1069	1076	T4	>0.5 km	"{""unit"": ""km""}"
+S0012821X12004384-1221	2	MeasuredEntity	995	1011	T5	central parts of	"{""HasQuantity"": ""T4""}"
+S0012821X12004384-1221	2	Qualifier	1100	1104	T6	near	"{""Qualifies"": ""T4""}"

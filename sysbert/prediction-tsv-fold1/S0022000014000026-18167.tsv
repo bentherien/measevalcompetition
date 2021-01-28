@@ -1,0 +1,24 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-18167	1	Quantity	492	499	T1	O(nlogn	{}
+S0022000014000026-18167	1	MeasuredEntity	483	488	T2	gates	"{""HasQuantity"": ""T1""}"
+S0022000014000026-18167	2	Quantity	501	504	T3	per	{}
+S0022000014000026-18167	3	Quantity	856	862	T4	O(logn	{}
+S0022000014000026-18167	4	Quantity	1274	1275	T5	7	"{""mods"": [""IsCount""]}"
+S0022000014000026-18167	4	MeasuredEntity	1284	1301	T6	wires per channel	"{""HasQuantity"": ""T5""}"
+S0022000014000026-18167	5	Quantity	1277	1282	T7	1-bit	"{""unit"": ""-bit""}"
+S0022000014000026-18167	6	Quantity	1395	1396	T8	5	{}
+S0022000014000026-18167	7	Quantity	2303	2307	T9	3f+1	{}
+S0022000014000026-18167	7	MeasuredEntity	2308	2313	T10	nodes	"{""HasQuantity"": ""T9""}"
+S0022000014000026-18167	8	Quantity	2340	2341	T11	f	{}
+S0022000014000026-18167	9	Quantity	3004	3011	T12	O(logn)	{}
+S0022000014000026-18167	10	Quantity	5350	5353	T13	10%	"{""unit"": ""%""}"
+S0022000014000026-18167	10	MeasuredProperty	5255	5261	T14	faults	"{""HasQuantity"": ""T13""}"
+S0022000014000026-18167	10	MeasuredEntity	5360	5377	T15	node being faulty	"{""HasProperty"": ""T14""}"
+S0022000014000026-18167	11	Quantity	5496	5499	T16	Δ/9	{}
+S0022000014000026-18167	11	MeasuredProperty	5266	5277	T17	distributed	"{""HasQuantity"": ""T16""}"
+S0022000014000026-18167	11	MeasuredEntity	5500	5509	T18	neighbors	"{""HasProperty"": ""T17""}"
+S0022000014000026-18167	12	Quantity	5545	5551	T19	1−1/nc	"{""unit"": ""/nc""}"
+S0022000014000026-18167	12	MeasuredProperty	5288	5305	T20	and independently	"{""HasQuantity"": ""T19""}"
+S0022000014000026-18167	12	MeasuredEntity	5513	5521	T21	any node	"{""HasProperty"": ""T20""}"
+S0022000014000026-18167	13	Quantity	5714	5731	T22	less than Δ nodes	{}
+S0022000014000026-18167	14	Quantity	6076	6077	T23	/	{}

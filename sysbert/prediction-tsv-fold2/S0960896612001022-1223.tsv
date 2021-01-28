@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960896612001022-1223	1	Quantity	107	113	T1	before	{}
+S0960896612001022-1223	1	MeasuredProperty	101	106	T2	onset	"{""HasQuantity"": ""T1""}"
+S0960896612001022-1223	1	MeasuredEntity	21	29	T3	disorder	"{""HasProperty"": ""T2""}"
+S0960896612001022-1223	2	Quantity	125	133	T4	20 years	"{""unit"": ""years""}"
+S0960896612001022-1223	2	MeasuredProperty	216	229	T5	concentration	"{""HasQuantity"": ""T4""}"
+S0960896612001022-1223	2	MeasuredEntity	65	95	T6	PEO and pigmentary retinopathy	"{""HasProperty"": ""T5""}"
+S0960896612001022-1223	3	Quantity	230	250	T7	greater than 0.1 g/L	"{""mods"": [""IsList""], ""unit"": ""g/L""}"
+S0960896612001022-1223	3	MeasuredEntity	182	215	T8	cerebrospinal fluid (CSF) protein	"{""HasQuantity"": ""T7""}"

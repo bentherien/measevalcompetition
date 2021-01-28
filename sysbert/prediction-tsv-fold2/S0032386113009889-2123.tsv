@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113009889-2123	1	Quantity	1001	1013	T1	about 70 MPa	"{""unit"": ""MPa""}"
+S0032386113009889-2123	1	MeasuredProperty	974	997	T2	applied uniaxial stress	"{""HasQuantity"": ""T1""}"
+S0032386113009889-2123	1	MeasuredEntity	1034	1045	T3	hydrostatic	"{""HasProperty"": ""T2""}"
+S0032386113009889-2123	2	Quantity	1073	1086	T4	about 210 MPa	"{""unit"": ""MPa""}"
+S0032386113009889-2123	2	MeasuredProperty	1046	1052	T5	stress	"{""HasQuantity"": ""T4""}"
+S0032386113009889-2123	2	MeasuredEntity	1060	1069	T6	crack tip	"{""HasProperty"": ""T5""}"
+S0032386113009889-2123	3	Quantity	1185	1192	T7	210 MPa	"{""unit"": ""MPa""}"

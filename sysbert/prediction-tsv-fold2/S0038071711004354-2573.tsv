@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2573	1	Quantity	162	174	T1	top 20–30 cm	"{""unit"": ""cm""}"
+S0038071711004354-2573	1	MeasuredEntity	182	194	T2	soil profile	"{""HasQuantity"": ""T1""}"
+S0038071711004354-2573	2	Quantity	406	409	T3	six	{}
+S0038071711004354-2573	2	MeasuredEntity	424	436	T4	forest sites	"{""HasQuantity"": ""T3""}"
+S0038071711004354-2573	3	Quantity	555	564	T5	top 20 cm	"{""unit"": ""cm""}"
+S0038071711004354-2573	3	MeasuredEntity	527	543	T6	SOC accumulation	"{""HasQuantity"": ""T5""}"
+S0038071711004354-2573	4	Quantity	667	676	T7	2013–2017	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0038071711004354-2573	4	MeasuredEntity	568	580	T8	soil profile	"{""HasQuantity"": ""T7""}"

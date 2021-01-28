@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022399913003358-1044	1	Quantity	111	121	T1	around 40%	"{""unit"": ""%""}"
+S0022399913003358-1044	1	MeasuredProperty	146	153	T2	hearing	"{""HasQuantity"": ""T1""}"
+S0022399913003358-1044	1	MeasuredEntity	136	145	T3	olds with	"{""HasProperty"": ""T2""}"
+S0022399913003358-1044	2	Quantity	125	135	T4	55–74 year	"{""mods"": [""IsRange""], ""unit"": ""year""}"
+S0022399913003358-1044	2	MeasuredProperty	167	187	T5	also report tinnitus	"{""HasQuantity"": ""T4""}"
+S0022399913003358-1044	2	MeasuredEntity	154	166	T6	difficulties	"{""HasProperty"": ""T5""}"

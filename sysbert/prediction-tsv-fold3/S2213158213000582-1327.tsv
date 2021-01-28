@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1327	1	Quantity	669	671	T1	48	{}
+S2213158213000582-1327	1	MeasuredEntity	636	667	T2	96 cortical gray-matter regions	"{""HasQuantity"": ""T1""}"
+S2213158213000582-1327	2	Quantity	701	703	T3	21	{}
+S2213158213000582-1327	2	MeasuredEntity	672	679	T4	regions	"{""HasQuantity"": ""T3""}"
+S2213158213000582-1327	3	Quantity	831	835	T5	5 mm	"{""unit"": ""mm""}"
+S2213158213000582-1327	3	MeasuredProperty	836	839	T6	per	"{""HasQuantity"": ""T5""}"
+S2213158213000582-1327	3	MeasuredEntity	804	815	T7	source grid	"{""HasProperty"": ""T6""}"
+S2213158213000582-1327	3	Qualifier	840	844	T8	side	"{""Qualifies"": ""T5""}"

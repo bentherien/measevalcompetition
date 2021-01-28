@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4436	1	Quantity	249	252	T1	10%	"{""unit"": ""%""}"
+S016412121300188X-4436	1	MeasuredProperty	236	245	T2	threshold	"{""HasQuantity"": ""T1""}"
+S016412121300188X-4436	1	MeasuredEntity	346	368	T3	program's SDG vertices	"{""HasProperty"": ""T2""}"
+S016412121300188X-4436	2	Quantity	335	338	T4	10%	"{""unit"": ""%""}"
+S016412121300188X-4436	2	MeasuredEntity	315	323	T5	coherent	"{""HasQuantity"": ""T4""}"

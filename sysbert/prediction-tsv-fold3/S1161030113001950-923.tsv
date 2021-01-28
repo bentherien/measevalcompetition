@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1161030113001950-923	1	Quantity	1725	1731	T1	90–95%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S1161030113001950-923	1	MeasuredProperty	1732	1745	T2	maximum yield	"{""HasQuantity"": ""T1""}"
+S1161030113001950-923	1	MeasuredEntity	1649	1691	T3	nutrient sufficiency recommendation system	"{""HasProperty"": ""T2""}"
+S1161030113001950-923	1	Qualifier	1754	1758	T4	year	"{""Qualifies"": ""T1""}"
+S1161030113001950-923	2	Quantity	1868	1877	T5	4–8 years	"{""mods"": [""IsRange""], ""unit"": ""years""}"
+S1161030113001950-923	2	MeasuredProperty	1836	1850	T6	planned period	"{""HasQuantity"": ""T5""}"
+S1161030113001950-923	2	MeasuredEntity	1851	1853	T7	of	"{""HasProperty"": ""T6""}"

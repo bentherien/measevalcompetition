@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000908-979	1	Quantity	398	403	T1	12 hr	"{""unit"": ""hr""}"
+S2213671113000908-979	1	MeasuredProperty	379	397	T2	visually inspected	"{""HasQuantity"": ""T1""}"
+S2213671113000908-979	1	MeasuredEntity	368	373	T3	Wells	"{""HasProperty"": ""T2""}"
+S2213671113000908-979	1	Qualifier	404	417	T4	after plating	"{""Qualifies"": ""T1""}"

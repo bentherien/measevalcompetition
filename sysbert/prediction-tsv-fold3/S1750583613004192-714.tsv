@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-714	1	Quantity	128	132	T1	5 Mt	"{""unit"": ""Mt""}"
+S1750583613004192-714	1	MeasuredEntity	145	148	T2	CO2	"{""HasQuantity"": ""T1""}"
+S1750583613004192-714	1	Qualifier	136	144	T3	injected	"{""Qualifies"": ""T1""}"
+S1750583613004192-714	2	Quantity	422	441	T4	approximately 220 m	"{""unit"": ""m""}"
+S1750583613004192-714	2	MeasuredProperty	413	421	T5	migrated	"{""HasQuantity"": ""T4""}"
+S1750583613004192-714	2	MeasuredEntity	405	408	T6	CO2	"{""HasProperty"": ""T5""}"
+S1750583613004192-714	2	Qualifier	409	412	T7	has	"{""Qualifies"": ""T4""}"
+S1750583613004192-714	3	Quantity	486	495	T8	1012 mbsl	"{""unit"": ""mbsl""}"
+S1750583613004192-714	3	MeasuredProperty	442	452	T9	vertically	"{""HasQuantity"": ""T8""}"
+S1750583613004192-714	3	Qualifier	453	482	T10	from the injection point (IP)	"{""Qualifies"": ""T8""}"
+S1750583613004192-714	4	Quantity	499	506	T11	3 years	"{""unit"": ""years""}"

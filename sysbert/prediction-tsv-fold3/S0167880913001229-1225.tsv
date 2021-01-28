@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167880913001229-1225	1	Quantity	173	177	T1	ha−1	{}
+S0167880913001229-1225	2	Quantity	226	232	T2	< 0.01	{}
+S0167880913001229-1225	2	MeasuredProperty	224	225	T3	p	"{""HasQuantity"": ""T2""}"
+S0167880913001229-1225	2	MeasuredEntity	275	278	T4	SOC	"{""HasProperty"": ""T3""}"
+S0167880913001229-1225	3	Quantity	288	295	T5	0–10 cm	"{""mods"": [""IsList""], ""unit"": ""cm""}"
+S0167880913001229-1225	3	MeasuredProperty	296	301	T6	depth	"{""HasQuantity"": ""T5""}"
+S0167880913001229-1225	3	MeasuredEntity	318	324	T7	period	"{""HasProperty"": ""T6""}"
+S0167880913001229-1225	4	Quantity	311	317	T8	9-year	"{""unit"": ""-year""}"
+S0167880913001229-1225	5	Quantity	446	452	T9	< 0.01	{}
+S0167880913001229-1225	5	MeasuredProperty	444	445	T10	p	"{""HasQuantity"": ""T9""}"
+S0167880913001229-1225	5	MeasuredEntity	504	509	T11	depth	"{""HasProperty"": ""T10""}"
+S0167880913001229-1225	6	Quantity	495	503	T12	20–40 cm	"{""mods"": [""IsRange""], ""unit"": ""cm""}"

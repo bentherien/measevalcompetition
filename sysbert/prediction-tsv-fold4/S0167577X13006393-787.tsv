@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-787	1	Quantity	118	122	T1	1.37	"{""mods"": [""IsCount""]}"
+S0167577X13006393-787	1	MeasuredProperty	107	117	T2	Ca/P ratio	"{""HasQuantity"": ""T1""}"
+S0167577X13006393-787	1	MeasuredEntity	43	56	T3	nanoparticles	"{""HasProperty"": ""T2""}"
+S0167577X13006393-787	2	Quantity	176	190	T4	before 1200 °C	"{""unit"": ""\u00b0C""}"
+S0167577X13006393-787	2	MeasuredProperty	169	175	T5	occurs	"{""HasQuantity"": ""T4""}"
+S0167577X13006393-787	2	MeasuredEntity	152	168	T6	HA decomposition	"{""HasProperty"": ""T5""}"
+S0167577X13006393-787	3	Quantity	278	282	T7	1.67	"{""mods"": [""IsCount""]}"
+S0167577X13006393-787	3	MeasuredProperty	222	235	T8	decomposition	"{""HasQuantity"": ""T7""}"
+S0167577X13006393-787	3	MeasuredEntity	197	209	T9	deficient HA	"{""HasProperty"": ""T8""}"

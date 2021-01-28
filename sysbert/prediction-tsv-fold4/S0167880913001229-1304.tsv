@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167880913001229-1304	1	Quantity	111	137	T1	up to 11.25 Mg ha−1 year−1	{}
+S0167880913001229-1304	1	MeasuredProperty	325	326	T2	p	"{""HasQuantity"": ""T1""}"
+S0167880913001229-1304	1	MeasuredEntity	87	106	T3	organic fertilisers	"{""HasProperty"": ""T2""}"
+S0167880913001229-1304	2	Quantity	329	333	T4	0.24	"{""mods"": [""IsCount""]}"
+S0167880913001229-1304	3	Quantity	439	446	T5	0–10 cm	"{""unit"": ""cm""}"
+S0167880913001229-1304	3	MeasuredProperty	447	452	T6	depth	"{""HasQuantity"": ""T5""}"
+S0167880913001229-1304	3	MeasuredEntity	428	435	T7	changes	"{""HasProperty"": ""T6""}"
+S0167880913001229-1304	4	Quantity	463	467	T8	0.18	"{""mods"": [""IsCount""]}"
+S0167880913001229-1304	4	MeasuredProperty	458	460	T9	r2	"{""HasQuantity"": ""T8""}"
+S0167880913001229-1304	4	MeasuredEntity	453	456	T10	SOC	"{""HasProperty"": ""T9""}"
+S0167880913001229-1304	5	Quantity	471	477	T11	< 0.01	{}
+S0167880913001229-1304	5	MeasuredProperty	469	470	T12	p	"{""HasQuantity"": ""T11""}"
+S0167880913001229-1304	6	Quantity	571	580	T13	two lower	{}
+S0167880913001229-1304	6	MeasuredEntity	581	592	T14	soil depths	"{""HasQuantity"": ""T13""}"
+S0167880913001229-1304	7	Quantity	670	677	T15	0–40 cm	"{""unit"": ""cm""}"
+S0167880913001229-1304	7	MeasuredEntity	664	669	T16	total	"{""HasQuantity"": ""T15""}"

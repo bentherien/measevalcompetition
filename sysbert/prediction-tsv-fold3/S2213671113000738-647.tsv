@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-647	1	Quantity	1066	1081	T1	within 12 weeks	"{""unit"": ""weeks""}"
+S2213671113000738-647	1	MeasuredProperty	982	990	T2	generate	"{""HasQuantity"": ""T1""}"
+S2213671113000738-647	1	MeasuredEntity	991	1000	T3	teratomas	"{""HasProperty"": ""T2""}"

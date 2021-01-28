@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4098	1	Quantity	423	437	T1	211 K to 284 K	"{""unit"": ""K""}"
+S0019103513005058-4098	1	MeasuredProperty	385	392	T2	surface	"{""HasQuantity"": ""T1""}"
+S0019103513005058-4098	1	MeasuredEntity	393	404	T3	temperature	"{""HasProperty"": ""T2""}"
+S0019103513005058-4098	2	Quantity	465	469	T4	∼35%	"{""mods"": [""IsApproximate""], ""unit"": ""%""}"
+S0019103513005058-4098	2	MeasuredProperty	441	461	T5	temperature increase	"{""HasQuantity"": ""T4""}"

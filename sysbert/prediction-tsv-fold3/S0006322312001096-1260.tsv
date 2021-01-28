@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1260	1	Quantity	233	245	T1	70 or higher	"{""unit"": ""or higher""}"
+S0006322312001096-1260	1	MeasuredProperty	410	419	T2	incidence	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1260	2	Quantity	403	409	T3	2-year	"{""unit"": ""-year""}"
+S0006322312001096-1260	3	Quantity	653	660	T4	6 years	"{""unit"": ""years""}"
+S0006322312001096-1260	3	MeasuredProperty	637	648	T5	followed up	"{""HasQuantity"": ""T4""}"
+S0006322312001096-1260	3	MeasuredEntity	605	620	T6	Rotterdam study	"{""HasProperty"": ""T5""}"

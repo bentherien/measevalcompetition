@@ -55,7 +55,7 @@ def annotationCreation(doc,tsv):
         
 
         def getClosestMatch(start,end,lookup):
-            print("in getClosestMatch(start,end,lookup)")
+            #print("in getClosestMatch(start,end,lookup)")
             newStart = None
             newEnd = None
             for x in lookup.keys():

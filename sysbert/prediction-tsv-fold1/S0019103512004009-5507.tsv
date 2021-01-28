@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-5507	1	Quantity	197	208	T1	near 1 μbar	"{""unit"": ""\u03bcbar""}"
+S0019103512004009-5507	1	MeasuredProperty	214	230	T2	mean temperature	"{""HasQuantity"": ""T1""}"
+S0019103512004009-5507	1	MeasuredEntity	167	171	T3	base	"{""HasProperty"": ""T2""}"
+S0019103512004009-5507	2	Quantity	251	263	T4	about 8250 K	"{""unit"": ""K""}"
+S0019103512004009-5507	2	MeasuredProperty	294	301	T5	ionized	"{""HasQuantity"": ""T4""}"
+S0019103512004009-5507	2	MeasuredEntity	179	188	T6	hot layer	"{""HasProperty"": ""T5""}"
+S0019103512004009-5507	3	Quantity	302	311	T7	above 3Rp	"{""unit"": ""Rp""}"
+S0019103512004009-5507	3	MeasuredEntity	192	193	T8	H	"{""HasQuantity"": ""T7""}"

@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4210	1	Quantity	143	146	T1	2 m	"{""unit"": ""m""}"
+S0019103513005058-4210	1	MeasuredProperty	126	139	T2	average depth	"{""HasQuantity"": ""T1""}"
+S0019103513005058-4210	1	MeasuredEntity	106	110	T3	soil	"{""HasProperty"": ""T2""}"
+S0019103513005058-4210	2	Quantity	230	246	T4	4.3 × 10−8 wt. %	"{""mods"": [""IsRange""], ""unit"": ""wt. %""}"
+S0019103513005058-4210	2	MeasuredEntity	114	119	T5	mixed	"{""HasQuantity"": ""T4""}"
+S0019103513005058-4210	3	Quantity	251	268	T6	4.0 × 10−10 wt. %	"{""mods"": [""IsList""], ""unit"": ""wt. %""}"
+S0019103513005058-4210	3	MeasuredEntity	212	226	T7	concentrations	"{""HasQuantity"": ""T6""}"
+S0019103513005058-4210	4	Quantity	314	338	T8	many orders of magnitude	{}
+S0019103513005058-4210	4	MeasuredEntity	363	372	T9	abundance	"{""HasQuantity"": ""T8""}"
+S0019103513005058-4210	5	Quantity	402	415	T10	0.4–0.6 wt. %	"{""mods"": [""IsRange""], ""unit"": ""wt. %""}"
+S0019103513005058-4210	5	MeasuredEntity	380	395	T11	Phoenix landing	"{""HasQuantity"": ""T10""}"
+S0019103513005058-4210	6	Quantity	548	553	T12	∼1:60	{}
+S0019103513005058-4210	6	MeasuredEntity	521	540	T13	perchlorate:nitrate	"{""HasQuantity"": ""T12""}"
+S0019103513005058-4210	7	Quantity	639	646	T14	∼1:1000	{}
+S0019103513005058-4210	7	MeasuredEntity	608	635	T15	Atacama perchlorate:nitrate	"{""HasQuantity"": ""T14""}"

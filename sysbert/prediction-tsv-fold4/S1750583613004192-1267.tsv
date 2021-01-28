@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1267	1	Quantity	304	327	T1	less than a few percent	{}
+S1750583613004192-1267	1	MeasuredProperty	289	300	T2	saturations	"{""HasQuantity"": ""T1""}"
+S1750583613004192-1267	2	Quantity	411	454	T3	from a few percent to around thirty percent	{}
+S1750583613004192-1267	2	MeasuredProperty	386	400	T4	gas saturation	"{""HasQuantity"": ""T3""}"
+S1750583613004192-1267	3	Quantity	485	505	T5	above thirty percent	{}
+S1750583613004192-1267	3	MeasuredProperty	468	479	T6	saturations	"{""HasQuantity"": ""T5""}"
+S1750583613004192-1267	3	MeasuredEntity	649	663	T7	Sleipner plume	"{""HasProperty"": ""T6""}"
+S1750583613004192-1267	4	Quantity	597	600	T8	80%	"{""unit"": ""%""}"
+S1750583613004192-1267	4	MeasuredProperty	605	615	T9	saturation	"{""HasQuantity"": ""T8""}"
+S1750583613004192-1267	4	MeasuredEntity	601	604	T10	gas	"{""HasProperty"": ""T9""}"
+S1750583613004192-1267	5	Quantity	769	772	T11	80%	"{""unit"": ""%""}"
+S1750583613004192-1267	5	MeasuredProperty	832	842	T12	saturation	"{""HasQuantity"": ""T11""}"
+S1750583613004192-1267	5	MeasuredEntity	773	783	T13	assumption	"{""HasProperty"": ""T12""}"
+S1750583613004192-1267	6	Quantity	883	896	T14	as low as 40%	"{""unit"": ""%""}"
+S1750583613004192-1267	6	MeasuredProperty	862	867	T15	lower	"{""HasQuantity"": ""T14""}"
+S1750583613004192-1267	6	MeasuredEntity	851	856	T16	plume	"{""HasProperty"": ""T15""}"

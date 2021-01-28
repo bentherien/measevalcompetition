@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0950705113001895-23699	1	Quantity	567	578	T1	10% to 100%	"{""unit"": ""%""}"
+S0950705113001895-23699	1	MeasuredProperty	536	545	T2	inserting	"{""HasQuantity"": ""T1""}"
+S0950705113001895-23699	1	MeasuredEntity	546	551	T3	ratio	"{""HasProperty"": ""T2""}"
+S0950705113001895-23699	1	Qualifier	552	561	T4	increases	"{""Qualifies"": ""T1""}"
+S0950705113001895-23699	2	Quantity	724	737	T5	less than 85%	"{""unit"": ""%""}"
+S0950705113001895-23699	2	MeasuredProperty	705	720	T6	inserting ratio	"{""HasQuantity"": ""T5""}"
+S0950705113001895-23699	2	MeasuredEntity	633	654	T7	incremental algorithm	"{""HasProperty"": ""T6""}"
+S0950705113001895-23699	2	Qualifier	679	695	T8	static algorithm	"{""Qualifies"": ""T5""}"
+S0950705113001895-23699	3	Quantity	804	817	T9	more than 85%	"{""unit"": ""%""}"
+S0950705113001895-23699	3	MeasuredProperty	785	800	T10	inserting ratio	"{""HasQuantity"": ""T9""}"
+S0950705113001895-23699	3	Qualifier	759	775	T11	static algorithm	"{""Qualifies"": ""T9""}"

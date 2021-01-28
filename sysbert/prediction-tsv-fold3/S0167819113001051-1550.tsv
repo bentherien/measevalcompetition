@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167819113001051-1550	1	Quantity	79	89	T1	roughly 2%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S0167819113001051-1550	1	MeasuredProperty	31	39	T2	deadlock	"{""HasQuantity"": ""T1""}"
+S0167819113001051-1550	1	MeasuredEntity	50	67	T3	conventional unit	"{""HasProperty"": ""T2""}"
+S0167819113001051-1550	1	Qualifier	103	124	T4	that a glitch appears	"{""Qualifies"": ""T1""}"

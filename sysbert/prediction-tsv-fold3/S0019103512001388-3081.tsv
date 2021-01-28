@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512001388-3081	1	Quantity	113	118	T1	0.64%	"{""unit"": ""%""}"
+S0019103512001388-3081	1	MeasuredProperty	13	17	T2	peak	"{""HasQuantity"": ""T1""}"
+S0019103512001388-3081	1	MeasuredEntity	4	12	T3	observed	"{""HasProperty"": ""T2""}"
+S0019103512001388-3081	1	Qualifier	98	106	T4	observed	"{""Qualifies"": ""T1""}"
+S0019103512001388-3081	2	Quantity	145	160	T5	26 October 2011	{}
+S0019103512001388-3081	2	MeasuredProperty	25	70	T6	fractional integrated differential brightness	"{""HasQuantity"": ""T5""}"
+S0019103512001388-3081	2	MeasuredEntity	71	77	T7	of BS1	"{""HasProperty"": ""T6""}"
+S0019103512001388-3081	2	Qualifier	166	174	T8	declined	"{""Qualifies"": ""T5""}"
+S0019103512001388-3081	3	Quantity	178	183	T9	0.02%	"{""unit"": ""%""}"
+S0019103512001388-3081	3	MeasuredEntity	85	93	T10	H filter	"{""HasQuantity"": ""T9""}"
+S0019103512001388-3081	3	Qualifier	184	198	T11	by December 16	"{""Qualifies"": ""T9""}"

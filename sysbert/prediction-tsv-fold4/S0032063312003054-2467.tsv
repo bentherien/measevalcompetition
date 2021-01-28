@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2467	1	Quantity	479	490	T1	almost half	{}
+S0032063312003054-2467	2	Quantity	719	722	T2	10%	"{""unit"": ""%""}"
+S0032063312003054-2467	2	MeasuredProperty	710	715	T3	occur	"{""HasQuantity"": ""T2""}"
+S0032063312003054-2467	2	MeasuredEntity	726	736	T4	MEX orbits	"{""HasProperty"": ""T3""}"

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1483	1	Quantity	765	769	T1	33 m	"{""unit"": ""m""}"
+S175058361300203X-1483	1	MeasuredEntity	753	763	T2	upper part	"{""HasQuantity"": ""T1""}"
+S175058361300203X-1483	2	Quantity	1041	1056	T3	range of 20–25%	"{""unit"": ""%""}"
+S175058361300203X-1483	2	MeasuredProperty	1013	1033	T4	effective porosities	"{""HasQuantity"": ""T3""}"
+S175058361300203X-1483	2	MeasuredEntity	771	797	T5	of the Stuttgart Formation	"{""HasProperty"": ""T4""}"

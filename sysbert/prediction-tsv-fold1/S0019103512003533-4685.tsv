@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-4685	1	Quantity	179	182	T1	78°	"{""unit"": ""\u00b0""}"
+S0019103512003533-4685	1	MeasuredEntity	137	143	T2	region	"{""HasQuantity"": ""T1""}"
+S0019103512003533-4685	2	Quantity	255	257	T3	0°	"{""unit"": ""\u00b0""}"
+S0019103512003533-4685	2	MeasuredEntity	147	177	T4	maximum electron precipitation	"{""HasQuantity"": ""T3""}"
+S0019103512003533-4685	3	Quantity	580	600	T5	below around 1000 km	"{""unit"": ""km""}"
+S0019103512003533-4685	3	MeasuredProperty	601	609	T6	altitude	"{""HasQuantity"": ""T5""}"
+S0019103512003533-4685	3	MeasuredEntity	478	489	T7	hydrocarbon	"{""HasProperty"": ""T6""}"

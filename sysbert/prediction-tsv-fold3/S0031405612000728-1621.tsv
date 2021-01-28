@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0031405612000728-1621	1	Quantity	207	214	T1	7-month	"{""unit"": ""-month""}"
+S0031405612000728-1621	1	MeasuredProperty	215	221	T2	period	"{""HasQuantity"": ""T1""}"
+S0031405612000728-1621	1	MeasuredEntity	132	147	T3	soil structural	"{""HasProperty"": ""T2""}"
+S0031405612000728-1621	2	Quantity	656	663	T4	7 month	"{""mods"": [""IsCount""]}"
+S0031405612000728-1621	2	MeasuredEntity	664	674	T5	experiment	"{""HasQuantity"": ""T4""}"
+S0031405612000728-1621	3	Quantity	932	947	T6	9 or 4.8 months	"{""mods"": [""IsCount""]}"
+S0031405612000728-1621	3	MeasuredProperty	912	921	T7	incubated	"{""HasQuantity"": ""T6""}"
+S0031405612000728-1621	3	MeasuredEntity	922	927	T8	soils	"{""HasProperty"": ""T7""}"

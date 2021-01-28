@@ -7,6 +7,7 @@ import json
 import spacy
 import pandas as pd
 import copy
+import numpy as np
 
 from tqdm import tqdm
 from nltk.tokenize import word_tokenize
@@ -14,7 +15,8 @@ from spacy.tokens import Token
 from spacy.tokens import Span
 from spacy.tokens import Doc
 
-
+import src.graph as graph
+from src.lib.helpers import *
 from src.exerpt import Exerpt
 from src.lib.helpers import createAnnotation, createFeature, createNode
 
@@ -39,27 +41,6 @@ class ExerptController:
         for x in self.data.values():
             x.initGraphs()
 
-
-    def writeDataMods(self,syspath):
-        dat = [] 
-        for x in self.data.values(): 
-            for y in x.doc._.meAnnots.values():
-                try:
-                    dat.append({"span":[z.text for z in y["Quantity"]["span"]],"type":y["Quantity"]["other"]["mods"]})
-                except KeyError: 
-                    pass
-
-        datapath = os.path.join(syspath,"data-json")
-
-        if not os.path.isdir(datapath):
-            os.mkdir(datapath)
-        else:
-            starpath = os.path.join(datapath,"*") 
-            os.system(f"rm {starpath}")
-
-
-        json.dump(dat,open(os.path.join(datapath,"mod-data.json"),"w",encoding="utf-8"),indent=4)
-
         
 
     def annotateData(self):
@@ -77,6 +58,7 @@ class ExerptController:
                     if key != "sentences":
                         tempSpanlen = len(annot[key])
                         for token in annot[key]["span"]:
+                            token._.annotId = annot[key]["other"]["annotID"]
                             if type(token._.other) == dict:
                                 token._.other["annotID"].append(annot[key]["other"]["annotID"])
                             else:
@@ -786,7 +768,7 @@ class ExerptController:
             for x in test:
                 f.write(x+"\n")
 
-        datapath = os.path.join(syspath,"data")
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
 
         if not os.path.isdir(datapath):
             os.mkdir(datapath)
@@ -862,7 +844,7 @@ class ExerptController:
             for x in test:
                 f.write(x+"\n")
 
-        datapath = os.path.join(syspath,"data")
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
 
         if not os.path.isdir(datapath):
             os.mkdir(datapath)
@@ -940,15 +922,15 @@ class ExerptController:
     def getDataPosDepDoc(self, fold, syspath, div = 8):
         test, train = self.getFolds(fold, div)
 
-        with open(os.path.join(syspath,"train.txt"), "w", encoding="utf-8") as f:
+        with open(os.path.join(syspath,"data-fold{}".format(fold),"train.txt"), "w", encoding="utf-8") as f:
             for x in train:
                 f.write(x+"\n")
 
-        with open(os.path.join(syspath,"test.txt"), "w", encoding="utf-8") as f:
+        with open(os.path.join(syspath,"data-fold{}".format(fold),"test.txt"), "w", encoding="utf-8") as f:
             for x in test:
                 f.write(x+"\n")
 
-        datapath = os.path.join(syspath,"data")
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
 
         if not os.path.isdir(datapath):
             os.mkdir(datapath)
@@ -1025,22 +1007,23 @@ class ExerptController:
 
     def getEncodingSent(self, fold, syspath, skip=[], div = 8):
         test, train = self.getFolds(fold, div)
+        print(os.path.join(syspath,"data-fold{}".format(fold), "train.txt"))
 
-        with open(os.path.join(syspath,"train.txt"), "w", encoding="utf-8") as f:
+        with open(os.path.join(syspath,"data-fold{}".format(fold), "train.txt"), "w", encoding="utf-8") as f:
             for x in train:
                 f.write(x+"\n")
+            f.close()
 
-        with open(os.path.join(syspath,"test.txt"), "w", encoding="utf-8") as f:
+        with open(os.path.join(syspath,"data-fold{}".format(fold), "test.txt"), "w", encoding="utf-8") as f:
             for x in test:
                 f.write(x+"\n")
+            f.close()
 
-        datapath = os.path.join(syspath,"data")
+
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
 
         if not os.path.isdir(datapath):
             os.mkdir(datapath)
-        else:
-            starpath = os.path.join(datapath,"*") 
-            os.system(f"rm {starpath}")
 
         train_allS = open(os.path.join(datapath, "train_allS.tsv"),"w",encoding="utf-8")
         train_quantS = open(os.path.join(datapath, "train_quantS.tsv"),"w",encoding="utf-8")
@@ -1186,15 +1169,15 @@ class ExerptController:
     def getEncodingDoc(self, fold, syspath, skip=[], div = 8):
         test, train = self.getFolds(fold, div)
 
-        with open(os.path.join(syspath,"train.txt"), "w", encoding="utf-8") as f:
+        with open(os.path.join(syspath,"data-fold{}".format(fold),"train.txt"), "w", encoding="utf-8") as f:
             for x in train:
                 f.write(x+"\n")
 
-        with open(os.path.join(syspath,"test.txt"), "w", encoding="utf-8") as f:
+        with open(os.path.join(syspath,"data-fold{}".format(fold),"test.txt"), "w", encoding="utf-8") as f:
             for x in test:
                 f.write(x+"\n")
 
-        datapath = os.path.join(syspath,"data")
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
 
         if not os.path.isdir(datapath):
             os.mkdir(datapath)
@@ -1343,19 +1326,88 @@ class ExerptController:
         test_meD.close()
         test_mpD.close()
 
-    """    
-    def getEncodingDoc(self, fold, syspath, div = 8):
+
+    def writeDataMods(self,fold,syspath,div=8):
         test, train = self.getFolds(fold, div)
 
-        with open(os.path.join(syspath,"train.txt"), "w", encoding="utf-8") as f:
-            for x in train:
-                f.write(x+"\n")
+        #f = open("errors.txt","w",encoding="utf-8")
+        train_dat = [] 
+        for x in train:
+            for y in self.data[x].doc._.meAnnots.values():
+                try:
+                    train_dat.append({"span":[z.text for z in y["Quantity"]["span"]],"type":y["Quantity"]["other"]["mods"]})
+                except KeyError: 
+                    try:
+                        train_dat.append({"span":[z.text for z in y["Quantity"]["span"]],"type":["NOMOD"]})
+                    except KeyError: 
+                        pass
 
-        with open(os.path.join(syspath,"test.txt"), "w", encoding="utf-8") as f:
-            for x in test:
-                f.write(x+"\n")
 
-        datapath = os.path.join(syspath,"data")
+        test_dat = [] 
+        for x in test:
+            for y in self.data[x].doc._.meAnnots.values():
+                try:
+                    test_dat.append({"span":[z.text for z in y["Quantity"]["span"]],"type":y["Quantity"]["other"]["mods"]})
+                except KeyError: 
+                    try:
+                        test_dat.append({"span":[z.text for z in y["Quantity"]["span"]],"type":["NOMOD"]})
+                    except KeyError: 
+                        pass
+
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
+
+        if not os.path.isdir(datapath):
+            os.mkdir(datapath)
+
+        json.dump(test_dat,open(os.path.join(datapath,"test-mod-data.json"),"w",encoding="utf-8"),indent=4)
+        json.dump(train_dat,open(os.path.join(datapath,"train-mod-data.json"),"w",encoding="utf-8"),indent=4)
+
+
+    def writeDataPaths(self,fold,syspath,div=8):
+        def getDataForDoc(doc):
+            sent_data = []
+            for sent in doc.sents:
+                cds = []
+                for token in sent:
+                    if token.tag_ == "CD":
+                        cds.append(token)
+                    
+                a = graph.Graph(sent)
+                tempDict = {"sentence":[x.text for x in sent]}
+                for qa in cds:
+                    key = qa.i
+                    for tok in sent:
+                        path = a.getShortestPath(source=a.getNode(qa),target=a.getNode(tok))
+                        if path == []:
+                            path = ['self']
+                        tempVal = {
+                            "path":path,
+                            "target":tok._.all if qa._.annotId == tok._.annotId else "o"
+                        }
+                        
+                        try:
+                            tempDict[key].append(tempVal)
+                        except KeyError:
+                            tempDict[key] = [tempVal]
+                
+                
+                sent_data.append(tempDict)
+            return sent_data
+
+
+        test, train = self.getFolds(fold, div)
+
+        #f = open("errors.txt","w",encoding="utf-8")
+        train_dat = [] 
+        for x in train:
+            train_dat = train_dat + getDataForDoc(self.data[x].doc)
+
+
+        test_dat = [] 
+        for x in test:
+            test_dat = test_dat + getDataForDoc(self.data[x].doc)
+
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
 
         if not os.path.isdir(datapath):
             os.mkdir(datapath)
@@ -1363,151 +1415,239 @@ class ExerptController:
             starpath = os.path.join(datapath,"*") 
             os.system(f"rm {starpath}")
 
-        train_allS = open(os.path.join(datapath, "train_allS.tsv"),"w",encoding="utf-8")
-        train_quantS = open(os.path.join(datapath, "train_quantS.tsv"),"w",encoding="utf-8")
-        train_qualS = open(os.path.join(datapath, "train_qualS.tsv"),"w",encoding="utf-8")
-        train_meS = open(os.path.join(datapath, "train_meS.tsv"),"w",encoding="utf-8")
-        train_mpS = open(os.path.join(datapath, "train_mpS.tsv"),"w",encoding="utf-8")
-        
-        for i,x in enumerate(train):
-            count=0
-            sOffset=0
-            for sent in self.data[x].doc.sents:
-                sOffset += count
-                count = 0
+
+        json.dump(test_dat,open(os.path.join(datapath,"test-path-data.json"),"w",encoding="utf-8"),indent=4)
+        json.dump(train_dat,open(os.path.join(datapath,"train-path-data.json"),"w",encoding="utf-8"),indent=4)
+
+
+
+    def writeDataPaths2(self,fold,syspath,div=8):
+        def getDataForDoc(doc):
+            sent_data = []
+            for sent in doc.sents:
+                cds = []
                 for token in sent:
-                    count += 1
-                    train_allS.write("\t".join([token.text,token._.all,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-                    train_quantS.write("\t".join([token.text,token._.quant,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-                    train_qualS.write("\t".join([token.text,token._.qual,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-                    train_meS.write("\t".join([token.text,token._.me,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-                    train_mpS.write("\t".join([token.text,token._.mp,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-
-                train_allS.write("@@annotations@@\n")
-                temp = ["QA"]
-                for i,x in enumerate(sent._.QA):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["ME"]
-                for i,x in enumerate(sent._.ME):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["MP"]
-                for i,x in enumerate(sent._.MP):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["QL"]
-                for i,x in enumerate(sent._.QL):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["QA_ME_Rel"]
-                for i,x in enumerate(sent._.qa_me_rel):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["QA_MP_Rel"]
-                for i,x in enumerate(sent._.qa_mp_rel):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["MP_ME_Rel"]
-                for i,x in enumerate(sent._.mp_me_rel):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["QA_QL_Rel"]
-                for i,x in enumerate(sent._.qa_ql_rel):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
+                    if token._.all == "QA":
+                        cds.append(token)
+                        #print("a",token,token._.all)
+                    
+                a = graph.Graph(sent)
+                tempDict = {"sentence":[x.text for x in sent]}
+                for qa in cds:
+                    key = qa.i
+                    for tok in sent:
+                        tempVal = {
+                            "path":a.getShortestPathToken(source=a.getNode(qa),target=a.getNode(tok)),
+                            "target":tok._.all if qa._.annotId == tok._.annotId else "o"
+                        }
+                        
+                        try:
+                            tempDict[key].append(tempVal)
+                        except KeyError:
+                            tempDict[key] = [tempVal]
                 
-
-                train_allS.write("\n")
-                train_quantS.write("\n")
-                train_qualS.write("\n")
-                train_meS.write("\n")
-                train_mpS.write("\n")
-
-        train_allS.close()
-        train_quantS.close()
-        train_qualS.close()
-        train_meS.close()
-        train_mpS.close()
-
-        test_allS = open(os.path.join(datapath, "test_allS.tsv"),"w",encoding="utf-8")
-        test_quantS = open(os.path.join(datapath, "test_quantS.tsv"),"w",encoding="utf-8")
-        test_qualS = open(os.path.join(datapath, "test_qualS.tsv"),"w",encoding="utf-8")
-        test_meS = open(os.path.join(datapath, "test_meS.tsv"),"w",encoding="utf-8")
-        test_mpS = open(os.path.join(datapath, "test_mpS.tsv"),"w",encoding="utf-8")
-
-        for i,x in enumerate(test):
-            count=0
-            sOffset=0
-            for sent in self.data[x].doc.sents:
-                sOffset += count
-                count = 0
-                for token in sent:
-                    count += 1
-                    test_allS.write("\t".join([token.text,token._.all,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-                    test_quantS.write("\t".join([token.text,token._.quant,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-                    test_qualS.write("\t".join([token.text,token._.qual,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-                    test_meS.write("\t".join([token.text,token._.me,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-                    test_mpS.write("\t".join([token.text,token._.mp,token.tag_,str(token.i),token.dep_,str(token.head.i)]+[str(x) for x in token._.relationDoc])+"\n")
-
-                train_allS.write("@@annotations@@\n")
-                temp = ["QA"]
-                for i,x in enumerate(sent._.QA):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["ME"]
-                for i,x in enumerate(sent._.ME):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["MP"]
-                for i,x in enumerate(sent._.MP):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["QL"]
-                for i,x in enumerate(sent._.QL):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["QA_ME_Rel"]
-                for i,x in enumerate(sent._.qa_me_rel):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["QA_MP_Rel"]
-                for i,x in enumerate(sent._.qa_mp_rel):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["MP_ME_Rel"]
-                for i,x in enumerate(sent._.mp_me_rel):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-                temp = ["QA_QL_Rel"]
-                for i,x in enumerate(sent._.qa_ql_rel):
-                    temp.append("{}:({},{})".format(i,x[0],x[1]))
-                train_allS.write("\t".join(temp)+"\n")
-
                 
-                test_allS.write("\n")
-                test_quantS.write("\n")
-                test_qualS.write("\n")
-                test_meS.write("\n")
-                test_mpS.write("\n")
+                sent_data.append(tempDict)
+            return sent_data
 
-        test_allS.close()
-        test_quantS.close()
-        test_qualS.close()
-        test_meS.close()
-        test_mpS.close()
 
-        """
+        test, train = self.getFolds(fold, div)
 
-        
+        #f = open("errors.txt","w",encoding="utf-8")
+        train_dat = [] 
+        for x in train:
+            train_dat = train_dat + getDataForDoc(self.data[x].doc)
+
+
+        test_dat = [] 
+        for x in test:
+            test_dat = test_dat + getDataForDoc(self.data[x].doc)
+
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
+
+        if not os.path.isdir(datapath):
+            os.mkdir(datapath)
+        else:
+            starpath = os.path.join(datapath,"*") 
+            os.system(f"rm {starpath}")
+
+
+        json.dump(test_dat,open(os.path.join(datapath,"test-path-data-2.json"),"w",encoding="utf-8"),indent=4)
+        json.dump(train_dat,open(os.path.join(datapath,"train-path-data-2.json"),"w",encoding="utf-8"),indent=4)        
     
 
 
-            
+    def writeDataPathsNoun(self,fold,syspath,div=8):
+            def getDataForDoc(doc):
+                sent_data = []
+                for sent in doc.sents:
+                    cds = []
+                    for token in sent:
+                        if token._.all == "QA":
+                            cds.append(token)
+                            #print("a",token,token._.all)
+                        
+                    a = graph.Graph(sent)
+                    tempDict = {"sentence":[x.text for x in sent]}
+                    for qa in cds:
+                        key = qa.i
+                        
+                        for tok in sent:
+                            if tok._.all != "QA":
+                                tempVal = {
+                                    "path":a.getShortestPathToken(source=a.getNode(qa),target=a.getNode(tok)),
+                                    "target":tok._.all if qa._.annotId == tok._.annotId else "o"
+                                }
+                                
+                                try:
+                                    tempDict[key].append(tempVal)
+                                except KeyError:
+                                    tempDict[key] = [tempVal]
+                    
+                    
+                    sent_data.append(tempDict)
+                return sent_data
 
 
+            test, train = self.getFolds(fold, div)
+
+            #f = open("errors.txt","w",encoding="utf-8")
+            train_dat = [] 
+            for x in train:
+                train_dat = train_dat + getDataForDoc(self.data[x].doc)
 
 
+            test_dat = [] 
+            for x in test:
+                test_dat = test_dat + getDataForDoc(self.data[x].doc)
 
+            datapath = os.path.join(syspath,"data-fold{}".format(fold))
+
+            if not os.path.isdir(datapath):
+                os.mkdir(datapath)
+
+
+            json.dump(test_dat,open(os.path.join(datapath,"test-path-data-NOUN.json"),"w",encoding="utf-8"),indent=4)
+            json.dump(train_dat,open(os.path.join(datapath,"train-path-data-NOUN.json"),"w",encoding="utf-8"),indent=4)   
+
+
+    def writeDataPruner(self,fold,syspath,div=8):
+            def getDataForDoc(doc):
+                data = []
+                for x in doc._.meAnnots.values():
+                    try:
+                        data.append({"span":[tok.text for tok in x["MeasuredEntity"]["span"]],"type":["ME"]})
+                    except:
+                        pass
+                    
+                    try:
+                        data.append({"span":[tok.text for tok in x["MeasuredProperty"]["span"]],"type":["MP"]})
+                    except:
+                        pass
+                    
+                    try:
+                        data.append({"span":[tok.text for tok in x["Quantity"]["span"]],"type":["QA"]})
+                    except:
+                        pass
+                    
+                    try:
+                        data.append({"span":[tok.text for tok in x["Qualifier"]["span"]],"type":["QL"]})
+                    except:
+                        pass
+                count = 0
+
+                while(count < 5):
+                    count+=1
+                    b = np.random.randint(low=0,high=len(doc))
+                    if doc[b]._.all == "o":
+                        data.append({"span":[doc[b].text],"type":["o"]})
+                    
+                    
+                return data
+
+
+            test, train = self.getFolds(fold, div)
+
+            #f = open("errors.txt","w",encoding="utf-8")
+            train_dat = [] 
+            for x in train:
+                train_dat += getDataForDoc(self.data[x].doc)
+
+            test_dat = [] 
+            for x in test:
+                test_dat += getDataForDoc(self.data[x].doc)
+
+            datapath = os.path.join(syspath,"data-fold{}".format(fold))
+
+            if not os.path.isdir(datapath):
+                os.mkdir(datapath)
+
+
+            json.dump(test_dat,open(os.path.join(datapath,"test-span.json"),"w",encoding="utf-8"),indent=4)
+            json.dump(train_dat,open(os.path.join(datapath,"train-span.json"),"w",encoding="utf-8"),indent=4)   
 
     
+
+    def writeDataMatcher(self,fold,syspath,div=8,context=0):
+        
+        def getDataForDoc(doc,context):
+            def withinSentence(span1,span2):
+                doc = span1.doc
+                s1 = span1.sent
+                s2 = span2.sent
+                i1,i2 = -10,500
+                s = [x for x in doc.sents]
+                print(len(s))
+                for i, sent in enumerate(s):
+                    if intersectSpanSpan(s1,sent):
+                        i1=i
+
+                    if intersectSpanSpan(s2,sent):
+                        i2=i
+                        
+                return abs(i1-i2) <= 1
+
+            def getContext(span,window):
+                return span.doc[max(0,span.start-window):min(span.end+window,len(span.doc))]
+
+            c = context
+            data=[]
+            temp = doc._.meAnnots
+            for key in temp.keys():
+                for kk in temp[key].keys():
+                    if kk not in ["Quantity","sentences"]:
+                        data.append(([x.text for x in getContext(temp[key]["Quantity"]["span"],c)],
+                                    [y.text for y in getContext(temp[key][kk]["span"],c)],
+                                    "match"))
+                        
+                for key2 in temp.keys():
+                    if key2 != key:
+                        for kk2 in temp[key2].keys():
+                            if kk2 not in ["Quantity","sentences"]:
+                                if(withinSentence(temp[key]["Quantity"]["span"],temp[key2][kk2]["span"])):
+                                    data.append(([x.text for x in getContext(temp[key]["Quantity"]["span"],c)],
+                                                [y.text for y in getContext(temp[key2][kk2]["span"],c)],
+                                                "nomatch"))
+            return data
+
+
+        test, train = self.getFolds(fold, div)
+
+        #f = open("errors.txt","w",encoding="utf-8")
+        train_dat = [] 
+        for x in train:
+            train_dat += getDataForDoc(self.data[x].doc,context)
+
+        test_dat = [] 
+        for x in test:
+            test_dat += getDataForDoc(self.data[x].doc,context)
+
+        datapath = os.path.join(syspath,"data-fold{}".format(fold))
+
+        if not os.path.isdir(datapath):
+            os.mkdir(datapath)
+
+
+        json.dump(test_dat,open(os.path.join(datapath,"test-match-{}.json".format(context)),"w",encoding="utf-8"),indent=4)
+        json.dump(train_dat,open(os.path.join(datapath,"train-match-{}.json".format(context)),"w",encoding="utf-8"),indent=4)   
+

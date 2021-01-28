@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1334	1	Quantity	331	343	T1	less than 5%	"{""unit"": ""%""}"
+S0927024813002961-1334	1	MeasuredProperty	291	298	T2	affects	"{""HasQuantity"": ""T1""}"
+S0927024813002961-1334	2	Quantity	816	828	T3	650–750 W/m2	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0927024813002961-1334	2	MeasuredProperty	746	759	T4	maximum power	"{""HasQuantity"": ""T3""}"
+S0927024813002961-1334	2	MeasuredEntity	760	765	T5	point	"{""HasProperty"": ""T4""}"
+S0927024813002961-1334	2	Qualifier	853	862	T6	corrected	"{""Qualifies"": ""T3""}"
+S0927024813002961-1334	3	Quantity	866	874	T7	700 W/m2	{}
+S0927024813002961-1334	3	MeasuredProperty	796	812	T8	irradiance range	"{""HasQuantity"": ""T7""}"
+S0927024813002961-1334	3	MeasuredEntity	778	785	T9	devices	"{""HasProperty"": ""T8""}"
+S0927024813002961-1334	4	Quantity	879	884	T10	25 °C	"{""unit"": ""\u00b0C""}"

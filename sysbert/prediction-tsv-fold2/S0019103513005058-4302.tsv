@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4302	1	Quantity	581	601	T1	3.5–6.1 (×10−4) wt.%	"{""unit"": "") wt.%""}"
+S0019103513005058-4302	1	MeasuredProperty	544	549	T2	input	"{""HasQuantity"": ""T1""}"
+S0019103513005058-4302	1	MeasuredEntity	537	543	T3	lowest	"{""HasProperty"": ""T2""}"
+S0019103513005058-4302	2	Quantity	621	626	T4	3 byr	"{""unit"": ""byr""}"
+S0019103513005058-4302	2	MeasuredProperty	604	615	T5	accumulated	"{""HasQuantity"": ""T4""}"
+S0019103513005058-4302	2	MeasuredEntity	553	565	T6	odd nitrogen	"{""HasProperty"": ""T5""}"
+S0019103513005058-4302	3	Quantity	642	651	T7	1.5–2.6 m	"{""unit"": ""m""}"
+S0019103513005058-4302	3	MeasuredProperty	631	636	T8	mixed	"{""HasQuantity"": ""T7""}"
+S0019103513005058-4302	3	MeasuredEntity	602	603	T9	N	"{""HasProperty"": ""T8""}"

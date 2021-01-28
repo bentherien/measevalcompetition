@@ -115,3 +115,15 @@ def toLatex(dictList):
     for x in dictList:
         print("&".join([str(y) for y in x.values()])+"\\\\\n\\hline")
 
+
+
+def toDataStructure(dep_to_ix,report):
+    temp = [ x.split(" ") for x in report.split("\n") if (x.split(" ")!=[""])]
+    temp = [[y for y in z if y!=""] for z in temp]
+    return temp
+
+def getLabel(dep_to_ix,report,label="weighted",row=4):
+    temp = toDataStructure(dep_to_ix,report)
+    for x in temp:
+        if x[0] == label:
+            return float(x[row])

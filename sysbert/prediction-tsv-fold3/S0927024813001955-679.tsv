@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-679	1	Quantity	12	19	T1	<200 nm	"{""unit"": ""nm""}"
+S0927024813001955-679	1	MeasuredEntity	2	10	T2	thin ZnO	"{""HasQuantity"": ""T1""}"
+S0927024813001955-679	2	Quantity	83	89	T3	matter	{}
+S0927024813001955-679	2	MeasuredEntity	21	25	T4	film	"{""HasQuantity"": ""T3""}"
+S0927024813001955-679	3	Quantity	93	100	T5	minutes	{}
+S0927024813001955-679	4	Quantity	323	337	T6	3.4+0.1 cm2/Vs	"{""unit"": ""/Vs""}"
+S0927024813001955-679	4	MeasuredProperty	302	319	T7	electron mobility	"{""HasQuantity"": ""T6""}"
+S0927024813001955-679	4	MeasuredEntity	261	276	T8	AALD ZnO layers	"{""HasProperty"": ""T7""}"
+S0927024813001955-679	5	Quantity	343	345	T9	up	{}
+S0927024813001955-679	5	MeasuredProperty	354	367	T10	transmittance	"{""HasQuantity"": ""T9""}"
+S0927024813001955-679	6	Quantity	349	353	T11	100%	"{""unit"": ""%""}"
+S0927024813001955-679	6	MeasuredProperty	371	384	T12	visible light	"{""HasQuantity"": ""T11""}"
+S0927024813001955-679	7	Quantity	637	651	T13	after 200 days	"{""unit"": ""days""}"
+S0927024813001955-679	7	MeasuredProperty	655	681	T14	storage in air in the dark	"{""HasQuantity"": ""T13""}"

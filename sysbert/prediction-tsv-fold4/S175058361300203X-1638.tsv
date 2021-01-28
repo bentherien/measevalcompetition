@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1638	1	Quantity	176	179	T1	two	{}
+S175058361300203X-1638	1	MeasuredProperty	215	224	T2	performed	"{""HasQuantity"": ""T1""}"
+S175058361300203X-1638	1	MeasuredEntity	180	185	T3	cases	"{""HasProperty"": ""T2""}"
+S175058361300203X-1638	2	Quantity	228	233	T4	34 °C	"{""unit"": ""\u00b0C""}"
+S175058361300203X-1638	2	MeasuredEntity	201	210	T5	injection	"{""HasQuantity"": ""T4""}"
+S175058361300203X-1638	3	Quantity	251	256	T6	38 °C	"{""unit"": ""\u00b0C""}"
+S175058361300203X-1638	4	Quantity	594	609	T7	34 °C and 38 °C	"{""unit"": ""\u00b0C""}"
+S175058361300203X-1638	4	MeasuredProperty	560	570	T8	difference	"{""HasQuantity"": ""T7""}"
+S175058361300203X-1638	4	MeasuredEntity	574	577	T9	CO2	"{""HasProperty"": ""T8""}"
+S175058361300203X-1638	4	Qualifier	686	709	T10	from the injection well	"{""Qualifies"": ""T7""}"

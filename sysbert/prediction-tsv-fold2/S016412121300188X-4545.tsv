@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4545	1	Quantity	37	41	T1	five	{}
+S016412121300188X-4545	1	MeasuredEntity	42	66	T2	largest clusters of acct	"{""HasQuantity"": ""T1""}"
+S016412121300188X-4545	2	Quantity	444	462	T3	from 11.4% to 2.4%	"{""mods"": [""IsList""], ""unit"": ""%""}"
+S016412121300188X-4545	2	MeasuredProperty	432	437	T4	sizes	"{""HasQuantity"": ""T3""}"
+S016412121300188X-4545	2	MeasuredEntity	424	431	T5	cluster	"{""HasProperty"": ""T4""}"
+S016412121300188X-4545	3	Quantity	470	474	T6	five	{}
+S016412121300188X-4545	3	MeasuredEntity	475	483	T7	clusters	"{""HasQuantity"": ""T6""}"
+S016412121300188X-4545	4	Quantity	605	632	T8	less than 2% or 30 vertices	"{""mods"": [""IsRange""], ""unit"": ""vertices""}"
+S016412121300188X-4545	4	MeasuredProperty	637	641	T9	size	"{""HasQuantity"": ""T8""}"
+S016412121300188X-4545	4	MeasuredEntity	580	588	T10	clusters	"{""HasProperty"": ""T9""}"

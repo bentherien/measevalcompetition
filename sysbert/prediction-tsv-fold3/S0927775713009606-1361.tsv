@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927775713009606-1361	1	Quantity	77	85	T1	0.097 nm	"{""mods"": [""IsCount""]}"
+S0927775713009606-1361	1	MeasuredProperty	61	73	T2	ionic radius	"{""HasQuantity"": ""T1""}"
+S0927775713009606-1361	1	MeasuredEntity	33	53	T3	divalent cation Cd2+	"{""HasProperty"": ""T2""}"
+S0927775713009606-1361	2	Quantity	250	260	T4	0.4–1.0 nm	"{""unit"": ""nm""}"
+S0927775713009606-1361	2	MeasuredProperty	199	205	T5	cavity	"{""HasQuantity"": ""T4""}"
+S0927775713009606-1361	2	MeasuredEntity	213	226	T6	amylose helix	"{""HasProperty"": ""T5""}"
+S0927775713009606-1361	3	Quantity	532	544	T7	0.19–0.21 nm	"{""unit"": ""nm""}"
+S0927775713009606-1361	3	MeasuredProperty	516	525	T8	distances	"{""HasQuantity"": ""T7""}"
+S0927775713009606-1361	3	MeasuredEntity	228	244	T9	double or single	"{""HasProperty"": ""T8""}"

@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0025322712001600-2406	1	Quantity	608	613	T1	< 9 m	"{""unit"": ""m""}"
+S0025322712001600-2406	1	MeasuredProperty	614	618	T2	long	"{""HasQuantity"": ""T1""}"
+S0025322712001600-2406	1	MeasuredEntity	598	603	T3	cores	"{""HasProperty"": ""T2""}"
+S0025322712001600-2406	2	Quantity	750	766	T4	greater than 10%	"{""mods"": [""IsList""], ""unit"": ""%""}"
+S0025322712001600-2406	2	MeasuredEntity	726	745	T5	clay mineral values	"{""HasQuantity"": ""T4""}"
+S0025322712001600-2406	2	Qualifier	820	823	T6	the	"{""Qualifies"": ""T4""}"
+S0025322712001600-2406	3	Quantity	795	809	T7	better than 5%	"{""mods"": [""IsList""], ""unit"": ""%""}"
+S0025322712001600-2406	3	MeasuredEntity	767	778	T8	uncertainty	"{""HasQuantity"": ""T7""}"
+S0025322712001600-2406	3	Qualifier	828	844	T9	confidence level	"{""Qualifies"": ""T7""}"
+S0025322712001600-2406	4	Quantity	824	827	T10	95%	"{""unit"": ""%""}"
+S0025322712001600-2406	4	MeasuredEntity	810	816	T11	weight	"{""HasQuantity"": ""T10""}"

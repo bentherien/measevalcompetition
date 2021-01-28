@@ -1,0 +1,20 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-903	1	Quantity	4	7	T1	two	{}
+S2211124712002884-903	1	MeasuredEntity	8	20	T2	FTD patients	"{""HasQuantity"": ""T1""}"
+S2211124712002884-903	2	Quantity	194	200	T3	8-year	"{""unit"": ""-year""}"
+S2211124712002884-903	2	MeasuredProperty	201	208	T4	history	"{""HasQuantity"": ""T3""}"
+S2211124712002884-903	2	MeasuredEntity	212	230	T5	behavioral changes	"{""HasProperty"": ""T4""}"
+S2211124712002884-903	2	Qualifier	275	285	T6	collection	"{""Qualifies"": ""T3""}"
+S2211124712002884-903	3	Quantity	302	305	T7	One	{}
+S2211124712002884-903	3	MeasuredEntity	306	313	T8	patient	"{""HasQuantity"": ""T7""}"
+S2211124712002884-903	4	Quantity	317	325	T9	67-year-	"{""unit"": ""-year-""}"
+S2211124712002884-903	4	MeasuredEntity	325	333	T10	old male	"{""HasQuantity"": ""T9""}"
+S2211124712002884-903	5	Quantity	431	442	T11	64-year-old	"{""unit"": ""-year-old""}"
+S2211124712002884-903	5	MeasuredEntity	443	447	T12	male	"{""HasQuantity"": ""T11""}"
+S2211124712002884-903	6	Quantity	663	671	T13	One year	{}
+S2211124712002884-903	6	MeasuredEntity	679	688	T14	MRI scans	"{""HasQuantity"": ""T13""}"
+S2211124712002884-903	6	Qualifier	672	677	T15	later	"{""Qualifies"": ""T13""}"
+S2211124712002884-903	7	Quantity	800	807	T16	g.4627C	"{""unit"": ""C""}"
+S2211124712002884-903	8	Quantity	813	819	T17	c.347C	"{""unit"": ""C""}"
+S2211124712002884-903	9	Quantity	1020	1028	T18	64-year-	"{""unit"": ""-year-""}"
+S2211124712002884-903	9	MeasuredEntity	1032	1036	T19	male	"{""HasQuantity"": ""T18""}"

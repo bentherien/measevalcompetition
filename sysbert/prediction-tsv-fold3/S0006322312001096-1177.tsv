@@ -1,0 +1,33 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1177	1	Quantity	260	268	T1	35 to 55	{}
+S0006322312001096-1177	1	MeasuredEntity	228	253	T2	London-based office staff	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1177	2	Quantity	281	283	T3	20	{}
+S0006322312001096-1177	2	MeasuredEntity	284	309	T4	civil service departments	"{""HasQuantity"": ""T3""}"
+S0006322312001096-1177	3	Quantity	341	353	T5	1985 to 1988	{}
+S0006322312001096-1177	4	Quantity	384	387	T6	73%	"{""unit"": ""%""}"
+S0006322312001096-1177	4	MeasuredProperty	372	380	T7	response	"{""HasQuantity"": ""T6""}"
+S0006322312001096-1177	4	MeasuredEntity	393	399	T8	cohort	"{""HasProperty"": ""T7""}"
+S0006322312001096-1177	5	Quantity	413	419	T9	10,308	{}
+S0006322312001096-1177	5	MeasuredEntity	420	429	T10	employees	"{""HasQuantity"": ""T9""}"
+S0006322312001096-1177	6	Quantity	431	435	T11	6895	{}
+S0006322312001096-1177	6	MeasuredEntity	436	439	T12	men	"{""HasQuantity"": ""T11""}"
+S0006322312001096-1177	7	Quantity	444	448	T13	3413	{}
+S0006322312001096-1177	8	Quantity	556	563	T14	5 years	"{""unit"": ""years""}"
+S0006322312001096-1177	8	MeasuredProperty	530	535	T15	place	"{""HasQuantity"": ""T14""}"
+S0006322312001096-1177	8	MeasuredEntity	496	518	T16	follow-up examinations	"{""HasProperty"": ""T15""}"
+S0006322312001096-1177	8	Qualifier	582	586	T17	1993	"{""Qualifies"": ""T14""}"
+S0006322312001096-1177	9	Quantity	574	578	T18	1991	{}
+S0006322312001096-1177	9	MeasuredProperty	579	581	T19	to	"{""HasQuantity"": ""T18""}"
+S0006322312001096-1177	9	Qualifier	608	612	T20	1997	"{""Qualifies"": ""T18""}"
+S0006322312001096-1177	10	Quantity	592	596	T21	8815	{}
+S0006322312001096-1177	10	MeasuredProperty	588	589	T22	n	"{""HasQuantity"": ""T21""}"
+S0006322312001096-1177	10	Qualifier	616	620	T23	1999	"{""Qualifies"": ""T21""}"
+S0006322312001096-1177	11	Quantity	626	630	T24	7870	{}
+S0006322312001096-1177	11	MeasuredProperty	622	623	T25	n	"{""HasQuantity"": ""T24""}"
+S0006322312001096-1177	11	Qualifier	650	654	T26	2004	"{""Qualifies"": ""T24""}"
+S0006322312001096-1177	12	Quantity	660	664	T27	6967	{}
+S0006322312001096-1177	12	MeasuredProperty	656	657	T28	n	"{""HasQuantity"": ""T27""}"
+S0006322312001096-1177	13	Quantity	698	702	T29	6761	{}
+S0006322312001096-1177	13	MeasuredProperty	694	695	T30	n	"{""HasQuantity"": ""T29""}"
+S0006322312001096-1177	14	Quantity	874	879	T31	three	{}
+S0006322312001096-1177	14	MeasuredEntity	880	896	T32	screening cycles	"{""HasQuantity"": ""T31""}"

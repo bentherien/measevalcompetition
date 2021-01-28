@@ -1,0 +1,25 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506113001116-710	1	Quantity	109	113	T1	48 h	"{""unit"": ""h""}"
+S1873506113001116-710	1	MeasuredEntity	134	161	T2	single suspension BC1 cells	"{""HasQuantity"": ""T1""}"
+S1873506113001116-710	1	Qualifier	114	133	T3	post-inoculation of	"{""Qualifies"": ""T1""}"
+S1873506113001116-710	2	Quantity	273	275	T4	13	{}
+S1873506113001116-710	2	MeasuredProperty	231	239	T5	expanded	"{""HasQuantity"": ""T4""}"
+S1873506113001116-710	2	MeasuredEntity	198	201	T6	BC1	"{""HasProperty"": ""T5""}"
+S1873506113001116-710	2	Qualifier	162	174	T7	in ultra-low	"{""Qualifies"": ""T4""}"
+S1873506113001116-710	3	Quantity	286	293	T8	45 days	"{""unit"": ""days""}"
+S1873506113001116-710	3	MeasuredProperty	261	268	T9	culture	"{""HasQuantity"": ""T8""}"
+S1873506113001116-710	3	MeasuredEntity	243	260	T10	static suspension	"{""HasProperty"": ""T9""}"
+S1873506113001116-710	3	Qualifier	186	192	T11	plates	"{""Qualifies"": ""T8""}"
+S1873506113001116-710	4	Quantity	299	300	T12	3	{}
+S1873506113001116-710	4	MeasuredProperty	295	296	T13	n	"{""HasQuantity"": ""T12""}"
+S1873506113001116-710	4	MeasuredEntity	276	284	T14	passages	"{""HasProperty"": ""T13""}"
+S1873506113001116-710	5	Quantity	333	334	T15	3	{}
+S1873506113001116-710	5	MeasuredProperty	329	330	T16	n	"{""HasQuantity"": ""T15""}"
+S1873506113001116-710	5	MeasuredEntity	362	368	T17	hiPSCs	"{""HasProperty"": ""T16""}"
+S1873506113001116-710	5	Qualifier	387	396	T18	in static	"{""Qualifies"": ""T15""}"
+S1873506113001116-710	6	Quantity	375	386	T19	13 passages	"{""unit"": ""passages""}"
+S1873506113001116-710	6	MeasuredEntity	397	407	T20	suspension	"{""HasQuantity"": ""T19""}"
+S1873506113001116-710	7	Quantity	539	540	T21	2	"{""mods"": [""IsCount""]}"
+S1873506113001116-710	7	MeasuredProperty	535	536	T22	n	"{""HasQuantity"": ""T21""}"
+S1873506113001116-710	8	Quantity	626	632	T23	200 μm	"{""unit"": ""\u03bcm""}"
+S1873506113001116-710	8	MeasuredEntity	613	623	T24	Scale bars	"{""HasQuantity"": ""T23""}"

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1275	1	Quantity	45	55	T1	66% to 88%	"{""unit"": ""%""}"
+S0006322312001096-1275	1	MeasuredProperty	15	26	T2	response to	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1275	1	MeasuredEntity	31	37	T3	survey	"{""HasProperty"": ""T2""}"
+S0006322312001096-1275	1	Qualifier	80	90	T4	collection	"{""Qualifies"": ""T1""}"

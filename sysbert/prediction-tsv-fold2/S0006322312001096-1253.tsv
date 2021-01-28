@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1253	1	Quantity	320	328	T1	65 years	"{""unit"": ""years""}"
+S0006322312001096-1253	1	MeasuredProperty	313	316	T2	age	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1253	2	Quantity	655	658	T3	two	{}
+S0006322312001096-1253	2	MeasuredEntity	659	677	T4	survey instruments	"{""HasQuantity"": ""T3""}"
