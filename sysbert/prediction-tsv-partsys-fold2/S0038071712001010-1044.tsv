@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071712001010-1044	1	Quantity	626	634	T1	∼0.4 mm2	"{""mods"": [""IsApproximate""], ""unit"": """"}"
+S0038071712001010-1044	1	MeasuredEntity	579	583	T2	soil	"{""HasQuantity"": ""T1""}"
+S0038071712001010-1044	2	Quantity	1298	1301	T3	six	"{""mods"": [""IsCount""]}"
+S0038071712001010-1044	2	MeasuredEntity	1302	1316	T4	Glomus species	"{""HasQuantity"": ""T3""}"
+S0038071712001010-1044	3	Quantity	2609	2616	T5	84 days	"{""unit"": ""days""}"
+S0038071712001010-1044	3	MeasuredProperty	2598	2604	T6	lasted	"{""HasQuantity"": ""T5""}"
+S0038071712001010-1044	3	MeasuredEntity	2587	2597	T7	experiment	"{""HasProperty"": ""T6""}"

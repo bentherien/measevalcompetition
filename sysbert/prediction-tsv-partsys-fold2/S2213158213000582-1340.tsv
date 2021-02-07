@@ -1,0 +1,30 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1340	1	Quantity	28	35	T1	5–55 Hz	"{""mods"": [""IsRange""], ""unit"": ""Hz""}"
+S2213158213000582-1340	1	MeasuredProperty	36	51	T2	bandpass filter	"{""HasQuantity"": ""T1""}"
+S2213158213000582-1340	1	MeasuredEntity	90	98	T3	activity	"{""HasProperty"": ""T2""}"
+S2213158213000582-1340	2	Quantity	99	108	T4	30–130 ms	"{""mods"": [""IsRange""], ""unit"": ""ms""}"
+S2213158213000582-1340	2	MeasuredEntity	65	80	T5	VESTAL analyses	"{""HasQuantity"": ""T4""}"
+S2213158213000582-1340	2	Qualifier	109	122	T6	post-stimulus	"{""Qualifies"": ""T4""}"
+S2213158213000582-1340	3	Quantity	298	304	T7	95.81%	"{""unit"": ""%""}"
+S2213158213000582-1340	3	MeasuredProperty	225	259	T8	average percent variance explained	"{""HasQuantity"": ""T7""}"
+S2213158213000582-1340	3	MeasuredEntity	264	280	T9	gradiometer data	"{""HasProperty"": ""T8""}"
+S2213158213000582-1340	3	Qualifier	281	286	T10	using	"{""Qualifies"": ""T7""}"
+S2213158213000582-1340	4	Quantity	316	322	T11	94.38%	"{""unit"": ""%""}"
+S2213158213000582-1340	4	MeasuredEntity	309	311	T12	HC	"{""HasQuantity"": ""T11""}"
+S2213158213000582-1340	5	Quantity	417	423	T13	96.24%	"{""unit"": ""%""}"
+S2213158213000582-1340	5	MeasuredProperty	335	369	T14	average percent variance explained	"{""HasQuantity"": ""T13""}"
+S2213158213000582-1340	5	MeasuredEntity	374	391	T15	magnetometer data	"{""HasProperty"": ""T14""}"
+S2213158213000582-1340	6	Quantity	435	441	T16	93.17%	"{""unit"": ""%""}"
+S2213158213000582-1340	6	MeasuredProperty	594	595	T17	p	"{""HasQuantity"": ""T16""}"
+S2213158213000582-1340	6	MeasuredEntity	428	430	T18	HC	"{""HasProperty"": ""T17""}"
+S2213158213000582-1340	7	Quantity	542	546	T19	1.16	{}
+S2213158213000582-1340	7	MeasuredProperty	485	511	T20	percent variance explained	"{""HasQuantity"": ""T19""}"
+S2213158213000582-1340	7	MeasuredEntity	516	532	T21	gradiometer data	"{""HasProperty"": ""T20""}"
+S2213158213000582-1340	8	Quantity	552	556	T22	0.25	{}
+S2213158213000582-1340	8	MeasuredProperty	534	539	T23	t(39)	"{""HasQuantity"": ""T22""}"
+S2213158213000582-1340	8	MeasuredEntity	561	578	T24	magnetometer data	"{""HasProperty"": ""T23""}"
+S2213158213000582-1340	9	Quantity	588	592	T25	1.31	{}
+S2213158213000582-1340	9	MeasuredProperty	548	549	T26	p	"{""HasQuantity"": ""T25""}"
+S2213158213000582-1340	9	MeasuredEntity	446	448	T27	SZ	"{""HasProperty"": ""T26""}"
+S2213158213000582-1340	10	Quantity	598	602	T28	0.20	{}
+S2213158213000582-1340	10	MeasuredProperty	580	585	T29	t(39)	"{""HasQuantity"": ""T28""}"

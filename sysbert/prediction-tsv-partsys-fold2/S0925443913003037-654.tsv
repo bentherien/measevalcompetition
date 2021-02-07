@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913003037-654	1	Quantity	29	38	T1	2.5 years	"{""unit"": ""years""}"
+S0925443913003037-654	1	MeasuredProperty	12	21	T2	performed	"{""HasQuantity"": ""T1""}"
+S0925443913003037-654	1	MeasuredEntity	0	11	T3	Cranial MRI	"{""HasProperty"": ""T2""}"

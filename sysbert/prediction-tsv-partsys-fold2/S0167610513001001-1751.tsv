@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-1751	1	Quantity	161	168	T1	1 m s−1	{}
+S0167610513001001-1751	1	MeasuredProperty	140	147	T2	divided	"{""HasQuantity"": ""T1""}"
+S0167610513001001-1751	1	MeasuredEntity	131	135	T3	data	"{""HasProperty"": ""T2""}"
+S0167610513001001-1751	2	Quantity	266	269	T4	two	"{""mods"": [""IsCount""]}"
+S0167610513001001-1751	2	MeasuredProperty	238	253	T5	mean difference	"{""HasQuantity"": ""T4""}"
+S0167610513001001-1751	2	MeasuredEntity	270	281	T6	instruments	"{""HasProperty"": ""T5""}"
+S0167610513001001-1751	3	Quantity	352	378	T7	by between 0 and 0.5 m s−1	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0167610513001001-1751	3	MeasuredProperty	322	336	T8	overestimating	"{""HasQuantity"": ""T7""}"
+S0167610513001001-1751	3	MeasuredEntity	316	321	T9	lidar	"{""HasProperty"": ""T8""}"
+S0167610513001001-1751	4	Quantity	395	416	T10	greater than 20 m s−1	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0167610513001001-1751	4	MeasuredProperty	383	394	T11	wind speeds	"{""HasQuantity"": ""T10""}"
+S0167610513001001-1751	4	MeasuredEntity	415	420	T12	1 the	"{""HasProperty"": ""T11""}"

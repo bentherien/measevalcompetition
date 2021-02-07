@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-1286	1	Quantity	105	112	T1	4 weeks	"{""unit"": ""weeks""}"
+S2213671113001306-1286	1	MeasuredProperty	96	104	T2	survived	"{""HasQuantity"": ""T1""}"
+S2213671113001306-1286	1	MeasuredEntity	80	95	T3	hRPE monolayers	"{""HasProperty"": ""T2""}"
+S2213671113001306-1286	1	Qualifier	116	128	T4	PET carriers	"{""Qualifies"": ""T1""}"

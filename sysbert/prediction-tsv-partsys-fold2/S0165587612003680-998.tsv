@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0165587612003680-998	1	Quantity	123	126	T1	two	"{""mods"": [""IsCount""]}"
+S0165587612003680-998	1	MeasuredEntity	106	110	T2	data	"{""HasQuantity"": ""T1""}"
+S0165587612003680-998	2	Quantity	403	418	T3	54.3% vs. 14.3%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S0165587612003680-998	2	MeasuredProperty	323	329	T4	number	"{""HasQuantity"": ""T3""}"
+S0165587612003680-998	2	MeasuredEntity	287	295	T5	Children	"{""HasProperty"": ""T4""}"
+S0165587612003680-998	2	Qualifier	395	401	T6	adults	"{""Qualifies"": ""T3""}"
+S0165587612003680-998	3	Quantity	420	435	T7	82.9% vs. 57.1%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S0165587612003680-998	3	MeasuredProperty	340	350	T8	-positive,	"{""HasQuantity"": ""T7""}"
+S0165587612003680-998	3	MeasuredEntity	333	340	T9	culture	"{""HasProperty"": ""T8""}"
+S0165587612003680-998	4	Quantity	441	453	T10	67.9% vs. 0%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S0165587612003680-998	4	MeasuredProperty	360	389	T11	positive, and biofilm results	"{""HasQuantity"": ""T10""}"
+S0165587612003680-998	4	MeasuredEntity	351	360	T12	confocal-	"{""HasProperty"": ""T11""}"
+S0165587612003680-998	5	Quantity	567	571	T13	0.02	{}
+S0165587612003680-998	5	MeasuredProperty	563	564	T14	p	"{""HasQuantity"": ""T13""}"
+S0165587612003680-998	5	MeasuredEntity	543	562	T15	Fisher's exact test	"{""HasProperty"": ""T14""}"

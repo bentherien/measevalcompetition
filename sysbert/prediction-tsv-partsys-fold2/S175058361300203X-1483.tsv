@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1483	1	Quantity	765	769	T1	33 m	"{""unit"": ""m""}"
+S175058361300203X-1483	1	MeasuredEntity	753	763	T2	upper part	"{""HasQuantity"": ""T1""}"
+S175058361300203X-1483	2	Quantity	1034	1056	T3	in the range of 20–25%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S175058361300203X-1483	2	MeasuredProperty	1013	1033	T4	effective porosities	"{""HasQuantity"": ""T3""}"
+S175058361300203X-1483	2	MeasuredEntity	918	936	T5	channel sandstones	"{""HasProperty"": ""T4""}"
+S175058361300203X-1483	3	Quantity	1226	1229	T6	two	"{""mods"": [""IsCount""]}"
+S175058361300203X-1483	3	MeasuredEntity	944	953	T7	reservoir	"{""HasQuantity"": ""T6""}"

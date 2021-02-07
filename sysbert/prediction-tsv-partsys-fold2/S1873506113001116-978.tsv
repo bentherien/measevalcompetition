@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506113001116-978	1	Quantity	551	554	T1	two	"{""mods"": [""IsCount""]}"
+S1873506113001116-978	1	MeasuredEntity	565	576	T2	hiPSC lines	"{""HasQuantity"": ""T1""}"
+S1873506113001116-978	2	Quantity	780	801	T3	more than 10 passages	"{""mods"": [""IsRange""], ""unit"": ""passages""}"
+S1873506113001116-978	2	MeasuredProperty	758	768	T4	in spinner	"{""HasQuantity"": ""T3""}"
+S1873506113001116-978	2	MeasuredEntity	742	757	T5	hiPSCs cultured	"{""HasProperty"": ""T4""}"

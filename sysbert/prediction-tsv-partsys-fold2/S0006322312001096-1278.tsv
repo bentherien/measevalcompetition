@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1278	1	Quantity	431	437	T1	before	"{""mods"": [""IsCount""]}"
+S0006322312001096-1278	1	MeasuredProperty	442	445	T2	age	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1278	1	MeasuredEntity	598	617	T3	depressive symptoms	"{""HasProperty"": ""T2""}"
+S0006322312001096-1278	2	Quantity	446	451	T4	of 65	{}
+S0006322312001096-1278	2	MeasuredProperty	628	631	T5	age	"{""HasQuantity"": ""T4""}"
+S0006322312001096-1278	3	Quantity	618	627	T6	after the	{}
+S0006322312001096-1278	4	Quantity	632	643	T7	of 65 years	"{""mods"": [""IsRange""], ""unit"": ""years""}"

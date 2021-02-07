@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1205	1	Quantity	98	114	T1	the past 14 days	"{""mods"": [""IsRange""], ""unit"": ""days""}"
+S0006322312001096-1205	1	MeasuredProperty	74	83	T2	taken any	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1205	1	MeasuredEntity	84	94	T3	medication	"{""HasProperty"": ""T2""}"

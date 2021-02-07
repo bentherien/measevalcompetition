@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-739	1	Quantity	52	57	T1	180 m	"{""unit"": ""m""}"
+S0167610513001001-739	1	MeasuredProperty	31	36	T2	speed	"{""HasQuantity"": ""T1""}"
+S0167610513001001-739	1	MeasuredEntity	21	30	T3	mean wind	"{""HasProperty"": ""T2""}"
+S0167610513001001-739	2	Quantity	81	91	T4	7.83 m s−1	{}
+S0167610513001001-739	2	MeasuredProperty	67	77	T5	wind speed	"{""HasQuantity"": ""T4""}"

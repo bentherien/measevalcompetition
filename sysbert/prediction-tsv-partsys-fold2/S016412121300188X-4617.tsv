@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4617	1	Quantity	227	230	T1	52%	"{""unit"": ""%""}"
+S016412121300188X-4617	1	MeasuredProperty	200	225	T2	dominant coherent cluster	"{""HasQuantity"": ""T1""}"
+S016412121300188X-4617	1	MeasuredEntity	125	131	T3	indent	"{""HasProperty"": ""T2""}"
+S016412121300188X-4617	1	Qualifier	166	170	T4	acct	"{""Qualifies"": ""T1""}"
+S016412121300188X-4617	2	Quantity	299	302	T5	11%	"{""unit"": ""%""}"
+S016412121300188X-4617	2	MeasuredProperty	267	275	T6	clusters	"{""HasQuantity"": ""T5""}"
+S016412121300188X-4617	2	MeasuredEntity	175	181	T7	indent	"{""HasProperty"": ""T6""}"
+S016412121300188X-4617	2	Qualifier	240	244	T8	acct	"{""Qualifies"": ""T5""}"

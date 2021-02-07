@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-399	1	Quantity	180	201	T1	region 1065–1280 cm−1	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0167577X13006393-399	1	MeasuredProperty	152	172	T2	characteristic bands	"{""HasQuantity"": ""T1""}"
+S0167577X13006393-399	1	MeasuredEntity	119	137	T3	pure PLGA spectrum	"{""HasProperty"": ""T2""}"
+S0167577X13006393-399	2	Quantity	305	319	T4	about 964 cm−1	"{""mods"": [""IsApproximate""], ""unit"": """"}"
+S0167577X13006393-399	2	MeasuredProperty	284	301	T5	ν1 vibration mode	"{""HasQuantity"": ""T4""}"
+S0167577X13006393-399	2	MeasuredEntity	219	232	T6	HA nanopowder	"{""HasProperty"": ""T5""}"
+S0167577X13006393-399	2	Qualifier	277	281	T7	PO43	"{""Qualifies"": ""T4""}"
+S0167577X13006393-399	3	Quantity	342	351	T8	1031 cm−1	{}
+S0167577X13006393-399	3	MeasuredProperty	321	338	T9	ν3 vibration mode	"{""HasQuantity"": ""T8""}"
+S0167577X13006393-399	3	MeasuredEntity	281	282	T10	−	"{""HasProperty"": ""T9""}"
+S0167577X13006393-399	4	Quantity	356	365	T11	1091 cm−1	{}
+S0167577X13006393-399	4	MeasuredEntity	367	377	T12	asymmetric	"{""HasQuantity"": ""T11""}"
+S0167577X13006393-399	5	Quantity	427	430	T13	50%	"{""unit"": ""%""}"
+S0167577X13006393-399	5	MeasuredProperty	397	405	T14	spectrum	"{""HasQuantity"": ""T13""}"
+S0167577X13006393-399	5	MeasuredEntity	409	426	T15	untreated PLGA–HA	"{""HasProperty"": ""T14""}"

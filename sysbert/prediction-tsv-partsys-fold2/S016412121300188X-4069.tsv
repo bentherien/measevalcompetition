@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4069	1	Quantity	54	64	T1	9438 lines	"{""unit"": ""lines""}"
+S016412121300188X-4069	1	MeasuredEntity	19	44	T2	open source calculator bc	"{""HasQuantity"": ""T1""}"
+S016412121300188X-4069	2	Quantity	88	92	T3	7538	{}
+S016412121300188X-4069	2	MeasuredProperty	160	167	T4	plateau	"{""HasQuantity"": ""T3""}"
+S016412121300188X-4069	2	MeasuredEntity	68	72	T5	code	"{""HasProperty"": ""T4""}"
+S016412121300188X-4069	3	Quantity	179	189	T6	almost 70%	"{""mods"": [""IsApproximate""], ""unit"": ""%""}"
+S016412121300188X-4069	3	MeasuredProperty	111	116	T7	B-MSG	"{""HasQuantity"": ""T6""}"
+S016412121300188X-4069	3	MeasuredEntity	121	123	T8	bc	"{""HasProperty"": ""T7""}"

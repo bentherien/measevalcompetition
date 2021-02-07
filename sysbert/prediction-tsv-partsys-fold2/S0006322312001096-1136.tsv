@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1136	1	Quantity	73	77	T1	1991	{}
+S0006322312001096-1136	1	MeasuredProperty	49	69	T2	baseline examination	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1136	1	MeasuredEntity	25	34	T3	Whitehall	"{""HasProperty"": ""T2""}"
+S0006322312001096-1136	2	Quantity	103	123	T4	1997, 2003, and 2008	"{""mods"": [""IsList""], ""unit"": """"}"
+S0006322312001096-1136	2	MeasuredProperty	224	232	T5	mean age	"{""HasQuantity"": ""T4""}"
+S0006322312001096-1136	2	MeasuredEntity	210	222	T6	participants	"{""HasProperty"": ""T5""}"
+S0006322312001096-1136	3	Quantity	205	209	T7	5318	{}
+S0006322312001096-1136	3	MeasuredProperty	249	254	T8	women	"{""HasQuantity"": ""T7""}"
+S0006322312001096-1136	3	MeasuredEntity	264	283	T9	depressive symptoms	"{""HasProperty"": ""T8""}"
+S0006322312001096-1136	4	Quantity	233	243	T10	54.8 years	"{""unit"": ""years""}"
+S0006322312001096-1136	5	Quantity	245	248	T11	31%	"{""unit"": ""%""}"
+S0006322312001096-1136	6	Quantity	576	579	T12	≥16	{}
+S0006322312001096-1136	6	MeasuredProperty	553	575	T13	Depression Scale score	"{""HasQuantity"": ""T12""}"
+S0006322312001096-1136	6	MeasuredEntity	479	493	T14	General Health	"{""HasProperty"": ""T13""}"

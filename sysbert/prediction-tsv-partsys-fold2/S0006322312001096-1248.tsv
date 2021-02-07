@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1248	1	Quantity	584	588	T1	2.30	{}
+S0006322312001096-1248	1	MeasuredProperty	522	526	T2	odds	"{""HasQuantity"": ""T1""}"
+S0006322312001096-1248	1	MeasuredEntity	539	564	T3	CES-D depressive symptoms	"{""HasProperty"": ""T2""}"
+S0006322312001096-1248	1	Qualifier	590	596	T4	95% CI	"{""Qualifies"": ""T1""}"
+S0006322312001096-1248	2	Quantity	597	606	T5	1.03–5.13	{}
+S0006322312001096-1248	2	MeasuredProperty	530	535	T6	onset	"{""HasQuantity"": ""T5""}"
+S0006322312001096-1248	3	Quantity	628	634	T7	age 65	{}
+S0006322312001096-1248	3	MeasuredProperty	573	583	T8	odds ratio	"{""HasQuantity"": ""T7""}"

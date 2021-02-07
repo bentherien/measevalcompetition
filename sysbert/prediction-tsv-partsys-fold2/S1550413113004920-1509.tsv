@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1550413113004920-1509	1	Quantity	13	16	T1	147	"{""mods"": [""IsCount""]}"
+S1550413113004920-1509	1	MeasuredProperty	134	143	T2	diagnosed	"{""HasQuantity"": ""T1""}"
+S1550413113004920-1509	1	MeasuredEntity	17	25	T3	patients	"{""HasProperty"": ""T2""}"
+S1550413113004920-1509	2	Quantity	168	186	T4	before 6 months of	"{""mods"": [""IsRange""], ""unit"": ""months of""}"
+S1550413113004920-1509	2	MeasuredProperty	149	167	T5	permanent diabetes	"{""HasQuantity"": ""T4""}"
+S1550413113004920-1509	2	MeasuredEntity	80	91	T6	were second	"{""HasProperty"": ""T5""}"
+S1550413113004920-1509	3	Quantity	233	248	T7	before 9 months	"{""mods"": [""IsRange""], ""unit"": ""months""}"
+S1550413113004920-1509	3	MeasuredProperty	187	190	T8	age	"{""HasQuantity"": ""T7""}"

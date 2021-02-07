@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1221	1	Quantity	662	685	T1	between 200 and >1000 m	"{""mods"": [""IsRange""], ""unit"": ""m""}"
+S0012821X12004384-1221	1	MeasuredProperty	686	697	T2	water depth	"{""HasQuantity"": ""T1""}"
+S0012821X12004384-1221	1	MeasuredEntity	586	613	T3	extant benthic foraminifera	"{""HasProperty"": ""T2""}"
+S0012821X12004384-1221	2	Quantity	1069	1076	T4	>0.5 km	"{""mods"": [""IsRange""], ""unit"": ""km""}"
+S0012821X12004384-1221	2	MeasuredProperty	1054	1065	T5	paleodepths	"{""HasQuantity"": ""T4""}"
+S0012821X12004384-1221	2	MeasuredEntity	1016	1034	T6	northern North Sea	"{""HasProperty"": ""T5""}"
+S0012821X12004384-1221	2	Qualifier	1100	1104	T7	near	"{""Qualifies"": ""T4""}"
+S0012821X12004384-1221	3	Quantity	1105	1113	T8	22/10a-4	{}
+S0012821X12004384-1221	3	MeasuredEntity	1084	1099	T9	earliest Eocene	"{""HasQuantity"": ""T8""}"

@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S030881461301604X-1001	1	Quantity	120	128	T1	68 – 70%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S030881461301604X-1001	1	MeasuredProperty	107	118	T2	nitric acid	"{""HasQuantity"": ""T1""}"
+S030881461301604X-1001	1	MeasuredEntity	4	9	T3	water	"{""HasProperty"": ""T2""}"
+S030881461301604X-1001	2	Quantity	150	153	T4	30%	"{""unit"": ""%""}"
+S030881461301604X-1001	2	MeasuredProperty	131	148	T5	hydrochloric acid	"{""HasQuantity"": ""T4""}"
+S030881461301604X-1001	2	MeasuredEntity	182	183	T6	)	"{""HasProperty"": ""T5""}"
+S030881461301604X-1001	3	Quantity	176	182	T7	powder	{}
+S030881461301604X-1001	3	MeasuredProperty	156	174	T8	ammonium carbonate	"{""HasQuantity"": ""T7""}"
+S030881461301604X-1001	3	MeasuredEntity	10	23	T9	was ultrapure	"{""HasProperty"": ""T8""}"
+S030881461301604X-1001	4	Quantity	204	207	T10	30%	"{""unit"": ""%""}"
+S030881461301604X-1001	4	MeasuredProperty	183	202	T11	, hydrogen peroxide	"{""HasQuantity"": ""T10""}"
+S030881461301604X-1001	5	Quantity	226	229	T12	98%	"{""unit"": ""%""}"
+S030881461301604X-1001	5	MeasuredProperty	213	224	T13	formic acid	"{""HasQuantity"": ""T12""}"

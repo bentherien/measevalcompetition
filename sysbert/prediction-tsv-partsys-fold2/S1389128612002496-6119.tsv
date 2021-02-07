@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-6119	1	Quantity	205	225	T1	from 10 ms to 0.1 ms	"{""mods"": [""IsRange""], ""unit"": ""ms""}"
+S1389128612002496-6119	1	MeasuredProperty	191	193	T2	Tb	"{""HasQuantity"": ""T1""}"
+S1389128612002496-6119	2	Quantity	320	333	T3	around 0.5 ms	"{""mods"": [""IsApproximate""], ""unit"": ""ms""}"
+S1389128612002496-6119	2	MeasuredProperty	314	316	T4	Tb	"{""HasQuantity"": ""T3""}"
+S1389128612002496-6119	3	Quantity	398	403	T5	about	"{""mods"": [""IsCount""]}"
+S1389128612002496-6119	3	MeasuredProperty	339	350	T6	average CAS	"{""HasQuantity"": ""T5""}"
+S1389128612002496-6119	3	MeasuredEntity	379	388	T7	the LDDoS	"{""HasProperty"": ""T6""}"

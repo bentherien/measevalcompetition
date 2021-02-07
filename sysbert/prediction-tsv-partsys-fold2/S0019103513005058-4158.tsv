@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4158	1	Quantity	704	716	T1	0.51–0.85 m.	"{""mods"": [""IsRange""], ""unit"": ""m.""}"
+S0019103513005058-4158	1	MeasuredProperty	688	700	T2	mixing depth	"{""HasQuantity"": ""T1""}"
+S0019103513005058-4158	1	MeasuredEntity	666	670	T3	soil	"{""HasProperty"": ""T2""}"
+S0019103513005058-4158	1	Qualifier	639	648	T4	impactors	"{""Qualifies"": ""T1""}"
+S0019103513005058-4158	2	Quantity	724	729	T5	three	"{""mods"": [""IsCount""]}"
+S0019103513005058-4158	2	MeasuredProperty	777	782	T6	depth	"{""HasQuantity"": ""T5""}"
+S0019103513005058-4158	2	MeasuredEntity	674	678	T7	Mars	"{""HasProperty"": ""T6""}"
+S0019103513005058-4158	2	Qualifier	654	661	T8	churned	"{""Qualifies"": ""T5""}"
+S0019103513005058-4158	3	Quantity	767	776	T9	1.5–2.6 m	"{""mods"": [""IsRange""], ""unit"": ""m""}"
+S0019103513005058-4158	3	MeasuredProperty	791	795	T10	mean	"{""HasQuantity"": ""T9""}"
+S0019103513005058-4158	3	MeasuredEntity	684	687	T11	1/e	"{""HasProperty"": ""T10""}"
+S0019103513005058-4158	4	Quantity	796	801	T12	∼2 m.	"{""mods"": [""IsApproximate""], ""unit"": ""m.""}"
+S0019103513005058-4158	4	MeasuredProperty	847	854	T13	density	"{""HasQuantity"": ""T12""}"
+S0019103513005058-4158	4	MeasuredEntity	730	746	T14	e-folding depths	"{""HasProperty"": ""T13""}"
+S0019103513005058-4158	5	Quantity	858	866	T15	1 g cm−3	{}
+S0019103513005058-4158	5	MeasuredEntity	752	757	T16	range	"{""HasQuantity"": ""T15""}"

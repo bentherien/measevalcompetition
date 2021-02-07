@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4350	1	Quantity	512	522	T1	by ∼1000 K	"{""mods"": [""IsApproximate""], ""unit"": ""K""}"
+S0019103512004009-4350	1	MeasuredProperty	466	485	T2	maximum temperature	"{""HasQuantity"": ""T1""}"
+S0019103512004009-4350	1	MeasuredEntity	452	460	T3	C1 model	"{""HasProperty"": ""T2""}"
+S0019103512004009-4350	1	Qualifier	505	511	T4	cooler	"{""Qualifies"": ""T1""}"
+S0019103512004009-4350	2	Quantity	568	583	T5	by 1000–2000 K.	"{""mods"": [""IsRange""], ""unit"": ""K.""}"
+S0019103512004009-4350	2	MeasuredProperty	561	567	T6	cooler	"{""HasQuantity"": ""T5""}"
+S0019103512004009-4350	2	MeasuredEntity	493	501	T7	C3 model	"{""HasProperty"": ""T6""}"

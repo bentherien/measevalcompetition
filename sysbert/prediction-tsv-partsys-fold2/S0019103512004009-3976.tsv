@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-3976	1	Quantity	109	117	T1	0.1 to 1	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0019103512004009-3976	1	MeasuredProperty	153	161	T2	velocity	"{""HasQuantity"": ""T1""}"
+S0019103512004009-3976	1	MeasuredEntity	92	96	T3	ηnet	"{""HasProperty"": ""T2""}"
+S0019103512004009-3976	1	Qualifier	184	193	T4	increases	"{""Qualifies"": ""T1""}"
+S0019103512004009-3976	2	Quantity	194	222	T5	from 2.6 km s−1 to 25 km s−1	"{""mods"": [""IsRange""], ""unit"": """"}"
+S0019103512004009-3976	2	MeasuredEntity	169	183	T6	upper boundary	"{""HasQuantity"": ""T5""}"
+S0019103512004009-3976	3	Quantity	319	323	T7	100×	"{""unit"": ""\u00d7""}"
+S0019103512004009-3976	3	MeasuredProperty	333	341	T8	velocity	"{""HasQuantity"": ""T7""}"
+S0019103512004009-3976	3	MeasuredEntity	349	363	T9	upper boundary	"{""HasProperty"": ""T8""}"
+S0019103512004009-3976	4	Quantity	367	381	T10	only 30 km s−1	"{""mods"": [""IsApproximate""], ""unit"": """"}"
+S0019103512004009-3976	5	Quantity	549	552	T11	0.1	{}
+S0019103512004009-3976	5	MeasuredProperty	542	546	T12	ηnet	"{""HasQuantity"": ""T11""}"
+S0019103512004009-3976	5	MeasuredEntity	568	573	T13	sonic	"{""HasProperty"": ""T12""}"
+S0019103512004009-3976	5	Qualifier	607	615	T14	boundary	"{""Qualifies"": ""T11""}"
+S0019103512004009-3976	6	Quantity	601	606	T15	upper	"{""mods"": [""IsCount""]}"
+S0019103512004009-3976	6	MeasuredProperty	629	633	T16	ηnet	"{""HasQuantity"": ""T15""}"
+S0019103512004009-3976	6	MeasuredEntity	557	573	T17	isothermal sonic	"{""HasProperty"": ""T16""}"
+S0019103512004009-3976	7	Quantity	634	637	T18	= 1	{}
+S0019103512004009-3976	7	MeasuredEntity	557	573	T19	isothermal sonic	"{""HasQuantity"": ""T18""}"
+S0019103512004009-3976	8	Quantity	655	658	T20	4Rp	"{""unit"": ""Rp""}"

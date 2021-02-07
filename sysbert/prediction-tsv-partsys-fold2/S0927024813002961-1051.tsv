@@ -1,0 +1,19 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1051	1	Quantity	799	803	T1	five	"{""mods"": [""IsCount""]}"
+S0927024813002961-1051	1	MeasuredEntity	799	808	T2	five main	"{""HasQuantity"": ""T1""}"
+S0927024813002961-1051	2	Quantity	967	970	T3	two	"{""mods"": [""IsCount""]}"
+S0927024813002961-1051	2	MeasuredEntity	971	978	T4	effects	"{""HasQuantity"": ""T3""}"
+S0927024813002961-1051	3	Quantity	1194	1214	T5	in the range of 2–7%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S0927024813002961-1051	3	MeasuredProperty	1161	1183	T6	performance variations	"{""HasQuantity"": ""T5""}"
+S0927024813002961-1051	4	Quantity	1218	1238	T7	the course of a year	{}
+S0927024813002961-1051	4	MeasuredProperty	1314	1318	T8	time	"{""HasQuantity"": ""T7""}"
+S0927024813002961-1051	5	Quantity	1323	1342	T9	the order of months	{}
+S0927024813002961-1051	5	MeasuredProperty	1303	1310	T10	periods	"{""HasQuantity"": ""T9""}"
+S0927024813002961-1051	5	MeasuredEntity	1438	1443	T11	films	"{""HasProperty"": ""T10""}"
+S0927024813002961-1051	6	Quantity	1450	1472	T12	in the range of 10–15%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S0927024813002961-1051	6	MeasuredProperty	1354	1366	T13	power rating	"{""HasQuantity"": ""T12""}"
+S0927024813002961-1051	6	MeasuredEntity	1412	1424	T14	technologies	"{""HasProperty"": ""T13""}"
+S0927024813002961-1051	7	Quantity	1626	1635	T15	up to 25%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
+S0927024813002961-1051	7	MeasuredProperty	1582	1588	T16	energy	"{""HasQuantity"": ""T15""}"
+S0927024813002961-1051	7	MeasuredEntity	1654	1671	T17	different devices	"{""HasProperty"": ""T16""}"
+S0927024813002961-1051	7	Qualifier	1646	1653	T18	between	"{""Qualifies"": ""T15""}"
