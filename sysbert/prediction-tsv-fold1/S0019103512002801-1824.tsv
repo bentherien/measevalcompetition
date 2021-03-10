@@ -1,8 +1,0 @@
-docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512002801-1824	1	Quantity	101	119	T1	between 6% and 13%	"{""unit"": ""%""}"
-S0019103512002801-1824	1	MeasuredProperty	4	21	T2	relative strength	"{""HasQuantity"": ""T1""}"
-S0019103512002801-1824	1	MeasuredEntity	29	54	T3	observed ∣B∣ disturbances	"{""HasProperty"": ""T2""}"
-S0019103512002801-1824	1	Qualifier	55	62	T4	at Rhea	"{""Qualifies"": ""T1""}"
-S0019103512002801-1824	2	Quantity	133	137	T5	6–8%	"{""mods"": [""IsRange""], ""unit"": ""%""}"
-S0019103512002801-1824	2	MeasuredEntity	83	97	T6	background ∣B∣	"{""HasQuantity"": ""T5""}"
-S0019103512002801-1824	2	Qualifier	68	82	T7	respect to the	"{""Qualifies"": ""T5""}"

@@ -1,4 +1,6 @@
 """
+Author: Benjamin Therien
+
 This file is dedicated to any external processing modules for spacy documents.
 
 There are modules that should be a part of the spacy pipeline, but that 
@@ -6,7 +8,7 @@ cannot be added to the pipeline while following desirable SE principles
 """
 
 
-from src.lib.helpers import findOffset, intersectSpan, getSentences, intersectSpanNum, intersectSpanSpan
+from src.lib.helpers import intersectSpan, getSentences, intersectSpanNum, intersectSpanSpan
 from spacy.tokens import Doc
 import math
 import logging
@@ -14,25 +16,105 @@ import json
 import src.common as common
 
 def annotationCreation(doc,tsv):
+    """
+    Description: Method used to create token level annotations under the meAnnots SpaCy 
+    extension based on spans provided from the Measeval Tsv format
+
+    Input
+        doc : The document we wish to annotate with the tsv file passed.
+        tsv : Pandas dataframe containing annotation contents from a Measeval tsv file.
+    Output: 
+        doc: The modified document.
+    """
+
+    def findOffset(offset, text):
+        '''
+        Corrects annotations whose offsets are incorrect
+        '''
+        #check for end of document
+        if offset == len(text):
+            return offset
+
+        try:
+            #find correct start offset
+            if(text[offset] != " " and text[offset+1] != " "  and text[offset-1] == " "):
+                return offset
+                #no change
+            elif(text[offset] != " " and text[offset+1] == "."):
+                return offset
+            elif(text[offset] != " " and text[offset+1] == " "):
+                if(text[offset-1] == " "):
+                #case where the word is one char
+                    return offset
+                    #no change
+                else:
+                    return offset+2
+                    #skip ahead 2
+            elif(text[offset] != " " and text[offset-2] == " "):
+                return offset-1
+            elif(text[offset] != " " and text[offset-3] == " "):
+                return offset-2
+            elif(text[offset] == " "):
+                return offset + 1
+            else:
+                """
+                print("error, unhandled case in findOffset()")
+                print("offset", offset)
+                print("offset", text[offset])
+                print("offset +-10:", text[max(0, offset-10):min(len(text),offset+10)])
+                """
+                return offset
+        except IndexError: 
+            return offset
+
+    def getClosestMatch(start,end,lookup):
+        """
+        Retrieves the closest match based on the lookup map
+        """
+        newStart = None
+        newEnd = None
+        for x in lookup.keys():
+            if x < start: 
+                newStart = x
+            if x > end and newEnd == None: 
+                newEnd = x
+
+                if newStart != None:
+                    return newStart, newEnd
+                else:
+                    break
+        
+        if newStart == None and newEnd == None:
+            return 0,list(lookup.keys())[-1]
+        elif newStart == None:     
+            return 0,newEnd
+        elif newEnd  == None: 
+            return newStart,list(lookup.keys())[-1]
+        else:
+            print("error occured in file execution should not have reached this \
+            point, componentsExternSpacy.py getClosestMatch(start,end,lookup)")
+
+        return newStart, newEnd 
+
     try:
         doc._.meAnnots
     except Exception: 
-        Doc.set_extension("meAnnots", default = "def", force = True)
+        Doc.set_extension("meAnnots", default = {}, force = True)
 
-    doc._.meAnnots = {}
-    count = common.count
+    #A dict mapping: character offset : token offset
     lookup = {tok.idx : tok.i for tok in doc}
+
+    count = common.count
     annotminmax={}
-    #print("start")
     for index, row in tsv.iterrows():
         if(row["annotType"] == "Quantity"):
             count += 1
             #print(count,">",common.count+1)
             if count > common.count + 1:
-                #set sentence values for each
+                #set sentence values for each complete data point as we iterate over them
                 doc._.meAnnots[f"Annotation{count-1}"]["sentences"] = getSentences(annotminmax[f"offset{count-1}min"],annotminmax[f"offset{count-1}max"],doc)
         
-        #get min and max offsets
+        #Store the minimum and maximum offset values in order to retrieve the sentence offset later
         try:
             annotminmax[f"offset{count}max"] = max(annotminmax[f"offset{count}max"],row["endOffset"])
         except KeyError:
@@ -44,42 +126,19 @@ def annotationCreation(doc,tsv):
             annotminmax[f"offset{count}min"] = row["startOffset"]
             
         
-        #doc._.meAnnots[f"Annotation{count}"]
-        
-        #check for creating a new dict
+        #Create a new dictionary if needed
         try:
             if(type(doc._.meAnnots[f"Annotation{count}"]) == type(dict)):
-                continue
+                pass
         except KeyError:
             doc._.meAnnots[f"Annotation{count}"] = {}
         
 
-        def getClosestMatch(start,end,lookup):
-            #print("in getClosestMatch(start,end,lookup)")
-            newStart = None
-            newEnd = None
-            for x in lookup.keys():
-                if x < start: 
-                    newStart = x
-                if x > end and newEnd == None: 
-                    newEnd = x
-                    return newStart, newEnd
-
-            print(f"Error, nothing found for start:{start}, end:{end}, \nlookup:{lookup}")
-            
-            if newStart ==None and newEnd == None:
-                return 0,list(lookup.keys())[-1]
-            elif newStart == None and newEnd  != None:     
-                return 0,newEnd
-            elif newStart != None and newEnd  == None: 
-                return newStart,list(lookup.keys())[-1]
-            else:
-                print("error occured in file execution should not have reached this point, componentsExternSpacy.py getClosestMatch(start,end,lookup)")
-
-            return newStart, newEnd 
-
+        
         error = False
 
+
+        #Determine the token offset of the start of the span
         tempStart = row["startOffset"]
         lookupStart = None
         try:
@@ -95,6 +154,7 @@ def annotationCreation(doc,tsv):
                     
                     
 
+        #Determine the token offset of the end of the span
         tempEnd = row["endOffset"]
         lookupEnd = None
         try:
@@ -113,6 +173,9 @@ def annotationCreation(doc,tsv):
                 lookupEnd = lookup[tempEnd]
                 error = True
 
+        if tempStart > tempEnd:
+            _, tempEnd = getClosestMatch(row["startOffset"],row["endOffset"],lookup)
+            lookupStart,lookupEnd = lookup[tempStart],lookup[tempEnd]
 
         tempSpan = None
         if tempStart <= tempEnd:
@@ -121,7 +184,18 @@ def annotationCreation(doc,tsv):
                 print(row["annotType"])
                 print(tempSpan)
         else:
+            print("Gold|{}|".format(row["text"]))
+            print(tempStart,tempEnd)
             print("ERROR tempstart greater than temp end")
+
+
+        if abs(len(tempSpan.text) - len(row["text"])) > 0:
+            # print("Cust|{}|".format(tempSpan.text))
+            # print("Gold|{}|".format(row["text"]))
+            try:
+                common.c[len(tempSpan.text) - len(row["text"])] += 1
+            except KeyError:
+                common.c[len(tempSpan.text) - len(row["text"])] = 1
 
         if error and False:
             print("FindOffset method has created a key error ")
@@ -136,6 +210,8 @@ def annotationCreation(doc,tsv):
             print("Compromise range: ("+str(tempStart)+","+str(tempEnd)+")")
             print({k:lookup[k] for k in lookup.keys() if(k > row["startOffset"]-10 and k < row["endOffset"]+10)})            
         
+
+        #add the new annotation to meAnnots
         other = (json.loads(str(row["other"])) if str(row["other"]) != "nan" else {})
         other["annotID"] = count
         doc._.meAnnots[f"Annotation{count}"][row["annotType"]] = {"span":tempSpan,"other":other}
@@ -226,58 +302,6 @@ def getSplit(exerpt):
     else: 
         exerpt.doc._.meAnnotTrain = []
 
-
-def getCRFSplit(exerpt):
-    doc = exerpt.doc    
-
-    try:
-        doc._.crfTest 
-        doc._.crfTrain
-    except Exception: 
-        Doc.set_extension("crfTest", default = "def", force = True)
-        Doc.set_extension("crfTrain", default = "def", force = True)
-
-    doc._.crfTest = {"raw": [], "obj": []}
-    doc._.crfTrain = {"raw": [], "obj": []}
-
-    for x in doc._.meAnnotTest:
-        quant = x["Quantity"]
-        for sent in x["sentences"]:
-            if intersectSpanSpan(quant,sent):
-                rawSent = []
-                objSent = [] 
-                quantIds = [y.i for y in quant]
-                for token in sent:
-                    if token.i in quantIds:
-                        rawSent.append((token.text, token.tag_,"Q"))
-                        objSent.append((token, token.tag_,"Q"))
-                    else:
-                        rawSent.append((token.text, token.tag_,"O"))
-                        objSent.append((token, token.tag_,"O"))
-
-
-                doc._.crfTest["raw"].append(rawSent)  
-                doc._.crfTest["obj"].append(objSent)
-
-
-    for x in doc._.meAnnotTrain:
-        quant = x["Quantity"]
-        for sent in x["sentences"]:
-            if intersectSpanSpan(quant,sent):
-                rawSent = []
-                objSent = [] 
-                quantIds = [y.i for y in quant]
-                for token in sent:
-                    if token.i in quantIds:
-                        rawSent.append((token.text, token.tag_,"Q"))
-                        objSent.append((token, token.tag_,"Q"))
-                    else:
-                        rawSent.append((token.text, token.tag_,"O"))
-                        objSent.append((token, token.tag_,"O"))
-
-
-                doc._.crfTrain["raw"].append(rawSent)  
-                doc._.crfTrain["obj"].append(objSent)
 
 
 

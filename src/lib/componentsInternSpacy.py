@@ -1,7 +1,7 @@
 from spacy.matcher import Matcher
 from spacy.tokens import Doc
 import src.common as common
-from spacy.pipeline.pipes import DependencyParser
+from spacy.language import Language
 
 
 
@@ -156,6 +156,91 @@ def h0(doc):
     return doc
 
 
+def fixSentences_new(doc):
+    """
+    Description: A method used to split sentences correctly.
+    """
+    for token in doc: 
+        if token.text.lower() in [",",";","/","fig", "figs","spp","al","ca"]:
+            doc[token.i].is_sent_start = False
+            try:
+                doc[token.i+1].is_sent_start = False
+            except IndexError:
+                continue
+        elif token.text in ["%","."]:
+            doc[token.i].is_sent_start = False
+        elif token.text == "(" and doc[token.i-1].text != ".":
+            doc[token.i].is_sent_start = False
+            try:
+                doc[token.i+1].is_sent_start = False
+            except IndexError:
+                continue
+        elif not token.text.isalnum() and doc[token.i-1].text != ".":
+            doc[token.i].is_sent_start = False
+        elif(token.text[0].islower()):
+            try:
+                doc[token.i].is_sent_start = False
+            except IndexError:
+                continue
+        
+        try:
+            if doc[token.i-1].text != ".":
+                doc[token.i].is_sent_start = False
+            elif doc[token.i-1].text == "and":
+                doc[token.i].is_sent_start = False
+        except IndexError:
+                continue
+
+
+
+    return doc
+
+def fixSentences_0(doc):
+    """
+    Description: A method used to split sentences correctly.
+    """
+    print("new")
+    for token in doc: 
+        if token.text == ".":
+            doc[token.i].is_sent_start = False
+            if(doc[token.i-1].text.lower() in ["fig", "figs","spp","al","ca"]):
+                try:
+                    doc[token.i+1].is_sent_start = False
+                except IndexError:
+                    continue
+        elif token.text.lower() in [",",";","/"]:
+            doc[token.i].is_sent_start = False
+            try:
+                doc[token.i+1].is_sent_start = False
+            except IndexError:
+                continue
+        elif token.text == "%":
+            doc[token.i].is_sent_start = False
+        elif token.text == "(" and doc[token.i-1].text != ".":
+            doc[token.i].is_sent_start = False
+            try:
+                doc[token.i+1].is_sent_start = False
+            except IndexError:
+                continue
+        elif not token.text.isalnum() and doc[token.i-1].text != ".":
+            doc[token.i].is_sent_start = False
+        elif(token.text[0].islower()):
+            try:
+                doc[token.i].is_sent_start = False
+            except IndexError:
+                continue
+        
+        try:
+            if doc[token.i-1].text != ".":
+                doc[token.i].is_sent_start = False
+            elif doc[token.i-1].text == "and":
+                doc[token.i].is_sent_start = False
+        except IndexError:
+                continue
+
+    return doc
+
+@Language.component('fixSentences')
 def fixSentences(doc):
     for token in doc: 
         if token.text == ".":
@@ -208,15 +293,6 @@ def fixSentences(doc):
         except IndexError:
                 continue
     return doc
-
-
-
-class CustomParser(DependencyParser):
-
-    def __call__(self, doc):
-        super(CustomParser, self).__call__(doc)
-        fixSentences(doc)
-
 
 
 

@@ -2,73 +2,6 @@ import spacy
 import src.common as common
 
 
-def findOffset(offset, text):
-    '''
-    Corrects annotations whose offsets are not correct
-    '''
-    #check for end of document
-    if offset == len(text):
-        return offset
-
-    try:
-        #find correct start offset
-        if(text[offset] != " " and text[offset+1] != " "  and text[offset-1] == " "):
-            return offset
-            #no change
-        elif(text[offset] != " " and text[offset+1] == "."):
-            return offset
-        elif(text[offset] != " " and text[offset+1] == " "):
-            if(text[offset-1] == " "):
-            #case where the word is one char
-                return offset
-                #no change
-            else:
-                return offset+2
-                #skip ahead 2
-        elif(text[offset] != " " and text[offset-2] == " "):
-            return offset-1
-        elif(text[offset] != " " and text[offset-3] == " "):
-            return offset-2
-        elif(text[offset] == " "):
-            return offset + 1
-        else:
-            """
-            print("error, unhandled case in findOffset()")
-            print("offset", offset)
-            print("offset", text[offset])
-            print("offset +-10:", text[max(0, offset-10):min(len(text),offset+10)])
-            """
-            return offset
-    except IndexError: 
-        return offset
-
-
-def findOffset_old(offset, text):
-    '''
-    Corrects annotations whose offsets are not correct
-    '''
-    try:
-        #find correct start offset
-        if(text[offset] != " " and text[offset+1] != " "):
-            return offset
-            #no change
-        elif(text[offset] != " " and text[offset+1] == " "):
-            if(text[offset-1] == " "):
-            #case where the word is one char
-                return offset
-                #no change
-            else:
-                return offset+2
-                #skip ahead 2
-        elif(text[offset] == " "):
-            return offset + 1
-        else:
-            print("error, unhandled case in findOffset()")
-            print("offset", offset)
-            print("text", text)
-            return offset
-    except IndexError: 
-        return offset
 
 def intersectSpanSpan(span1, span2):
     if (type(span1) != spacy.tokens.Span) or (type(span2) != spacy.tokens.Span):
@@ -159,21 +92,32 @@ def createFeature(key, value, file):
 
 
 
-def setupNLP():
-    #infixes = common.nlp.Defaults.infixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',r''']''',r''',''',)
-    infixes = common.nlp.Defaults.infixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',r''']''',
-    r''',''',r''':''',r'''%''',r'''‰''',r'''\\(''',r''')''',r'''→''',r'''\\+''',)
-    
-    infix_regex = spacy.util.compile_infix_regex(infixes)
-    common.nlp.tokenizer.infix_finditer = infix_regex.finditer
+def setupNLP(new = False):
+    #prefix: − − ±
+    # infix: – ±
+    #suffix Rp
 
-    prefixes =common.nlp.Defaults.prefixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',)
-   
-    #prefixes = common.nlp.Defaults.prefixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',r'''[''',)
-    prefix_regex = spacy.util.compile_prefix_regex(prefixes)
-    common.nlp.tokenizer.prefix_search = prefix_regex.search
+    if not new:
+        #infixes = common.nlp.Defaults.infixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',r''']''',r''',''',)
+        infixes = common.nlp.Defaults.infixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',r''']''',
+        r''',''',r''':''',r'''%''',r'''‰''',r'''\\(''',r''')''',r'''→''',r'''\\+''',)
+        infix_regex = spacy.util.compile_infix_regex(infixes)
+        common.nlp.tokenizer.infix_finditer = infix_regex.finditer
 
-    #suffixes = common.nlp.Defaults.suffixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',r''']''',r'''.''',)
-    #suffix_regex = spacy.util.compile_prefix_regex(suffixes)
-    #common.nlp.tokenizer.prefix_search = suffix_regex.search
+        prefixes =common.nlp.Defaults.prefixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',)
+        #prefixes = common.nlp.Defaults.prefixes + (r'''=''',r'''~''',r'''•''',r'''∼''',r'''•''',r'''[''',)
+        prefix_regex = spacy.util.compile_prefix_regex(prefixes)
+        common.nlp.tokenizer.prefix_search = prefix_regex.search
+    else:
+        infixes = common.nlp.Defaults.infixes + [r'''[-=~•∼\]:%‰\()→+−±–,><≈]''']
+        infix_regex = spacy.util.compile_infix_regex(infixes)
+        common.nlp.tokenizer.infix_finditer = infix_regex.finditer
+
+        prefixes = common.nlp.Defaults.prefixes + [r'''[-=~•∼±−≥><≤]''']
+        prefix_regex = spacy.util.compile_prefix_regex(prefixes)
+        common.nlp.tokenizer.prefix_search = prefix_regex.search
+
+        suffixes = common.nlp.Defaults.suffixes + [r'''R{1}p{1}|R{1}s{1}|m{1}H{1}|R{1}R{1}h{1}|k{1}R{1}''',r'''\.''']
+        suffix_regex = spacy.util.compile_suffix_regex(suffixes)
+        common.nlp.tokenizer.suffix_search = suffix_regex.search
 

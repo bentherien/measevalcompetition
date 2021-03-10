@@ -1,9 +1,0 @@
-docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103511004994-1565	1	Quantity	243	250	T1	±10 min	"{""mods"": [""IsList""], ""unit"": ""min""}"
-S0019103511004994-1565	1	MeasuredEntity	219	230	T2	time period	"{""HasQuantity"": ""T1""}"
-S0019103511004994-1565	1	Qualifier	251	274	T3	around closest approach	"{""Qualifies"": ""T1""}"
-S0019103511004994-1565	2	Quantity	963	981	T4	10 Enceladus radii	"{""unit"": ""Enceladus radii""}"
-S0019103511004994-1565	2	Qualifier	982	986	T5	REnc	"{""Qualifies"": ""T4""}"
-S0019103511004994-1565	3	Quantity	1396	1406	T6	56–100 keV	"{""mods"": [""IsList""], ""unit"": ""keV""}"
-S0019103511004994-1565	3	MeasuredProperty	1359	1381	T7	differential intensity	"{""HasQuantity"": ""T6""}"
-S0019103511004994-1565	3	MeasuredEntity	1385	1394	T8	electrons	"{""HasProperty"": ""T7""}"

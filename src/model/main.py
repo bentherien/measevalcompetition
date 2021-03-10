@@ -9,7 +9,7 @@ import numpy as np
 from helpers import *
 from latex import *
 from load_util import load_samples
-from data import PathData
+from data import PathData, BertPathData
 from tqdm import tqdm
 from math import floor
 from sklearn_crfsuite.metrics import flat_classification_report
@@ -24,22 +24,388 @@ CUDA = True
 
 
 def run_train(args):
-    if args.type == "modifier":
-        run_train_modifier(args)
+    if args.type == "roberta_token":
+        run_train_roberta_token(args)
     elif args.type == "bert_token":
         run_train_bert_token(args)
+    elif args.type == "bert_mod":
+        run_train_bert_modifiers(args)
+    elif args.type == "modifier":
+        run_train_modifier(args)
     elif args.type == "bert":
-        train_bert(args)
+        train_bert_matcher(args)
     elif args.type == "paths":
         run_train_paths(args)
     elif args.type == "paths2":
         run_train_paths2(args)
+    elif args.type == "paths-bert":
+        run_train_paths_bert(args)
     elif args.type == "paths-word":
         run_train_paths_word(args)
+    
     else:
         run_train_token(args)
 
-def train_bert(args):
+
+def run_train_roberta_token(args):
+    """
+    Description: Method used to train roberta on a token level task
+    """
+    global CUDA
+
+    def check_test(test):
+        global CUDA
+        nonlocal tag_to_ix
+        nonlocal model
+
+        inv_dic=get_inv(tag_to_ix)
+        all_predictions = []
+        all_gold = []
+
+        for sample in test:
+            pred = model.predict([sample.tokens],CUDA)[0]
+            assert(len(pred) == len(sample.targets))
+            all_predictions.append(pred)
+            all_gold.append(sample.targets)
+
+        return flat_classification_report(all_gold,all_predictions)
+
+    
+    model_name = 'roberta-base'
+    model_name = 'facebook/bart-base'
+    # model_name = 'xlm-roberta-base'
+    model_name = 'dmis-lab/biobert-base-cased-v1.1'
+    model_name = 'allenai/biomed_roberta_base'
+    
+
+    train = load_samples(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"train_allS.tsv"))
+    # test = load_samples(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"test_allS.tsv"))
+    test=[]
+
+    tag_to_ix = {}
+
+    for sample in train+test:
+
+        for tag in sample.targets:
+            if tag not in tag_to_ix:
+                tag_to_ix[tag] = len(tag_to_ix)
+
+
+    if CUDA:
+        model = RobertaTokenClassifier(model_name,tag_to_ix).cuda()
+    else:
+        model = RobertaTokenClassifier(model_name,tag_to_ix)
+
+
+    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
+    
+    maxF1 = 0
+
+    for epoch in range(args.epoch_num):
+
+
+        all_loss = list()
+        print('Epoch: ' + str(epoch + 1))
+
+        train_predictions = []
+        train_gold = []
+
+        for i in tqdm(range(len(train))):
+
+            sample=train[i]
+            model.zero_grad()
+            input = train[i].tokens
+            target = train[i].targets
+            target = expand_annotations(input,target,model.tokenizer)
+            target.insert(0,'o')
+            target.append('o')
+            target=convert_2_tensor(target,tag_to_ix,torch.long,CUDA)
+
+            input=model.tokenizer(input,return_tensors="pt",is_split_into_words=True,add_special_tokens=True)
+            loss,logits=model(input,target)
+
+            loss.backward()
+            optimizer.step()
+
+            all_loss.append(loss.cpu().detach().numpy())
+            train_predictions.append(model.sm(logits,sample.tokens,CUDA))
+            train_gold.append(train[i].targets)
+
+        trainReport = flat_classification_report(train_gold,train_predictions)
+        print("Train:")
+        print(trainReport)
+        print(getLatexReport(trainReport))
+
+        # report = check_test(test)
+        # print("Test:")
+        # print(report)
+        # print(getLatexReport(report))
+        # f1 = getLabel(tag_to_ix,report,label="macro",row=4) 
+
+        # if f1 > maxF1:
+        #     print("New Max macro F1: {} > {}".format(f1,maxF1))
+        #     # model.save(os.path.join(args.sys_path,"{}-fold{}.pt".format(args.model_name,args.fold)))
+        #     maxF1 = f1
+    
+
+        print('\n')
+        print('Average loss: ' + str(np.mean(all_loss)))
+
+    model.save(os.path.join(args.sys_path,"{}-fold{}.pt".format(args.model_name,args.fold)))
+    exit(0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def run_train_bert_token(args):
+    global CUDA
+
+    def check_test(test):
+        global CUDA
+        nonlocal tag_to_ix
+        nonlocal model
+
+        inv_dic=get_inv(tag_to_ix)
+        all_predictions = []
+        all_gold = []
+
+        for sample in test:
+            pred = model.predict([sample.tokens],CUDA)[0]
+            assert(len(pred) == len(sample.targets))
+            all_predictions.append(pred)
+            all_gold.append(sample.targets)
+
+        return flat_classification_report(all_gold,all_predictions)
+
+    
+    # model_name='allenai/scibert_scivocab_cased'
+    model_name = 'dmis-lab/biobert-base-cased-v1.1'
+    # model_name = 'bert-base-cased'
+
+
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+    train = load_samples(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"train_allS.tsv"))
+    test = load_samples(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"test_allS.tsv"))
+    # test=[]
+
+    word_to_ix = {}
+    tag_to_ix = {}
+    pos_to_ix={}
+
+    for sample in train+test:
+        for token in sample.tokens:
+            if token not in word_to_ix:
+                word_to_ix[token] = len(word_to_ix)
+
+        for tag in sample.targets:
+            if tag not in tag_to_ix:
+                tag_to_ix[tag] = len(tag_to_ix)
+
+        for pos in sample.pos:
+            if pos not in pos_to_ix:
+                pos_to_ix[pos] = len(pos_to_ix)
+
+    if CUDA:
+        model = BERT_SequenceTagger( model_name, len(tag_to_ix),tag_to_ix).cuda()
+    else:
+        model = BERT_SequenceTagger( model_name, len(tag_to_ix),tag_to_ix)
+
+
+    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
+    maxF1 = 0
+
+    for epoch in range(args.epoch_num):
+
+
+        all_loss = list()
+        print('Epoch: ' + str(epoch + 1))
+
+        train_predictions = []
+        train_gold = []
+
+        for i in tqdm(range(len(train))):
+
+            sample=train[i]
+            model.zero_grad()
+            input = train[i].tokens
+            target = train[i].targets
+            target = expand_annotations(input,target,tokenizer)
+            target.insert(0,'o')
+            target.append('o')
+            target=convert_2_tensor(target,tag_to_ix,torch.long,CUDA)
+
+            input=tokenizer(input,return_tensors="pt",is_split_into_words=True,add_special_tokens=True)
+            loss,logits=model(input,target)
+
+            loss.backward()
+            optimizer.step()
+
+            all_loss.append(loss.cpu().detach().numpy())
+            train_predictions.append(model.sm(logits,sample.tokens,CUDA))
+            train_gold.append(train[i].targets)
+
+        trainReport = flat_classification_report(train_gold,train_predictions)
+        print("Train:")
+        print(trainReport)
+        print(getLatexReport(trainReport))
+
+        # report = check_test(test)
+        # print("Test:")
+        # print(report)
+        # print(getLatexReport(report))
+        # f1 = getLabel(tag_to_ix,report,label="macro",row=4) 
+
+        # if f1 > maxF1:
+        #     print("New Max macro F1: {} > {}".format(f1,maxF1))
+        #     # model.save(os.path.join(args.sys_path,"{}-fold{}.pt".format(args.model_name,args.fold)))
+        #     maxF1 = f1
+    
+
+        print('\n')
+        print('Average loss: ' + str(np.mean(all_loss)))
+
+    model.save(os.path.join(args.sys_path,"{}-fold{}.pt".format(args.model_name,args.fold)))
+    exit(0)
+
+
+
+
+def run_train_bert_modifiers(args):
+    global CUDA
+
+    # test = json.load(open(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"test-{}.json".format(args.data)),"r",encoding="utf-8"))
+    # test = [(x["span"],x["type"][0],) for x in test]
+    test = []
+
+    train = json.load(open(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"train-{}.json".format(args.data)),"r",encoding="utf-8"))
+    train = [(x["span"],x["type"][0],) for x in train]
+
+    print("Train size:",len(train))
+    print("Test size:",len(test))
+
+
+    all_data = test + train
+
+    tag_to_ix = {}
+
+    for sample in all_data:
+        try:
+            tag_to_ix[sample[1]]
+        except KeyError:
+            tag_to_ix[sample[1]] = len(tag_to_ix)
+
+    model_name = 'allenai/scibert_scivocab_cased'
+    #model_name='bert-large-cased-whole-word-masking-finetuned-squad'
+
+    if CUDA:
+        model = BERT_Matcher( model_name, len(tag_to_ix),tag_to_ix).cuda()
+    else:
+        model = BERT_Matcher( model_name, len(tag_to_ix),tag_to_ix)
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
+
+
+    def check_test(test,epoch,avgLoss,fold,silent=True): 
+        global CUDA
+        nonlocal model 
+        nonlocal args
+        nonlocal tokenizer
+        model.eval()
+
+        with torch.no_grad():
+            all_predictions = []
+            all_gold = []
+            inv_dict = get_inv(model.tag_to_ix)
+            maxIndices = None
+            for span, target in tqdm(test):
+                input = tokenizer([span],return_tensors="pt",is_split_into_words=True,add_special_tokens=True,padding=True)
+                all_gold.append(target)
+                
+                _, logits = model(input,None)
+                pred = F.log_softmax(logits, dim=1)
+                
+
+                if maxIndices == None:
+                    _, maxIndices = torch.max(pred,1)
+                else:
+                    _, tempMaxIndices = torch.max(pred,1)
+                    maxIndices = torch.cat((maxIndices,tempMaxIndices),0)
+            all_predictions = [inv_dict[x] for x in maxIndices.cpu().detach().numpy()]
+            
+        return classification_report(all_gold,all_predictions)
+
+    maxF1 = 0
+
+    for epoch in range(args.epoch_num):
+        model.train()
+
+        all_loss = list()
+
+        print('Epoch: ' + str(epoch + 1))
+
+        for span, target in tqdm(train):
+            model.zero_grad()
+            
+            target=convert_2_tensor([target],tag_to_ix,torch.long,CUDA)
+
+            input = tokenizer([span],return_tensors="pt",is_split_into_words=True,add_special_tokens=True,padding=True)
+            loss,_ = model(input,target)
+
+            loss.backward()
+            optimizer.step()
+
+            all_loss.append(loss.cpu().detach().numpy())
+
+        print('\n')
+        print('Average loss: ' + str(np.mean(all_loss)))
+
+        # report = check_test(test,epoch,np.mean(all_loss),1)
+        # print(report)
+        # lab = "weighted"
+        # f1 = getLabel(model.tag_to_ix,report,label=lab)
+
+        # if f1 > maxF1:
+        #     print("New {} Max F1: {}".format(lab,f1))
+        #     savePath = os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")
+        #     model.save(savePath)
+        #     maxF1 = f1
+
+    savePath = os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")
+    model.save(savePath)
+    exit(0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def train_bert_matcher(args):
     global CUDA
 
     test = json.load(open(os.path.join(args.sys_path,"data-json","test-{}.json".format(args.data)),"r",encoding="utf-8"))
@@ -61,6 +427,8 @@ def train_bert(args):
         model = BERT_Matcher( model_name, len(tag_to_ix),tag_to_ix).cuda()
     else:
         model = BERT_Matcher( model_name, len(tag_to_ix),tag_to_ix)
+
+
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
@@ -132,128 +500,7 @@ def train_bert(args):
 
     exit(0)
 
-def run_train_bert_token(args):
-    global CUDA
 
-    def check_test():
-        nonlocal tag_to_ix
-        nonlocal model
-        nonlocal test
-
-
-        inv_dic=get_inv(tag_to_ix)
-        with torch.no_grad():
-            all_predictions = list()
-            all_gold = list()
-            for sample in test:
-
-                input= sample.tokens
-                target=sample.targets
-                input=tokenizer(input,return_tensors="pt",is_split_into_words=True,add_special_tokens=True)
-                prediction_logits=model(input,None)
-
-
-                pred = predict_class(torch.softmax(prediction_logits[0][0],1), CUDA)
-
-                pred=pred[1:-1]
-                pred=id_to_tag(pred,inv_dic)
-                #print(pred)
-
-
-                pred=contract_annotations(sample.tokens,pred,tokenizer)
-                try:
-                    pred=merge_annotations(pred)
-                except ValueError:
-                    print(pred)
-
-                assert(len(pred) == len(target))
-                all_predictions.append(pred)
-                all_gold.append(target)
-
-            # for i,x in enumerate(all_predictions):
-            #     assert(len(all_predictions[i])==len(all_gold[i]))
-            #     print("pred:",all_predictions[i])
-            #     print("gold:",all_gold[i])
-
-
-            return flat_classification_report(all_gold,all_predictions)
-
-    model_name='allenai/scibert_scivocab_cased'
-
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-
-    train = load_samples(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"train_allS.tsv"))
-    test = load_samples(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"test_allS.tsv"))
-
-
-    word_to_ix = {}
-    tag_to_ix = {}
-    pos_to_ix={}
-
-
-    for sample in train+test:
-        for token in sample.tokens:
-            if token not in word_to_ix:
-                word_to_ix[token] = len(word_to_ix)
-
-        for tag in sample.targets:
-            if tag not in tag_to_ix:
-                tag_to_ix[tag] = len(tag_to_ix)
-
-        for pos in sample.pos:
-            if pos not in pos_to_ix:
-                pos_to_ix[pos] = len(pos_to_ix)
-
-
-    if CUDA:
-        model = BERT_SequenceTagger( model_name, len(tag_to_ix),tag_to_ix).cuda()
-    else:
-        model = BERT_SequenceTagger( model_name, len(tag_to_ix),tag_to_ix)
-
-
-    optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
-
-    maxf1 = 0
-
-    for epoch in range(args.epoch_num):
-
-
-        all_loss = list()
-
-        print('Epoch: ' + str(epoch + 1))
-
-        for i in tqdm(range(len(train))):
-
-            sample=train[i]
-            model.zero_grad()
-            input = train[i].tokens
-            target = train[i].targets
-            target = expand_annotations(input,target,tokenizer)
-            target.insert(0,'o')
-            target.append('o')
-            target=convert_2_tensor(target,tag_to_ix,torch.long,CUDA)
-
-            input=tokenizer(input,return_tensors="pt",is_split_into_words=True,add_special_tokens=True)
-            loss,_=model(input,target)
-
-            loss.backward()
-            optimizer.step()
-
-            all_loss.append(loss.cpu().detach().numpy())
-
-        report = check_test()
-        print(report)
-        f1 = getLabel(model.tag_to_ix,report,label="macro")
-
-        if f1 > maxf1:
-            print("Saving Model for new New Max macro F1: {}".format(f1))
-            savePath = os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")
-            model.save(savePath)
-            maxf1 = f1
-
-
-        print('\n')
-        print('Average loss: ' + str(np.mean(all_loss)))
 
 
 
@@ -444,13 +691,15 @@ def run_train_paths_word(args):
 def run_train_paths2(args):
     global CUDA
 
-    test = json.load(open(os.path.join(args.sys_path,"path-data-2","test-path-data-NOUN-BEST.json"),"r",encoding="utf-8"))
-    test = PathData(test)
+    # test = json.load(open(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"test-path-data-Small.json"),"r",encoding="utf-8"))
+    # test = PathData(test)
+    test = []
 
-    train = json.load(open(os.path.join(args.sys_path,"path-data-2","train-path-data-NOUN-BEST.json"),"r",encoding="utf-8"))
+    train = json.load(open(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"train-path-data-Small.json"),"r",encoding="utf-8"))
     train = PathData(train)
 
-    all_tags = test.getTags() + train.getTags()
+    all_tags =  train.getTags()
+    # all_tags = test.getTags() + train.getTags()
 
     tag_to_ix = {}
     dep_to_ix = {}
@@ -458,7 +707,9 @@ def run_train_paths2(args):
     deps = ['pad','subtok','self','ROOT', 'acl', 'acomp', 'advcl', 'advmod', 'agent', 'amod', 'appos', 'attr', 'aux', 'auxpass', 'case', 'cc', 'ccomp', 'compound', 'conj', 'csubj', 'csubjpass', 'dative', 'dep', 'det', 'dobj', 'expl', 'intj', 'mark', 'meta', 'neg', 'nmod', 'npadvmod', 'nsubj', 'nsubjpass', 'nummod', 'oprd', "parataxis", "pcomp", "pobj", "poss", "preconj", "predet", "prep", "prt", "punct", "quantmod", "relcl", "xcomp"]
     rdeps = ["r"+x for x in deps]
 
-    all_deps = deps + rdeps + test.getDeps2() + train.getDeps2()
+    # all_deps = deps + rdeps + test.getDeps2() + train.getDeps2()
+    all_deps = deps + rdeps +  train.getDeps2()
+
 
     for dep in all_deps:
         try:
@@ -486,96 +737,63 @@ def run_train_paths2(args):
 
     accum = []
 
+    # model.load(os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt"))
+    # pred = model.predictSys(["rnummod","rpobj"],CUDA)
+    # print(pred)
+    # exit(0)
+
+    def padInput(batch):
+        pathList = [[dep[0] for dep in e.path] for e in batch]
+        m=0
+        for depList in pathList:
+            m = max(m, len(depList))
+
+        pathLens = []
+        for i,depList in enumerate(pathList):
+            pathLens.append(len(depList))
+            if len(depList) <  m:
+                pathList[i] = depList + ["pad" for x in range(m-len(depList))]
+        
+        return pathList,pathLens
+           
+    
+
     def check_test(test,epoch,avgLoss,fold,silent=True): 
         global CUDA
         nonlocal model 
         nonlocal accum
         nonlocal args
 
-
+        all_gold = [e.target for e in test.sents]
         with torch.no_grad():
-            all_predictions = []
-            all_gold = []
-            for sent in test.sents:
-                if sent.targets == []:
-                    continue
+            model.eval()
+            pathList,pathLens = padInput(test.sents)
+            all_predictions = model.predict(pathList,pathLens,CUDA)
 
-                input = [[[z[0] for z in y] for y in x] for x in sent.samples]
-                m=0
-                for pathListList in input:
-                    for pathList in pathListList:
-                        m = max(m, len(pathList))
-
-                pathLens = []
-                for i,pathListList in enumerate(input):
-                    for ii,pathList in enumerate(pathListList):
-                        pathLens.append(len(pathList))
-                        if len(pathList) <  m:
-                            input[i][ii] = pathList + ["pad" for x in range(m-len(pathList))]
-
-                accum = []
-                for x in input:
-                    accum += x
-
-                tg = []
-                for target in sent.targets:
-                    tg += target
-
-                # print(len(accum),len(tg))
-                pred = model.predict(accum,pathLens,CUDA)
-                assert(len(accum) == len(pred))
-                
-                all_predictions = all_predictions + pred
-                all_gold = all_gold + tg
-            # print(all_predictions)
-            # print(all_gold)
-
-            # print(len(all_predictions),len(all_gold))
-
-            print(classification_report(all_gold,all_predictions))
+        return classification_report(all_gold,all_predictions)
             
-
- 
+    maxF1 = 0
+    lastSaveEpoch = 0
+    lastSaveReport = None
+    lastSaveLoss = 0
+    
     for epoch in range(args.epoch_num):
 
 
-        all_loss = list()
+        all_loss = []
 
         print('Epoch: ' + str(epoch + 1))
-
-        for sent in tqdm(train.sents):
-            if sent.targets == []:
-                continue
-
+        
+        model.train()
+        for batch in tqdm(getBatches(train.sents)):
+            
+            #get targets
             model.zero_grad()
-            tg = []
-            for target in sent.targets:
-                tg += target
-
-            target = convert_2_tensor(tg, tag_to_ix, torch.long, CUDA)
-            # print(target)
-            # print(sent.targets)
-            #target = torch.stack(target,0)
-
-            input = [[[z[0] for z in y] for y in x] for x in sent.samples]
-            m=0
-            for pathListList in input:
-                for pathList in pathListList:
-                    m = max(m, len(pathList))
-
-            pathLens = []
-            for i,pathListList in enumerate(input):
-                for ii,pathList in enumerate(pathListList):
-                    pathLens.append(len(pathList))
-                    if len(pathList) <  m:
-                        input[i][ii] = pathList + ["pad" for x in range(m-len(pathList))]
-
-            accum = []
-            for x in input:
-                accum += x
-
-
-            out, _ = model(input=accum,pathLens=pathLens,CUDA=CUDA)
+            targetList = [e.target for e in batch]
+            target = convert_2_tensor(targetList, tag_to_ix, torch.long, CUDA)
+            #get input
+            pathList,pathLens = padInput(batch)
+            out, _ = model(input=pathList,pathLens=pathLens,CUDA=CUDA)
             
 
             loss = loss_function(out, target)
@@ -584,18 +802,178 @@ def run_train_paths2(args):
 
             all_loss.append(loss.cpu().detach().numpy())
 
-        if epoch % 1 != 0:
-            optimizer.lr = optimizer.lr/2
 
+        print('\n')
+        print('Average loss: ' + str(np.mean(all_loss)))
+
+        
+
+    #     report = check_test(test,epoch=(epoch+1),avgLoss=np.mean(all_loss),fold=args.fold,silent=False)
+    #     print(report)
+    #     f1 = getLabel(model.tag_to_ix,report,label="macro",row=4) 
+
+    #     if f1 > maxF1:
+    #         print("New Max additive F1: {} > {}".format(f1,maxF1))
+    #         print("savingModelTo {}".format(os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")))
+    #         savePath = os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")
+    #         model.save(savePath)
+    #         maxF1 = f1
+    #         lastSaveEpoch = epoch
+    #         lastSaveReport = report
+    #         lastSaveLoss = np.mean(all_loss)
+    savePath = os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")
+    model.save(savePath)
+
+    # print("Last saved epoch:{}".format(lastSaveEpoch))
+    # print("Last saved loss:{}".format(lastSaveLoss))
+    # print("Learning Rate:{}".format(args.learning_rate))
+    # print("Classification Report:")
+    # print(lastSaveReport)
+    
+    exit(0)
+
+def run_train_paths_bert(args):
+    def padInput(batch):
+        pathList = [[dep for dep in node.path] for node in batch]
+        m=0
+        for depList in pathList:
+            m = max(m, len(depList))
+
+        pathLens = []
+        for i,depList in enumerate(pathList):
+            pathLens.append(len(depList))
+            if len(depList) <  m:
+                pathList[i] = depList + ["pad" for x in range(m-len(depList))]
+        
+        return pathList,pathLens
+           
+
+    def check_test(test): 
+        global CUDA
+        nonlocal model 
+        nonlocal args
+
+        all_gold = [node.target for node in test.data]
+        all_predictions = []
+        with torch.no_grad():
+            model.eval()
+            for batch in tqdm(getBatches(test.data)):
+                quantBatch = model.tokenizer([node.qSpan for node in batch],return_tensors="pt",is_split_into_words=True,add_special_tokens=True,padding=True)
+                nounBatch = model.tokenizer([node.nSpan for node in batch],return_tensors="pt",is_split_into_words=True,add_special_tokens=True,padding=True)
+                pathList,pathLens = padInput(batch)
+                all_predictions += model.predict(
+                    nounBatch=nounBatch,
+                    quantBatch=quantBatch,
+                    pathList=pathList,
+                    pathLens=pathLens,
+                    CUDA=CUDA)
+
+        return classification_report(all_gold,all_predictions)
+
+    global CUDA
+
+    test = json.load(open(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"test-path-data-Small.json"),"r",encoding="utf-8"))
+    test = BertPathData(test)
+
+    train = json.load(open(os.path.join(args.sys_path,"data-fold{}".format(args.fold),"train-path-data-Small.json"),"r",encoding="utf-8"))
+    train = BertPathData(train)
+
+    temp = torch.load(os.path.join(args.sys_path,"path-rep-fold{}.pt".format(args.fold)))
+    tag_to_ix = temp["tag_to_ix"]
+    dep_to_ix = temp["dep_to_ix"]
+
+    if CUDA:
+        pathModel = PathRepresentation(dep_to_ix,tag_to_ix,emb_dim=16,d_model=16).cuda()
+    else:
+        pathModel = PathRepresentation(dep_to_ix,tag_to_ix,emb_dim=16,d_model=16)
+
+    model_name='allenai/scibert_scivocab_cased'
+    all_tags = [x.target for x in train.data] + [x.target for x in test.data]
+    tag_to_ix = {}
+
+    for tag in all_tags:
+        try:
+            tag_to_ix[tag]
+        except KeyError:
+            tag_to_ix[tag] = len(tag_to_ix)
+
+    if CUDA:
+        model = BERT_Matcher_plus_path(model_name,tag_to_ix,pathModel).cuda()
+    else:
+        model = BERT_Matcher_plus_path(model_name,tag_to_ix,pathModel)
+
+
+    loss_function = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(),lr=args.learning_rate)
+            
+    maxF1 = 0
+    lastSaveEpoch = 0
+    lastSaveReport = None
+    lastSaveLoss = 0
+    
+    for epoch in range(args.epoch_num):
+
+
+        all_loss = []
+
+        print('Epoch: ' + str(epoch + 1))
+        
+        model.train()
+        for batch in tqdm(getBatches(train.data)):
+            
+            #get targets
+            model.zero_grad()
+            targetList = [node.target for node in batch]
+            target = convert_2_tensor(targetList, model.tag_to_ix, torch.long, CUDA)
+
+            #get quant batch
+            quantBatch = model.tokenizer([node.qSpan for node in batch],return_tensors="pt",is_split_into_words=True,add_special_tokens=True,padding=True)
+
+            #get noun batcg
+            nounBatch = model.tokenizer([node.nSpan for node in batch],return_tensors="pt",is_split_into_words=True,add_special_tokens=True,padding=True)
+
+            #get input paths
+            pathList,pathLens = padInput(batch)
+
+            loss,_ = model(
+                nounBatch=nounBatch,
+                quantBatch=quantBatch,
+                pathList=pathList,
+                pathLens=pathLens,
+                labels=target,
+                CUDA=CUDA)
+
+            loss.backward()
+            optimizer.step()
+
+            all_loss.append(loss.cpu().detach().numpy())
 
 
         print('\n')
         print('Average loss: ' + str(np.mean(all_loss)))
 
-        check_test(test,epoch=(epoch+1),avgLoss=np.mean(all_loss),fold=args.fold,silent=False)
-
-    savePath = os.path.join(args.sys_path,f"{args.model_name}.pt")
+    savePath = os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")
     model.save(savePath)
+
+    #     report = check_test(test)
+    #     print(report)
+    #     f1 = getLabel(model.tag_to_ix,report,label="MP",row=3) + getLabel(model.tag_to_ix,report,label="ME",row=3)
+
+    #     if f1 > maxF1:
+    #         print("New Max additive F1: {} > {}".format(f1,maxF1))
+    #         print("savingModelTo {}".format(os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")))
+    #         savePath = os.path.join(args.sys_path,f"{args.model_name}fold{args.fold}.pt")
+    #         model.save(savePath)
+    #         maxF1 = f1
+    #         lastSaveEpoch = epoch
+    #         lastSaveReport = report
+    #         lastSaveLoss = np.mean(all_loss)
+
+    # print("Last saved epoch:{}".format(lastSaveEpoch))
+    # print("Last saved loss:{}".format(lastSaveLoss))
+    # print("Learning Rate:{}".format(args.learning_rate))
+    # print("Classification Report:")
+    # print(lastSaveReport)
 
     exit(0)
 
@@ -697,9 +1075,6 @@ def run_train_paths(args):
 
             all_loss.append(loss.cpu().detach().numpy())
 
-        if epoch % 1 != 0:
-            optimizer.lr = optimizer.lr/2
-
 
 
         print('\n')
@@ -711,6 +1086,7 @@ def run_train_paths(args):
     model.save(savePath)
 
     exit(0)
+
 
 def run_train_modifier(args):
     global CUDA

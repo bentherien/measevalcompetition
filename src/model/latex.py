@@ -40,6 +40,44 @@ def writeCReport(report, fileObj, label="def label", caption="def caption", arra
 
     fileObj.write(tableEnd())
 
+def getLatexReport(report):
+    def fixDigits(l):
+        temp=[]
+        for x in l:
+            if len(x) == 0:
+                temp.append(x)
+            elif x[0] == "0" and "." in x:
+                temp.append(x[1:])
+            else: 
+                temp.append(x)
+        return temp
+
+    temp = [x.split(" ") for x in report.split("\n") if (x.split(" ")!=[""])]
+    temp = [[y for y in z if y!=""] for z in temp]
+    s = ""
+    for x in temp:
+        if x[0] in ["QL", "ME", "MP", "QA",'o']:
+            s += "&".join(fixDigits(x))+"\\\\\n"
+        elif x[0] == "accuracy":
+            y = fixDigits(x)
+            y.insert(1,"")
+            y.insert(1,"")
+            s += "&".join(y)+"\\\\\n"
+        elif x[0] == "weighted":
+            y = fixDigits(x)
+            y.pop(0)
+            y[0] = "weighted avg"
+            s += "&".join(y)+"\\\\\n"
+        elif x[0] == "macro":
+            y = fixDigits(x)
+            y.pop(0)
+            y[0] = "macro avg"
+            s += "&".join(y)+"\\\\\n"
+    return s
+
+        
+
+
 
 def writeSummary(fileObj, label="def label", caption="def caption", arrangement="|X|X|X|X|X|X|X|", size="300pt"):
     fileObj.write(tableStart(label,caption,arrangement,size))

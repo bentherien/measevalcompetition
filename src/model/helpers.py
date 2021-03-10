@@ -99,6 +99,10 @@ def getSizeData(data):
     return freq
 
 
+def getBatches(data,batchSize=64):
+    return [data[i*batchSize:(i+1)*batchSize] for i in range(math.ceil(len(data)/batchSize))]
+
+
 def expand_annotations(tokens,target,tokenizer):
     i=-1
     new_annotations=list()

@@ -1,0 +1,1161 @@
+[D 11:43:10.076 NotebookApp] Searching ['/home/benjamin/Documents/github/measevalcompetition', '/home/benjamin/.jupyter', '/usr/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 11:43:10.076 NotebookApp] Looking for jupyter_config in /etc/jupyter
+[D 11:43:10.076 NotebookApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 11:43:10.076 NotebookApp] Looking for jupyter_config in /usr/etc/jupyter
+[D 11:43:10.076 NotebookApp] Looking for jupyter_config in /home/benjamin/.jupyter
+[D 11:43:10.077 NotebookApp] Looking for jupyter_config in /home/benjamin/Documents/github/measevalcompetition
+[D 11:43:10.077 NotebookApp] Looking for jupyter_notebook_config in /etc/jupyter
+[D 11:43:10.077 NotebookApp] Looking for jupyter_notebook_config in /usr/local/etc/jupyter
+[D 11:43:10.077 NotebookApp] Looking for jupyter_notebook_config in /usr/etc/jupyter
+[D 11:43:10.077 NotebookApp] Looking for jupyter_notebook_config in /home/benjamin/.jupyter
+[D 11:43:10.077 NotebookApp] Looking for jupyter_notebook_config in /home/benjamin/Documents/github/measevalcompetition
+[D 11:43:10.078 NotebookApp] Raising open file limit: soft 1024->4096; hard 1048576->1048576
+[D 11:43:10.080 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/etc/jupyter/jupyter_notebook_config.json
+[D 11:43:10.080 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/local/etc/jupyter/jupyter_notebook_config.json
+[D 11:43:10.081 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/etc/jupyter/jupyter_notebook_config.json
+[D 11:43:10.081 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/home/benjamin/.jupyter/jupyter_notebook_config.json
+[I 11:43:10.207 NotebookApp] Serving notebooks from local directory: /home/benjamin/Documents/github/measevalcompetition
+[I 11:43:10.207 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 11:43:10.207 NotebookApp] http://localhost:8888/?token=25f03271af8745c8189468d832e9b5377c5c3509b088802f
+[I 11:43:10.207 NotebookApp]  or http://127.0.0.1:8888/?token=25f03271af8745c8189468d832e9b5377c5c3509b088802f
+[I 11:43:10.207 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:43:10.221 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/benjamin/.local/share/jupyter/runtime/nbserver-325737-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=25f03271af8745c8189468d832e9b5377c5c3509b088802f
+     or http://127.0.0.1:8888/?token=25f03271af8745c8189468d832e9b5377c5c3509b088802f
+[D 11:43:11.373 NotebookApp] Accepting token-authenticated connection from 127.0.0.1
+[D 11:43:11.374 NotebookApp] Using contents: services/contents
+[D 11:43:11.400 NotebookApp] Path base/images/favicon.ico served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/base/images/favicon.ico
+[D 11:43:11.400 NotebookApp] Path components/jquery-ui/themes/smoothness/jquery-ui.min.css served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css
+[D 11:43:11.400 NotebookApp] Path components/jquery-typeahead/dist/jquery.typeahead.min.css served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/jquery-typeahead/dist/jquery.typeahead.min.css
+[D 11:43:11.400 NotebookApp] Path style/style.min.css served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/style/style.min.css
+[D 11:43:11.401 NotebookApp] Path components/es6-promise/promise.min.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/es6-promise/promise.min.js
+[D 11:43:11.401 NotebookApp] Path components/react/react.production.min.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/react/react.production.min.js
+[D 11:43:11.401 NotebookApp] Path components/react/react-dom.production.min.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/react/react-dom.production.min.js
+[D 11:43:11.401 NotebookApp] Path components/create-react-class/index.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/create-react-class/index.js
+[D 11:43:11.401 NotebookApp] Path components/requirejs/require.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/requirejs/require.js
+[D 11:43:11.401 NotebookApp] Path base/images/logo.png served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/base/images/logo.png
+[D 11:43:11.402 NotebookApp] Path tree/js/main.min.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/tree/js/main.min.js
+[D 11:43:11.404 NotebookApp] 200 GET /tree?token=25f03271af8745c8189468d832e9b5377c5c3509b088802f (127.0.0.1) 30.90ms
+[D 11:43:11.427 NotebookApp] Path custom.css served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/custom/custom.css
+[D 11:43:11.428 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 1.03ms
+[D 11:43:11.579 NotebookApp] Path services/contents.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/services/contents.js
+[D 11:43:11.579 NotebookApp] 200 GET /static/services/contents.js?v=20210226114310 (127.0.0.1) 0.59ms
+[D 11:43:11.607 NotebookApp] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[D 11:43:11.608 NotebookApp] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[D 11:43:11.608 NotebookApp] Paths used for configuration of tree: 
+    	/usr/etc/jupyter/nbconfig/tree.json
+[D 11:43:11.608 NotebookApp] Paths used for configuration of tree: 
+    	/home/benjamin/.jupyter/nbconfig/tree.json
+[D 11:43:11.608 NotebookApp] 200 GET /api/config/tree?_=1614357791548 (127.0.0.1) 1.76ms
+[D 11:43:11.609 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 11:43:11.610 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 11:43:11.610 NotebookApp] Paths used for configuration of common: 
+    	/usr/etc/jupyter/nbconfig/common.json
+[D 11:43:11.610 NotebookApp] Paths used for configuration of common: 
+    	/home/benjamin/.jupyter/nbconfig/common.json
+[D 11:43:11.610 NotebookApp] 200 GET /api/config/common?_=1614357791549 (127.0.0.1) 1.75ms
+[D 11:43:11.612 NotebookApp] 200 GET /api/terminals?_=1614357791550 (127.0.0.1) 0.44ms
+[D 11:43:11.614 NotebookApp] Found kernel python3 in /home/benjamin/.local/share/jupyter/kernels
+[D 11:43:11.616 NotebookApp] 304 GET /api/kernelspecs (127.0.0.1) 2.86ms
+[D 11:43:11.616 NotebookApp] 200 GET /api/sessions?_=1614357791551 (127.0.0.1) 3.05ms
+[D 11:43:11.617 NotebookApp] 200 GET /api/terminals?_=1614357791552 (127.0.0.1) 0.37ms
+[D 11:43:11.644 NotebookApp] Path custom.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/custom/custom.js
+[D 11:43:11.644 NotebookApp] 200 GET /custom/custom.js?v=20210226114310 (127.0.0.1) 0.65ms
+[D 11:43:11.672 NotebookApp] 200 GET /api/contents?type=directory&_=1614357791553 (127.0.0.1) 2.14ms
+[D 11:43:17.915 NotebookApp] Using contents: services/contents
+[D 11:43:17.959 NotebookApp] Path base/images/favicon-notebook.ico served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/base/images/favicon-notebook.ico
+[D 11:43:17.959 NotebookApp] Path components/bootstrap-tour/build/css/bootstrap-tour.min.css served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/bootstrap-tour/build/css/bootstrap-tour.min.css
+[D 11:43:17.960 NotebookApp] Path components/codemirror/lib/codemirror.css served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/codemirror/lib/codemirror.css
+[D 11:43:17.960 NotebookApp] Path notebook/css/override.css served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/notebook/css/override.css
+[D 11:43:18.252 NotebookApp] Path components/text-encoding/lib/encoding.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/text-encoding/lib/encoding.js
+[D 11:43:18.252 NotebookApp] Path notebook/js/main.min.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/notebook/js/main.min.js
+[D 11:43:18.256 NotebookApp] 200 GET /notebooks/measeval-update.ipynb (127.0.0.1) 341.42ms
+[D 11:43:18.280 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 0.53ms
+[D 11:43:18.281 NotebookApp] Path components/MathJax/MathJax.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/MathJax/MathJax.js
+[D 11:43:18.281 NotebookApp] 304 GET /static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (127.0.0.1) 0.47ms
+[D 11:43:18.372 NotebookApp] Path components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js
+[D 11:43:18.372 NotebookApp] 304 GET /static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.9 (127.0.0.1) 0.58ms
+[D 11:43:18.477 NotebookApp] Path components/MathJax/config/Safe.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/MathJax/config/Safe.js
+[D 11:43:18.477 NotebookApp] 304 GET /static/components/MathJax/config/Safe.js?V=2.7.9 (127.0.0.1) 0.56ms
+[D 11:43:18.488 NotebookApp] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[D 11:43:18.488 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[D 11:43:18.488 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/etc/jupyter/nbconfig/notebook.json
+[D 11:43:18.488 NotebookApp] Paths used for configuration of notebook: 
+    	/home/benjamin/.jupyter/nbconfig/notebook.json
+[D 11:43:18.489 NotebookApp] 200 GET /api/config/notebook?_=1614357798402 (127.0.0.1) 1.52ms
+[D 11:43:18.489 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 11:43:18.490 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 11:43:18.490 NotebookApp] Paths used for configuration of common: 
+    	/usr/etc/jupyter/nbconfig/common.json
+[D 11:43:18.490 NotebookApp] Paths used for configuration of common: 
+    	/home/benjamin/.jupyter/nbconfig/common.json
+[D 11:43:18.490 NotebookApp] 200 GET /api/config/common?_=1614357798403 (127.0.0.1) 1.55ms
+[D 11:43:18.516 NotebookApp] Found kernel python3 in /home/benjamin/.local/share/jupyter/kernels
+[D 11:43:18.517 NotebookApp] 304 GET /api/kernelspecs (127.0.0.1) 0.87ms
+[W 11:43:18.622 NotebookApp] 400 GET /api/contents/measeval-update.ipynb?type=notebook&_=1614357798404 (127.0.0.1): Unreadable Notebook: /home/benjamin/Documents/github/measevalcompetition/measeval-update.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 11:43:18.622 NotebookApp] Unreadable Notebook: /home/benjamin/Documents/github/measevalcompetition/measeval-update.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 11:43:18.622 NotebookApp] 400 GET /api/contents/measeval-update.ipynb?type=notebook&_=1614357798404 (127.0.0.1) 30.05ms referer=http://localhost:8888/notebooks/measeval-update.ipynb
+[D 11:43:18.625 NotebookApp] Path components/MathJax/extensions/TeX/begingroup.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/MathJax/extensions/TeX/begingroup.js
+[D 11:43:18.625 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/begingroup.js?V=2.7.9 (127.0.0.1) 1.61ms
+[D 11:43:18.625 NotebookApp] Path components/MathJax/extensions/MathML/content-mathml.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/MathJax/extensions/MathML/content-mathml.js
+[D 11:43:18.625 NotebookApp] 304 GET /static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.9 (127.0.0.1) 1.45ms
+[D 11:43:18.625 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js
+[D 11:43:18.626 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.9 (127.0.0.1) 1.52ms
+[D 11:43:18.626 NotebookApp] 304 GET /custom/custom.js?v=20210226114310 (127.0.0.1) 1.60ms
+[D 11:43:18.626 NotebookApp] Path components/MathJax/extensions/TeX/newcommand.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/MathJax/extensions/TeX/newcommand.js
+[D 11:43:18.626 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/newcommand.js?V=2.7.9 (127.0.0.1) 1.74ms
+[D 11:43:18.656 NotebookApp] Using contents: services/contents
+[W 11:43:18.659 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210226114310 (127.0.0.1) 3.74ms referer=http://localhost:8888/notebooks/measeval-update.ipynb
+[D 11:43:18.660 NotebookApp] Path components/MathJax/extensions/Safe.js served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/components/MathJax/extensions/Safe.js
+[D 11:43:18.660 NotebookApp] 304 GET /static/components/MathJax/extensions/Safe.js?V=2.7.9 (127.0.0.1) 0.67ms
+[D 11:43:40.979 NotebookApp] 200 GET /api/sessions?_=1614357791554 (127.0.0.1) 0.50ms
+[D 11:43:40.979 NotebookApp] 200 GET /api/terminals?_=1614357791555 (127.0.0.1) 0.41ms
+[D 11:43:40.989 NotebookApp] 200 GET /api/contents?type=directory&_=1614357791556 (127.0.0.1) 1.61ms
+[D 11:46:26.016 NotebookApp] 200 GET /api/sessions?_=1614357791557 (127.0.0.1) 0.61ms
+[D 11:46:26.017 NotebookApp] 200 GET /api/terminals?_=1614357791558 (127.0.0.1) 0.74ms
+[D 11:46:26.025 NotebookApp] 200 GET /api/contents?type=directory&_=1614357791559 (127.0.0.1) 2.17ms
+[D 11:46:29.108 NotebookApp] Using contents: services/contents
+[D 11:46:29.398 NotebookApp] 200 GET /notebooks/new.ipynb (127.0.0.1) 291.02ms
+[D 11:46:29.423 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 0.68ms
+[D 11:46:29.424 NotebookApp] 304 GET /static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (127.0.0.1) 0.53ms
+[D 11:46:29.518 NotebookApp] 304 GET /static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.9 (127.0.0.1) 0.74ms
+[D 11:46:29.625 NotebookApp] 304 GET /static/components/MathJax/config/Safe.js?V=2.7.9 (127.0.0.1) 0.45ms
+[D 11:46:29.636 NotebookApp] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[D 11:46:29.636 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[D 11:46:29.637 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/etc/jupyter/nbconfig/notebook.json
+[D 11:46:29.637 NotebookApp] Paths used for configuration of notebook: 
+    	/home/benjamin/.jupyter/nbconfig/notebook.json
+[D 11:46:29.637 NotebookApp] 200 GET /api/config/notebook?_=1614357989549 (127.0.0.1) 1.70ms
+[D 11:46:29.638 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 11:46:29.638 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 11:46:29.638 NotebookApp] Paths used for configuration of common: 
+    	/usr/etc/jupyter/nbconfig/common.json
+[D 11:46:29.639 NotebookApp] Paths used for configuration of common: 
+    	/home/benjamin/.jupyter/nbconfig/common.json
+[D 11:46:29.639 NotebookApp] 200 GET /api/config/common?_=1614357989550 (127.0.0.1) 1.38ms
+[D 11:46:29.665 NotebookApp] Found kernel python3 in /home/benjamin/.local/share/jupyter/kernels
+[D 11:46:29.666 NotebookApp] 304 GET /api/kernelspecs (127.0.0.1) 1.05ms
+[W 11:46:29.744 NotebookApp] 400 GET /api/contents/new.ipynb?type=notebook&_=1614357989551 (127.0.0.1): Unreadable Notebook: /home/benjamin/Documents/github/measevalcompetition/new.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 11:46:29.744 NotebookApp] Unreadable Notebook: /home/benjamin/Documents/github/measevalcompetition/new.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "c...')
+[W 11:46:29.744 NotebookApp] 400 GET /api/contents/new.ipynb?type=notebook&_=1614357989551 (127.0.0.1) 23.65ms referer=http://localhost:8888/notebooks/new.ipynb
+[D 11:46:29.746 NotebookApp] 304 GET /custom/custom.js?v=20210226114310 (127.0.0.1) 1.60ms
+[D 11:46:29.747 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/newcommand.js?V=2.7.9 (127.0.0.1) 1.61ms
+[D 11:46:29.747 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/begingroup.js?V=2.7.9 (127.0.0.1) 1.71ms
+[D 11:46:29.747 NotebookApp] 304 GET /static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.9 (127.0.0.1) 1.77ms
+[D 11:46:29.748 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.9 (127.0.0.1) 1.79ms
+[D 11:46:29.750 NotebookApp] Using contents: services/contents
+[W 11:46:29.750 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210226114310 (127.0.0.1) 0.99ms referer=http://localhost:8888/notebooks/new.ipynb
+[D 11:46:29.751 NotebookApp] 304 GET /static/components/MathJax/extensions/Safe.js?V=2.7.9 (127.0.0.1) 0.57ms
+[D 11:50:05.354 NotebookApp] 200 GET /api/sessions?_=1614357791560 (127.0.0.1) 0.54ms
+[D 11:50:05.355 NotebookApp] 200 GET /api/terminals?_=1614357791561 (127.0.0.1) 0.66ms
+[D 11:50:05.364 NotebookApp] 200 GET /api/contents?type=directory&_=1614357791562 (127.0.0.1) 2.75ms
+[D 11:50:07.186 NotebookApp] Using contents: services/contents
+[D 11:50:07.453 NotebookApp] 304 GET /notebooks/new.ipynb (127.0.0.1) 267.83ms
+[D 11:50:07.479 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 0.58ms
+[D 11:50:07.480 NotebookApp] 304 GET /static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (127.0.0.1) 0.41ms
+[D 11:50:07.574 NotebookApp] 304 GET /static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.9 (127.0.0.1) 0.65ms
+[D 11:50:07.679 NotebookApp] 304 GET /static/components/MathJax/config/Safe.js?V=2.7.9 (127.0.0.1) 0.46ms
+[D 11:50:07.691 NotebookApp] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[D 11:50:07.691 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[D 11:50:07.691 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/etc/jupyter/nbconfig/notebook.json
+[D 11:50:07.691 NotebookApp] Paths used for configuration of notebook: 
+    	/home/benjamin/.jupyter/nbconfig/notebook.json
+[D 11:50:07.692 NotebookApp] 200 GET /api/config/notebook?_=1614358207604 (127.0.0.1) 1.53ms
+[D 11:50:07.692 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 11:50:07.693 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 11:50:07.693 NotebookApp] Paths used for configuration of common: 
+    	/usr/etc/jupyter/nbconfig/common.json
+[D 11:50:07.693 NotebookApp] Paths used for configuration of common: 
+    	/home/benjamin/.jupyter/nbconfig/common.json
+[D 11:50:07.693 NotebookApp] 200 GET /api/config/common?_=1614358207605 (127.0.0.1) 1.53ms
+[D 11:50:07.720 NotebookApp] Found kernel python3 in /home/benjamin/.local/share/jupyter/kernels
+[D 11:50:07.720 NotebookApp] 304 GET /api/kernelspecs (127.0.0.1) 0.87ms
+[W 11:50:07.814 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:50:07.837 NotebookApp] 200 GET /api/contents/new.ipynb?type=notebook&_=1614358207606 (127.0.0.1) 56.35ms
+[D 11:50:07.839 NotebookApp] 304 GET /custom/custom.js?v=20210226114310 (127.0.0.1) 1.57ms
+[D 11:50:07.839 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/newcommand.js?V=2.7.9 (127.0.0.1) 1.35ms
+[D 11:50:07.840 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/begingroup.js?V=2.7.9 (127.0.0.1) 1.40ms
+[D 11:50:07.840 NotebookApp] 304 GET /static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.9 (127.0.0.1) 1.41ms
+[D 11:50:07.840 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.9 (127.0.0.1) 1.40ms
+[D 11:50:07.841 NotebookApp] Using contents: services/contents
+[W 11:50:07.841 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210226114310 (127.0.0.1) 0.86ms referer=http://localhost:8888/notebooks/new.ipynb
+[D 11:50:07.844 NotebookApp] 304 GET /static/components/MathJax/extensions/Safe.js?V=2.7.9 (127.0.0.1) 0.46ms
+[D 11:50:08.576 NotebookApp] Starting kernel: ['/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/home/benjamin/.local/share/jupyter/runtime/kernel-ac9fa967-2ae5-49c1-8748-d36ac2843847.json']
+[D 11:50:08.580 NotebookApp] Connecting to: tcp://127.0.0.1:39887
+[D 11:50:08.581 NotebookApp] Connecting to: tcp://127.0.0.1:48905
+[I 11:50:08.582 NotebookApp] Kernel started: ac9fa967-2ae5-49c1-8748-d36ac2843847, name: python3
+[D 11:50:08.582 NotebookApp] Kernel args: {'kernel_name': 'python3', 'cwd': '/home/benjamin/Documents/github/measevalcompetition'}
+[D 11:50:08.584 NotebookApp] 201 POST /api/sessions (127.0.0.1) 14.97ms
+[D 11:50:08.586 NotebookApp] 200 GET /api/contents/new.ipynb/checkpoints?_=1614358207607 (127.0.0.1) 1.77ms
+[D 11:50:08.595 NotebookApp] Serving kernel resource from: /home/benjamin/.local/share/jupyter/kernels/python3
+[D 11:50:08.596 NotebookApp] 200 GET /kernelspecs/python3/logo-64x64.png (127.0.0.1) 1.43ms
+[D 11:50:08.627 NotebookApp] Initializing websocket connection /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 11:50:08.628 NotebookApp] Requesting kernel info from ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 11:50:08.628 NotebookApp] Connecting to: tcp://127.0.0.1:40611
+[D 11:50:08.882 NotebookApp] Received kernel info: {'status': 'ok', 'protocol_version': '5.3', 'implementation': 'ipython', 'implementation_version': '7.19.0', 'language_info': {'name': 'python', 'version': '3.8.6', 'mimetype': 'text/x-python', 'codemirror_mode': {'name': 'ipython', 'version': 3}, 'pygments_lexer': 'ipython3', 'nbconvert_exporter': 'python', 'file_extension': '.py'}, 'banner': "Python 3.8.6 (default, Sep 25 2020, 09:36:53) \nType 'copyright', 'credits' or 'license' for more information\nIPython 7.19.0 -- An enhanced Interactive Python. Type '?' for help.\n", 'help_links': [{'text': 'Python Reference', 'url': 'https://docs.python.org/3.8'}, {'text': 'IPython Reference', 'url': 'https://ipython.org/documentation.html'}, {'text': 'NumPy Reference', 'url': 'https://docs.scipy.org/doc/numpy/reference/'}, {'text': 'SciPy Reference', 'url': 'https://docs.scipy.org/doc/scipy/reference/'}, {'text': 'Matplotlib Reference', 'url': 'https://matplotlib.org/contents.html'}, {'text': 'SymPy Reference', 'url': 'http://docs.sympy.org/latest/index.html'}, {'text': 'pandas Reference', 'url': 'https://pandas.pydata.org/pandas-docs/stable/'}]}
+[D 11:50:08.883 NotebookApp] 101 GET /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels?session_id=17c6c4675c8d41fb86eb8f413cd9a7c3 (127.0.0.1) 256.23ms
+[D 11:50:08.883 NotebookApp] Opening websocket /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 11:50:08.883 NotebookApp] Getting buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 11:50:08.883 NotebookApp] Connecting to: tcp://127.0.0.1:40611
+[D 11:50:08.883 NotebookApp] Connecting to: tcp://127.0.0.1:39887
+[D 11:50:08.883 NotebookApp] Connecting to: tcp://127.0.0.1:48905
+[D 11:50:08.884 NotebookApp] Connecting to: tcp://127.0.0.1:45873
+[D 11:51:33.655 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 11:51:33.656 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 11:51:34.697 NotebookApp] Path base/images/favicon-busy-1.ico served from /home/benjamin/.local/lib/python3.8/site-packages/notebook/static/base/images/favicon-busy-1.ico
+[D 11:51:34.697 NotebookApp] 200 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.88ms
+[D 11:51:40.841 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 11:51:40.841 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 11:51:40.842 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 11:51:40.843 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:40.944 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:41.050 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:41.154 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:41.297 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:41.409 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:41.520 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:41.704 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:41.827 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:41.855 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.50ms
+[D 11:51:41.931 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.072 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.178 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.303 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.407 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.524 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.600 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.601 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.702 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.816 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:42.922 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.032 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.141 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.266 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.375 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.492 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.617 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.737 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.843 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:43.951 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:44.058 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:44.159 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:44.331 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:44.440 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:44.570 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:44.685 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:44.814 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:44.939 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.043 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.149 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.259 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.387 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.502 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.629 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.754 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.869 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:45.970 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:46.077 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:46.185 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:46.297 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:46.401 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:46.516 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:46.621 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:46.736 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:46.915 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:47.022 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:47.128 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:47.235 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:47.346 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:47.483 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:47.542 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:47.592 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.054 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.156 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.265 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.403 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.521 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.655 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.769 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.878 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:49.994 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:50.094 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:50.202 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:50.311 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:50.473 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:50.583 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:50.690 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:50.805 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:50.934 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:51.044 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:51.151 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:51.222 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:51.223 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:51:51.224 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 11:52:06.778 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 11:52:06.778 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 11:52:06.871 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 11:52:06.873 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 11:52:08.575 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207608 (127.0.0.1) 0.64ms
+[I 11:52:08.584 NotebookApp] Saving file at /new.ipynb
+[D 11:52:08.584 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:52:08.585 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:52:08.642 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 60.14ms
+[D 11:52:19.036 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 11:52:19.037 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 11:52:19.125 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:52:19.126 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 11:52:49.355 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207609 (127.0.0.1) 1.12ms
+[I 11:52:49.380 NotebookApp] Saving file at /new.ipynb
+[D 11:52:49.380 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:52:49.380 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:52:49.447 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 69.96ms
+[D 11:52:49.453 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 1.28ms
+[D 11:52:49.910 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 11:52:49.911 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 11:52:49.972 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:52:49.973 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 11:52:57.102 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 11:52:57.107 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 11:52:57.147 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:52:57.148 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 11:53:08.570 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 11:53:08.574 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 11:53:08.588 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:53:08.590 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 11:53:38.310 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207610 (127.0.0.1) 0.57ms
+[I 11:53:38.318 NotebookApp] Saving file at /new.ipynb
+[D 11:53:38.318 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:53:38.319 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:53:38.375 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 58.49ms
+[D 11:53:38.381 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 1.03ms
+[D 11:53:41.039 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207611 (127.0.0.1) 0.60ms
+[I 11:53:41.047 NotebookApp] Saving file at /new.ipynb
+[D 11:53:41.047 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:53:41.048 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:53:41.102 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 56.05ms
+[D 11:53:41.107 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.93ms
+[D 11:53:43.677 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 11:53:43.681 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 11:53:43.698 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 11:53:43.699 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 11:54:08.611 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207612 (127.0.0.1) 1.20ms
+[I 11:54:08.623 NotebookApp] Saving file at /new.ipynb
+[D 11:54:08.623 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:54:08.624 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:54:08.695 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 74.82ms
+[D 11:56:08.574 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207613 (127.0.0.1) 0.52ms
+[I 11:56:08.582 NotebookApp] Saving file at /new.ipynb
+[D 11:56:08.582 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:56:08.582 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:56:08.640 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 59.83ms
+[D 11:56:13.931 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207614 (127.0.0.1) 0.64ms
+[I 11:56:13.938 NotebookApp] Saving file at /new.ipynb
+[D 11:56:13.938 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:56:13.939 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:56:13.991 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 53.70ms
+[D 11:56:13.996 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.98ms
+[D 11:59:27.246 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207615 (127.0.0.1) 0.58ms
+[I 11:59:27.254 NotebookApp] Saving file at /new.ipynb
+[D 11:59:27.254 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:59:27.254 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:59:27.312 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 59.53ms
+[D 11:59:27.317 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.88ms
+[D 11:59:42.744 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207616 (127.0.0.1) 0.54ms
+[I 11:59:42.752 NotebookApp] Saving file at /new.ipynb
+[D 11:59:42.752 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:59:42.753 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:59:42.810 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 59.88ms
+[D 11:59:42.815 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.89ms
+[D 11:59:50.097 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207617 (127.0.0.1) 0.55ms
+[I 11:59:50.104 NotebookApp] Saving file at /new.ipynb
+[D 11:59:50.104 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:59:50.105 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:59:50.160 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 57.84ms
+[D 11:59:50.165 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.91ms
+[D 11:59:51.084 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207618 (127.0.0.1) 0.63ms
+[I 11:59:51.091 NotebookApp] Saving file at /new.ipynb
+[D 11:59:51.092 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 11:59:51.092 NotebookApp] Notebook new.ipynb is not trusted
+[D 11:59:51.147 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 56.48ms
+[D 11:59:51.152 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 1.16ms
+[D 12:00:05.355 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207619 (127.0.0.1) 0.52ms
+[I 12:00:05.363 NotebookApp] Saving file at /new.ipynb
+[D 12:00:05.363 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:00:05.364 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:00:05.420 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 58.51ms
+[D 12:00:05.425 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.84ms
+[D 12:00:08.573 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207620 (127.0.0.1) 0.56ms
+[I 12:00:08.580 NotebookApp] Saving file at /new.ipynb
+[D 12:00:08.580 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:00:08.580 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:00:08.636 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 57.68ms
+[D 12:00:17.297 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207621 (127.0.0.1) 2.59ms
+[I 12:00:17.333 NotebookApp] Saving file at /new.ipynb
+[D 12:00:17.333 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:00:17.336 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:00:17.414 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 88.71ms
+[D 12:00:17.419 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.92ms
+[D 12:00:35.874 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207622 (127.0.0.1) 0.58ms
+[I 12:00:35.881 NotebookApp] Saving file at /new.ipynb
+[D 12:00:35.881 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:00:35.882 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:00:35.939 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 58.84ms
+[D 12:00:35.945 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 1.21ms
+[D 12:00:36.135 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207623 (127.0.0.1) 0.62ms
+[I 12:00:36.142 NotebookApp] Saving file at /new.ipynb
+[D 12:00:36.143 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:00:36.143 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:00:36.209 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 68.00ms
+[D 12:00:36.214 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.99ms
+[D 12:00:39.147 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207624 (127.0.0.1) 0.64ms
+[I 12:00:39.155 NotebookApp] Saving file at /new.ipynb
+[D 12:00:39.155 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:00:39.155 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:00:39.211 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 57.65ms
+[D 12:00:39.217 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.87ms
+[D 12:00:39.376 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207625 (127.0.0.1) 1.26ms
+[I 12:00:39.397 NotebookApp] Saving file at /new.ipynb
+[D 12:00:39.397 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:00:39.398 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:00:39.479 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 86.26ms
+[D 12:00:39.484 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.88ms
+[D 12:00:49.764 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207626 (127.0.0.1) 3.23ms
+[I 12:00:49.799 NotebookApp] Saving file at /new.ipynb
+[D 12:00:49.799 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:00:49.801 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:00:49.873 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 79.70ms
+[D 12:00:49.878 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.99ms
+[D 12:00:51.492 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:00:51.492 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:00:51.495 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:00:51.496 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:00:51.497 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:01:17.574 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207627 (127.0.0.1) 0.59ms
+[I 12:01:17.581 NotebookApp] Saving file at /new.ipynb
+[D 12:01:17.581 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:01:17.582 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:01:17.643 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 63.10ms
+[D 12:01:17.648 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.91ms
+[D 12:01:18.219 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:01:18.222 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:01:18.223 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:01:18.224 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:01:18.226 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:01:23.147 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:01:23.147 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:01:23.153 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:01:23.154 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:01:23.154 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:01:37.326 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207628 (127.0.0.1) 0.60ms
+[I 12:01:37.334 NotebookApp] Saving file at /new.ipynb
+[D 12:01:37.334 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:01:37.335 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:01:37.392 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 59.76ms
+[D 12:01:37.397 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.85ms
+[D 12:01:37.875 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:01:37.877 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:01:37.878 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:01:37.880 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:01:37.880 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:01:53.923 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:01:53.923 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:01:53.929 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:01:53.929 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:01:53.931 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:02:08.574 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207629 (127.0.0.1) 0.95ms
+[I 12:02:08.584 NotebookApp] Saving file at /new.ipynb
+[D 12:02:08.584 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:02:08.585 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:02:08.641 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 58.04ms
+[D 12:02:29.297 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207630 (127.0.0.1) 0.59ms
+[I 12:02:29.304 NotebookApp] Saving file at /new.ipynb
+[D 12:02:29.304 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:02:29.305 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:02:29.357 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 54.89ms
+[D 12:02:29.363 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.85ms
+[D 12:02:57.196 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207631 (127.0.0.1) 0.56ms
+[I 12:02:57.203 NotebookApp] Saving file at /new.ipynb
+[D 12:02:57.203 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:02:57.204 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:02:57.260 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 58.23ms
+[D 12:02:57.265 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.89ms
+[D 12:03:02.832 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:03:02.833 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:03:02.833 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:03:02.834 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:03:07.366 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:03:07.374 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:03:07.374 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:03:07.375 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:03:07.377 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:04:04.372 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207632 (127.0.0.1) 0.55ms
+[I 12:04:04.379 NotebookApp] Saving file at /new.ipynb
+[D 12:04:04.379 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:04:04.380 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:04:04.437 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 58.98ms
+[D 12:04:04.442 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.82ms
+[D 12:04:06.788 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:04:06.788 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:04:06.924 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:04:06.925 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:04:08.587 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207633 (127.0.0.1) 2.78ms
+[I 12:04:08.635 NotebookApp] Saving file at /new.ipynb
+[D 12:04:08.636 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:04:08.639 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:04:08.723 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 97.20ms
+[D 12:04:13.866 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:04:13.867 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:04:13.960 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:04:13.961 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:04:23.738 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207634 (127.0.0.1) 0.57ms
+[I 12:04:23.745 NotebookApp] Saving file at /new.ipynb
+[D 12:04:23.745 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:04:23.746 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:04:23.802 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 58.67ms
+[D 12:04:23.807 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.97ms
+[D 12:04:24.463 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:04:24.464 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:04:24.464 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:04:24.465 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:04:28.200 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:04:28.201 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:04:28.201 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:04:28.204 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:05:38.567 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207635 (127.0.0.1) 0.53ms
+[I 12:05:38.574 NotebookApp] Saving file at /new.ipynb
+[D 12:05:38.574 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:05:38.575 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:05:38.627 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 53.78ms
+[D 12:05:38.632 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 1.06ms
+[D 12:06:55.038 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:06:55.039 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:06:55.040 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:06:55.042 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:07:14.866 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:07:14.868 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:07:15.074 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:07:15.110 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:07:15.112 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:08:07.078 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207636 (127.0.0.1) 2.46ms
+[I 12:08:07.112 NotebookApp] Saving file at /new.ipynb
+[D 12:08:07.113 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:08:07.116 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:08:07.178 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 71.01ms
+[D 12:08:07.183 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 1.15ms
+[D 12:08:07.500 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:08:07.500 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:08:07.708 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:08:07.810 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:08:07.811 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:08:08.575 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207637 (127.0.0.1) 0.91ms
+[I 12:08:08.594 NotebookApp] Saving file at /new.ipynb
+[D 12:08:08.594 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:08:08.595 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:08:08.654 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 65.05ms
+[D 12:14:08.574 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207638 (127.0.0.1) 0.58ms
+[I 12:14:08.584 NotebookApp] Saving file at /new.ipynb
+[D 12:14:08.584 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:14:08.584 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:14:08.642 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 60.15ms
+[D 12:14:40.783 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:14:40.784 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:14:40.785 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:14:40.786 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:14:46.602 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:14:46.603 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:14:46.804 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:14:46.805 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:16:08.574 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207639 (127.0.0.1) 0.59ms
+[I 12:16:08.582 NotebookApp] Saving file at /new.ipynb
+[D 12:16:08.582 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:16:08.583 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:16:08.645 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 65.05ms
+[D 12:16:49.155 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207640 (127.0.0.1) 2.77ms
+[I 12:16:49.201 NotebookApp] Saving file at /new.ipynb
+[D 12:16:49.201 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:16:49.204 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:16:49.282 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 91.21ms
+[D 12:16:49.287 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.98ms
+[D 12:16:51.801 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:16:51.801 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:16:51.998 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:16:51.999 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:17:32.609 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:17:32.610 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:17:32.610 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_result
+[D 12:17:32.610 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:17:59.724 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207641 (127.0.0.1) 0.69ms
+[I 12:17:59.732 NotebookApp] Saving file at /new.ipynb
+[D 12:17:59.732 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:17:59.733 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:17:59.791 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 60.31ms
+[D 12:17:59.797 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 1.39ms
+[D 12:18:08.574 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207642 (127.0.0.1) 0.55ms
+[I 12:18:08.583 NotebookApp] Saving file at /new.ipynb
+[D 12:18:08.583 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:18:08.584 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:18:08.644 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 62.84ms
+[D 12:18:09.743 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207643 (127.0.0.1) 0.57ms
+[I 12:18:09.751 NotebookApp] Saving file at /new.ipynb
+[D 12:18:09.751 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:18:09.752 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:18:09.815 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 65.65ms
+[D 12:18:09.820 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 1.17ms
+[D 12:18:10.214 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:18:10.216 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:18:10.417 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:18:10.418 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:18:10.423 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:18:31.199 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:18:31.200 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:18:31.398 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:18:31.399 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:18:42.835 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:18:42.836 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:18:43.031 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:18:43.033 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:20:08.573 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207644 (127.0.0.1) 0.54ms
+[I 12:20:08.582 NotebookApp] Saving file at /new.ipynb
+[D 12:20:08.582 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:20:08.583 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:20:08.639 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 58.55ms
+[D 12:23:54.459 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207645 (127.0.0.1) 0.59ms
+[I 12:23:54.469 NotebookApp] Saving file at /new.ipynb
+[D 12:23:54.469 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:23:54.469 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:23:54.526 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 59.40ms
+[D 12:23:54.532 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.97ms
+[D 12:24:05.720 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:24:05.720 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:24:05.928 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:24:05.929 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:24:05.933 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:24:08.574 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207646 (127.0.0.1) 0.60ms
+[I 12:24:08.583 NotebookApp] Saving file at /new.ipynb
+[D 12:24:08.583 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:24:08.584 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:24:08.640 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 59.41ms
+[D 12:24:41.760 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:24:41.761 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:24:41.775 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:24:41.775 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:24:41.778 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:24:50.739 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207647 (127.0.0.1) 0.56ms
+[I 12:24:50.746 NotebookApp] Saving file at /new.ipynb
+[D 12:24:50.746 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:24:50.747 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:24:50.802 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 56.82ms
+[D 12:24:50.807 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.98ms
+[D 12:24:51.274 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:24:51.274 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:24:51.280 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:24:51.280 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:24:51.282 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:25:06.245 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:25:06.246 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:25:06.453 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:25:06.454 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:25:06.462 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:26:08.574 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207648 (127.0.0.1) 0.55ms
+[I 12:26:08.582 NotebookApp] Saving file at /new.ipynb
+[D 12:26:08.582 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:26:08.583 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:26:08.640 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 59.39ms
+[D 12:27:43.084 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:27:43.085 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:27:43.291 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:27:43.356 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:27:43.358 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:28:08.575 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207649 (127.0.0.1) 0.87ms
+[I 12:28:08.587 NotebookApp] Saving file at /new.ipynb
+[D 12:28:08.587 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:28:08.588 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:28:08.655 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 70.50ms
+[D 12:28:20.246 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207650 (127.0.0.1) 0.55ms
+[I 12:28:20.254 NotebookApp] Saving file at /new.ipynb
+[D 12:28:20.254 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:28:20.255 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:28:20.313 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 60.43ms
+[D 12:28:20.318 NotebookApp] 201 POST /api/contents/new.ipynb/checkpoints (127.0.0.1) 0.94ms
+[D 12:28:23.062 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:28:23.062 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:28:23.210 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:28:23.213 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:08.589 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207651 (127.0.0.1) 3.32ms
+[I 12:30:08.625 NotebookApp] Saving file at /new.ipynb
+[D 12:30:08.625 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:30:08.626 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:30:08.695 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 74.47ms
+[D 12:30:14.884 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:14.886 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:30:15.921 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.44ms
+[D 12:30:19.996 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:19.997 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:19.998 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:30:19.999 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:20.141 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:20.286 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:20.392 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:20.511 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:20.636 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:20.817 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:20.924 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.006 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.45ms
+[D 12:30:21.035 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.157 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.290 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.413 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.515 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.651 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.705 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.706 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.817 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:21.965 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:22.095 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:22.201 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:22.325 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:22.436 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:22.547 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[I 12:30:22.650 NotebookApp] Kernel interrupted: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:30:22.650 NotebookApp] 204 POST /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/interrupt (127.0.0.1) 0.83ms
+[D 12:30:22.655 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:22.683 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:22.685 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:30:22.688 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:22.689 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:22.689 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:22.690 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:22.691 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:24.188 NotebookApp] Websocket closed ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 12:30:24.189 NotebookApp] Starting buffering for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[D 12:30:24.189 NotebookApp] Clearing buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:30:25.102 NotebookApp] Starting kernel: ['/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/home/benjamin/.local/share/jupyter/runtime/kernel-ac9fa967-2ae5-49c1-8748-d36ac2843847.json']
+[D 12:30:25.106 NotebookApp] Connecting to: tcp://127.0.0.1:39887
+[I 12:30:25.106 NotebookApp] Kernel restarted: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:30:25.106 NotebookApp] Connecting to: tcp://127.0.0.1:40611
+[D 12:30:25.108 NotebookApp] 200 POST /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/restart (127.0.0.1) 910.09ms
+[D 12:30:25.108 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:30:25.109 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:25.109 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:30:25.109 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: shutdown_reply
+[D 12:30:25.109 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:30:25.110 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:25.112 NotebookApp] Initializing websocket connection /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 12:30:25.113 NotebookApp] 101 GET /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels?session_id=17c6c4675c8d41fb86eb8f413cd9a7c3 (127.0.0.1) 1.68ms
+[D 12:30:25.113 NotebookApp] Opening websocket /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 12:30:25.113 NotebookApp] Getting buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[I 12:30:25.113 NotebookApp] Restoring connection for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 12:30:25.113 NotebookApp] Replaying 3 buffered messages
+[D 12:30:25.429 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:25.430 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:25.430 NotebookApp] Kernel info reply received: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:30:25.678 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:25.679 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:30:26.729 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.49ms
+[D 12:30:31.688 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:31.689 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:31.689 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:30:31.690 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:31.835 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:31.979 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:32.084 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:32.197 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:32.295 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:32.491 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:32.616 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:32.697 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.47ms
+[D 12:30:32.725 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:32.850 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:32.984 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.104 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.216 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.370 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.385 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.386 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.497 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.623 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.741 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.842 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:33.943 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:34.064 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:34.168 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:34.286 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:34.415 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:34.516 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:34.658 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:34.789 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:34.894 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.055 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.163 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.274 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.396 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.518 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.631 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.743 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.861 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:35.980 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:36.092 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:36.232 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:36.355 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:36.477 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:36.587 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:36.716 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:36.823 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:36.923 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:37.026 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:37.151 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:37.265 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:37.397 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:37.526 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:37.654 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:37.760 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:37.887 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:38.002 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:38.123 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:38.237 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:38.417 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:39.668 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:39.796 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:39.908 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.025 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.146 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.259 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.370 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.481 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.595 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.716 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.835 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:40.938 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.101 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.220 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.319 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.439 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.581 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.705 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.811 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.812 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.813 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.814 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:30:41.820 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:30:41.822 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:30:41.964 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:30:41.966 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:31:19.304 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:31:19.309 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:31:19.344 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:31:19.346 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:32:08.588 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207652 (127.0.0.1) 2.68ms
+[I 12:32:08.624 NotebookApp] Saving file at /new.ipynb
+[D 12:32:08.624 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:32:08.628 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:32:08.712 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 96.40ms
+[D 12:38:36.082 NotebookApp] Websocket closed ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 12:38:36.083 NotebookApp] Starting buffering for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[D 12:38:36.083 NotebookApp] Clearing buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:38:36.998 NotebookApp] Starting kernel: ['/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/home/benjamin/.local/share/jupyter/runtime/kernel-ac9fa967-2ae5-49c1-8748-d36ac2843847.json']
+[D 12:38:37.009 NotebookApp] Connecting to: tcp://127.0.0.1:39887
+[I 12:38:37.010 NotebookApp] Kernel restarted: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:38:37.011 NotebookApp] Connecting to: tcp://127.0.0.1:40611
+[D 12:38:37.016 NotebookApp] 200 POST /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/restart (127.0.0.1) 923.76ms
+[D 12:38:37.019 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:38:37.020 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:38:37.021 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: shutdown_reply
+[D 12:38:37.022 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:38:37.023 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:38:37.024 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:38:37.025 NotebookApp] Initializing websocket connection /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 12:38:37.027 NotebookApp] 101 GET /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels?session_id=17c6c4675c8d41fb86eb8f413cd9a7c3 (127.0.0.1) 1.48ms
+[D 12:38:37.027 NotebookApp] Opening websocket /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 12:38:37.027 NotebookApp] Getting buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[I 12:38:37.027 NotebookApp] Restoring connection for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 12:38:37.027 NotebookApp] Replaying 3 buffered messages
+[D 12:38:37.401 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:38:37.403 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:38:37.403 NotebookApp] Kernel info reply received: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:38:49.728 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:38:49.729 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:38:50.799 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.60ms
+[D 12:38:55.748 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:38:55.749 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:38:55.752 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:38:55.753 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:38:55.754 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:38:55.755 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:38:55.755 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:39:34.763 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:39:34.766 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:39:35.813 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.42ms
+[D 12:39:40.030 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: error
+[D 12:39:40.032 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:39:40.077 NotebookApp] Websocket closed ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 12:39:40.077 NotebookApp] Starting buffering for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[D 12:39:40.077 NotebookApp] Clearing buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:39:40.983 NotebookApp] Starting kernel: ['/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/home/benjamin/.local/share/jupyter/runtime/kernel-ac9fa967-2ae5-49c1-8748-d36ac2843847.json']
+[D 12:39:40.993 NotebookApp] Connecting to: tcp://127.0.0.1:39887
+[I 12:39:40.995 NotebookApp] Kernel restarted: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:39:40.995 NotebookApp] Connecting to: tcp://127.0.0.1:40611
+[D 12:39:41.000 NotebookApp] 200 POST /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/restart (127.0.0.1) 920.21ms
+[D 12:39:41.003 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:39:41.004 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:39:41.006 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: shutdown_reply
+[D 12:39:41.006 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:39:41.009 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:39:41.009 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:39:41.014 NotebookApp] Initializing websocket connection /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 12:39:41.019 NotebookApp] 101 GET /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels?session_id=17c6c4675c8d41fb86eb8f413cd9a7c3 (127.0.0.1) 6.00ms
+[D 12:39:41.019 NotebookApp] Opening websocket /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 12:39:41.019 NotebookApp] Getting buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[I 12:39:41.020 NotebookApp] Restoring connection for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 12:39:41.020 NotebookApp] Replaying 3 buffered messages
+[D 12:39:41.314 NotebookApp] Kernel info reply received: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:39:41.679 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:39:41.680 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:39:42.754 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.56ms
+[D 12:39:47.644 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:39:53.177 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:39:53.178 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:39:53.180 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:53.289 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:53.389 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:53.515 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:53.626 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:53.735 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:53.848 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.024 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.142 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.222 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.45ms
+[D 12:39:54.271 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.412 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.541 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.661 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.770 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.877 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.892 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:54.893 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.042 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.187 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.314 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.416 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.538 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.644 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.757 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.882 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:55.996 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:56.114 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:56.251 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:56.356 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:56.478 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:56.586 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:56.696 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:56.866 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:56.986 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:57.088 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:57.188 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:57.300 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:57.402 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:57.506 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:57.648 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:57.765 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:57.888 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.020 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.129 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.240 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.350 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.464 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.576 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.679 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.788 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:58.911 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:59.057 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:59.164 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:59.272 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:59.399 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:59.510 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:59.635 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:59.762 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:39:59.928 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:01.228 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:01.353 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:01.462 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:01.584 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:01.704 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:01.812 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:01.925 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.034 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.135 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.240 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.346 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.453 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.606 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.713 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.825 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:02.932 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:03.038 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:03.182 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:03.287 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:03.358 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:03.359 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:03.360 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:40:03.365 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:40:03.369 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:40:03.390 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:40:03.392 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:40:08.610 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207653 (127.0.0.1) 1.23ms
+[I 12:40:08.623 NotebookApp] Saving file at /new.ipynb
+[D 12:40:08.623 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:40:08.624 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:40:08.695 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 74.58ms
+[D 12:40:45.256 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:40:45.257 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:40:45.258 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_result
+[D 12:40:45.259 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:41:04.335 NotebookApp] Websocket closed ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 12:41:04.335 NotebookApp] Starting buffering for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[D 12:41:04.335 NotebookApp] Clearing buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:41:05.142 NotebookApp] Starting kernel: ['/usr/bin/python3', '-m', 'ipykernel_launcher', '-f', '/home/benjamin/.local/share/jupyter/runtime/kernel-ac9fa967-2ae5-49c1-8748-d36ac2843847.json']
+[D 12:41:05.145 NotebookApp] Connecting to: tcp://127.0.0.1:39887
+[I 12:41:05.146 NotebookApp] Kernel restarted: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:41:05.146 NotebookApp] Connecting to: tcp://127.0.0.1:40611
+[D 12:41:05.147 NotebookApp] 200 POST /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/restart (127.0.0.1) 807.12ms
+[D 12:41:05.147 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:41:05.148 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:41:05.148 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:41:05.148 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: shutdown_reply
+[D 12:41:05.149 NotebookApp] Buffering msg on ac9fa967-2ae5-49c1-8748-d36ac2843847:iopub
+[D 12:41:05.149 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:41:05.150 NotebookApp] Initializing websocket connection /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 12:41:05.152 NotebookApp] 101 GET /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels?session_id=17c6c4675c8d41fb86eb8f413cd9a7c3 (127.0.0.1) 1.67ms
+[D 12:41:05.152 NotebookApp] Opening websocket /api/kernels/ac9fa967-2ae5-49c1-8748-d36ac2843847/channels
+[D 12:41:05.152 NotebookApp] Getting buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
+[I 12:41:05.152 NotebookApp] Restoring connection for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 12:41:05.152 NotebookApp] Replaying 3 buffered messages
+[D 12:41:05.507 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:41:05.509 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:41:05.510 NotebookApp] Kernel info reply received: ac9fa967-2ae5-49c1-8748-d36ac2843847
+[D 12:41:05.789 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:41:05.792 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:41:06.863 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.53ms
+[D 12:41:11.789 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:41:11.791 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:41:11.791 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:41:11.792 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:11.899 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:12.005 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:12.107 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:12.247 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:12.359 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:12.468 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:12.647 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:12.765 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:12.802 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (127.0.0.1) 0.45ms
+[D 12:41:12.866 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.000 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.125 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.283 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.392 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.498 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.514 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.514 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.629 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.752 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.868 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:13.978 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:14.080 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:14.198 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:14.310 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:14.417 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:14.551 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:14.651 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:14.802 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:14.923 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:15.041 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:15.199 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:15.302 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:15.470 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:15.589 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:15.688 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:15.792 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:15.919 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.030 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.156 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.288 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.428 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.547 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.671 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.775 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.883 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:16.985 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:17.098 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:17.199 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:17.312 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:17.417 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:17.535 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:17.711 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:17.816 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:17.941 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:18.081 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:18.195 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:18.316 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:18.373 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:18.438 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:19.877 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.003 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.116 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.237 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.337 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.470 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.585 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.693 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.807 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:20.907 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.016 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.122 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.283 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.392 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.498 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.613 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.740 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.864 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:21.969 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:22.028 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:22.029 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:22.030 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:41:22.034 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (busy)
+[D 12:41:22.037 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: execute_input
+[D 12:41:22.055 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: stream
+[D 12:41:22.056 NotebookApp] activity on ac9fa967-2ae5-49c1-8748-d36ac2843847: status (idle)
+[D 12:42:08.589 NotebookApp] 200 GET /api/contents/new.ipynb?content=0&_=1614358207654 (127.0.0.1) 2.75ms
+[I 12:42:08.627 NotebookApp] Saving file at /new.ipynb
+[D 12:42:08.627 NotebookApp] Saving /home/benjamin/Documents/github/measevalcompetition/new.ipynb
+[W 12:42:08.631 NotebookApp] Notebook new.ipynb is not trusted
+[D 12:42:08.704 NotebookApp] 200 PUT /api/contents/new.ipynb (127.0.0.1) 85.37ms
+[D 13:14:21.395 NotebookApp] Websocket closed ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[I 13:14:21.396 NotebookApp] Starting buffering for ac9fa967-2ae5-49c1-8748-d36ac2843847:17c6c4675c8d41fb86eb8f413cd9a7c3
+[D 13:14:21.396 NotebookApp] Clearing buffer for ac9fa967-2ae5-49c1-8748-d36ac2843847
